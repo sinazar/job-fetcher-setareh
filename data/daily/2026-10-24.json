@@ -1,0 +1,398 @@
+{
+ "run_at": "2026-10-24T22:18:30.560809+00:00",
+ "date": "2026-10-24",
+ "runs": [
+  "2026-10-24T221830Z"
+ ],
+ "source_counts_after_filters": {
+  "jsearch": 5,
+  "remoteok": 0,
+  "weworkremotely": 0,
+  "adzuna": 0,
+  "builtin": 0
+ },
+ "new_count": 5,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 4,
+   "error": null,
+   "rejected_by": {
+    "title": 6
+   },
+   "rejected_samples": [
+    "[title] Marketing Manager - Retail & Brand | La Ros\u00e9e | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
+    "[title] Charg\u00e9 marketing publicit\u00e9 F/H | Augusta Fruit Market | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
+    "[title] Marketing, Programs & Events Coordinator | Rosedale United Church & The Rosedale Centre | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Retail Marketing Manager | UNIQLO | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
+    "[title] Brand Coordinator, Beauty Division | ACI Brands Inc. | Oakville, ON, Canada | 2026-10-23T00:00:00+00:00",
+    "[title] Manager of Marketing | Food Banks Canada | Banques alimentaires Canada | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: CRM coordinator OR marketing operations coordinator OR client onboarding specialist in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "CRM coordinator OR marketing operations coordinator OR client onboarding specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: operations coordinator OR project coordinator in Toronto, ON (ca)": {
+   "returned": 3,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 2
+   },
+   "rejected_samples": [
+    "[title] Project Administrator, Quality, Operations | MNP | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Event Operations Logistics Coordinator | Encore | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "operations coordinator OR project coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    3
+   ]
+  },
+  "jsearch: remote marketing coordinator OR remote CRM coordinator Canada (ca)": {
+   "returned": 1,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "location": 1
+   },
+   "rejected_samples": [
+    "[location] [Remote] CRM & Marketing Coordinator | HireQuest | Brazil (Remote) | 2026-10-22T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator OR remote CRM coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    1
+   ]
+  },
+  "weworkremotely": {
+   "returned": 194,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 191,
+    "too old": 2,
+    "location": 1
+   },
+   "rejected_samples": [
+    "[title] Federal Account Manager, Combatant Commands | BeyondTrust | Anywhere in the World (Remote) | 2026-10-24T07:31:03+00:00",
+    "[title] Head of Content and Editorial | OnTheGoSystems | Anywhere in the World (Remote) | 2026-10-23T09:48:36+00:00",
+    "[title] Strategic Account Executive | Checkr | Anywhere in the World (Remote) | 2026-10-23T07:31:21+00:00",
+    "[title] Partner Manager - USA | Storyblok | Anywhere in the World (Remote) | 2026-10-23T07:31:21+00:00",
+    "[title] Enterprise Account Manager, SLED | BeyondTrust | Anywhere in the World (Remote) | 2026-10-23T07:31:06+00:00",
+    "[title] Integrated Marketing Lead, UCAN Programming & Industry | Pinterest | Anywhere in the World (Remote) | 2026-10-23T07:31:06+00:00",
+    "[title] Brand Partnerships Lead | Pinterest | Anywhere in the World (Remote) | 2026-10-23T07:31:03+00:00",
+    "[title] Creative Director - Brand Narrative | Mercury | Anywhere in the World (Remote) | 2026-10-22T07:31:25+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 10
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 10
+  },
+  "builtin job pages": {
+   "returned": 20,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 20
+   },
+   "rejected_samples": [
+    "[title] Director of Growth",
+    "[title] Associate Shopper Marketing Manager",
+    "[title] Senior Strategic Planner",
+    "[title] Manager, Government Relations",
+    "[title] Online Supervisor - Global News Toronto",
+    "[title] Strategic Communications Specialist",
+    "[title] Associate Account Director",
+    "[title] Lead, Integrated Campaigns and Activations"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:bHEzSDVWMi11alNac2tPNkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTalZHV0hSMlZuUlBjbkoxTTFWT2FYTnphVWN4WDBGRlJFMTRZMk5tU1hGZllrUmpSVUZvUjJrMFpIZEJVVnBqZEV0SU0yVTNVRmR1VTFOMFZFdERVRE5pTm5aWGRFUnhNRTlETUdkMFRteEZSMUJ5T1ZGa1lqWkJiWE5GTFVkT1QyODJibGR0VVdKcmMyNUVUVUpqYXkxbWNIQk1kSGhYTVZKWWRXOUZVMmR1YUc1NFJrSVNGM1pETjJSaGMxZzRTV0pxY1RGbE9GQTNZVzVLZFZFNEdpSkJSSE55T1daU2FIWTRWbVJIVmt0UWNHOW9RMmxEY1hodWVDMWlWRUpvWTJsbg",
+   "source": "jsearch",
+   "publisher": "Ladders",
+   "title": "Technical Product Marketing Specialist, Canada & Latin America",
+   "company": "Apple",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.theladders.com/job/technical-product-marketing-specialist-canada-latin-america-apple-toronto-on_89487738",
+   "posted": "2026-10-23T00:00:00+00:00",
+   "salary": "",
+   "description": "The International Product Marketing team in Canada and Latin America is looking for a Technical Product Marketing Specialist to support Apple's exciting product launches and ongoing marketing efforts. Based in Toronto, you will support teams across Canada and Latin America. The Technical Product Marketing team provides direct technical management and operational support to the Apple Product Marketing organization. This includes support for product launches and press briefings, retail demo development, internal testing and demonstrations, product and feature investigations, and experiential marketing. This role is part of the International Product Marketing organization, a group of experts who champion Apple products within their respective markets and find innovative ways to keep them at the heart of the customer conversation. The organization lays the foundation for Apple's peerless demonstrations, presentations, and briefings. We are passionate about our products, and we are looking for a highly motivated individual to provide best-in-class technical support to our marketing initiatives. Description Every Apple launch depends on demonstrations that work flawlessly. In this role, you will be the technical force behind them, turning new products into experiences that the media, external and internal partners can see, trust, and talk about. You will bring deep knowledge of Apple platforms and a hands-on approach to a fast-moving environment where no two days look alike. You will work closely with product and engineering teams to make sure each launch is ready for the world stage. This role suits a collaborative, self-directed problem solver who takes pride in the details that make a product shine. Minimum Qualifications 2+ years of experience with both iOS and macOS, as well as Apple hardware Experience with mass deployment techniques and best practices for iOS and macOS, as well as large-scale system administration Strong knowledge of the macOS command line toolset, shell scripting, Python, and modern web technology codebases Fluency in written and spoken English Ability to travel up to 40% of the time, within Canada and internationally, including to the United States and Latin America Preferred Qualifications Solid practical knowledge of networking hardware, software, and implementation best practices A solution-oriented mindset and high-level programming skills Excellent written and spoken communication skills, and the ability to tailor communication to different audiences Experience building scalable databases A creative and ambitious approach to problem-solving Proficiency in Spanish and/or Portuguese Bachelor's degree in Computer Science or equivalent experience"
+  },
+  {
+   "id": "jsearch:N0VLdUdPOFhRdzJwWklXWEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVVpoUXkxV1ZESkhORXBRVmtaaVFqZzViMDAwUzNBNWRqZHpZV1pFTXpWUmVWaHdVVTVuZVdWRlRuQmlXazVYY1ZReGRYY3pWVmx3WTJ4SVVqTm9NRTk0TWpOT0xXdzJiM0E1VTNCbk5ESXdYMjFpV2pZeGNFZDBibXgzUVd0UlRVUTFWV2hZU1V0cVVXc3dNMFphTmpKZmJtTnhNVGRwZVVSbmNFazBOWFpDYkcxaWMxb1NGM1pETjJSaGMxZzRTV0pxY1RGbE9GQTNZVzVLZFZFNEdpSkJSSE55T1daVFNqZFBRV1UyT0UxM1VXUjFlRkpVVjNWd2N6TnZiRUZVZGxoMw",
+   "source": "jsearch",
+   "publisher": "Cerulean",
+   "title": "Social Media and Influencer Marketing Coordinator",
+   "company": "Sephora",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ceruleanjobs.ca/jobs/sephora-social-media-and-influencer-marketing-coordinator-toronto-2026-10-23/",
+   "posted": "2026-10-22T00:00:00+00:00",
+   "salary": "",
+   "description": "Sephora Canada is hiring a bilingual Social Media and Influencer Marketing Coordinator for a full-time, 12-month contract in Toronto, working on a hybrid schedule. The role supports French-language social channels, social-first video and content planning, and influencer campaigns for English- and French-speaking audiences. Role & Responsibilities \u2022 Create, adapt, and edit social-first video content for Sephora Canada\u2019s French Instagram and TikTok channels. \u2022 Support publishing, translation coordination, and community management for French social channels. \u2022 Manage the content calendar and support content planning. \u2022 Partner with the Social Content team to bring social-first creative concepts to life. \u2022 Support influencer marketing initiatives through creator partnerships, product shipments, event support, campaign coordination, and results tracking. Qualifications \u2022 Experience managing social media accounts and creating engaging social content. \u2022 Fluency in French and English, with strong communication skills and the ability to adapt content for both audiences. \u2022 Strong social media video editing skills and comfort appearing on camera. \u2022 Strong organizational skills and attention to detail. \u2022 A passion for social media and influencer marketing, with curiosity about emerging trends and culture. \u2022 A genuine interest in beauty and enthusiasm for exploring products, following trends, and joining the conversation. \u2022 Comfort and confidence using digital and AI-enabled tools responsibly in day-to-day work. \u2022 Include a portfolio link or examples demonstrating video editing skills and the ability to create engaging, social-first content in English and/or French. Skills \u2022 Social media account management \u2022 Social content creation \u2022 Video editing \u2022 Content calendar management \u2022 Community management \u2022 Translation coordination \u2022 Campaign coordination \u2022 Digital and AI-enabled tools Benefits Medical and dental coverage; Well-Being@Sephora program; hybrid work schedule, vacation and flex days, maternity/paternity leave; training and development programs; 30% discount on merchandise and services, gratis opportunities, and flash sale discounts on LVMH brands; volunteer and donation matching; Employee Assistance Program; free mental health resources with 24/7 access to Dialogue."
+  },
+  {
+   "id": "jsearch:X05hQWdaeXM0Nzd1TVZIZkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURVpRTWpCdlMwTlliVFk1TWpoZlVuQmliVzVMUkRKMk9USlNjSFZpZG1SSll6WTJlblJ0UkZoVWRFbGxOVTlwVEV0aFQwdDJUbGhCVFRab1NGTXlhRGxUU3pGM05ESlJkM2xEY0MxQ2RrVXdXa1JmTmxWd1NWSXhkMGd5YVcxVFZGVnpNM1o0ZDNZd1pFa3RORU5PWW1GdlNsWjZNVXhhWDA1RVVsVlhWMUozVkdRdFRrSVNGM1pETjJSaGMxZzRTV0pxY1RGbE9GQTNZVzVLZFZFNEdpSkJSSE55T1daVFdVMVlVVmhzVkRWd1VVNW1ZMUU0TVZSalVXcHFOVVo2UVhSQg",
+   "source": "jsearch",
+   "publisher": "Eluta.ca",
+   "title": "Marketing and Communications Content Specialist",
+   "company": "YMCA of Greater Toronto",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.eluta.ca/spl/marketing-and-communications-content-specialist-7f562c94649b444dc648db91c6caa5bc",
+   "posted": "2026-10-22T00:00:00+00:00",
+   "salary": "",
+   "description": "Recruiting Range: $57,280 to $59,600 - Check out the YMCA's total compensation package ! Location: 90 Eglinton Ave. East, Toronto ON Work Hours: 37.5 hours per week Employment Type: Regular Full-Time Salaried (Existing Vacancy) Number of Vacancies: 1 Anticipated Start Date: January 5, 2027 Deadline to Apply: November 6, 2026 at 5:00pm Be the Spark! Join our passionate team and help us to achieve great things in our community! The Marketing and Communications Content Specialist develops clear and engaging content that supports Health & Fitness marketing and communications across digital and print channels. The position works with internal teams and external partners to coordinate content, visual assets, campaigns, and event communications that strengthen consistency, audience engagement, and the delivery of Health & Fitness initiatives. In this role, you will: Create copy for digital and print advertisements, emails, website content, the staff intranet, social media, newsletters, and other Health & Fitness materials. Develop compelling stories and content marketing materials to support campaigns in alignment with the YMCA of Greater Toronto's brand guidelines. Develop a Health & Fitness content strategy across programs and Centres. Execute and optimize Health & Fitness content across social media, the website, and other YMCA of Greater Toronto communication channels, using performance results to inform improvements. Manage the development and preparation of email campaigns and website content updates, ensuring materials are accurate, complete, and ready for final review and deployment by the Digital Marketing team. Lead the planning and execution of Health & Fitness photo and video shoots, including providing creative direction, developing shot lists, coordinating participants and locations, and overseeing on-site production needs. Oversee the sourcing and selection of photography and visual assets to support a consistent and compelling visual look and feel across Health & Fitness marketing and communications. Support the Marketing Manager in developing and executing brand ambassador, influencer, and user-generated content initiatives. Monitor and engage in direct and indirect social media conversations related to Health & Fitness and provide guidance on appropriate responses. Identify new ways to communicate with Health & Fitness members, staff, volunteers, and leads. Represent Health & Fitness as a member of the Digital Production Team. Attend Health & Fitness events across the GTA to provide communications support. Perform other duties as assigned. You bring: Post-secondary education in Journalism, Creative Writing, Marketing, or a related discipline, or equivalent experience. 2+ years of experience developing content and copy for marketing and communications campaigns in an advertising, health and fitness, not-for-profit, or related environment. Experience supporting the planning and execution of photography and video production, including sourcing and selecting visual assets. Experience working collaboratively with internal and external stakeholders, agencies, and/or in-house creative teams. Experience working with email marketing platforms, content management systems, and digital publishing tools. Excellent written communication skills, with strong attention to detail and demonstrated ability to develop clear, compelling content for a variety of audiences and channels. Comfort using data and analytics to understand content performance and inform decisions. Knowledge of digital marketing and social media platforms and tools, such as Google Analytics and Meta Business Suite, is considered an asset. Demonstrated passion for and knowledge of the health and fitness industry is considered an asset. Demonstrated ability to manage multiple projects, timelines, and deliverables simultaneously while meeting tight deadlines. Well-developed interpersonal and relationship-building skills, with the ability to establish strong working r"
+  },
+  {
+   "id": "jsearch:dThmRi0yTWpXeHNVRE5pbEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMVk0UmxrM05XbFROalJqTXpseGQwRXlVbFZrTWpSdE1URkZSRWhNUlVsNldXZHBObVZYWXpWMlgwMVhUbVpKUVhSSFlrWkZkMkozWDBzNFRsZ3paMjlqVkVkblRtbDZNVGRHWkRCMmVEUnFSak5hY25sU0xWbFBja3c1VEVkT2RURk1RVVIzVEZVd1RFMHdZV3RXYm5Oc1JtUjNiR3BtYVZodVpEUklObGRtYm1wbFFqWVNGM1pETjJSaGMxZzRTV0pxY1RGbE9GQTNZVzVLZFZFNEdpSkJSSE55T1daVVgzQnpiVWd3YkZaeFUzRjVXVEZPUmpGaFptWTJkMGhvZDFkUg",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Marketing Specialist- Full Time",
+   "company": "Urban Nature Store",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=642679024761054737",
+   "posted": "2026-10-21T00:00:00+00:00",
+   "salary": "",
+   "description": "100 The East Mall Unit 8, Toronto, ON M8Z 5X2 Are you passionate about birds and backyard wildlife? Do you find joy in creating a space where nature thrives? At Urban Nature Store, we share a love of the outdoors and are dedicated to helping cultivate a vibrant, wildlife-friendly environment. We take pride in being more than just a retailer. As an independent business, we are committed to providing expert advice and personalized service. Deeply rooted in our local community, we embrace our Canadian heritage and the natural beauty that surrounds us. Our goal is to inspire and support a connection to wildlife, whether through birding, gardening, or simply enjoying the peaceful presence of nature in backyards. Urban Nature Store enhances the discovery and the development of people's inner passion for birds, gardens, and wildlife. Join us and celebrate this journey. Full-time - In office/ onsite No benefits plan offered for this role currently Working language - English (required) Target Salary - 80k - 85k Job Summary We are seeking a highly organized, proactive, and strategically minded Marketing Specialist, who thrives in a fast-paced, dynamic environment. The successful Candidate will possess leadership, digital marketing, retail brand development, and store launch expertise; to drive Customer engagement, revenue growth, and our long-term market positioning. Key Responsibilities Strategic Marketing Programs \u2022 Plan, build and launch; marketing initiatives that align with the business goals. \u2022 Optimize existing programs to support past activities and sustain growth. \u2022 Develop and execute advertising campaigns and promotional programs via traditional channels such as print, radio, outdoor, and sponsorships. Constant Customer & Community Contact \u2022 Manage, maintain, and develop short- and long-term customer contact and engagement strategies. Implement cohorts, journeys, and win-back programs (dynamic segments, product/event triggers, predictive flows). \u2022 Build and manage relationships with vendors, media, and community partners. Represent the company at events and initiatives to strengthen local markets and increase our brand exposure. \u2022 Develop acquisition strategies across Meta, YouTube, Direct Mail, email/SMS, and mobile. Visibility. \u2022 Lead new store launches with market research, customer profiling, promotional calendars, and community engagement. Apply interior architecture principles to optimize layouts, flow, signage, and merchandising for conversion. \u2022 Conduct feasibility studies and competitive analysis to evaluate new store opportunities and guide strategic decisions. Data Management & Reporting \u2022 Plan, direct, and evaluate advertising, marketing, and public relations strategies across retail \u2022 Regularly report on Marketing KPl's to the senior Management team. \u2022 Highly competent in interpreting large amounts of data, distilling and reporting in an understandable manner both to senior management and store level management. E-commerce Platform Management \u2022 Point-of-Sale (POS) administration and maintenance of retail systems. Troubleshoot POS peripherals. \u2022 Drive long-term growth by expanding to multiple store locations with consistent branding, marketing integration, and customer-focused design strategies. \u2022 The successful Candidate will oversee all aspects of our digital strategy and Customer experience throughout the organization. What you'll bring \u2022 A diploma or degree (or equivalent experience) concentrated in Media, Marketing or Communications. \u2022 Progressive experience in marketing leadership, including retail expansion and e-commerce growth. \u2022 Strong experience collaborating across functions and influencing executive level decisions. \u2022 Excellent communication, presentation, and leadership skills; able to engage and inspire diverse teams and members \u2022 An analytical mindset and curious mind, with experience in measuring performance and ROI. Here is some of the technology that we utilize throughout our organization. Pleas"
+  },
+  {
+   "id": "jsearch:bmRwdzJWTG40VWZRNUczdUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVU4zYUdoSFlqWnVUbU00ZVVSV1pIRTJUM0V3TUVkVlpXYzJla05QTXpCc2VUUnRjekpzYTBSWWJESkRhbUZKVDBwaGJqVnRUMGhYVW1oaFRIVktjWFZ2WTJwWGFGODJTMFJIWkVOR1kwZGZNUzFFVUdkblJFdEROazkwY0c5MVREWjRWa2hGUWkxTGFYZzFNVk5qWnpkNFRFVlhkMDVXUlV0MWVraExTbWxWU2treU16TVNGM2w1TjJSaGRISm5RbUV0UVRGbE9GQnVTMGhoYzFGTkdpSkJSSE55T1daU1EyNTFTamRPTUMwNVRrTmhPSGxPTTBKMmFrVnlXRUZUVmw5Qg",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Event Operations Coordinator Audiovisual",
+   "company": "Encore Canada",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jobrapido.com/jobpreview/1059224835613261824",
+   "posted": "2026-10-21T00:00:00+00:00",
+   "salary": "",
+   "description": "Coordinate event operations through accurate information updates and client communication in a warehouse-based audiovisual environment. Support office teams and event technicians. This Event Operations Coordinator assists day-to-day operations while coordinating sales, operations, and venue partners. The work supports technicians and sales staff in offices and at events. Success requires detail orientation, effective communication, and awareness of operational progress. Key Responsibilities: \u2022 Relay information for last-minute confirmed events \u2022 Adjust planning according to client needs \u2022 Update operational systems accurately and promptly \u2022 Answer client and venue partner calls \u2022 Attend daily meetings reviewing event requirements Requirements: \u2022 Five or more years audiovisual industry experience considered an asset \u2022 French and English bilingual ability considered an asset \u2022 Valid driver's license considered an asset \u2022 Detail-oriented approach to event operations \u2022 Hospitality and ownership competencies Support successful event execution through audiovisual coordination, timely systems updates, and clear communication with clients and venue partners. #J-18808-Ljbffr"
+  }
+ ]
+}
