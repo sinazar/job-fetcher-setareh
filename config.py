@@ -26,12 +26,13 @@ JSEARCH_DATE_POSTED = "week"    # today | 3days | week | month | all
 JSEARCH_QUERIES = [
     # (query, country code, remote_only, pages)
     ("marketing coordinator OR marketing specialist in Toronto, ON", "ca", False, 1),
-    # Stacking several titles in one query returned 0 results on the test runs
-    # (with or without OR), so queries 2-4 use one common title each. The title
-    # filter below still keeps marketing ops, onboarding and project coordinator
-    # roles that JSearch returns for them.
-    ("CRM specialist in Toronto, ON", "ca", False, 1),
-    ("operations coordinator in Toronto, ON", "ca", False, 1),
+    # Two titles joined with OR work; three in one query returned 0 results.
+    # "CRM specialist" returned 1 listing in a week, so that slot now covers
+    # client-facing coordinator roles (agencies, B2B, onboarding work).
+    ("account coordinator OR client services coordinator in Toronto, ON", "ca", False, 1),
+    # Plain "operations coordinator" mostly returned hospital, trades and
+    # warehouse roles; "business operations associate" points at office/tech ops.
+    ("business operations associate OR operations coordinator in Toronto, ON", "ca", False, 1),
     # Remote within Canada. "remote" goes in the query text rather than the
     # work_from_home flag, which returns worldwide spam; the location filter
     # below drops anything that isn't Canada-remote or GTA.
@@ -86,6 +87,7 @@ _FUNCTIONS = [
     "crm", "hubspot", "onboarding", "client onboarding", "customer onboarding",
     "operations", "customer success", "client success", "revenue operations", "revops",
     "sales operations", "content", "social media", "campaign", "brand", "communications",
+    "account", "client services", "client service", "customer experience",
 ]
 _LEVELS = ["coordinator", "specialist", "associate"]
 
