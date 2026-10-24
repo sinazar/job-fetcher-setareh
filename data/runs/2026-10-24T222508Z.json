@@ -1,0 +1,521 @@
+{
+ "run_id": "2026-10-24T222508Z",
+ "run_at": "2026-10-24T22:25:08.490922+00:00",
+ "date": "2026-10-24",
+ "source_counts_after_filters": {
+  "jsearch": 13,
+  "remoteok": 0,
+  "weworkremotely": 0,
+  "adzuna": 0,
+  "builtin": 1
+ },
+ "new_count": 11,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 6,
+   "error": null,
+   "rejected_by": {
+    "title": 4
+   },
+   "rejected_samples": [
+    "[title] Marketing & Digital Marketing Manager | CHAINSMOKER urban barbecue | Toronto, ON, Canada | 2026-10-23T00:00:00+00:00",
+    "[title] Charg\u00e9 marketing publicit\u00e9 F/H | Augusta Fruit Market | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
+    "[title] Marketing, Programs & Events Coordinator | Rosedale United Church & The Rosedale Centre | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Content Marketing Strategist \u2014 Live Events & Digital Growth | The MRG Group | Toronto, ON, Canada | 2026-10-18T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: CRM specialist in Toronto, ON (ca)": {
+   "returned": 1,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 1
+   },
+   "rejected_samples": [
+    "[title] Hybrid CRM Campaign Developer - SQL Specialist | Global-Technical-Talent-1 | Toronto, ON, Canada | 2026-10-19T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "CRM specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    1
+   ]
+  },
+  "jsearch: operations coordinator in Toronto, ON (ca)": {
+   "returned": 8,
+   "kept": 6,
+   "error": null,
+   "rejected_by": {
+    "title": 1,
+    "location": 1
+   },
+   "rejected_samples": [
+    "[title] Administrative Operations Support Coordinator - Temporary | Air Canada | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[location] Operations Coordinator Control Room | Purolator Inc | Ontario, Canada | 2026-10-19T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    8
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 7,
+    "aggregator": 2
+   },
+   "rejected_samples": [
+    "[title] Sales Marketing Manager | AccessE11 | Canada | 2026-10-20T00:00:00+00:00",
+    "[title] Web Marketing Manager | Jane App | Canada   (+30 others) | 2026-10-21T00:00:00+00:00",
+    "[aggregator] Social Media Marketing Manager | Jobgether |  | 2026-10-20T00:00:00+00:00",
+    "[title] Growth & Field Marketing Leader - Video, Events & Brand | MediaCareers | Toronto, ON, Canada | 2026-10-20T00:00:00+00:00",
+    "[title] Remote Field Marketing Leader - NA Growth & ABM | SmartRecruiters, Inc. | Canada (Remote) | 2026-10-20T00:00:00+00:00",
+    "[title] Senior B2B Marketing Strategist - Remote AI-Driven Growth | Lever, Inc. | Canada (Remote) | 2026-10-18T00:00:00+00:00",
+    "[title] Senior Marketing Manager B2B AI-Driven Energy Management (remote from U.S.) | 7Fold | United States (Remote) | 2026-10-22T00:00:00+00:00",
+    "[title] [Remote] Ai Marketing Expert | Calendly | United States (Remote) | 2026-10-20T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 194,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 191,
+    "too old": 2,
+    "location": 1
+   },
+   "rejected_samples": [
+    "[title] Federal Account Manager, Combatant Commands | BeyondTrust | Anywhere in the World (Remote) | 2026-10-24T07:31:03+00:00",
+    "[title] Head of Content and Editorial | OnTheGoSystems | Anywhere in the World (Remote) | 2026-10-23T09:48:36+00:00",
+    "[title] Strategic Account Executive | Checkr | Anywhere in the World (Remote) | 2026-10-23T07:31:21+00:00",
+    "[title] Partner Manager - USA | Storyblok | Anywhere in the World (Remote) | 2026-10-23T07:31:21+00:00",
+    "[title] Enterprise Account Manager, SLED | BeyondTrust | Anywhere in the World (Remote) | 2026-10-23T07:31:06+00:00",
+    "[title] Integrated Marketing Lead, UCAN Programming & Industry | Pinterest | Anywhere in the World (Remote) | 2026-10-23T07:31:06+00:00",
+    "[title] Brand Partnerships Lead | Pinterest | Anywhere in the World (Remote) | 2026-10-23T07:31:03+00:00",
+    "[title] Creative Director - Brand Narrative | Mercury | Anywhere in the World (Remote) | 2026-10-22T07:31:25+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 10
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 10
+  },
+  "builtin job pages": {
+   "returned": 20,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 19
+   },
+   "rejected_samples": [
+    "[title] Director of Growth",
+    "[title] Associate Shopper Marketing Manager",
+    "[title] Senior Strategic Planner",
+    "[title] Manager, Government Relations",
+    "[title] Online Supervisor - Global News Toronto",
+    "[title] Associate Account Director",
+    "[title] Lead, Integrated Campaigns and Activations",
+    "[title] Senior Marketing Manager (Marketing)"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:UU82VkhIYXlqdkhTWnFZWkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTa0pwU2xkaGNVeENWazVRV1dWTVNFNVFhbTQ0ZWtvMFNVVklSa2d0TldONlRYUldlbFZuUWtaT0xUSnJPR056YUV4NVgwcGhWMU5GVERGWlJVRlBXVUZCTTNVd1FsbEtYMWRRTjFSUmFqTjVkbVoxYkhobFZHSk5Za3QwTjFGM2NITnZUR3RzVTNCMVZYZERabEZLVjAwelFuUlBaMkpUVFZWdFZsZzVWRVpuWTFSU1JtOFNGMkpxUkdSaGIybE9UM0pmYkRWT2IxQnRZalpLTUZGbkdpSkJSSE55T1daUk5WZHhRMGRpV0dFelF6aHZlRkpOTFdVMGNtd3RZVmRtWlROQg",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "Marketing Coordinator \u2013 Western Canada",
+   "company": "O'Dell HVAC Group",
+   "location": "Canada   (+30 others)",
+   "remote": false,
+   "url": "https://jobgether.com/offer/6ada9cdb22c2644c03df546f-marketing-coordinator---western-canada",
+   "posted": "2026-10-22T00:00:00+00:00",
+   "salary": "",
+   "description": "This a Full Remote job, the offer is available from: North America, Canada Who We Are O'Dell HVAC Group is a well-established HVAC equipment representative, partnering with engineers, building owners, and contractors throughout Canada. Our success is fueled by our people-first culture, where teamwork, innovation, and professional growth are at the core of everything we do. Why Work for O'Dell HVAC Group? At O\u2019Dell HVAC Group, we are committed to a people-first workplace. We offer: \u2022 Competitive Salary & Profit Sharing \u2013 We recognize and reward contributions to our success. \u2022 Comprehensive Benefits, Health Spending Account, & RRSP Plan \u2013 We invest in your well-being and future. \u2022 Professional Development \u2013 We support continuous learning and career growth for all roles. \u2022 Company-Wide Holiday Shutdown \u2013 Enjoy paid time off during the holiday season. \u2022 Summer Fridays! \u2013 Wrap up early on summer afternoons! We are seeking a Marketing Coordinator \u2013 Western Canada to join our growing team in Calgary, Alberta. Reporting to the Director of Marketing, you will play a key role in strengthening O'Dell HVAC Group's brand presence and supporting business growth across our expanding Canadian markets, with a focus on Alberta and British Columbia. This hands-on role combines event planning, manufacturer partner collaboration, regional marketing initiatives, and sales support to increase brand awareness and strengthen customer relationships. Working closely with our corporate Marketing team, regional sales teams, and manufacturer partners, you will coordinate and execute marketing activities that support regional business objectives while maintaining a consistent national brand. The ideal candidate is a creative, organized, and proactive marketing professional who enjoys building relationships, managing projects, and bringing new ideas to life. Compensation: $55,000-$65,000 annually | Calgary-based | Initially Remote, Transitioning to Hybrid What You'll Be Doing \u2022 Plan, coordinate, and execute regional marketing events, including customer appreciation events, trade shows, product launches, technical training sessions, lunch-and-learns, and industry networking opportunities. \u2022 Manage all aspects of event planning, including venue selection, registration, catering, promotional materials, vendor coordination, budgets, and post-event follow-up. \u2022 Collaborate with Regional Sales Managers and sales teams to identify and execute marketing initiatives that support customer engagement, business development, and regional growth. \u2022 Develop and execute localized marketing campaigns and initiatives to strengthen O'Dell HVAC Group's brand awareness and visibility throughout Canada, including newly expanded markets. \u2022 Build and maintain strong relationships with manufacturer marketing teams to coordinate joint campaigns, events, sponsorships, and promotional initiatives, including identifying co-op marketing funding opportunities. \u2022 Coordinate regional participation in industry associations, trade shows, sponsorships, and community events to strengthen relationships within local HVAC communities. \u2022 Create and coordinate regional marketing communications, including email campaigns, social media content, event invitations, customer announcements, and promotional materials, ensuring alignment with national marketing strategies and brand standards. \u2022 Identify and develop regional content opportunities, including customer success stories, project highlights, employee features, and manufacturer partnerships, while capturing photos and videos at regional events and company activities. \u2022 Support regional sales teams with marketing collateral, presentations, product literature, promotional items, and targeted lead generation and customer engagement initiatives. \u2022 Collaborate with the corporate Marketing team to ensure regional marketing activities align with company objectives, brand standards, and broader business strategies. \u2022 Monitor and report on regional marketin"
+  },
+  {
+   "id": "jsearch:WTJncjM2OUlqTnRXWHR4a0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbnBpZFRKamVFaHhWVU5UVnpkaGVEY3RSSE5HUldGbVNEVXhXRnBXYVc0dGJXeG9ORU41TlhaaFlVMXdRbE5XYmxCYU1HeHVMVUl0YkhBMmRWRm9ORkJmTFhaMFZsUTRhbkp5TlhSM04wYzRURE5yUTBNMFJIWkNRVUZJYWpCTmVGOVhUM0ZJWVhoNlNXZG5iVVo0UVhwYVNIWmFaMHRtVm5CNVgwY3lSMWxRYldWcE9DMFNGMWRFUkdSaGRraHlTMTk2V1RWT2IxQTBjMGhTYzBGdkdpSkJSSE55T1daU2FUZFRlSGQwTXpWMlUzTmFiVEpuTUdkUlNreDRTbTR4UVZoQg",
+   "source": "jsearch",
+   "publisher": "Eluta.ca",
+   "title": "Sr. Product Marketing Specialist",
+   "company": "Skylight Financial Services Inc. / Baselane",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.eluta.ca/spl/sr-product-marketing-specialist-2f0f50dc01f401cafde27b91ce755b0b",
+   "posted": "2026-10-21T00:00:00+00:00",
+   "salary": "",
+   "description": "About Baselane At Baselane, our mission is to empower landlords with tools and insights to help them save time, increase their returns, and grow their investment portfolios. Traditional financial institutions have been a growth limiter for landlords - we are looking to change that. We are building the future of financial services for the 12+ million landlords and real estate investors who own over 25 million homes in the United States. We are a rapidly growing banking and financial management platform for individual landlords and real estate investors. Backed by leading FinTech investors, including Matrix Partners, Activant Capital, Collaborative Fund, Conversion Capital, Diagram Ventures, ThomVest, and many FinTech leaders from PayPal, eBay, Google, and more. About the Role We are seeking a highly motivated and experienced Sr. Product Marketing Specialist to join our growing Marketing team and own our GTM enablement efforts, among other responsibilities. In this role, you will work directly with the Sr. Product Marketing Manager and collaborate with internal teams to become an expert on our customers and their needs to help bring our brand and product positioning to life across the entire customer journey. The ideal candidate possesses a blend of product marketing experience in fintech with a deep understanding of B2C SaaS and/or the real estate landscape. You will work in a highly collaborative environment while getting the autonomy to help shape how product marketing helps enable internal teams (like Sales and Partnerships) and delivers Baselane\u2019s unique value to our customers. To be successful, you\u2019ll be an expert in context switching, managing multiple deliverables across teams at once, and prioritization. If you thrive in a fast-paced environment, can manage several complex projects, and want to play a pivotal role in shaping the next phase of our growth journey, then Baselane is the place for you. This role is a hybrid role based in Toronto. It is expected that you will come to the office (downtown Toronto) twice a week for meetings and working sessions. What You'll Be Doing \u2022 Support the onboarding of, and go-to-market strategy for, new partners, providing support to spin up new partnership channels \u2022 Provide the necessary training and collateral that enables partners and internal teams to best position and sell Baselane to prospective users \u2022 Conduct market and customer research, via interviews and surveys, to develop a deep understanding of both \u2022 Partner with the Product team throughout the development cycle to conduct research and create launch strategies and plans for new products or features \u2022 Work with the Brand team in developing various pieces of customer-facing collateral as needed throughout the customer lifecycle \u2022 Oversee the creation creation of internal and external enablement material to help sales activate new customers \u2022 Deeply understand our market, competitors, and customers through research to identify differentiated positioning, messaging and product opportunities Who You Are \u2022 You bring 2-4 years of experience in product marketing \u2022 You have worked closely with external partners to drive customer growth collaboratively \u2022 You have experience in ideating and overseeing the creation of enablement material, like pitch decks, one-pagers, and cold outreach communications \u2022 You are able to strategize and help execute product and feature launches for multiple functions \u2022 You understand and can articulate how new products, features, campaigns and customer-facing initiatives fit within the broader brand and positioning strategy \u2022 You excel in stakeholder management and cross-functional collaboration, knowing when to lean-in and pushback on ad hoc requests \u2022 You use data-driven decision-making skills to explain your impact and inform what to do next \u2022 You are comfortable with project management and collaboration tools like Asana and Notion \u2022 You can communicate internally and provide guidance that is clear "
+  },
+  {
+   "id": "jsearch:MTBIRW1Va29TaFZ0S1JaV0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTa2cxUTNGM1NHSkhWRkJaYmpac01GZE1XRVpQTmxacmFURllRemswUzAxNVJWQkxWa1F3Wm1sMWFrNVRWMHcwTTB4WE0wbHZXbHBQZFVJd1QzRnNkMDlQZUdnek1qaHpia050VkRsclgzcEVXbUZxY2t0elpFOWpjVWhWTlc5VFIxbHllWFJOZGpWamQzVlVVazkyVTNGRVRGOTFNa3hMVVVWWGVEUlBVSEp6YkZaZlkzb1NGMWRFUkdSaGRraHlTMTk2V1RWT2IxQTBjMGhTYzBGdkdpSkJSSE55T1daUlJEZ3pVV1pYVDNaQk9YZHhhVmRVWkVWR1MyRnpOV2x0ZDBwQg",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Digital Marketing Specialist",
+   "company": "Creative Niche",
+   "location": "Pickering, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/digital-marketing-specialist-at-creative-niche-4481138885",
+   "posted": "2026-10-21T00:00:00+00:00",
+   "salary": "",
+   "description": "Location: You must be able to work onsite in Pickering approximately four days per week. Employment Type: Full-Time, Permanent We're looking for a creative, hands-on Digital Marketer to join a growing, global B2B manufacturer in the industrial packaging equipment and solutions space. With a well-established international presence and a rapidly expanding Canadian operation, this is a great opportunity for someone who enjoys wearing multiple hats, bringing fresh ideas to the table and seeing their work make a real impact. You'll take ownership of day-to-day digital marketing initiatives, from managing HubSpot and executing campaigns to creating engaging content and generating leads. Working closely with the General Manager and sales team, you'll have the opportunity to help shape the company's digital presence and contribute to its continued growth. What You'll Be Doing \u2022 Manage and optimize HubSpot, including website updates, landing pages, email campaigns, workflows, lead tracking and reporting. \u2022 Develop and execute digital marketing campaigns focused on increasing brand awareness and generating qualified leads. \u2022 Manage paid advertising campaigns, including Google Ads and LinkedIn, monitoring performance and identifying opportunities for improvement. \u2022 Create engaging content for LinkedIn, YouTube, newsletters, blogs and the company website. \u2022 Capture and edit video content, including product demonstrations, employee interviews and behind-the-scenes footage. \u2022 Collaborate with sales and internal teams to develop content that showcases products, services and industry expertise. \u2022 Support SEO initiatives to improve website visibility and organic traffic. \u2022 Track campaign performance, analyze results and recommend improvements. \u2022 Bring fresh ideas and creative approaches to strengthen the company's digital marketing efforts. What We're Looking For \u2022 3\u20135+ years of hands-on digital marketing experience, ideally in a generalist role. \u2022 Strong hands-on HubSpot experience is essential, including website content management, landing pages, email marketing and campaigns. HubSpot certifications or experience with marketing automation and CRM integrations would be a bonus. \u2022 Experience executing digital marketing campaigns and working with paid advertising platforms such as Google Ads. \u2022 Strong content creation and copywriting skills across digital channels. \u2022 Comfortable shooting and editing basic video content for social media and digital platforms. \u2022 Good understanding of SEO, lead generation and marketing analytics. \u2022 Creative, resourceful and proactive, with the ability to take ideas from concept through execution. \u2022 Strong organizational skills and the ability to manage multiple projects independently. \u2022 Someone who thrives in a fast-paced, collaborative environment and enjoys taking initiative. Nice to Have \u2022 Experience in B2B marketing, particularly within manufacturing or industrial sectors. \u2022 French language skills. Why This Opportunity? \u2022 Join a growing Canadian business backed by an established global organization. \u2022 Take ownership of digital marketing initiatives and see the direct impact of your work. \u2022 Work closely with leadership in an entrepreneurial environment where new ideas are encouraged. \u2022 Have access to external resources and tools to support your success. \u2022 Salary includes comprehensive benefits and an RRSP matching program. \u2022 Benefit from long-term career growth potential as the business continues to expand. Interested? If you're a creative, hands-on digital marketer who loves bringing ideas to life, knows your way around HubSpot and thrives in a fast-moving environment, we'd love to hear from you!"
+  },
+  {
+   "id": "jsearch:RXJORW0temlYbHFKTWFvaEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV0ZPY1Y4MGRHVjVTMHN0U0ZwR1VFSnhiVU10UkZScU56UXlhV3BCWWpneVFuVlRYMlJTVFhsaE4zVkpiR1p3Ym1kRGJWaEVOMGRUY0RaVWVIUkZOM3BqUlRWc1gyTm1hbmsyVjJ4ZmNqZDFPRTVEVjNwZmF5MURhR3g2UWpOVmNrdGZjRjlaTUhsbGFWRnRVWGRaWjBaUVJtNXFXazlET1RBMFkybFpWSFZuZFY4emJXY1NGMXA2UkdSaGMzbzJTWE5UZG1sTVRWQm5aV3BUTWxGdkdpSkJSSE55T1daVVZWb3lkak5tUTNFeU5HMUdVRlYyU1RWaE1GQmlTRWh5V1dObg",
+   "source": "jsearch",
+   "publisher": "Eluta.ca",
+   "title": "Operations Coordinator - Holland Operating Room - Regular Full-Time 2026-19025",
+   "company": "Sunnybrook",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.eluta.ca/spl/operations-coordinator-holland-operating-room-regular-full-time-2026-19025-a8a13e6d7e025d7dc05eab2b09f3170d",
+   "posted": "2026-10-21T00:00:00+00:00",
+   "salary": "",
+   "description": "Summary of Duties The Operations Coordinator assists in daily coordinating the provision of patient care, providing relevant clinical information and support to the perioperative staff through individual and group programs. The Operations Coordinator will support the mission, vision, values and objectives of the organization. The Operations Coordinator oversees the multidisciplinary team in OR, SDA, and PACU/BLOCK coordination with the allied perioperative services. Reporting to Patient Care Manager(PCM), Integrated Surgical Program, the Operations Coordinator uses a quality management framework to identify and problem solve issues related to elective and urgent patient flow, clinical practice, resource conflicts, the unit environment, staff assignments and interdisciplinary relationships on a day-to-day basis The Operations Coordinator is also accountable for equipment and supply evaluation and procurement, inventory management strategies and OR information systems for the directorate. The Operations Coordinator: \u2022 Works collaboratively with Team Leader(TL), MDRC, physicians, staff, and materials management. Oversees PICIS OR Management System functions and supervises staff in PICIS scheduling functions. \u2022 Accountable for the overall review planning, organization, direction and evaluation through which surgical supplies, equipment and material resources are provided to support the effective and efficient operations of surgical services. \u2022 Acts as a resource for the OR in contract development participates in supplier selection working groups and other activities to develop effective materials management strategies. \u2022 Develops and provides effective management information to PCM. \u2022 Works collaboratively with TL, manages all ongoing relationships with vendors on behalf of the O.R. team. \u2022 Identify budgetary issues and opportunities for process improvement. \u2022 Assists with in-services as required to all surgeons and anesthesiologists with regards to, new products, equipment, vendors, implants, research, trials \u2022 Accountable for all risk management issues as they relate to products, patient safety. and O.R. equipment including investigations and patient incident reports in-collaboration with the PCM and Advanced Practice Nurse(APN). \u2022 Works with PCM and APN and provide input for staff performance reviews. \u2022 Provides feedback, coaching, counseling and guidance to staff in accordance with their specific roles, in coordination/consultation with the PCM and/or APN. \u2022 Promotes best practice, and ensure the provision of patient care complies with organizational policies, professional standards of practice and other relevant legislation. \u2022 Ensures the staff complies with mandatory occupational safety regulations. \u2022 Works with PCM and APN to identify and deliver educational programs to address the learning needs of the staff and provides corporate education. \u2022 Supports APN in planning, delivering and revising perioperative staff orientation. \u2022 Assists in facilitating learning opportunities for health care students in conjunction with internal and external educational agencies. Qualifications/Skills: \u2022 Must have Nursing or Health related Degree \u2022 Nursing or Health related Masters preferred \u2022 Perioperative Certificate \u2022 Minimum 5 years\u2019 experience in OR leadership position \u2022 Minimum 5 years\u2019 experience in perioperative areas, surgical services preferred. \u2022 Excellent communication and collaboration skills and ability to be self-directed. \u2022 Strong analytical, interpersonal and problem solving skills. \u2022 Demonstrated project management and organizational skills. If you are looking for an exciting opportunity and to build a career in an innovative and dynamic organization, submit your resume by clicking on Apply Now below. Report Job"
+  },
+  {
+   "id": "jsearch:Q21oTGZpQlZ3RE9wdndfdkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURUpxVDBNMlVqZFBWVUpwWVdVeVh6RnRjMnhOVVRCT2FXaGphME5QY1dWelkzb3RPVUpmTVZCamRHb3dWakpyTUV4R1ltWjBXSFpqV0VoNmIwNUtWa0pIYlRSMlRtOHlNWGRMTWtKT1FrSjBZMmxWY1hjeVVIVnNja3BvT1ZvMlpuZHFlVUpCVW1kaFNFRmtielZ4YzJ4d1VuaFdjRUpqUldsZk5qTlRhREZ2U0ZndGRHd1NGMXA2UkdSaGMzbzJTWE5UZG1sTVRWQm5aV3BUTWxGdkdpSkJSSE55T1daVU5UZFZWRmN4TTBSeVJIbHBNRWhyY0RKeWN6ZExiVUpxUjJKMw",
+   "source": "jsearch",
+   "publisher": "Career Beacon",
+   "title": "Operations Coordinator, Roofing & Waterproofing",
+   "company": "Triumph Group of Companies",
+   "location": "Toronto, ON   (+7 others), Canada",
+   "remote": false,
+   "url": "https://www.careerbeacon.com/en/job-9/3968920/triumph-group-of-companies/operations-coordinator-roofing-waterproofing/toronto-on",
+   "posted": "2026-10-20T00:00:00+00:00",
+   "salary": "",
+   "description": "Title: Operations Coordinator, Roofing & Waterproofing Location: Connie, Greater Toronto Area Company: Triumph Group of Companies How Your Role Contributes to the Business The Operations Coordinator, Roofing & Waterproofing is the person who keeps the division's information flowing and its reporting sharp. You report directly to the VP and work every day with project managers, site supervisors, field operations managers and Finance, pulling updates from the field, checking that the numbers make sense and turning them into reports and dashboards leadership can act on. This is an office role with occasional site visits. not a field coordination job, and you wont own project outcomes; you make it easier for the people who do. Good work here means the weekly report goes out on time and nobody has to question the data in it. It also means you chase a missing update until it's closed, fix the reason a number keeps coming in wrong instead of patching it every week. and say so early when something slips. The VP should spend less time hunting for information, and the PMs and supers should notice that the schedules and trackers they rely on are actually current. What we Offer \u2022 Salary: $70,000 to $85,000 (commensurate with experience) \u2022 Company-provided benefits \u2022 Full-time, permanent role based at our Toronto office, with occasional site visits \u2022 Direct exposure to division leadership and how a growing roofing and waterproofing business is run \u2022 Hands-on work with reporting tools and dashboards, with room to build your skills in Excel and Power \u2022 Opportunities to grow into operations, reporting or project controls roles across the group \u2022 A team that values ownership, straight talk and keeping work moving What You Bring to the Table Technical Skills \u2022 3 to 5 years in an operations, project or administrative coordination role with a construction or specialty \u2022 trade contractor (roofing. waterproofing or building envelope is a strong asset) \u2022 Advanced Excel skills, including pivot tables, lookups and clean reporting formats; experience with \u2022 Power Bl or a similar dashboard tool is an asset \u2022 Experience with construction project management or ERP software (Procore, Sage or similar), and the \u2022 ability to pick up new systems quickly \u2022 Working knowledge of construction documentation such as schedules. daily reports, deficiency logs. \u2022 change orders, RFIs and closeout packages \u2022 Familiarity with Ontario health and safety records (OHSA, Working at Heights, toolbox talks), plus a \u2022 college diploma in construction or business administration, Or equivalent experience Attributes \u2022 You follow up until it's actually closed. Sending a reminder the same as getting the answer, and \u2022 you know the difference \u2022 When the numbers don't line up, you dig into why and fix the source, rather than quietly correcting the \u2022 report every week \u2022 If you miss something, you own it early and tell people what you'll do differently next time \u2022 You make the reasonable call on routine items without waiting to be told, and you know when something \u2022 needs to go to a manager \u2022 You're just as comfortable talking to a site supervisor as you are to Finance, and you share what you \u2022 know so everyone is working from the same information What you'll Own \u2022 Build and deliver the weekly division report for the VP, covering project progress, productivity. labour \u2022 cost, quality and safety, and check the data for accuracy before it goes out \u2022 Collect daily production data, timesheets and site updates from site supervisors and foremen, follow up \u2022 on gaps and keep the information clean and consistent \u2022 Work with Finance to pull job cost, billing and backlog information into Excel and power Bl dashboards \u2022 that PMs and leadership actually use \u2022 Maintain the VP's action register and weekly priorities, tracking owners, deadlines and decisions \u2022 needed, and follow up on overdue items \u2022 Keep the master project and crew schedule current using input from PMs and field operations \u2022 managers, an"
+  },
+  {
+   "id": "jsearch:QkhuOUZBUldYbGsyUkFqSUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVzU1Y0hkMk5tbEdXbkpRWW5adU5Hb3hOVGhITVZZNWVsaEpUa0pxYjFkQ01WbHJPRTVEYzB0dFNEUkpaVm8zVmpOM1EyNTZNbTE1Y2tGbFIwdERPRXAxY1ZZMWVEQkdNWGgxVERGaFREbFNXbTk0ZEhScVpWWkhMVGR4YW5ScGFEUndNR3RrUldZMllrNTVjRko0WTFaa01rSk9aSEpCVFZwVFRXNHpZWEpRUkhwZldIRVNGMWRFUkdSaGRraHlTMTk2V1RWT2IxQTBjMGhTYzBGdkdpSkJSSE55T1daUlJHNVpSR1JhZFhOV1RFZzJNMVUyWnkxM2NVTlBkQzAwVFVGQg",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Content Marketing Coordinator",
+   "company": "Movable Ink",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/content-marketing-coordinator-at-movable-ink-4471389745",
+   "posted": "2026-10-19T00:00:00+00:00",
+   "salary": "",
+   "description": "Movable Ink scales content personalization for marketers through data-activated content generation and AI decisioning. The world\u2019s most innovative brands rely on Movable Ink to maximize revenue, simplify workflow and boost marketing agility. Headquartered in New York City with close to 600 employees, Movable Ink serves its global client base with operations throughout North America, Central America, Europe, Australia, and Japan. The Content Marketing Coordinator will help bring Movable Ink\u2019s brand and story to life across channels. This is an entry-level role for someone who is a strong writer, highly organized, curious about marketing, and excited to learn. You\u2019ll work closely with the Senior Content Marketing Manager and teams across Marketing, Product, Sales, and the broader business to help create content, coordinate projects, support our social channels, and understand how our content is performing. Responsibilities: \u2022 Content Creation: Draft and edit marketing content including blog posts, lookbooks, guides, webinar materials, social content, and other lead-generation assets. Help turn research, product updates, and input from subject-matter experts into clear, engaging content for our audiences. \u2022 Content Planning: Help maintain the content calendar and keep upcoming content and campaigns organized. Research trends and topics, contribute new ideas, and help identify opportunities for future content. \u2022 Campaign & Project Coordination: Help coordinate content projects from idea through launch, keeping timelines and deliverables on track. Work with teams across the business to gather information and feedback and support the review and approval process. \u2022 Performance & Optimization: Track and report on content and campaign performance across channels. Help identify what\u2019s working, what could be improved, and how those learnings can inform future content. \u2022 Social Media & Employee Advocacy: Work with the Senior Content Marketing Manager to support the company\u2019s LinkedIn and Instagram channels, including drafting content, scheduling posts, and tracking performance. Share new content, blog posts, press coverage, and company news internally to help employees engage with and amplify our work. Qualifications: \u2022 BA degree or equivalent experience \u2022 0+ years\u2019 experience of professional marketing experience \u2022 Strong writing and communication skills with an interest in developing content for different audiences and channels. \u2022 Highly organized with strong attention to detail and an ability to manage multiple assignments and deadlines. \u2022 Ability to work collaboratively with colleagues in a results-driven, team-oriented environment \u2022 Understanding of marketing automation, CRM, CMS and/or webinar platforms (i.e., Webflow, Goldcast, Knak, Salesforce) \u2022 Experience using Canva to build digital creative \u2022 Working knowledge of HTML and CSS \u2022 Experience with Google Analytics The base pay range for this position is $45.8K - $60K CAD/year, which can include additional bonus depending on the position ultimately offered, in addition to a full range of medical, financial, and/or other benefits. The base pay offered may vary depending on job-related knowledge, skills, and experience. Studies have shown that women, communities of color, and historically underrepresented people are less likely to apply to jobs unless they meet every single qualification. We are committed to building a diverse and inclusive culture where all Inkers can thrive. If you\u2019re excited about the role but don\u2019t meet all of the abovementioned qualifications, we encourage you to apply. Our differences bring a breadth of knowledge and perspectives that makes us collectively stronger. We welcome and employ people regardless of race, color, gender identity or expression, religion, genetic information, parental or pregnancy status, national origin, sexual orientation, age, citizenship, marital status, ethnicity, family or marital status, physical and mental ability, political affili"
+  },
+  {
+   "id": "jsearch:SkRpRVI4WDAtX3JiQU10ZEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbTE2Y2tNM1FuRmpVSEp1UVRWa2VHdHpZa3MzUjNGSVRUUjRUV1pKV1RoTVZVNDFVVXB5UVhaTlYwSjVSa3d6VUhRNGVqTjJiVTlCVkVadGJ6TjNaRWt3VFRCNE5UVTNTUzE2ZUhOVlpVZEpkR3hJU21Ga01EZG9hblZEU2xKT2NteDZZemt0VVZaT04yUkVSVXc0WTNKRExYZGxiVzFsVFhsa1dVNUpOVVpJWlRsQ2Exb1NGMWRFUkdSaGRraHlTMTk2V1RWT2IxQTBjMGhTYzBGdkdpSkJSSE55T1daUmMwMTZhV0l6Y3pST1ZrOTVORkJSWTFKSGMzZzBPRkZSZW5KMw",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Marketing Coordinator, Amazon MGM Studios Theatrical Marketing",
+   "company": "Amazon Studios Canada, Inc.",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.indeed.com/viewjob?jk=1efa5c533b39c144",
+   "posted": "2026-10-19T00:00:00+00:00",
+   "salary": "",
+   "description": "DESCRIPTION Amazon MGM Studios is the home for talent, creating and producing Original films and television series for a global audience. Original series premiere exclusively on Prime Video, which is available in more than 240 countries and territories worldwide. Amazon MGM Studios also produces and acquires Original movies for theatrical release and exclusively for Prime Video. Amazon MGM Studios is seeking a detail-oriented Marketing Coordinator to join our Theatrical Marketing team in Toronto, Canada. This role will support the planning and execution of marketing campaigns for film releases, ensuring smooth campaign implementation and cross-functional coordination for Canadian theatrical releases. Key job responsibilities Cross-functional Coordination \u2022 Work closely with Marketing Team to ensure campaign alignment \u2022 Support marketing initiatives, events, and activations \u2022 Track and process marketing budgets and purchase orders \u2022 Facilitate communication between internal teams and external partners Analysis & Reporting \u2022 Prepare and maintain marketing reports and presentations \u2022 Conduct competitive analysis and market research \u2022 Track campaign performance metrics \u2022 Compile and distribute campaign insights Creative Coordination & Trafficking \u2022 Manage print and AV campaign localization processes \u2022 Oversee creative approvals, clearances, and delivery \u2022 Coordinate digital and offline campaign trafficking \u2022 Maintain relationships with media partners \u2022 Manage internal tracking tools and dashboards BASIC QUALIFICATIONS \u2022 Experience with Excel or Tableau (data manipulation, macros, charts and pivot tables) \u2022 Experience collaborating with cross-functional teams \u2022 Knowledge of the television and media industry \u2022 2+ years experience in non-internship marketing coordination or project management \u2022 Previous experience in the entertainment industry or media/advertising/creative agency \u2022 Organizational and communication skills \u2022 Proficiency in Microsoft Office Suite and project management tools PREFERRED QUALIFICATIONS \u2022 Experience working with a Content Management System (e.g. Wordpress, Drupla, Joomla, etc.) \u2022 Experience using integrated campaigns to solve brand/business challenges \u2022 Experience managing multiple projects and priorities across teams in a fast-paced, deadline-driven environment \u2022 Bachelor's degree in marketing, advertising, business or equivalent \u2022 Understanding of entertainment media and digital landscape \u2022 Knowledge of marketing budget management \u2022 Problem-solving abilities and adaptability \u2022 Attention to detail and accuracy Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. As a total compensation company, Amazon's package may include other elements such as sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon offers comprehensive benefits including health insurance (medical, dental, vision, prescription, basic life & AD&D insurance), Registered Retirement Savings Plan (RRSP), Deferred Profit Sharing Plan (DPSP), paid time off, and other resources to improve health and well-being. We thank all applicants for their interest, however only those interviewed will be advised as to hiring status. CAN, ON, Toronto - 56,300.00 - 94,000.00 CAD annually"
+  },
+  {
+   "id": "jsearch:Rzl3TndjdU9QWFd1RWtobUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURUZHVFVSR1JqSkZVMmcwY1MweFl6ZFhhR3BmZWpCT2FraFdjemRZY1hKSll6aHhWbTgwT0dWdlQxVk9VRmhFZVY5elVYaFVUVmxQVDFWRlNqRllXVk13UkZKc01UTmpaRFpEWDJsM1drRkpZblpuUjFKMVduUk5NelpoUTJKWlVpMUhlVTFEVmxkeFQwVjNVVWh4U2t4WGQxcGlXVVl0YnpaVmFHdHVSVkI2TjNoUGVUVVNGMXA2UkdSaGMzbzJTWE5UZG1sTVRWQm5aV3BUTWxGdkdpSkJSSE55T1daVU1qWjVZbGQwUWtOSWMyRXdlak5NWTB3NGVXdExVakZvZEZSMw",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Entry Level Order Fulfillment & Operations Coordinator",
+   "company": "Master Power",
+   "location": "Richmond Hill, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/entry-level-order-fulfillment-operations-coordinator-at-master-power-4481238351",
+   "posted": "2026-10-19T00:00:00+00:00",
+   "salary": "",
+   "description": "Company Description Master Power delivers advanced power solutions for industrial, commercial, and government applications worldwide. With roots dating back to 1962, the company combines decades of manufacturing expertise with modern innovation to design reliable fuel-based generators and industrial process solutions focused on efficiency and durability. Master Power oversees the entire project lifecycle, including engineering, global procurement, manufacturing, and logistics. The company is committed to helping clients achieve dependable performance, operational efficiency, and cost savings while preparing for future challenges. To learn more, visit https://masteraire.com. Role Description The Order Fulfillment & Operations Coordinator is a full-time, on-site position based in Richmond Hill, ON. This is an entry-level role primarily responsible for coordinating order fulfillment, shipment processing, inventory updates, and the documentation associated with outgoing orders. The position plays an important role in ensuring that customer orders and parts shipments are processed accurately, documented correctly, and coordinated efficiently from order confirmation through dispatch. This is a diverse operational position that requires strong attention to detail, adaptability, and the ability to learn new systems and processes quickly. Although order fulfillment will be the primary responsibility, the position will also provide support to logistics, sales, customer support, and other operational departments as required. Qualifications \u2022 Strong organizational skills and attention to detail. \u2022 Ability to accurately review orders, inventory information, shipment documentation, and product details. \u2022 Ability to learn new processes, technologies, and software systems quickly. \u2022 Strong computer skills and general comfort working with technology. \u2022 Proficiency with Microsoft Office or similar productivity software. \u2022 Experience with inventory management systems, CRM platforms, ERP systems, shipping software, or similar business applications is an asset but not required. \u2022 Strong written and verbal communication skills. \u2022 Comfortable communicating professionally over the phone. \u2022 Ability to work effectively in a fast-paced environment with changing priorities. \u2022 Ability to manage multiple responsibilities and deadlines simultaneously. \u2022 Self-motivated and capable of working independently with minimal supervision. \u2022 Strong sense of ownership, accountability, and follow-through. \u2022 Hardworking, dependable, reliable, and punctual. \u2022 Strong problem-solving skills and willingness to take initiative when issues arise. \u2022 Adaptable and versatile, with the ability to support different departments and take on new responsibilities as required. \u2022 Ability to work independently while contributing effectively within a collaborative team environment. \u2022 Previous experience in order fulfillment, shipping, logistics, inventory management, administration, customer support, or general business operations is an asset but not required. \u2022 Post-secondary education in Business, Operations, Supply Chain, Logistics, or a related field is an asset, but equivalent skills and practical experience will also be considered. \u2022 The position is well suited to an individual at the beginning of their career who demonstrates strong learning ability, initiative, attention to detail, and the capacity to become increasingly independent as familiarity with Master Power's systems and operations develops."
+  },
+  {
+   "id": "jsearch:dzNpdTRweTZDS0U3LUh5dUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURzFNVFdnMk9WRnpPRXhITlUwMVRHMXBOa2xSU3pSV1QxaHZWMFIxWTNKSE1XaG1Rek00UTBNMFVVNUZRM0puWm1VMFlsWnlOamszTURNNFNFSlhPWEZQYldKU2JVOWlPRlJoYkdwM1JtSlZVazF4Ym1kWFRHcFpXRUZ6ZDNCblprdFJURVZ2VFhBdE5GQkdWMkpIVFdJdFN6STRWSFI2WWxCUmNXeGFWazF1TTB0aU4zUVNGMXA2UkdSaGMzbzJTWE5UZG1sTVRWQm5aV3BUTWxGdkdpSkJSSE55T1daVGJuWm9ZMlJTV0hOaGFGbFNaVmRGYW5ORFZsZHNTekpWVWtSMw",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Yard Operations Coordinator \u2014 Equipment & Dispatch",
+   "company": "Purolator",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/yard-operations-coordinator-equipment-dispatch--toronto--e2c11f2b5cdbe2faf5e3e83a6aaecbd3b",
+   "posted": "2026-10-18T00:00:00+00:00",
+   "salary": "",
+   "description": "Purolator is seeking an Operations Coordinator for the Hub Yard in Etobicoke, ON. The role supports the yard by completing checks, assigning equipment to runs, and maintaining clear communication with Ground Linehaul and the Hub Control Room. English proficiency is required for frequent interactions with stakeholders. Hours: 5:00PM\u20131:00AM, Monday to Friday. Four vacancies. Office, outdoor and warehouse environments. Purolator is an equal opportunity employer."
+  },
+  {
+   "id": "jsearch:dk91QUhmMmN1M2FZZk1UZUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMlJJUmxkUmJuRkNPRnBXZVdGamVFb3hWUzA1TW5ReFgzWnpabUZyWlVNMlRsWnJXWEZDT0RWSU5VeDNiM0JNZUdSV1RrZFZabU5UTjBkaExWTnlUVVp1YldoZlVIWlBhSEJHVTFkc2JtbDZWbGRvYVhCRExWcFVNblZGU1VGTmR6aGxRMmhqWVVwd2FscFVVVVV5UmpCZmNrbEZjMXBXYlhCNGJtVktOa2hWZWtadVZIWVNGMXA2UkdSaGMzbzJTWE5UZG1sTVRWQm5aV3BUTWxGdkdpSkJSSE55T1daVFRsZGtTbVJmTkVkclZGaHViRzF3YjJGTFFrWTBXR1pRYlRGbg",
+   "source": "jsearch",
+   "publisher": "Kuoni Tumlare",
+   "title": "Operations Coordinator",
+   "company": "Kuoni Tumlare",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://careers.kuonitumlare.com/o/operations-coordinator-17",
+   "posted": "2026-10-18T00:00:00+00:00",
+   "salary": "",
+   "description": "About Kuoni Tumlare At Kuoni Tumlare, we design and deliver exceptional travel experiences through a comprehensive portfolio of destination management solutions. With over 100 years of expertise, we serve a global network of partners by offering series tours, educational trips, MICE events, guaranteed departure tours, and more. Our marketplace strategy is at the forefront of digital transformation, ensuring a competitive edge in a rapidly evolving travel landscape The Job: The Operations Coordinator supports the smooth operation of group tours by managing service arrangements, coordinating with suppliers, and working closely with the Operations Leader and Sales Offices. This role requires strong attention to detail, independence, and effective communication to ensure high-quality service delivery and client satisfaction. Key Activities \u2022 Manage tour inquiries and plan group itineraries in coordination with Sales Offices and the Operations Leader, ensuring alignment with client needs, destination specifics, and budget \u2022 Coordinate, confirm, and maintain communication with local suppliers to ensure reliable delivery of land services such as hotels, meals, guides, and transport. \u2022 Support tour operations on the ground, including handling last-minute changes or service adjustments. \u2022 Communicate proactively with the Operations Leader regarding potential issues or disruptions. \u2022 Provide logistical and accounting support before and after tour departures, including document preparation and coordination. \u2022 Assist with seasonal preparations and administrative support for upcoming tours. \u2022 Strong organizational skills and attention to detail. \u2022 Good knowledge of the assigned destination. \u2022 Experience in travel coordination, tour operations, or similar tourism roles. \u2022 Ability to manage multiple bookings and deadlines efficiently. \u2022 Strong communication and teamwork skills. \u2022 Able to work independently and solve problems under pressure. \u2022 Fluency in English; other languages are a plus. What We Offer: \u2022 Global Brand: Opportunity to work in an international environment spread across 33 countries and growing. \u2022 Stability: 100 Years at the top of our field and still pushing into new territory \u2022 Progression: We reward high performers and look to promote key talent internally \u2022 Learning and Development opportunities for growth and Upskilling \u2022 A Supportive Management Culture and autonomous working environment \u2022 Company Wide Bonus Scheme \u2022 Dedicated Employee Engagement Activities \u2022 Flexible & Hybrid Working \u2022 Annual Awards and Recognition for high Performers \u2022 Friendly and Collaborative work environment"
+  },
+  {
+   "id": "builtin:11849075",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Strategic Communications Specialist",
+   "company": "Kepler Communications",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/strategic-communications-specialist/11849075",
+   "posted": null,
+   "salary": "",
+   "description": "Strategic Communications Specialist - Kepler Communications | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Kepler Communications Jobs Strategic Communications Specialist Kepler Communications Strategic Communications Specialist Posted Yesterday Be an Early Applicant Hybrid Toronto, ON, CAN Mid level Hybrid Toronto, ON, CAN Mid level Develop and execute strategic communications supporting brand, business, customer, and talent objectives. Create content across websites, newsletters, social media, presentations, advertising, internal communications, and announcements. Translate complex technical information into compelling narratives, manage social media strategy and analytics, support public relations and employer branding, and coordinate communications projects with leaders, technical experts, designers, and external partners. The summary above was generated by AI At Kepler Communications, we're not just imagining the future of on-demand space connectivity - we're leading it! Our mission is to provide real-time on-orbit connectivity for critical missions, enabling a new era of data-driven intelligence and innovation. With 33 satellites launched to date, Kepler operates the first commercial optical data relay constellation, enabling real-time, continuous space communications while supporting advanced on-orbit compute and hosted payload capabilities. Industry-leading technology is only part of the story. What sets Kepler apart is our team: bold thinkers, skilled builders, and passionate problem-solvers who thrive on pushing the boundaries of what\u2019s possible in space. We believe great ideas come from diverse perspectives, and we\u2019re committed to creating an environment where you can grow, lead, and make a global impact. If you\u2019re ready to reach higher, move faster, and do work that shapes the future space economy - this is your launchpad. Come build the future with Kepler! What We Offer: * Competitive compensation with a robust equity plan to share in our success. * Comprehensive coverage for health, dental, and vision insurance \u2014including dependents. * Unlimited vacation, supportive parental leave policy, and company-wide holiday shutdown. * Semi-annual company-wide parties and frequent in-office team events. * Relocation packages available for approved roles. * $1,500 annual professional development fund to support your growth. * Fully stocked Toronto office kitchen with snacks, drinks, games and top-notch kitchen appliances. * Town Halls, Celebration Calls, and Company-wide events to stay connected and engaged. * We\u2019re a certified Great Place to Work \u00ae, seven years in a row! Kepler is looking for a Strategic Communications Specialist to develop integrated communications that strengthen our brand, support business priorities, and bring our mission and technology to life. The ideal candidate is an exceptional writer and communications strategist who can translate complex technical concepts into clear, engaging content for diverse audiences. Working across teams and company leadership, you will manage communications projects from concept through publication and performance analysis. This is a hybrid role based in Toronto , with on-site support required for customer visits, filming, photography, employee events, and other marketing activities. Key Responsibilities: Develop and execute communications plans that support Kepler\u2019s business, brand, customer, and talent objectives Crea"
+  }
+ ]
+}
