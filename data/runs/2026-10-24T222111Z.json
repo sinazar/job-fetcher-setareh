@@ -1,0 +1,340 @@
+{
+ "run_id": "2026-10-24T222111Z",
+ "run_at": "2026-10-24T22:21:11.893537+00:00",
+ "date": "2026-10-24",
+ "source_counts_after_filters": {
+  "jsearch": 3,
+  "remoteok": 0,
+  "weworkremotely": 0,
+  "adzuna": 0,
+  "builtin": 0
+ },
+ "new_count": 0,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 7
+   },
+   "rejected_samples": [
+    "[title] Marketing & Digital Marketing Manager | CHAINSMOKER urban barbecue | Toronto, ON, Canada | 2026-10-23T00:00:00+00:00",
+    "[title] Marketing Manager - Retail & Brand | La Ros\u00e9e | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
+    "[title] Charg\u00e9 marketing publicit\u00e9 F/H | Augusta Fruit Market | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
+    "[title] Associate Shopper Marketing Manager | Mondel\u0113z International | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Retail Marketing Manager | UNIQLO | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
+    "[title] Marketing, Programs & Events Coordinator | Rosedale United Church & The Rosedale Centre | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Brand Coordinator, Beauty Division | ACI Brands Inc. | Oakville, ON, Canada | 2026-10-23T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: CRM coordinator marketing operations onboarding in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "CRM coordinator marketing operations onboarding in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: operations coordinator project coordinator in Toronto, ON (ca)": {
+   "returned": 3,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 3
+   },
+   "rejected_samples": [
+    "[title] Field Engineer/Coordinator | Kiewit | Oshawa, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Project Manager - Facilities Management and Operations | Black & McDonald Limited | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Project Manager, Quality, Operations | MNP | Mississauga, ON, Canada | 2026-10-22T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "operations coordinator project coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    3
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 8,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "location": 2,
+    "title": 6
+   },
+   "rejected_samples": [
+    "[location] Marketing Coordinator \u2013 Western Canada | O'Dell HVAC Group | Canada   (+30 others) | 2026-10-22T00:00:00+00:00",
+    "[title] Lifecycle Marketing Manager | Felix | Canada   (+30 others) | 2026-10-22T00:00:00+00:00",
+    "[title] Associate Shopper Marketing Manager | Mondel\u0113z International | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Web Marketing Manager | Jane App | Canada   (+30 others) | 2026-10-21T00:00:00+00:00",
+    "[location] Remote Email Marketing Coordinator \u00e2\u20ac\u201c Work on Your Own Time | The Elite Job | India (Remote) | 2026-10-22T00:00:00+00:00",
+    "[title] Growth Marketing Manager (eCommerce &amp; Amazon &#8211; Canada/US) | Real Mushrooms |  | 2026-10-21T00:00:00+00:00",
+    "[title] Junior Media Buyer | KittySpout | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Field Marketing Manager ONLY W2 | JobQuick | Nigeria | 2026-10-21T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    8
+   ]
+  },
+  "weworkremotely": {
+   "returned": 194,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 191,
+    "too old": 2,
+    "location": 1
+   },
+   "rejected_samples": [
+    "[title] Federal Account Manager, Combatant Commands | BeyondTrust | Anywhere in the World (Remote) | 2026-10-24T07:31:03+00:00",
+    "[title] Head of Content and Editorial | OnTheGoSystems | Anywhere in the World (Remote) | 2026-10-23T09:48:36+00:00",
+    "[title] Strategic Account Executive | Checkr | Anywhere in the World (Remote) | 2026-10-23T07:31:21+00:00",
+    "[title] Partner Manager - USA | Storyblok | Anywhere in the World (Remote) | 2026-10-23T07:31:21+00:00",
+    "[title] Enterprise Account Manager, SLED | BeyondTrust | Anywhere in the World (Remote) | 2026-10-23T07:31:06+00:00",
+    "[title] Integrated Marketing Lead, UCAN Programming & Industry | Pinterest | Anywhere in the World (Remote) | 2026-10-23T07:31:06+00:00",
+    "[title] Brand Partnerships Lead | Pinterest | Anywhere in the World (Remote) | 2026-10-23T07:31:03+00:00",
+    "[title] Creative Director - Brand Narrative | Mercury | Anywhere in the World (Remote) | 2026-10-22T07:31:25+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 10
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 10
+  },
+  "builtin job pages": {
+   "returned": 20,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 20
+   },
+   "rejected_samples": [
+    "[title] Director of Growth",
+    "[title] Associate Shopper Marketing Manager",
+    "[title] Senior Strategic Planner",
+    "[title] Manager, Government Relations",
+    "[title] Online Supervisor - Global News Toronto",
+    "[title] Strategic Communications Specialist",
+    "[title] Associate Account Director",
+    "[title] Lead, Integrated Campaigns and Activations"
+   ]
+  }
+ },
+ "jobs": []
+}

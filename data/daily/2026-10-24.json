@@ -1,11 +1,12 @@
 {
- "run_at": "2026-10-24T22:18:30.560809+00:00",
+ "run_at": "2026-10-24T22:21:11.893537+00:00",
  "date": "2026-10-24",
  "runs": [
-  "2026-10-24T221830Z"
+  "2026-10-24T221830Z",
+  "2026-10-24T222111Z"
  ],
  "source_counts_after_filters": {
-  "jsearch": 5,
+  "jsearch": 3,
   "remoteok": 0,
   "weworkremotely": 0,
   "adzuna": 0,
@@ -15,18 +16,19 @@
  "diagnostics": {
   "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
    "returned": 10,
-   "kept": 4,
+   "kept": 3,
    "error": null,
    "rejected_by": {
-    "title": 6
+    "title": 7
    },
    "rejected_samples": [
+    "[title] Marketing & Digital Marketing Manager | CHAINSMOKER urban barbecue | Toronto, ON, Canada | 2026-10-23T00:00:00+00:00",
     "[title] Marketing Manager - Retail & Brand | La Ros\u00e9e | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
     "[title] Charg\u00e9 marketing publicit\u00e9 F/H | Augusta Fruit Market | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
-    "[title] Marketing, Programs & Events Coordinator | Rosedale United Church & The Rosedale Centre | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Associate Shopper Marketing Manager | Mondel\u0113z International | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
     "[title] Retail Marketing Manager | UNIQLO | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
-    "[title] Brand Coordinator, Beauty Division | ACI Brands Inc. | Oakville, ON, Canada | 2026-10-23T00:00:00+00:00",
-    "[title] Manager of Marketing | Food Banks Canada | Banques alimentaires Canada | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00"
+    "[title] Marketing, Programs & Events Coordinator | Rosedale United Church & The Rosedale Centre | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Brand Coordinator, Beauty Division | ACI Brands Inc. | Oakville, ON, Canada | 2026-10-23T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -91,7 +93,7 @@
     10
    ]
   },
-  "jsearch: CRM coordinator OR marketing operations coordinator OR client onboarding specialist in Toronto, ON (ca)": {
+  "jsearch: CRM coordinator marketing operations onboarding in Toronto, ON (ca)": {
    "returned": 0,
    "kept": 0,
    "error": null,
@@ -109,7 +111,7 @@
      "cursor"
     ],
     "parameters": {
-     "query": "CRM coordinator OR marketing operations coordinator OR client onboarding specialist in Toronto, ON",
+     "query": "CRM coordinator marketing operations onboarding in Toronto, ON",
      "num_pages": 1,
      "date_posted": "3days",
      "employment_types": [
@@ -124,16 +126,17 @@
     0
    ]
   },
-  "jsearch: operations coordinator OR project coordinator in Toronto, ON (ca)": {
+  "jsearch: operations coordinator project coordinator in Toronto, ON (ca)": {
    "returned": 3,
-   "kept": 1,
+   "kept": 0,
    "error": null,
    "rejected_by": {
-    "title": 2
+    "title": 3
    },
    "rejected_samples": [
-    "[title] Project Administrator, Quality, Operations | MNP | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
-    "[title] Event Operations Logistics Coordinator | Encore | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00"
+    "[title] Field Engineer/Coordinator | Kiewit | Oshawa, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Project Manager - Facilities Management and Operations | Black & McDonald Limited | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Project Manager, Quality, Operations | MNP | Mississauga, ON, Canada | 2026-10-22T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -147,7 +150,7 @@
      "cursor"
     ],
     "parameters": {
-     "query": "operations coordinator OR project coordinator in Toronto, ON",
+     "query": "operations coordinator project coordinator in Toronto, ON",
      "num_pages": 1,
      "date_posted": "3days",
      "employment_types": [
@@ -198,15 +201,23 @@
     3
    ]
   },
-  "jsearch: remote marketing coordinator OR remote CRM coordinator Canada (ca)": {
-   "returned": 1,
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 8,
    "kept": 0,
    "error": null,
    "rejected_by": {
-    "location": 1
+    "location": 2,
+    "title": 6
    },
    "rejected_samples": [
-    "[location] [Remote] CRM & Marketing Coordinator | HireQuest | Brazil (Remote) | 2026-10-22T00:00:00+00:00"
+    "[location] Marketing Coordinator \u2013 Western Canada | O'Dell HVAC Group | Canada   (+30 others) | 2026-10-22T00:00:00+00:00",
+    "[title] Lifecycle Marketing Manager | Felix | Canada   (+30 others) | 2026-10-22T00:00:00+00:00",
+    "[title] Associate Shopper Marketing Manager | Mondel\u0113z International | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Web Marketing Manager | Jane App | Canada   (+30 others) | 2026-10-21T00:00:00+00:00",
+    "[location] Remote Email Marketing Coordinator \u00e2\u20ac\u201c Work on Your Own Time | The Elite Job | India (Remote) | 2026-10-22T00:00:00+00:00",
+    "[title] Growth Marketing Manager (eCommerce &amp; Amazon &#8211; Canada/US) | Real Mushrooms |  | 2026-10-21T00:00:00+00:00",
+    "[title] Junior Media Buyer | KittySpout | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Field Marketing Manager ONLY W2 | JobQuick | Nigeria | 2026-10-21T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -220,7 +231,7 @@
      "cursor"
     ],
     "parameters": {
-     "query": "remote marketing coordinator OR remote CRM coordinator Canada",
+     "query": "remote marketing coordinator Canada",
      "num_pages": 1,
      "date_posted": "3days",
      "employment_types": [
@@ -268,7 +279,7 @@
     ]
    },
    "pages": [
-    1
+    8
    ]
   },
   "weworkremotely": {
