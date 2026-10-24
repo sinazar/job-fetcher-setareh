@@ -25,13 +25,14 @@ JSEARCH_DATE_POSTED = "3days"   # today | 3days | week | month | all
 JSEARCH_QUERIES = [
     # (query, country code, remote_only, pages)
     ("marketing coordinator OR marketing specialist in Toronto, ON", "ca", False, 1),
-    ("CRM coordinator OR marketing operations coordinator OR client onboarding specialist "
-     "in Toronto, ON", "ca", False, 1),
-    ("operations coordinator OR project coordinator in Toronto, ON", "ca", False, 1),
+    # Stacking three titles with OR returned 0 results on the first test run,
+    # so these use plain keyword phrasing instead.
+    ("CRM coordinator marketing operations onboarding in Toronto, ON", "ca", False, 1),
+    ("operations coordinator project coordinator in Toronto, ON", "ca", False, 1),
     # Remote within Canada. "remote" goes in the query text rather than the
     # work_from_home flag, which returns worldwide spam; the location filter
     # below drops anything that isn't Canada-remote or GTA.
-    ("remote marketing coordinator OR remote CRM coordinator Canada", "ca", False, 1),
+    ("remote marketing coordinator Canada", "ca", False, 1),
 ]
 
 # ---------------------------------------------------------------------------
