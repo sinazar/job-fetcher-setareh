@@ -19,16 +19,19 @@ Location: GTA on-site or hybrid, or remote within Canada.
 # ~= 120/month on the free BASIC plan (200/month), leaving ~80 for re-runs.
 # ---------------------------------------------------------------------------
 JSEARCH_URL = "https://jsearch.p.rapidapi.com/search-v2"
-JSEARCH_DATE_POSTED = "3days"   # today | 3days | week | month | all
-                                # Seen-job tracking means a role is only ever reported once.
+JSEARCH_DATE_POSTED = "week"    # today | 3days | week | month | all
+                                # "3days" returned 0-3 results for most of her queries on the first
+                                # test runs. Seen-job tracking means a role is only ever reported once.
 
 JSEARCH_QUERIES = [
     # (query, country code, remote_only, pages)
     ("marketing coordinator OR marketing specialist in Toronto, ON", "ca", False, 1),
-    # Stacking three titles with OR returned 0 results on the first test run,
-    # so these use plain keyword phrasing instead.
-    ("CRM coordinator marketing operations onboarding in Toronto, ON", "ca", False, 1),
-    ("operations coordinator project coordinator in Toronto, ON", "ca", False, 1),
+    # Stacking several titles in one query returned 0 results on the test runs
+    # (with or without OR), so queries 2-4 use one common title each. The title
+    # filter below still keeps marketing ops, onboarding and project coordinator
+    # roles that JSearch returns for them.
+    ("CRM specialist in Toronto, ON", "ca", False, 1),
+    ("operations coordinator in Toronto, ON", "ca", False, 1),
     # Remote within Canada. "remote" goes in the query text rather than the
     # work_from_home flag, which returns worldwide spam; the location filter
     # below drops anything that isn't Canada-remote or GTA.
@@ -82,7 +85,7 @@ _FUNCTIONS = [
     "marketing", "digital marketing", "marketing operations", "marketing automation",
     "crm", "hubspot", "onboarding", "client onboarding", "customer onboarding",
     "operations", "customer success", "client success", "revenue operations", "revops",
-    "sales operations", "content", "social media", "campaign",
+    "sales operations", "content", "social media", "campaign", "brand", "communications",
 ]
 _LEVELS = ["coordinator", "specialist", "associate"]
 
@@ -123,6 +126,9 @@ GTA_KEYWORDS = [
     "richmond hill", "thornhill", "aurora", "newmarket", "stouffville", "king city",
     "oakville", "burlington", "milton", "halton hills", "georgetown",
     "pickering", "ajax", "whitby", "oshawa", "gta",
+    # JSearch multi-location postings ("Canada (+30 others)") don't list their
+    # cities; let them through and let Claude check the posting's locations.
+    "others)",
 ]
 
 REMOTE_KEYWORDS = ["remote", "anywhere", "work from home", "distributed"]
