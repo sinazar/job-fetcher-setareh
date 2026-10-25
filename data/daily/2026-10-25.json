@@ -1,0 +1,367 @@
+{
+ "run_at": "2026-10-25T10:04:35.811566+00:00",
+ "date": "2026-10-25",
+ "runs": [
+  "2026-10-25T100435Z"
+ ],
+ "source_counts_after_filters": {
+  "jsearch": 8,
+  "remoteok": 0,
+  "weworkremotely": 0,
+  "adzuna": 0,
+  "builtin": 0
+ },
+ "new_count": 2,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 5,
+   "error": null,
+   "rejected_by": {
+    "title": 5
+   },
+   "rejected_samples": [
+    "[title] Marketing & Digital Marketing Manager | CHAINSMOKER urban barbecue | Toronto, ON, Canada | 2026-10-23T00:00:00+00:00",
+    "[title] Integrated Marketing Manager Toronto Headquarters | trabajo ca | Ontario, Canada | 2026-10-24T00:00:00+00:00",
+    "[title] Charg\u00e9 marketing publicit\u00e9 F/H | Augusta Fruit Market | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Associate Shopper Marketing Manager | Mondel\u0113z International | Toronto, ON, Canada | 2026-10-23T00:00:00+00:00",
+    "[title] Retail Marketing Manager | UNIQLO | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 8
+   },
+   "rejected_samples": [
+    "[title] Product Operations Manager - GTA | Indigo | Toronto, ON, Canada | 2026-10-19T00:00:00+00:00",
+    "[title] Operations Manager \u2013 Security Services | Onyx Guard Services Inc. | Toronto, ON, Canada | 2026-10-23T00:00:00+00:00",
+    "[title] Store Operations Leader | Healthy Planet | Toronto, ON, Canada | 2026-10-19T00:00:00+00:00",
+    "[title] Revenue Operations Manager (OTE: upto 120k) | BoomerangFX | Mississauga, ON, Canada | 2026-10-18T00:00:00+00:00",
+    "[title] Rooms Operations Manager - Front Office | Sheraton Toronto Airport Hotel and Conference Centre | Ontario, Canada | 2026-10-21T00:00:00+00:00",
+    "[title] Operations Analyst | Adecco | Markham, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Manager, Product Operations | The Logic | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Manager Operations \u2013 DS National Credit | RBC | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 6,
+    "aggregator": 1,
+    "location": 2
+   },
+   "rejected_samples": [
+    "[title] Sales Marketing Manager | AccessE11 | Canada | 2026-10-21T00:00:00+00:00",
+    "[title] Web Marketing Manager | Jane App | Canada   (+30 others) | 2026-10-22T00:00:00+00:00",
+    "[aggregator] Social Media Marketing Manager | Jobgether |  | 2026-10-20T00:00:00+00:00",
+    "[title] Growth & Field Marketing Leader - Video, Events & Brand | MediaCareers | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
+    "[location] Digital Marketing Project Manager | Missoula SEO Geek | Canada | 2026-10-19T00:00:00+00:00",
+    "[title] Remote Field Marketing Leader - NA Growth & ABM | SmartRecruiters, Inc. | Canada (Remote) | 2026-10-21T00:00:00+00:00",
+    "[title] Senior B2B Marketing Strategist - Remote AI-Driven Growth | Lever, Inc. | Canada (Remote) | 2026-10-19T00:00:00+00:00",
+    "[title] Social Media Manager - TikTok & Instagram | KittySpout | Toronto, ON, Canada | 2026-10-23T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 194,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 191,
+    "too old": 2,
+    "location": 1
+   },
+   "rejected_samples": [
+    "[title] Enterprise Account Executive, Federal Civilian | Databricks | Anywhere in the World (Remote) | 2026-10-25T07:30:54+00:00",
+    "[title] Senior Advertising Account Executive | 6sense | Anywhere in the World (Remote) | 2026-10-25T07:30:54+00:00",
+    "[title] Account Executive, Commercial ( West) | Samsara | Anywhere in the World (Remote) | 2026-10-25T07:30:48+00:00",
+    "[title] Senior Account Executive | 6sense | Anywhere in the World (Remote) | 2026-10-25T07:30:46+00:00",
+    "[title] AI Developer Experience Engineer | PlanetScale | Anywhere in the World (Remote) | 2026-10-25T07:30:46+00:00",
+    "[title] Senior Director, Sales | Tebra | Anywhere in the World (Remote) | 2026-10-25T07:30:46+00:00",
+    "[title] Account Executive, Commercial - Mexico | Samsara | Anywhere in the World (Remote) | 2026-10-25T07:30:46+00:00",
+    "[title] Federal Account Manager, Combatant Commands | BeyondTrust | Anywhere in the World (Remote) | 2026-10-24T07:31:03+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 0
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 2
+  },
+  "builtin job pages": {
+   "returned": 2,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 2
+   },
+   "rejected_samples": [
+    "[title] Associate Director, Business Development & Marketing Operations (Remote)",
+    "[title] Staff Site Reliability Operations"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:cVp1RDFXZXBYMV9ES2NpV0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURzV5YlhFeGNWVnZRVGR1T1hsT1ZFZHhPVVJrU0ZKRkxYbERhMGw2WkZZdE5uUlpPWE13Y0U0M05uaHFkV3MyVldaa2VGVlhaelkzTFc5ME1qTmtMWEJMTWtkdVJFbE9VM2MxVUZGQlJGTlFZekJ6TlVOemRtODFhRzR0ZDJSWlgyVjVTVEExUXpWeVJYQlFWRzlTUkRkcU9FdHRMV2RwWVc1TWFUQlViRkZxYTNCdU1YQVNGMDVPVkdSaGN6TlZTazVQYW1sTVRWQjVkbmx5YzBGVkdpSkJSSE55T1daU1dFcElWVVZyYVdSYVpEUk5UR293TVcxdFRVSm9SM3BvTFVwbg",
+   "source": "jsearch",
+   "publisher": "Isarta",
+   "title": "Creative Marketing Coordinator",
+   "company": "The Feldman Agency",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://isarta.com/emplois/?job=122189",
+   "posted": "2026-10-22T00:00:00+00:00",
+   "salary": "",
+   "description": "Creative Marketing Coordinator The Feldman Agency (TFA) Location: Toronto, ON | Full-Time | In-Office Salary: $50,000-$70,000 CAD annually, depending on experience and qualifications About TFA The Feldman Agency is one of Canada's leading live entertainment agencies, representing a diverse roster of artists and working with promoters, festivals, casinos, theatres and venues across North America. Our business spans artist representation, talent buying, concert promotion and live event programming. The Opportunity We're looking for a hands-on Creative Marketing Coordinator who enjoys creating content, executing campaigns and seeing projects through from concept to completion. This is an active, production-focused role for someone who can design compelling graphics, edit engaging videos, execute digital marketing campaigns and create promotional materials for concerts, tours, venues and represented artists. You'll work across multiple projects in a fast-paced live entertainment environment, helping connect artists and events with audiences across Canada. We're looking for someone who enjoys doing the work-not simply overseeing it. You should be comfortable working directly in creative and marketing platforms, managing your own deliverables and producing quality work under tight deadlines. What You'll Be Doing Graphic Design & Creative Production \u2022 Create and adapt concert posters, show artwork, digital advertisements, social media graphics and artist promotional materials. \u2022 Produce creative assets for concert announcements, ticket on-sales, tours and venue marketing campaigns. \u2022 Resize, format and prepare artwork for different digital platforms and advertising specifications. \u2022 Maintain consistent branding and attention to detail across all creative materials. Video & Social Media Content \u2022 Edit short-form promotional videos, concert clips, artist reels and social media content. \u2022 Create engaging content for Instagram, Facebook, TikTok, YouTube and other platforms. \u2022 Write captions, schedule posts and maintain social media content calendars. \u2022 Assist with capturing photo and video content at concerts and live events. Digital Marketing Execution \u2022 Build and support digital advertising campaigns through Meta Ads and Google Ads. \u2022 Develop advertising creative and assist with audience targeting by market, genre and fan interests. \u2022 Execute marketing activities supporting concert ticket sales, artist promotion and venue awareness. \u2022 Monitor campaign performance and make recommendations for improvements. Email Marketing & Artist Promotion \u2022 Design, build and schedule email marketing campaigns, including concert announcements, newsletters and artist mailers. \u2022 Create promotional materials showcasing TFA's roster to promoters, festivals, talent buyers and industry partners. \u2022 Maintain email lists, marketing assets and campaign materials. Campaign Coordination \u2022 Manage assigned projects, creative deliverables and deadlines from start to finish. \u2022 Work with internal teams and external partners to gather information, assets and approvals. \u2022 Track campaign results, including engagement, advertising performance and ticket sales trends. \u2022 Support multiple simultaneous campaigns while maintaining accuracy and meeting deadlines. What We're Looking For Strong graphic design and video editing skills, supported by a portfolio of completed work. \u2022 Proficiency in Adobe Creative Cloud, particularly Photoshop, Illustrator and Premiere Pro, as well as Canva or comparable creative software. \u2022 Experience creating content for social media and digital advertising. \u2022 Working knowledge of Meta Ads Manager, Google Ads and digital marketing fundamentals. \u2022 Experience using email marketing platforms such as Hive, Mailchimp or similar. \u2022 Strong writing and proofreading skills. \u2022 Excellent organization, attention to detail and the ability to manage multiple deadlines. \u2022 Comfortable working independently, taking initiative and following projects through to complet"
+  },
+  {
+   "id": "jsearch:RkJWWUVoQTZxRzA1ZDg0TEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTME0zTjBsRVdXVldSa2RRYTFSNFYweExkVGRqTTNCcmFXRTRZekJXVGpOMVZEUkNaR2hUVUVoU05WTmtUVk0xV0RkaWVrMXhiRmMwZFU1SWVsTkZVMGc1VlhORE1ISktOek5mYTJSb05sRnZTRWgxUkVKdllYcFlkVXh4YjBsNmIyRlFjM280ZWtWTlp6aFVSMGRVZEVKRWVtNVZhekl6TUhCVGNsQldjbmRmV0hCamJVSVNGMUE1VkdSaGNHcE9Samx5VXpGelVWQXdTWEpUWjFFMEdpSkJSSE55T1daVE5rOTFUR3hzTW1GUWJYVTBTVzFWZGs1clEwRlhWMlJUVnpoMw",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Ecommerce Operations Associate (Entry-Level)",
+   "company": "Online Sale Distributions",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.indeed.com/viewjob?jk=8418ed58a0f23c74",
+   "posted": "2026-10-19T00:00:00+00:00",
+   "salary": "",
+   "description": "About the role We run a growing online store with a small team of 3 to 4 people in Midtown. We\u2019re looking for a sharp recent grad to run the operations behind it: inventory, suppliers, orders, and customers. You\u2019ll own real problems from week one and work directly alongside the people making the decisions. If you like figuring out how things work and then making them work better, this is a great first job. What you\u2019ll do \u2022 Own inventory and purchasing: Track stock across our sales channels and fulfillment partners, spot shortages before they happen, prepare purchase orders, and reconcile incoming shipments against what we ordered. \u2022 Manage suppliers and fulfillment partners: Be the point person for availability, timelines, and delivery issues. Chase down delays, lost or damaged shipments, and returns, and keep clear records of everything outstanding. \u2022 Look after our customers: Handle support tickets and phone calls, investigate order issues, and find practical solutions. \u2022 Keep the business accurate: Make sure product information, pricing, and availability are right everywhere, and catch discrepancies before customers do. \u2022 Find and fix problems: Notice recurring issues, work out the root cause, and escalate what needs escalating. Who you are \u2022 You\u2019ve recently graduated, or are about to, with a bachelor\u2019s degree in math, statistics, science, engineering, business, commerce, economics, or a related field, with a strong academic record. \u2022 You\u2019re comfortable with numbers and quick to spot when something doesn\u2019t add up. \u2022 You\u2019re a self-starter who follows things through to resolution without being reminded. \u2022 You communicate clearly in writing and on the phone. \u2022 You pick things up fast and like variety. No ecommerce or operations experience needed. We\u2019ll teach you the tools, the systems, and the industry. We hire for judgment and learning speed. What you\u2019ll get \u2022 Direct access to decision-makers and real ownership from day one \u2022 Hands-on experience across purchasing, supply chain, and customer experience in a single role Why Join Us You will work directly with decision-makers in a small, collaborative team where your contributions have a tangible impact on the business. This is an opportunity to gain hands-on experience across multiple areas of ecommerce, take ownership of your responsibilities, and develop your skills in inventory management, supplier coordination, customer support, and online retail operations. Work Location: In person \u2013 Midtown, Toronto Work Location: In person Pay: $18.00-$23.00 per hour Work Location: In person"
+  }
+ ]
+}
