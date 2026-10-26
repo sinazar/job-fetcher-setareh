@@ -1,0 +1,461 @@
+{
+ "run_id": "2026-10-26T112810Z",
+ "run_at": "2026-10-26T11:28:10.333731+00:00",
+ "date": "2026-10-26",
+ "source_counts_after_filters": {
+  "jsearch": 11,
+  "remoteok": 0,
+  "weworkremotely": 0,
+  "adzuna": 0,
+  "builtin": 1
+ },
+ "new_count": 9,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 7,
+   "error": null,
+   "rejected_by": {
+    "too old": 1,
+    "title": 2
+   },
+   "rejected_samples": [
+    "[too old] Content Marketing Coordinator | Movable Ink | Toronto, ON, Canada | 2026-10-19T00:00:00+00:00",
+    "[title] Integrated Marketing Manager Toronto Headquarters | trabajo ca | Ontario, Canada | 2026-10-24T00:00:00+00:00",
+    "[title] Associate Shopper Marketing Manager | Mondel\u0113z International | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "too old": 1,
+    "title": 7
+   },
+   "rejected_samples": [
+    "[too old] Ecommerce Operations Associate (Entry-Level) | Online Sale Distributions | Toronto, ON, Canada | 2026-10-19T00:00:00+00:00",
+    "[title] Senior Operations Manager | SP Plus Corporation Canada | Toronto, ON, Canada | 2026-10-19T00:00:00+00:00",
+    "[title] Product Operations Manager - GTA | Indigo | Toronto, ON, Canada | 2026-10-19T00:00:00+00:00",
+    "[title] Operations Manager \u2013 Security Services | Onyx Guard Services Inc. | Toronto, ON, Canada | 2026-10-23T00:00:00+00:00",
+    "[title] Store Operations Leader | Healthy Planet | Toronto, ON, Canada | 2026-10-19T00:00:00+00:00",
+    "[title] Senior Operations Analyst | Royal Bank of Canada | Toronto, ON, Canada | 2026-10-23T00:00:00+00:00",
+    "[title] Operations Analyst | Adecco | Markham, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Delivery Operations Analyst | Cohere | Toronto, ON, Canada | 2026-10-19T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 7,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[title] Marketing Manager / FOH Specialist | Sutton Food Solutions 2025 Inc | Nova Scotia, Canada | 2026-10-23T00:00:00+00:00",
+    "[title] Sales Marketing Manager | AccessE11 | Canada | 2026-10-21T00:00:00+00:00",
+    "[title] Customer Marketing Manager (Remote Canada) | Directive Consulting | Calgary, AB   (+4 others) (Remote) | 2026-10-22T00:00:00+00:00",
+    "[title] Marketing Manager - EdTech (French fluent ) | Paradox | Canada | 2026-10-21T00:00:00+00:00",
+    "[title] Web Marketing Manager | Jane App | Canada   (+30 others) | 2026-10-22T00:00:00+00:00",
+    "[aggregator] Social Media Marketing Manager | Jobgether |  | 2026-10-20T00:00:00+00:00",
+    "[title] Senior Customer Marketing Manager | Varicent | Canada   (+30 others) | 2026-10-23T00:00:00+00:00",
+    "[title] Manager Marketing Ops, Analytics & ABM | Jitterbit | Canada   (+30 others) | 2026-10-21T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 200,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 197,
+    "too old": 2,
+    "location": 1
+   },
+   "rejected_samples": [
+    "[title] Senior Field Marketing Manager | Brex | Anywhere in the World (Remote) | 2026-10-26T07:31:27+00:00",
+    "[title] Senior Staff Sales Engineer, Australia | Cockroach Labs | Anywhere in the World (Remote) | 2026-10-26T07:31:27+00:00",
+    "[title] Principal GSI Partner Manager - Accenture (EMEA) | Datadog | Anywhere in the World (Remote) | 2026-10-26T07:31:27+00:00",
+    "[title] Sales Development Representative, Singapore | Cockroach Labs | Anywhere in the World (Remote) | 2026-10-26T07:31:27+00:00",
+    "[title] Account Executive, Mid Market (Midwest) | Samsara | Anywhere in the World (Remote) | 2026-10-26T07:31:14+00:00",
+    "[title] Business Development Representative, Auto Retail | Upstart | Anywhere in the World (Remote) | 2026-10-26T07:31:11+00:00",
+    "[title] Account Executive, Mid Market (Midwest) | Samsara | Anywhere in the World (Remote) | 2026-10-26T07:31:11+00:00",
+    "[title] Enterprise Account Executive, Federal Civilian | Databricks | Anywhere in the World (Remote) | 2026-10-25T07:30:54+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 7
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 3
+  },
+  "builtin job pages": {
+   "returned": 10,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 9
+   },
+   "rejected_samples": [
+    "[title] Marketing Manager",
+    "[title] Director, Performance Marketing",
+    "[title] E-Commerce Coordinator",
+    "[title] Manager, Paid Social",
+    "[title] Creative Technologist",
+    "[title] eRetail Search Campaign Manager // Gestionnaire de campagnes de recherche en commerce \u00e9lectronique",
+    "[title] Expert Support Client Bilingue - Canada \ud83c\udde8\ud83c\udde6",
+    "[title] IT Business Analyst (ServiceNow)"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:bGI3NkNNQzdPb2VfMnVlekFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbmxCUlV4SGEyTlpiVEp1TVdWS1NYaDBOVEZZVlRGT1dYSnBhREpFYUdGRFJEa3dWMjVxVVU4MFdqWTJkRkJVWjNVeFZGazBSMDFvUWpFd2EybHpSRGMwUjBoSFZqRTJUbE5YYlhOSlFrazFRWGw0VVhSeU9GTm5Sa2xmYjI0dFdVOTBWalE1YjFZemFFOHpUV1p5VTBkUFRsb3dPRGxQWm1zNGJIUnJVa05rU0UxSFVtMFNGMU5xYm1aaGRtVlZTelo1YW1vNU5GQndPSFpVYlZGTkdpSkJSSE55T1daVWEzaFNOMjlNU0ROcVRESlVjVlV3TmpGS1dEY3liMWR3TjFCQg",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Brand-Forward Marketing Coordinator & Community Builder",
+   "company": "Nutbar",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/brand-forward-marketing-coordinator-community-builder--toronto--e31211e8d1fd3f4ab488d3bc8bc9c9ed9",
+   "posted": "2026-10-24T00:00:00+00:00",
+   "salary": "",
+   "description": "Nutbar is seeking a proactive Marketing Coordinator + Brand Ambassador to bring our brand to life in caf\u00e9s and in the community. You\u2019ll blend brand storytelling with hands-on execution, visiting stores, engaging guests, and helping coordinate marketing initiatives across locations. You\u2019ll capture content, create social assets, support partnerships, and ensure signage, materials and campaigns arrive ahead of launches."
+  },
+  {
+   "id": "jsearch:dW9qYUhnOGJNcWtfVG92RUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUREkzWmtSTFRtUnJTMlJYYW5weFQwaHplaTFWY2xGTWVVcDFaM0pUZUcxM01XOVBSWFJTVGxJeVZXUTVjV2xIVTJwUU9ISmhaVUpVWmxKR01scE1NbGhZTVVvNWNtNXJkbnBvWTE5Tk1UTlJWVmRxTTFsRVkxTjNSM2RyWWxac1ZWQlJXRVUxY2xaWVZrSTRhRFE1UlZscmFIWkVUa290VGs1SFdHSkVNVzFTZVU1aU0wa1NGMU5xYm1aaGRtVlZTelo1YW1vNU5GQndPSFpVYlZGTkdpSkJSSE55T1daUlVUTndTSFF3U1VNMWVWQllaR0ZrVlZCaVdrTlFNVWRrVnpCMw",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Digital Marketing Coordinator: Campaigns & Content",
+   "company": "First Nations Jobs Online",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/digital-marketing-coordinator-campaigns-content--toronto--e7e2d76b46ab877377818d3bcf6404159",
+   "posted": "2026-10-23T00:00:00+00:00",
+   "salary": "",
+   "description": "WellFab Services Ltd. in Toronto, Ontario seeks a Marketing Specialist to develop and execute digital marketing strategies, manage website and social content, and coordinate campaigns. The role requires a Bachelor's degree and at least 1 year of digital marketing experience. Health and dental benefits are provided, with growth opportunities. Join a team focused on brand consistency and measurable results across digital and traditional channels."
+  },
+  {
+   "id": "jsearch:WUxwNGY4UHR0d1ZVenNFVkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbVJwWjJKbmJHZEJNMDFSYldac2MxODRiMFpaUkROSmNDMWhTMk5aZUU1TFZuTlBSRTFXWTNOcVdWSlphMWxEYkhwRlkyVnRhVWhNVnpkSVdpMVVZa3RHUzBneFlVeFNWakZYWkU5WlkwRk5kbVJRZDBseU1XOVZWVXRDWkhKRFEzTjJTRlZhTVhsSVl6aENiR1I0UkhKeGNubGZRMTlHTW5WbGFETTFhV2x0UlhsTGFrd1NGMVJxYm1aaGRtMXdRbU5sY2pRdFJWQTVOV1ZuYTBGdkdpSkJSSE55T1daU1VXSmtibTVDVld4NmRVWk9UR1YwZWpSU2VXMURWMUpuWVVoUg",
+   "source": "jsearch",
+   "publisher": "RBC Careers",
+   "title": "Associate, Operations III - Estate & Trust Processer",
+   "company": "Royal Bank of Canada",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://jobs.rbc.com/ca/en/job/RBCAA0088R0000190854EXTERNALENCA/Associate-Operations-III-Estate-Trust-Processer",
+   "posted": "2026-10-23T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Description What is the opportunity? The primary purpose for this position is to perform daily oversight on complex processes, provide analysis, and customer service support for exception-based complex and/or highly specialized Operation\u2019s processes. Incumbent will review, verify, and record data into technology systems supporting department processes. In addition, incumbent will research, resolve, or secure requested information for other Operation\u2019s areas, RBC Business Units, external customers or industry participants. Incumbent provides thought leadership and implementation support for department process changes, system enhancements, and new initiatives. Incumbent will address escalated questions independently seeking assistance from Team Lead or Manager as appropriate following established department procedures. Position contains increased elements of risk which are managed through operational reviews, system checks, and adherence to procedures. What will you do? \u2022 Provide accurate analysis and processing support for exception-based, complex, and/or highly specialized processes within a specific Operation\u2019s department. Accurately review, verify, and/or record data into technology supporting department processes. Understand department procedures and required accountabilities in the area or department in which the incumbent works. Refers to department manuals for instructions and task assignments for the specific role. \u2022 Liaise and provide customer service support for individuals requiring research, problem resolution, or securing information from other Operation\u2019s departments, RBC Business Units, external customers or industry participants. Address escalated questions independently; seeking assistance from Team Lead or Manager as appropriate following established department procedures. \u2022 Reduce risk or increase efficiencies by suggesting process changes and system modifications. Participate in testing and implementation of new systems and processes as required. \u2022 Provide accurate analysis and processing support for manual, exception-based complex, and/or highly specialized processes within a specific Operations department. Accurately review, verify and/or record data in technology support department processes. \u2022 Train and act as a resource for other Operation\u2019s team members. \u2022 Perform other duties and responsibilities as assigned. What do you need to succeed? Must haves: \u2022 4-year degree from an accredited university or equivalent OR High school diploma or equivalent AND 2 years of job-related experience \u2022 1+ year business, finance, customer service and/or accounting/bookkeeping experience. \u2022 Ability to communicate effectively, both verbally and in writing \u2022 Strong customer service, organizational skills, attention to detail and confidentiality \u2022 Ability to handle multiple priorities in a fast paced and deadline driven environment Nice-to-have: \u2022 4-year degree from an accredited university in business, finance or related field What\u2019s in it for you? We thrive on the challenge to be our best, progressive thinking to keep growing, and working together to deliver trusted advice to help our clients thrive and communities prosper. We care about each other, reaching our potential, making a difference to our communities, and achieving success that is mutual. \u2022 A comprehensive Total Rewards Program including bonuses and flexible benefits, competitive compensation, commissions, and stock where applicable \u2022 Leaders who support your development through coaching and managing opportunities \u2022 Ability to make a difference and lasting impact \u2022 Work in a dynamic, collaborative, progressive, and high-performing team \u2022 Flexible work/life balance options \u2022 Opportunities to do challenging work \u2022 Opportunities to take on progressively greater accountabilities \u2022 Access to a variety of job opportunities across business Job Skills Active Learning, Communication, Critical Thinking, Customer Service, Operational Delivery, Process Improvements, Tim"
+  },
+  {
+   "id": "jsearch:ZjViQUlGdDl2RTZjNXVEV0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURmRCTFhsVVFXUnlkV0ZDTFVGdFV6ZHFNbFZaYlhGdE5qbEhXa3BEY2pkcVJUazFibUZSTWt4alEwSllSVzlQTkhKSE5HWkJWRlZ2VmpjNVJVMXZiblpZWTNselVHSjBlbEU0TXpkb016TnBNaTB6U1ZWclZXRnhhVXBKVldKMlp6TTJNRWR3YnpkcU9FazRVbWxCVG1ocGRIcDRNbWh5YkRVMWEyWm1lVU5WYWpZMGNqRVNGMVZFYm1aaGNtRlpUM1J4YUdjNFZWQnJUR2swTFVFMEdpSkJSSE55T1daUmRWbFhhWFpJY25ONlpFbG5NbEY1V1VaU2RGOXFiM1ZIWTI5Qg",
+   "source": "jsearch",
+   "publisher": "Dynamite Jobs",
+   "title": "AI Social Media Coordinator, Remote Job",
+   "company": "Storm Ideas",
+   "location": "(Remote)",
+   "remote": true,
+   "url": "https://dynamitejobs.com/company/stormideas/remote-job/ai-social-media-coordinator",
+   "posted": "2026-10-23T00:00:00+00:00",
+   "salary": "",
+   "description": "\u2022 USD 18,000 to USD 22,000 per year, depending on experience, on a full time, contractor contract \u2022 Fully remote working! \u2022 Working with globally recognisable brands in US Entertainment \u2022 Work with modern hardware, social publishing tools, productivity systems, and AI-enabled workflows Who We Are Founded in 2008, Storm Ideas is an international team working with globally recognised clients, particularly across the US TV and entertainment industry. Our work sits at the intersection of media, technology, creativity, and operations. We produce social content at scale, support major entertainment brands, build products, and keep improving how our teams work. We are remote-first, fast-moving, and increasingly AI-native in how we operate. AI tools and agentic workflows are becoming part of the way our teams plan, check, coordinate, research, report, and improve work. The standard is not \"let AI do it\". The standard is better work: clearer briefs, faster execution, sharper checks, stronger judgment, and repeatable workflows that keep quality high. About The Role We are hiring an AI Social Media Coordinator to help run the day-to-day social presence of major US TV and entertainment brands. The craft is familiar: scheduling, reviewing, coordinating, optimising, checking, escalating, and keeping content moving. How we do that work is changing fast. This is not a pure creative content role and it is not passive admin. The core of the job is client-safe social media operations: making sure content is scheduled, checked, approved, published, documented, and improved with strong attention to detail. You will first learn what good looks like for our clients and why it matters. Then you will work with Storm's social tools, workflow systems, and AI-enabled ways of working to help make the role faster, clearer, and more reliable. The strongest candidates will already be practical and curious about AI. We are not looking for someone who uses AI only as a search box or autocomplete. We are looking for someone who can brief tools carefully, use them for bounded pieces of work, review what comes back with a critical eye, and keep improving how they use them. If that already feels like how you work, this role is likely to suit you. What You'll Make Happen \u2022 Put the client experience and publishing accuracy at the heart of everything you do. \u2022 Optimise YouTube content with effective titles, thumbnails, copy, metadata, and publishing checks. \u2022 Schedule, review, and coordinate social content across YouTube channels and social networks. \u2022 Support day-to-day community management across client social channels by monitoring and responding to audience comments and messages in line with agreed brand guidance, and escalating sensitive or complex interactions appropriately. \u2022 Clear dependencies proactively, including assets, copy, captions, approvals, account access, platform requirements, timings, and client expectations. \u2022 Coordinate with client contacts and Storm's content production, copywriting, captioning, and social teams so work moves without avoidable gaps or surprises. \u2022 Use AI tools and workflow systems to support repeatable coordination work, including calendar planning, dependency chasing, content checks, research, account audits, reporting, and documentation. \u2022 Review AI-assisted work critically before it reaches clients, platforms, or internal stakeholders. \u2022 Research clients' shows, movies, channels, competitors, and audiences so social recommendations are grounded in useful context. \u2022 Monitor social platform updates and identify practical changes that matter for client accounts. \u2022 Help document and improve internal processes so that good ways of working become repeatable across the team. \u2022 Escalate clearly when something is blocked, risky, unclear, late, or outside your authority, bringing evidence and a sensible next step. Your Expertise \u2022 Hands-on social media coordination, publishing, community, content operations, or adjacent digital exper"
+  },
+  {
+   "id": "jsearch:dXlNaUwxQlNjOVlWb19TdEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbXhNUmxSNmRscG5TVWR1VDJnelpGRTBVa1ZLWTAxRk5rRkdjRlJLVjFoVlpWTk5URU5XVWxvdGFWcGthekZWTlhCRWRUbHVlbUZCTFRsSWNGVlBRM1ZwTW5Gb01XRlRha2RNWlUxQ1JWWlRZblpVYWtkaFMycEZkakF4YlhOdFRuQkRUWFZ4YVVOVFNVSmFSRFZGYWxKZk5Xc3RZWEU0TkhkYVNsbFFORlpQUTNSTVUwSVNGMU5xYm1aaGRtVlZTelo1YW1vNU5GQndPSFpVYlZGTkdpSkJSSE55T1daU1pscFpkR1ZmY0hwdVltOU1TRlphU0VkaFVrUmtWa0oxVTFKMw",
+   "source": "jsearch",
+   "publisher": "SimplyHired",
+   "title": "Administrative & Marketing Specialist",
+   "company": "Colliers International",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.simplyhired.ca/job/CVTlA78eQzcWxwQ3Uh4ZkS6wcZydw82iKvXPEZi8-UpvIf4bJiyDpA",
+   "posted": "2026-10-22T00:00:00+00:00",
+   "salary": "",
+   "description": "Accelerate your success at Colliers. Why Colliers? As one of Canada\u2019s leading commercial real estate services firms, we are driven by our mission to accelerate success for our people, clients, and communities. A career at Colliers gives you the opportunity to make an impact, advance your career, and collaborate with top-tier talent. Don\u2019t just take our word for it \u2013 we\u2019ve been recognized as a top employer on a number of prestigious lists, including Best Workplaces in Canada, Best Workplaces with Most Trusted Executive Teams, among others. **this position is hybrid (4 days on site), based out of our Downtown Toronto, ON office** About you As an Administrative & Marketing Specialist (internally known as Brokerage Project Specialist), you are an experienced professional looking to take the next step of your career in commercial real estate! Your background includes delivering exceptional sales support to internal and external clients. In this position, you will be supporting marketing, operational duties and transactional management with a high level of business acumen and entrepreneurial spirit \u2013 which means YOU will be an integral part of the team\u2019s success. In this role, you will\u2026 \u2022 Help oversee the team\u2019s transactions, tracking critical dates and regularly updating clients and colleagues \u2022 Maintain company databases to track prospects and business opportunities \u2022 Create/format proposals and presentations, collaborating with Colliers Marketing to help curate team marketing collateral \u2022 Bring a great attitude in learning the business and local marketplace by attending local business and industry events, networking, and participating in client meetings Process executed lease/amendment paperwork, create vouchers, collect pertinent documentation, sending tenant/property eblasts, create market surveys, print tour books, schedule tenant tours, etc. \u2022 What you\u2019ll bring \u2022 At least 2+ years of sales or administrative experience in a professional environment (preferably real estate, sales, legal, architectural, construction or related) \u2022 Adobe Creative Suite (InDesign) experience required \u2022 Commercial real estate experience is an asset \u2022 High proficiency in MS Office Suite (Word, Outlook, Excel, PowerPoint) High level of initiative and excellent communications skills, both oral and written \u2022 Pursuant to the laws regarding job postings in Toronto, ON Colliers is disclosing the following information: Approximate Salary Range for this Role: $48,112/year - $76,905/year Our salary ranges are determined by role, level, and location. The range displayed on this job posting reflects the minimum and maximum target for new hire salaries for the position across all Canada locations. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Colliers does not use AI-enabled tools to sort or decline applications. All decisions are made by our talent acquisition team. This posting is for an existing vacancy within our organization. #LI-AS1 #LI-Hybrid What we offer: Innovative projects: Work on cutting-edge initiatives that shape our communities, drive our growth, and make a tangible impact. Career growth: Advance your career and achieve your goals with industry-leading training and development programs. Competitive benefits & compensation: Enjoy a comprehensive and flexible benefits package along with competitive compensation that rewards your contributions and supports your well-being. Collaborative culture: Join our enterprising team where innovation thrives, collaboration is key, and our people are empowered to be their authentic selves and do their best work. Diversity, Equity & Inclusion: Our robust North American Diversity & Inclusion Program features eight Employee Resource Groups (ERGs), where you can connect, learn, and contribute to a diverse and supportive community. Learn more: https://www.collierscanada.com/en-ca/careers/diversity-a"
+  },
+  {
+   "id": "jsearch:aVh4Q0JnWnFSc1M0YThLZkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV28xYVVkUmN6TnlUM2hNTW1weVRFMUJkMUJ4V2xwTVNuSlJZMEZJUmpCdWFHNWxjVXQ0TXpsak9HMTVRMUJyU0hGWk0yMTBkWFJpU0VGa2FITmpUWFJvV1VaeVIwcFBaVGxPUlUxeWJraGtjM1UxWldVd2RYRkRjSFphTUZaUGRuUkhVWEZHWWtKa2VrRnNNMk13U25wamNVODRaMnhMVUVJdGMyaHNhak5zV1ZCMVREZ1NGMU5xYm1aaGRtVlZTelo1YW1vNU5GQndPSFpVYlZGTkdpSkJSSE55T1daVGFqUk1OMWRCTVZOSFJYZDZObHAwYkVOTExYSllaSEpqUVVWUg",
+   "source": "jsearch",
+   "publisher": "Workopolis",
+   "title": "Loyalty Marketing Specialist",
+   "company": "Metro",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://fr.workopolis.com/jobsearch/viewjob/CdX1W3wj3ler8fOOUGKq9iqvCKhkARCDZJUpjqMcLNLyvx0J1h9gJojU-hwhAjyh",
+   "posted": "2026-10-22T00:00:00+00:00",
+   "salary": "",
+   "description": "Position Title: Loyalty Marketing Specialist Requisition ID: 50243 Career Group (ADSP): Administrative Division: Qc - Fid\u00e9lit\u00e9 et engagement consommateur (80300529) Department: Marketing and e-Commerce Work Location: METRO ON - 5559 DUNDAS STREET W (#A-DUND) Province: Canada : Ontario Position Type: Permanent Posting End Date: Thursday, November 5th, 2026 The typical salary range for this position is $69,840.00 - $96,030.00 annually. The base salary offered will be determined based on the candidate's job-related knowledge, skills, education, experience, and internal equity considerations. This posting is for an existing permanent full-time vacancy. Joining our team has its advantages! \u2022 Flexible schedule to promote work/life balance \u2022 Telecommuting in hybrid mode \u2022 Group insurance from the first day \u2022 Very competitive pension plan \u2022 Generous holiday policy \u2022 Personal days \u2022 Employee Assistance Program \u2022 Free parking \u2022 Opportunity for professional development SUMMARY: The Loyalty Marketing Specialist supports the planning, coordination and execution of the Moi Rewards program in Ontario, connecting coalition priorities with banner and cross-functional marketing plans. The role works closely with Ontario and Quebec marketing teams across food and drug, as well as Digital Marketing, E-commerce, CRM, Merchandising, Operations, Finance, Customer Care, Loyalty Analytics, Customer Insights and external partners. The Specialist helps ensure loyalty offers, campaigns and communications are delivered accurately, efficiently and consistently across channels. The role also supports loyalty marketing financial administration\u2014including budgets, forecasts, purchase orders, invoices, project costs and reconciliations\u2014and uses data, automation and AI-enabled tools to improve planning, productivity, decision-making and campaign performance. SPECIFIC RESPONSIBILITIES: \u2022 Support the annual and long-range planning process for Moi Rewards in Ontario, helping align coalition priorities with banner, Digital Marketing, E-commerce, CRM and broader marketing plans. \u2022 Support integration across Ontario and Quebec marketing teams in food and drug by coordinating priorities, calendars, dependencies, inputs and decision points. \u2022 Build, maintain and track integrated workback plans for loyalty campaigns and initiatives, following up on deliverables and helping ensure timely, accurate and consistent execution across channels. \u2022 Partner closely with CRM to support offer management and personalized communications, including audience inputs, personalized newsletters and loyalty messaging in weekly customer emails. \u2022 Collaborate with Merchandising on offer development and assessment, supporting analysis of point issuance, redemption, customer behaviour, funding and overall program economics. \u2022 Support the development of measurement frameworks and success criteria for Moi Rewards initiatives; work with Analytics and Customer Insights to review results and translate findings into actionable recommendations. \u2022 Support the loyalty marketing budget, forecasts and monthly reconciliation process by maintaining accurate project, commitment and expenditure tracking. \u2022 Coordinate with Finance on purchase orders, invoices, accruals, budget reporting and reconciliations; investigate variances and escalate issues as required. \u2022 Maintain a current view of campaign commitments and costs, preparing timely budget updates and identifying risks, opportunities and potential trade-offs for the Manager and key stakeholders. \u2022 Support creative development and agency workflows by preparing briefs, coordinating reviews, consolidating feedback and recommendations, protecting brand consistency and tracking costs and timelines. \u2022 Use AI, automation and other productivity tools to strengthen planning, accelerate analysis and content development, reduce manual effort and improve the quality and speed of execution. \u2022 Support offer development, reporting and KPI tracking, and prepare insights a"
+  },
+  {
+   "id": "jsearch:Qm11YWpGZ3dMVURwR0Z2dkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVWRrVFVFdE0xcG1VR3QzTnkxTlYxWnFSMEppVUVWeFozUTBaSFprV0VVek5IcHBaMnBGYjJ0cmExTXdaV1JhUmpobmFrbzVhV0ZMVjB0aVYwNVRiakp0Vkhvd1QySjNjWHBIWHpsQ1VrMXlkRk5zTTFaa1NHNXdZVVpWVkdkcU1uZDFVMFkyWjFkbVNXTkRiVTlrTjFoaGJXNUNXRWhqZWpoa1UyeHlNRzk0YzJoUlQxa1NGMVJxYm1aaGRtMXdRbU5sY2pRdFJWQTVOV1ZuYTBGdkdpSkJSSE55T1daUlNuTmhZbWQ1VGpCNFMyWTBja3RETkVsa2NXbHZjSE0wVG5Cbg",
+   "source": "jsearch",
+   "publisher": "Sercanto",
+   "title": "Client Service Operations Coordinator in Toronto",
+   "company": "Fitch Ratings, Inc.",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://fr.ca.sercanto.com/detail/a/client-service-operations-coordinator-in-toronto_toronto_196111834",
+   "posted": "2026-10-21T00:00:00+00:00",
+   "salary": "",
+   "description": "Fitch Learning seeks a Client Service Operations Coordinator based in Toronto to enhance service delivery and streamline operational processes. Collaborate with experts and elevate client support through effective administration. This role focuses on operations coordination in client service administration, exam management, and process support at Fitch Learning. You'll manage escalations, oversee application processes, and ensure service reliability while identifying opportunities for automation. The ideal candidate will thrive in a hybrid environment, working three days in-office and two days remotely. Key Responsibilities: \u2022 Manage escalations from candidates regarding courses and exams \u2022 Process and track designation applications and renewals \u2022 Coordinate exam operations with vendors \u2022 Maintain documentation for escalations and operational activities \u2022 Identify process gaps and opportunities for automation Requirements: \u2022 Experience in operations and client service administration \u2022 Comfortable managing escalated complaints \u2022 Strong systems skills with platforms like Salesforce and Microsoft Office \u2022 Bilingual in French and English for effective communication \u2022 Understanding of regulatory environments in licensure exams Bring your expertise in operations and client service to contribute meaningfully at Fitch Learning in Toronto. J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:MGRpSEJGdDFpaTFFODlYeEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbWxTUkU1dFEzWnVYemRFYmtaeE5YcENVakUyYVRGUVEwWXljWEp4WnpKR2FUUXRNblp1ZEU4NU5ITXRkaTFWVWpaV2RUVmtkbUZ0ZUc5R1VtbFJiRXhvZUhWSlZFY3pTSHBVYTB3MGRTMVJSalJ4ZUVOWFVXMUlkVTUwWTFoaGVFVk9UV0l3Y0ZoNFJtUXpjRGxRTjJSUmRYaHVjSFZYT0hNeE1FNVBTWFpuVGpjMGVEQVNGMU5xYm1aaGRtVlZTelo1YW1vNU5GQndPSFpVYlZGTkdpSkJSSE55T1daUldtNVROMWhhVEU5dGVVNWFjVTFSYW1WaFJHZGhRMU41ZVVkbg",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Brand Coordinator",
+   "company": "GoodLife Fitness",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/brand-coordinator-at-goodlife-fitness-4478918518",
+   "posted": "2026-10-20T00:00:00+00:00",
+   "salary": "",
+   "description": "About Canfitpro canfitpro is the largest provider of education in the Canadian fitness industry. Founded in 1993 as a voice for all fitness professionals, canfitpro delivers accessible, quality education, certifications, conferences, trade shows, and membership services. canfitpro\u2019s over 24,000 members include some of the world\u2019s best fitness professionals, health club operators, industry suppliers, and fitness consumers. Our passion is our purpose - canfitpro inspires fitness as a desired career and lifestyle to create positive change in the lives of others. Core Values, Purpose and Vision At canfitpro, we live and breathe our Core Values of Caring Community, Curiosity, Commitment, Customer Mindset, Contribution and Cultivate a Passion for Fitness, and we are here for a Purpose: To inspire fitness as a desired career and lifestyle to create positive change in the lives of others. Our vision is aspiring to deliver accessible learning experiences to a global audience, making fitness and mental health a part of personal wellness for everyone. Job Overview The Brand Coordinator contributes to fortifying canfitpro\u2019s visibility and position as a leading authority in fitness education and professional development by delivering consistent, timely, and audience-focused communications. This role coordinates branded content and publications, monitors online conversations and brand performance, gathers and translates research and audience insights into actionable recommendations to strengthen brand awareness. Key Responsibilities \u2022 Copywriting & Publication Coordination \u2022 Writes, edits, and proofreads content for blogs, magazine articles, reports, web pages, and marketing materials to support brand visibility, audience engagement, and SEO performance. \u2022 Coordinates the development and production of publications, including magazines, trend reports, and other branded content to support member engagement, thought leadership, and business objectives. \u2022 Collaborates with internal teams, external contributors, partners, and vendors to gather and manage publication content and assets. \u2022 Partners with B2B and Events Teams to ensure sponsorship, advertising, and partner entitlements are accurately incorporated into publications. \u2022 Maintains content calendars, publication timelines, and quality standards to ensure timely delivery of all materials. \u2022 Social Listening & Brand Monitoring \u2022 Monitors and analyzes online conversations, brand mentions, reviews, and industry discussions across platforms such as Google Reviews, AI search platforms, Reddit, and other digital channels, \u2022 Provides recommendations to strengthen brand awareness, discoverability, credibility, and audience engagement. \u2022 Collaborates with the Digital Marketing Coordinator to monitor and engage in brand-related conversations across media and digital channels, responding to commentary in alignment with brand voice and guidelines. \u2022 Partners with content and digital teams to optimize content structure and positioning for search engines, AI indexing, and online discoverability. \u2022 Reporting & Data Insights \u2022 Supports the delivery of surveys, research, and data-driven reports that provide insights into industry trends, member needs, and event insights. \u2022 Coordinates industry trend surveys, member surveys, and event feedback initiatives in collaboration with internal stakeholders. \u2022 Collects, analyzes, and communicates survey and research findings with support from the Manager, Director, and cross-functional teams. \u2022 Prepares, publishes, and integrates trend reports, member and event insights and research findings into publications, reports, and thought leadership content across digital and print channels. \u2022 Maintains reporting processes, data collection activities, and documentation to support informed business decisions. \u2022 Supports the engagement and ongoing coordination of canfitpro's Advisory Council, fostering strong relationships and enabling meaningful contributions to organizatio"
+  },
+  {
+   "id": "builtin:11866996",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Channel Marketing Coordinator",
+   "company": "Stanley Black & Decker, Inc.",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/channel-marketing-coordinator/11866996",
+   "posted": null,
+   "salary": "",
+   "description": "Channel Marketing Coordinator - Stanley Black & Decker, Inc. | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Stanley Black & Decker, Inc. Jobs Channel Marketing Coordinator Stanley Black & Decker, Inc. Channel Marketing Coordinator Posted 6 Hours Ago Be an Early Applicant In-Office Mississauga, ON, CAN Entry level In-Office Mississauga, ON, CAN Entry level Supports customer and channel marketing plans through trade marketing coordination, promotions, merchandising programs, reporting, competitive analysis, portfolio administration, pricing updates, and business review preparation. The role partners with Sales Operations, Supply Chain, and Channel Marketing teams on forecasting, inventory monitoring, allocation planning, and commercial documentation. It is designed to build foundational skills in channel marketing, trade investment, portfolio management, forecasting, and customer planning. The summary above was generated by AI Build Your Career With Us The What As a Channel Marketing Coordinator, you will be part of a dedicated team based in Mississauga, Ontario and reporting to the Category Manager . This is an entry-level role designed to build the foundational commercial, analytical, and execution skills needed to grow into a future Channel Manager position. In this role, you will support the development and execution of customer and channel plans through trade marketing coordination, reporting and analysis, portfolio support, forecasting inputs, and cross-functional project execution. If you enjoy building strong relationships, contributing to meaningful work, and making a real impact, join us to build a career where you can thrive and Make A Difference For Those Who Make The World\u2122. What You Get Competitive compensation , with an anticipated annual base salary of $55,000\u2013$65,000, based on your experience, skills, qualifications, and market location. A hybrid work environment , with in-office and remote work determined by business needs and role requirements. Comprehensive benefits package designed to support the health, well-being, and financial future for you and your family. The tools you need to succeed , including a company cell phone, and laptop. A supportive and collaborative team where your ideas are valued and you can bring your best self to work every day. Career growth opportunities as part of a Fortune 200 company, with the chance to learn, grow, and advance your career. An Employee Product Purchase Program with exclusive discounts on our products, including DEWALT\u00ae, CRAFTSMAN\u00ae, CUB CADET\u00ae, STANLEY\u00ae and BLACK+DECKER brands. Employee perks including discounted company stock options, GoodLife Fitness discounts, safety shoes reimbursement, and many more exclusive offers. The Why It takes great people to achieve greatness. People with a sense of purpose and integrity. People with a relentless pursuit of excellence. People who care about making things better For Those Who Make The World\u2122. Sound like you? Join our top-notch team of nearly 48,000 professionals globally who are making their mark on some of the world\u2019s most beloved brands, including DEWALT\u00ae, CRAFTSMAN\u00ae, CUB CADET\u00ae, STANLEY\u00ae and BLACK+DECKER. What You Will Get To Do \u00b7 Support execution of customer and channel marketing plans across assigned accounts and categories \u00b7 Coordinate promotions, flyer support, merchandising programs, and other trade marketing activities \u00b7 Maintain key business trackers and rep"
+  }
+ ]
+}
