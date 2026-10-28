@@ -1,0 +1,277 @@
+{
+ "run_at": "2026-10-28T11:32:39.063110+00:00",
+ "date": "2026-10-28",
+ "runs": [
+  "2026-10-28T113239Z"
+ ],
+ "source_counts_after_filters": {
+  "jsearch": 5,
+  "remoteok": 0,
+  "weworkremotely": 1,
+  "adzuna": 0,
+  "builtin": 3
+ },
+ "new_count": 4,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 5,
+   "error": null,
+   "rejected_by": {
+    "title": 5
+   },
+   "rejected_samples": [
+    "[title] Events Marketing Coop (December 2026 - May 2027) | commonsku | Toronto, ON, Canada | 2026-10-26T00:00:00+00:00",
+    "[title] Digital Marketing & Demand Generation Specialist | Altis | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Charg\u00e9 marketing publicit\u00e9 F/H | Augusta Fruit Market | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
+    "[title] Associate Shopper Marketing Manager | Mondel\u0113z International | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Sr. Project Manager, Marketing & Comms | Thomson Reuters | Toronto, ON, Canada | 2026-10-26T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": "HTTP 504: {\"messages\":\"The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider\", \"info\": \"Your Client (working) ---> Gateway (working) ---> API (took too long to respond)\"}",
+   "rejected_by": {},
+   "rejected_samples": []
+  },
+  "weworkremotely": {
+   "returned": 205,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 200,
+    "too old": 2,
+    "location": 2
+   },
+   "rejected_samples": [
+    "[title] Account Executive, Mid Market (Northeast) | Samsara | Anywhere in the World (Remote) | 2026-10-28T07:31:13+00:00",
+    "[title] AI Security Sales Executive | Abnormal | Anywhere in the World (Remote) | 2026-10-28T07:31:13+00:00",
+    "[title] Account Development Representative - France | Samsara | Anywhere in the World (Remote) | 2026-10-28T07:31:07+00:00",
+    "[title] Senior Account Executive II, Federal DOW/Army/Navy/Air Force/Pentagon | Collibra | Anywhere in the World (Remote) | 2026-10-28T07:31:06+00:00",
+    "[title] Head of Enterprise Marketing | Descript | Anywhere in the World (Remote) | 2026-10-28T07:30:57+00:00",
+    "[title] Video Editor | PlanetScale | Anywhere in the World (Remote) | 2026-10-27T07:31:09+00:00",
+    "[title] Solutions Engineer | PlanetScale | Anywhere in the World (Remote) | 2026-10-27T07:31:09+00:00",
+    "[title] Senior Website Manager | Veracode | Anywhere in the World (Remote) | 2026-10-27T07:30:57+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 12
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 13
+  },
+  "builtin job pages": {
+   "returned": 25,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 22
+   },
+   "rejected_samples": [
+    "[title] Director, Brand",
+    "[title] Writer for Minute Taking - Toronto, ON",
+    "[title] Executive Producer, Publishing (English Services) (On-Site)",
+    "[title] Brand Manager",
+    "[title] Manager, Activation",
+    "[title] Senior Analyst, Activation",
+    "[title] Copy Supervisor",
+    "[title] Manager, Brand Strategy & Governance"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "wwr:https://weworkremotely.com/remote-jobs/storyblok-senior-content-marketing-specialist-uk",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Senior Content Marketing Specialist - UK",
+   "company": "Storyblok",
+   "location": "Anywhere in the World (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/storyblok-senior-content-marketing-specialist-uk",
+   "posted": "2026-10-28T07:31:07+00:00",
+   "salary": "",
+   "description": "Headquarters: Remote Storyblok is a headless CMS that enables marketers and developers to create with joy and publish with confidence. It empowers you to deliver structured and consistent content everywhere: websites, apps, AI search, and beyond. Legendary brands like Virgin Media O2, Oatly, and TomTom use Storyblok to make a bigger, faster market impact. WHAT IS IN IT FOR YOU You will be joining a growing company where you can contribute to many \u201cfirsts\u201d. Plus these benefits: Monthly remote work stipend (home internet costs, electricity). Home office equipment package right at the start (laptop, keyboard, monitor\u2026) Home office equipment upgrade (furniture, ear plugs \u2026) or membership to a local co-working space after your onboarding Sick leave benefit, parental leave and 25 days of annual leave plus your local national holidays Personal development fund for courses, books, conferences, and material The annual international team-building trip, quarterly and monthly online get-togethers As a fully remote company, with work-life balance at its core, you\u2019ll enjoy flexible schedules An international team that loves to have fun at work and works hard together to accomplish shared goals JOB SUMMARY We're looking for a Senior Content Marketing Specialist to shape and create impactful, thought-leadership led content across our 6 monthly brand campaign cycles, plus additional ICP tracks as needed, while owning customer advocacy content - e.g. case studies. The right candidate understands what makes great B2B marketing content, is AI-native, takes initiative in a fast-paced scale up environment, and brings a data-driven mindset to connect strategy with business results. This person will sit within Storyblok's Brand and Communications team, supporting marketing across the buyer journey, driving case study development, and partnering with field marketing, social, and events on content needs. They'll also help build and launch a new UGC programme and support executive communications on LinkedIn. ESSENTIAL JOB FUNCTIONS Content strategy Shape and execute content creation efforts within the Brand and Communications Team, from long-form whitepapers and blog posts to short-form landing pages and other supporting assets that require content support Generate creative, storytelling-focused content ideas that produce engaging thought leadership, staying abreast of B2B social trends and thinking beyond the 'usual' types of content Support aligning content marketing efforts with the wider Brand and Communications team functions, including PR, company social media, and executive communications via LinkedIn Conduct in-depth keyword research using tools like Ahrefs and/or Semrush to identify relevant topics and keyword groups for Storyblok content Briefing videographers and motion graphics experts to create videos for campaign tracks, events, social to name a few Optimisation and monitoring of content health of all Storyblok content via the website Customer advocacy Ownership of the case study content process, from initial ideation and customer contact, to creation and publication of the assets Optimisation and monitoring of all case study pages on Storyblok's website Ensuring consistent quality across all case study pages by updating older case studies and coordinating with the Partner and/or Customer Success team Planning measurable outreach strategies to garner more customer success stories in response to business requirements Defining and tracking precise KPIs for all case study efforts EDUCATION AND EXPERIENCE Must haves 5+ years\u2019 experience in content marketing or content strategy Knowledge of SEO best practices and familiarity with on-page and off-page SEO tactics Tech industry marketing experience Content reporting experience including analysing data and making recommendations Nice to haves Content marketing experience in a B2B tech scale up environment Experience developing and executing UGC programmes, particularly in B2B/tech settings Experie"
+  },
+  {
+   "id": "builtin:11925641",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Marketing Coordinator (Graphic Design & Video Production)",
+   "company": "Penny Appeal Canada",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/marketing-coordinator-graphic-design-video-production/11925641",
+   "posted": null,
+   "salary": "",
+   "description": "Marketing Coordinator (Graphic Design & Video Production) - Penny Appeal Canada | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Penny Appeal Canada Jobs Marketing Coordinator (Graphic Design & Video Production) Penny Appeal Canada Marketing Coordinator (Graphic Design & Video Production) Posted Yesterday Be an Early Applicant Hybrid Mississauga, ON, CAN Entry level Hybrid Mississauga, ON, CAN Entry level Creates and adapts graphics, videos, advertisements, social media content, and promotional materials for fundraising campaigns. Edits videos for multiple platforms, maintains brand consistency, supports social media publishing, coordinates creative assignments, and collaborates with the marketing team to meet deadlines. The role also provides additional production support for campaigns, events, and organizational initiatives. The summary above was generated by AI About Penny Appeal Canada Penny Appeal Canada is a registered Canadian charity dedicated to providing sustainable solutions to poverty and supporting vulnerable communities locally and internationally. Through our humanitarian programs, fundraising initiatives, and community engagement efforts, we strive to make a meaningful difference in the lives of those who need it most. Position Overview Penny Appeal Canada is seeking a creative, organized, and detail-oriented Marketing Coordinator (Graphic Design & Video Production) to join our Marketing Department on a three-month, part-time contract. The successful candidate will play an important role in supporting the development and production of engaging digital content, including social media graphics, fundraising appeal videos, digital advertising creatives, and promotional materials. The ideal candidate is a versatile creative professional with strong graphic design and video editing skills, excellent attention to detail, and the ability to manage multiple projects in a fast-paced, collaborative environment. Key Responsibilities Graphic Design & Creative Production Design and develop high-quality static graphics for organic social media, digital advertising campaigns, fundraising appeals, and promotional initiatives. Create visually engaging marketing materials that align with Penny Appeal Canada's branding and campaign objectives. Resize, adapt, and optimize creative assets for various digital platforms, advertising specifications, and content formats. Maintain consistency in visual branding across marketing materials and communications. Video Editing & Content Development Edit and produce compelling fundraising appeal videos, promotional content, and organic social media videos. Adapt existing video content into multiple lengths, formats, and aspect ratios suitable for various platforms. Support ongoing video production needs, including campaign launches, events, and other organizational initiatives. Provide additional video editing and production support during the temporary absence of the team's Video Editor. Social Media & Digital Marketing Support Assist with scheduling, organizing, and publishing organic social media content across Penny Appeal Canada's digital platforms. Collaborate with the Marketing Department to develop creative assets that support fundraising and engagement objectives. Ensure digital content is formatted appropriately for social media and advertising platforms. Support content planning and production activities as needed. Campaign Coordina"
+  },
+  {
+   "id": "builtin:11932582",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Customer Experience Associate",
+   "company": "TD Bank",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/customer-experience-associate/11932582",
+   "posted": null,
+   "salary": "",
+   "description": "Customer Experience Associate - TD Bank | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job TD Bank Jobs Customer Experience Associate TD Bank Customer Experience Associate Posted 3 Hours Ago Be an Early Applicant In-Office Toronto, ON, CAN Junior In-Office Toronto, ON, CAN Junior Provides frontline banking support by processing deposits, withdrawals, bill payments, and other financial transactions. Assesses customer needs, recommends appropriate banking solutions, resolves concerns, follows regulations and procedures, promotes products, and supports team effectiveness. The role requires accurate administration, strong organization, effective communication, customer service skills, and proficiency with Microsoft Office. Training and onboarding are provided. The summary above was generated by AI Work Location: Toronto, Ontario, Canada Hours: 15 Line of Business: Personal & Commercial Banking Pay Details: 22.50 - 28.33 CAD TD is committed to providing fair and equitable compensation opportunities to all colleagues. Growth opportunities and skill development are defining features of the colleague experience at TD. Our compensation policies and practices have been designed to allow colleagues to progress through the salary range over time as they progress in their role. The base pay actually offered may vary based upon the candidate's skills and experience, job-related knowledge, geographic location, and other specific business and organizational needs. As a candidate, you are encouraged to ask compensation related questions and have an open dialogue with your recruiter who can provide you more specific details for this role. Job Description: Department Overview: At TD Canada Trust, we are the frontline of TD Bank. We strive to build deep and long-lasting relationships with our customers by performing a broad range of customer service transactions and providing information and advice on services, products, and solutions to existing or prospective TD customers. At the branch, we understand customer needs and identify opportunities to promote products and services to refer customers to the appropriate team member or internal Bank partner, while ensuring a positive customer experience. Join TD Canada Trust and Think like a customer, Act like an Owner, Innovate with purpose and Execute with Speed and Impact. Job Description: Can you bring your charming self to work and make customer interactions delightful one? Can you process financial transactions accurately and get a sense of achievement by providing excellent customer experience? If so then, take the next step to your future today and apply for the position of a Customer Experience Associate. We are expecting an all-around champion who can understand customer needs and advise best suited banking solutions for a positive customer experience. In this role, you will: Process financial transactions like deposits, withdrawals, and bill payments as per standardized operating procedures, industry regulations and TD's Code of Conduct and Ethics Understand and determine customer needs to recommend solutions specific to those needs while exercising discretion in confidential matters Respond and resolve customers' concerns using standard procedures and escalating non-standard activities, as necessary Achieve assigned goals and business objectives by promoting banking solutions and completing business processes in a timely and accurate manner C"
+  },
+  {
+   "id": "builtin:11922699",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Sales Technology Data Operations Specialist",
+   "company": "Manulife",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/sales-technology-data-operations-specialist/11922699",
+   "posted": null,
+   "salary": "",
+   "description": "Sales Technology Data Operations Specialist - Manulife | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Manulife Jobs Sales Technology Data Operations Specialist Manulife Sales Technology Data Operations Specialist Posted Yesterday Be an Early Applicant In-Office Toronto, ON, CAN Junior In-Office Toronto, ON, CAN Junior Supports sales technology business operations by coordinating data processes, managing requests, performing imports and record updates, validating information, resolving issues, and maintaining documentation. The role manages a shared mailbox, applies complex business rules, collaborates across teams, and ensures data-related activities are completed accurately and on time. The summary above was generated by AI The Sales Technology Data Operations Specialist plays a key role in supporting business operations through the management of data-driven processes and requests. This position works across multiple teams to ensure information is handled accurately, issues are resolved efficiently, and operational activities are executed effectively. The ideal candidate is highly organized, detail-oriented, and comfortable managing multiple priorities while driving work to completion. Responsibilities: Execute and coordinate data-related business processes across teams, ensuring work is completed accurately and within established timelines. Develop and apply a detailed understanding of complex business rules, guidelines, exceptions, and process nuances. Execute recurring activities in accordance with established requirements and timelines. Serve as a central point of coordination for questions and issues, working across teams to research needs, facilitate updates, and manage items through resolution. Manage the shared mailbox, coordinate responses, and ensure requests receive appropriate follow-up. Coordinate and execute data-related requests, including list management, data imports, mass attribute tagging, campaign data uploads, and other business needs. Maintain process documentation and identify recurring issues requiring escalation or additional review. Requirements: Education and Experience: College degree or with at least 2+ years of relevant business experience. Confidentiality : Ability to handle confidential information with discretion. Technical Proficiency: Proficient with Microsoft Office, particularly Excel, as well as Outlook and Teams. CRM Familiarity : Familiarity with Salesforce or a similar CRM platform; experience with data imports or list tools is a plus. Financial Services Knowledge: General understanding of financial services or insurance operations preferred. Autonomy and Team Collaboration: Ability to work independently while contributing in a team-based environment. Process Execution: Ability to understand and apply complex business rules, guidelines, exceptions, and nuances. Data Management: Experience with list management, data imports, record updates, and data validation, including strong proficiency in Microsoft Excel. Organization and Time Management: Strong attention to detail with the ability to manage competing priorities and meet deadlines. Customer Service: Provides responsive, service-oriented support to internal requesters, ensuring questions and requests receive timely, accurate follow-up. Some business travel may be required. Competencies: Collaboration: Builds productive working relationships across teams to coordinate activities an"
+  }
+ ]
+}

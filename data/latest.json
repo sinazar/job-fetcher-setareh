@@ -1,27 +1,29 @@
 {
- "run_id": "2026-10-27T105113Z",
- "run_at": "2026-10-27T10:51:13.492156+00:00",
- "date": "2026-10-27",
+ "run_id": "2026-10-28T113239Z",
+ "run_at": "2026-10-28T11:32:39.063110+00:00",
+ "date": "2026-10-28",
  "source_counts_after_filters": {
-  "jsearch": 12,
+  "jsearch": 5,
   "remoteok": 0,
-  "weworkremotely": 0,
+  "weworkremotely": 1,
   "adzuna": 0,
-  "builtin": 2
+  "builtin": 3
  },
- "new_count": 6,
+ "new_count": 4,
  "diagnostics": {
   "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
    "returned": 10,
-   "kept": 7,
+   "kept": 5,
    "error": null,
    "rejected_by": {
-    "title": 3
+    "title": 5
    },
    "rejected_samples": [
-    "[title] Marketing Manager, Specialist | Vanguard Investments Canada Inc. | Toronto, ON, Canada | 2026-10-23T00:00:00+00:00",
-    "[title] Charg\u00e9 marketing publicit\u00e9 F/H | Augusta Fruit Market | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
-    "[title] Events Marketing Coop (December 2026 - May 2027) | commonsku | Toronto, ON, Canada | 2026-10-26T22:00:00+00:00"
+    "[title] Events Marketing Coop (December 2026 - May 2027) | commonsku | Toronto, ON, Canada | 2026-10-26T00:00:00+00:00",
+    "[title] Digital Marketing & Demand Generation Specialist | Altis | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Charg\u00e9 marketing publicit\u00e9 F/H | Augusta Fruit Market | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
+    "[title] Associate Shopper Marketing Manager | Mondel\u0113z International | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Sr. Project Manager, Marketing & Comms | Thomson Reuters | Toronto, ON, Canada | 2026-10-26T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -87,8 +89,8 @@
    ]
   },
   "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
-   "returned": 1,
-   "kept": 1,
+   "returned": 0,
+   "kept": 0,
    "error": null,
    "rejected_by": {},
    "rejected_samples": [],
@@ -113,61 +115,18 @@
      "country": "ca",
      "language": "en"
     },
-    "job_keys": [
-     "job_id",
-     "job_title",
-     "employer_name",
-     "employer_logo",
-     "employer_website",
-     "job_publisher",
-     "job_employment_type",
-     "job_employment_types",
-     "job_apply_link",
-     "job_apply_is_direct",
-     "apply_options",
-     "job_description",
-     "job_is_remote",
-     "job_posted_at",
-     "job_posted_at_timestamp",
-     "job_posted_at_datetime_utc",
-     "job_location",
-     "job_city",
-     "job_state",
-     "job_country",
-     "job_latitude",
-     "job_longitude",
-     "job_benefits",
-     "job_benefits_strings",
-     "job_google_link",
-     "job_salary",
-     "job_salary_string",
-     "job_min_salary",
-     "job_max_salary",
-     "job_salary_period",
-     "job_highlights",
-     "job_onet_soc",
-     "job_onet_job_zone",
-     "employer_reviews",
-     "job_uid"
-    ]
+    "job_keys": []
    },
    "pages": [
-    1
+    0
    ]
   },
   "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
-   "returned": 7,
-   "kept": 3,
+   "returned": 0,
+   "kept": 0,
    "error": null,
-   "rejected_by": {
-    "title": 4
-   },
-   "rejected_samples": [
-    "[title] Business Operations Lead, Canada Strategy and Operations | Amazon Web Services Canada, Inc. | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
-    "[title] Rooms Operations Manager - Front Office | Sheraton Toronto Airport Hotel and Conference Centre | Ontario, Canada | 2026-10-21T00:00:00+00:00",
-    "[title] Senior Operations Analyst | Royal Bank of Canada | Toronto, ON, Canada | 2026-10-23T00:00:00+00:00",
-    "[title] Lead Warehouse Operations Manager | Uline | Milton, ON, Canada | 2026-10-22T00:00:00+00:00"
-   ],
+   "rejected_by": {},
+   "rejected_samples": [],
    "response_shape": {
     "top_keys": [
      "status",
@@ -189,131 +148,22 @@
      "country": "ca",
      "language": "en"
     },
-    "job_keys": [
-     "job_id",
-     "job_title",
-     "employer_name",
-     "employer_logo",
-     "employer_website",
-     "job_publisher",
-     "job_employment_type",
-     "job_employment_types",
-     "job_apply_link",
-     "job_apply_is_direct",
-     "apply_options",
-     "job_description",
-     "job_is_remote",
-     "job_posted_at",
-     "job_posted_at_timestamp",
-     "job_posted_at_datetime_utc",
-     "job_location",
-     "job_city",
-     "job_state",
-     "job_country",
-     "job_latitude",
-     "job_longitude",
-     "job_benefits",
-     "job_benefits_strings",
-     "job_google_link",
-     "job_salary",
-     "job_salary_string",
-     "job_min_salary",
-     "job_max_salary",
-     "job_salary_period",
-     "job_highlights",
-     "job_onet_soc",
-     "job_onet_job_zone",
-     "employer_reviews",
-     "job_uid"
-    ]
+    "job_keys": []
    },
    "pages": [
-    7
+    0
    ]
   },
   "jsearch: remote marketing coordinator Canada (ca)": {
-   "returned": 10,
-   "kept": 1,
-   "error": null,
-   "rejected_by": {
-    "title": 9
-   },
-   "rejected_samples": [
-    "[title] Customer Marketing Manager (Remote Canada) | Directive | Calgary, AB, Canada (Remote) | 2026-10-22T00:00:00+00:00",
-    "[title] Sales Marketing Manager | AccessE11 | Canada | 2026-10-21T00:00:00+00:00",
-    "[title] Marketing Manager / FOH Specialist | Sutton Food Solutions 2025 Inc | Nova Scotia, Canada | 2026-10-23T00:00:00+00:00",
-    "[title] Media Buyer & Community Manager | OurTeam |  | 2026-10-26T00:00:00+00:00",
-    "[title] Full-Time Marketing Lead: Strategy, Acquisition & AI | 9503-3692 Qu\u00e9bec Inc. | Canada | 2026-10-21T00:00:00+00:00",
-    "[title] Senior Customer Marketing Manager | Varicent | Canada   (+30 others) | 2026-10-23T00:00:00+00:00",
-    "[title] Remote Paid Media Manager \u2014 Google/Meta/LinkedIn | Blacksmith Agency LLC | Saskatoon, SK, Canada (Remote) | 2026-10-24T00:00:00+00:00",
-    "[title] Sr. Marketing Campaign Lead | Fortra, LLC | Ontario, Canada | 2026-10-22T00:00:00+00:00"
-   ],
-   "response_shape": {
-    "top_keys": [
-     "status",
-     "request_id",
-     "parameters",
-     "data"
-    ],
-    "data_keys": [
-     "jobs",
-     "cursor"
-    ],
-    "parameters": {
-     "query": "remote marketing coordinator Canada",
-     "num_pages": 1,
-     "date_posted": "week",
-     "employment_types": [
-      "FULLTIME"
-     ],
-     "country": "ca",
-     "language": "en"
-    },
-    "job_keys": [
-     "job_id",
-     "job_title",
-     "employer_name",
-     "employer_logo",
-     "employer_website",
-     "job_publisher",
-     "job_employment_type",
-     "job_employment_types",
-     "job_apply_link",
-     "job_apply_is_direct",
-     "apply_options",
-     "job_description",
-     "job_is_remote",
-     "job_posted_at",
-     "job_posted_at_timestamp",
-     "job_posted_at_datetime_utc",
-     "job_location",
-     "job_city",
-     "job_state",
-     "job_country",
-     "job_latitude",
-     "job_longitude",
-     "job_benefits",
-     "job_benefits_strings",
-     "job_google_link",
-     "job_salary",
-     "job_salary_string",
-     "job_min_salary",
-     "job_max_salary",
-     "job_salary_period",
-     "job_highlights",
-     "job_onet_soc",
-     "job_onet_job_zone",
-     "employer_reviews",
-     "job_uid"
-    ]
-   },
-   "pages": [
-    10
-   ]
+   "returned": 0,
+   "kept": 0,
+   "error": "HTTP 504: {\"messages\":\"The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider\", \"info\": \"Your Client (working) ---> Gateway (working) ---> API (took too long to respond)\"}",
+   "rejected_by": {},
+   "rejected_samples": []
   },
   "weworkremotely": {
-   "returned": 204,
-   "kept": 0,
+   "returned": 205,
+   "kept": 1,
    "error": null,
    "rejected_by": {
     "title": 200,
@@ -321,14 +171,14 @@
     "location": 2
    },
    "rejected_samples": [
+    "[title] Account Executive, Mid Market (Northeast) | Samsara | Anywhere in the World (Remote) | 2026-10-28T07:31:13+00:00",
+    "[title] AI Security Sales Executive | Abnormal | Anywhere in the World (Remote) | 2026-10-28T07:31:13+00:00",
+    "[title] Account Development Representative - France | Samsara | Anywhere in the World (Remote) | 2026-10-28T07:31:07+00:00",
+    "[title] Senior Account Executive II, Federal DOW/Army/Navy/Air Force/Pentagon | Collibra | Anywhere in the World (Remote) | 2026-10-28T07:31:06+00:00",
+    "[title] Head of Enterprise Marketing | Descript | Anywhere in the World (Remote) | 2026-10-28T07:30:57+00:00",
     "[title] Video Editor | PlanetScale | Anywhere in the World (Remote) | 2026-10-27T07:31:09+00:00",
     "[title] Solutions Engineer | PlanetScale | Anywhere in the World (Remote) | 2026-10-27T07:31:09+00:00",
-    "[title] Senior Website Manager | Veracode | Anywhere in the World (Remote) | 2026-10-27T07:30:57+00:00",
-    "[title] Enterprise Account Executive | Fivetran | Anywhere in the World (Remote) | 2026-10-27T07:30:57+00:00",
-    "[title] Enterprise Account Executive | Fivetran | Anywhere in the World (Remote) | 2026-10-27T07:30:57+00:00",
-    "[title] Director, Solutions Engineering (Enterprise AMER) | Cribl | Anywhere in the World (Remote) | 2026-10-27T07:30:50+00:00",
-    "[title] Sales Enablement Manager | Upsun | Anywhere in the World (Remote) | 2026-10-27T07:30:46+00:00",
-    "[title] Director, Solutions Engineering (Enterprise AMER) | Cribl | Anywhere in the World (Remote) | 2026-10-27T07:30:45+00:00"
+    "[title] Senior Website Manager | Veracode | Anywhere in the World (Remote) | 2026-10-27T07:30:57+00:00"
    ]
   },
   "builtin search 1": {
@@ -347,105 +197,79 @@
    "rejected_by": {},
    "rejected_samples": [],
    "http_status": 200,
-   "links_found": 12
+   "links_found": 13
   },
   "builtin job pages": {
-   "returned": 24,
-   "kept": 2,
+   "returned": 25,
+   "kept": 3,
    "error": null,
    "rejected_by": {
     "title": 22
    },
    "rejected_samples": [
+    "[title] Director, Brand",
+    "[title] Writer for Minute Taking - Toronto, ON",
+    "[title] Executive Producer, Publishing (English Services) (On-Site)",
     "[title] Brand Manager",
-    "[title] Sr. Manager, Email and Distributed Marketing",
-    "[title] Digital Strategy and Experience Consultant, Digital Wealth Management",
-    "[title] Marketing Manager",
-    "[title] Promo Scheduling Assistant, FAST Channels (1-Year Contract)",
-    "[title] Creator Manager",
-    "[title] Sr Specialist, Digital Content (Contract 18 Months)",
-    "[title] Senior Technical Writer (Toronto)"
+    "[title] Manager, Activation",
+    "[title] Senior Analyst, Activation",
+    "[title] Copy Supervisor",
+    "[title] Manager, Brand Strategy & Governance"
    ]
   }
  },
  "jobs": [
   {
-   "id": "jsearch:anFoSXRWZzVmVjBBbE1HUkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbU42YTNWNlIyZGxiVGhsY1hOUVJXUjFaWHBVY1ZwSFJVVllNbEZRZVdocGFHOXNNVVZNWVVGUk5YTmFaRE5qVEhoUVpsSkdXbE5RWjJZM1prZHBjMTlwWTFwdWNWbGFNRFZoWWtWSVpWaG5kVXd0TXpVNU9WUlJWRWRNVmxWbGRGaHpkV05IVVhWWWJHVlFTbms1WWxkQk4yaHRPV3RRV1VRMU9XRmpRVEpoTFVsT1R6Z1NGMHB2VEdkaGMxQjNUVjlsVnpWUFRWQjBZbE5rTFZGUkdpSkJSSE55T1daUmFGcFNTelUyWjBGa2NtUnFNR3REUkRWMFRsbHZNMWhEVW1kUg",
-   "source": "jsearch",
-   "publisher": "LinkedIn",
-   "title": "Field Marketing Coordinator",
-   "company": "Stanley Black & Decker, Inc.",
-   "location": "Mississauga, ON, Canada",
-   "remote": false,
-   "url": "https://ca.linkedin.com/jobs/view/field-marketing-coordinator-at-stanley-black-decker-inc-4483712492",
-   "posted": "2026-10-26T17:00:00+00:00",
+   "id": "wwr:https://weworkremotely.com/remote-jobs/storyblok-senior-content-marketing-specialist-uk",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Senior Content Marketing Specialist - UK",
+   "company": "Storyblok",
+   "location": "Anywhere in the World (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/storyblok-senior-content-marketing-specialist-uk",
+   "posted": "2026-10-28T07:31:07+00:00",
    "salary": "",
-   "description": "Build Your Career With Us The What As a Field Marketing Coordinator, you will be part of a dedicated team based in the GTA and reporting to the Territory Manger, Residential Sales. The Field Marketing Coordinator is a dedicated service support representative with responsibility for the big box retail stores. As a Field Marketing Coordinator, you must be a highly motivated, customer focused, hands-on individual that thrives in a fast-paced service environment. Possessing strong interpersonal and execution skills you will implement various Sales and Marketing programs in retail channels while managing your time effectively with multiple accounts. If you enjoy building strong relationships, contributing to meaningful work, and making a real impact, join us to build a career where you can thrive and Make A Difference For Those Who Make The World\u2122. What You Get \u2022 Competitive compensation, with an anticipated starting rate of $50,000. \u2022 Performance-based earning potential through a discretionary sales incentive bonus targeted at 5% of your annual salary, based on the achievement of defined objectives and plan terms. Bonuses are not guaranteed. \u2022 Company-provided fleet vehicle for both business and personal use, making travel across your territory easy and convenient. \u2022 Comprehensive benefits package designed to support the health, well-being, and financial future for you and your family. \u2022 The tools you need to succeed, including a company vehicle, cell phone, and laptop. \u2022 A supportive and collaborative team where your ideas are valued and you can bring your best self to work every day. \u2022 Career growth opportunities as part of a Fortune 200 company, with the chance to learn, grow, and advance your career. \u2022 An Employee Product Purchase Program with exclusive discounts on our products, including DEWALT\u00ae, CRAFTSMAN\u00ae, CUB CADET\u00ae, STANLEY\u00ae and BLACK+DECKER brands. \u2022 Employee perks including discounted company stock options, GoodLife Fitness discounts, safety shoes reimbursement, and many more exclusive offers. The Why It takes great people to achieve greatness. People with a sense of purpose and integrity. People with a relentless pursuit of excellence. People who care about making things better For Those Who Make The World\u2122. Sound like you? Join our top-notch team of nearly 48,000 professionals globally who are making their mark on some of the world\u2019s most beloved brands, including DEWALT\u00ae, CRAFTSMAN\u00ae, CUB CADET\u00ae, STANLEY\u00ae and BLACK+DECKER. What You Will Get To Do \u2022 Local contact for big box retail stores \u2022 Execute retail events & new product launches \u2022 Flawlessly execute category work plans for all assigned brands and product categories (i.e. DeWALT, Craftsman, Stanley, to name a few) \u2022 Achieve weekly and quarterly call cycle goals \u2022 Develop strong relationships with key account personnel \u2022 Work effectively with your manager on a weekly/monthly basis \u2022 Complete all communication requirements with accounts timely and effectively \u2022 Conduct product knowledge trainings onsite at big box retail locations \u2022 Working with retail stores to find new and creative ways to merchandise and increase sales \u2022 Become the liaison between retail stores and internal sales/marketing team \u2022 Ensure merchandising standards are met in store to maintain strong brand presence \u2022 Conduct in-store events and demos with retail employees and end users \u2022 Work with key in store personnel to promote and expand brand exposure \u2022 Become a product knowledge expert Who You Are \u2022 College or University degree/diploma in Marketing, Business or relevant area of study \u2022 Experience with retail events, product demonstration, new product launches a strong asset \u2022 Strong communication and interpersonal skills \u2022 Self-motivated with the ability to work independently, as well as in a group to achieve team goals \u2022 Strong organizational and time management skills \u2022 Computer proficient in Word, Excel, Power Point, and Outlook \u2022 G drivers license and a Clean Drivers Abstract required \u2022 Abi"
+   "description": "Headquarters: Remote Storyblok is a headless CMS that enables marketers and developers to create with joy and publish with confidence. It empowers you to deliver structured and consistent content everywhere: websites, apps, AI search, and beyond. Legendary brands like Virgin Media O2, Oatly, and TomTom use Storyblok to make a bigger, faster market impact. WHAT IS IN IT FOR YOU You will be joining a growing company where you can contribute to many \u201cfirsts\u201d. Plus these benefits: Monthly remote work stipend (home internet costs, electricity). Home office equipment package right at the start (laptop, keyboard, monitor\u2026) Home office equipment upgrade (furniture, ear plugs \u2026) or membership to a local co-working space after your onboarding Sick leave benefit, parental leave and 25 days of annual leave plus your local national holidays Personal development fund for courses, books, conferences, and material The annual international team-building trip, quarterly and monthly online get-togethers As a fully remote company, with work-life balance at its core, you\u2019ll enjoy flexible schedules An international team that loves to have fun at work and works hard together to accomplish shared goals JOB SUMMARY We're looking for a Senior Content Marketing Specialist to shape and create impactful, thought-leadership led content across our 6 monthly brand campaign cycles, plus additional ICP tracks as needed, while owning customer advocacy content - e.g. case studies. The right candidate understands what makes great B2B marketing content, is AI-native, takes initiative in a fast-paced scale up environment, and brings a data-driven mindset to connect strategy with business results. This person will sit within Storyblok's Brand and Communications team, supporting marketing across the buyer journey, driving case study development, and partnering with field marketing, social, and events on content needs. They'll also help build and launch a new UGC programme and support executive communications on LinkedIn. ESSENTIAL JOB FUNCTIONS Content strategy Shape and execute content creation efforts within the Brand and Communications Team, from long-form whitepapers and blog posts to short-form landing pages and other supporting assets that require content support Generate creative, storytelling-focused content ideas that produce engaging thought leadership, staying abreast of B2B social trends and thinking beyond the 'usual' types of content Support aligning content marketing efforts with the wider Brand and Communications team functions, including PR, company social media, and executive communications via LinkedIn Conduct in-depth keyword research using tools like Ahrefs and/or Semrush to identify relevant topics and keyword groups for Storyblok content Briefing videographers and motion graphics experts to create videos for campaign tracks, events, social to name a few Optimisation and monitoring of content health of all Storyblok content via the website Customer advocacy Ownership of the case study content process, from initial ideation and customer contact, to creation and publication of the assets Optimisation and monitoring of all case study pages on Storyblok's website Ensuring consistent quality across all case study pages by updating older case studies and coordinating with the Partner and/or Customer Success team Planning measurable outreach strategies to garner more customer success stories in response to business requirements Defining and tracking precise KPIs for all case study efforts EDUCATION AND EXPERIENCE Must haves 5+ years\u2019 experience in content marketing or content strategy Knowledge of SEO best practices and familiarity with on-page and off-page SEO tactics Tech industry marketing experience Content reporting experience including analysing data and making recommendations Nice to haves Content marketing experience in a B2B tech scale up environment Experience developing and executing UGC programmes, particularly in B2B/tech settings Experie"
   },
   {
-   "id": "jsearch:UjYwblhmZGQ3dlRJajhITEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbUZMVkhKaGRpMUtWbUZpT0VodFdHSk5XRFpwZWpOdVprTm1VelJsWkZObFZWWXlVWGR5YW5aaGNYb3lNbTlRU0U5SmJEbEZTR3hwWDB4RVpsRjVVbmxqZWxOT2R6Z3dlWGhKZFdzeVdIQm9NVlJSUjFoRmN6bFBZMDVHUWxaMVdGaHJZelZtWjI5RWNESTBjVWx6Y1VsNlNXWmpkWGRoZWkxd2NFTjBWeko0TlhWNWFVVVNGMHB2VEdkaGMxQjNUVjlsVnpWUFRWQjBZbE5rTFZGUkdpSkJSSE55T1daVVVtWkRibVZWTlhsRk4yd3pXa2REVTNOdWRrczVaa3QyTm1KQg",
-   "source": "jsearch",
-   "publisher": "Jobrapido.com",
-   "title": "Regional Marketing Campaign Specialist",
-   "company": "Colliers Project Leaders | Canada",
-   "location": "Toronto, ON, Canada",
-   "remote": false,
-   "url": "https://ca.jobrapido.com/jobpreview/1664713450804215808",
-   "posted": "2026-10-23T00:00:00+00:00",
-   "salary": "",
-   "description": "Drive regional marketing campaigns and conference plans at Colliers Project Leaders while working collaboratively across Canada, in person and remotely. As a Regional Marketing Specialist, you will support demand and lead generation through planning, execution, and strong communications. You will work with business development teams, subject matter experts, project directors, and marketing colleagues. Your work will include strategic value positioning, brand standards, writing, client engagement, and tailored materials. You will also build familiarity with business priorities, services, sectors, and plans across Colliers Project Leaders. Key Responsibilities: \u2022 Develop annual regional conference plans and budgets \u2022 Identify events, speaking opportunities, and submission requirements \u2022 Execute strategic campaigns aligned with business plans \u2022 Customize branded materials for assigned business units \u2022 Curate content for newsletters and website news posts Requirements: \u2022 Minimum four years of relevant marketing experience \u2022 Marketing, communications, or event planning education \u2022 Strong writing, communication, and collaboration skills \u2022 Proficiency with Word, Excel, Outlook, and PowerPoint \u2022 Ability to travel within Canada as required Apply your campaign planning, writing, and stakeholder collaboration skills to regional marketing at Colliers Project Leaders. #J-18808-Ljbffr"
-  },
-  {
-   "id": "jsearch:TFZSVzFaYVFldWM5NjU2UUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbEZMTm5Ob00zVjZRbXMzU0U0d09WWlNMV1J4U0RSc1RVbHJaM3BVVWpSQ01FNTVWR2N4ZURoQ2NVMUJhVkV4WVU1c1pEZEhZVjk0ZFVaQ2IxTTJlREpHTlcxd1VrazBOa3AxZGpoVWNuQldWR0pQYm5ZdGQybHBhbUkyWVc1VU1FdE5lbUZ0YTNCVFVFMVFUamhJT1c1bVVscHdlbWRKV2t3eVMwOU9OakUwWWpJM1REVVNGMHB2VEdkaGMxQjNUVjlsVnpWUFRWQjBZbE5rTFZGUkdpSkJSSE55T1daVE9IUllhbUpIV0dOdGNHNTFVMDlsWldaeE4wVlBkMmxJVFVWbg",
-   "source": "jsearch",
-   "publisher": "Eluta.ca",
-   "title": "Bilingual Coordinator, Social Media Content Influencer Marketing (Contract)",
-   "company": "Sephora Canada",
-   "location": "Toronto, ON, Canada",
-   "remote": false,
-   "url": "https://m.eluta.ca/spl/bilingual-coordinator-social-media-content-influencer-marketing-contract-1dce32192f64c0b1e6a45c8d3f195dad?imo=12",
-   "posted": "2026-10-23T00:00:00+00:00",
-   "salary": "",
-   "description": "Date: Oct 22, 2026 Location: Toronto, ON, CA, M4W 0A2 Bilingual Coordinator, Social Media Content & Influencer Marketing (Contract) Job ID: 298262 Job Type: Full Time, 12-Month Contract Function: Marketing Address: 160 Bloor Street East, 11th Floor, Toronto, ON Working Model: Hybrid Vacancy Status: This position is for an existing, open vacancy Belong to Something Beautiful At Sephora Canada, beauty is about feeling seen, valued, and empowered, individually and collectively. It is connecting deeply with others, celebrating diversity and inclusivity, unlocking your potential and making a difference every day. Together, we belong to something beautiful. Ready for a career glow-up? As Bilingual Coordinator, Social Media Content & Influencer Marketing, you\u2019ll help bring Sephora Canada\u2019s social media and influencer programs to life for English- and French-speaking audiences. You\u2019ll support engaging content and creator partnerships while helping grow our French-language social presence. Join a team united in beauty and passionate about storytelling, building community, and creating meaningful digital experiences. What You\u2019ll Do: \u2022 French Social Channels: Create, adapt , and edit social-first video content for Sephora Canada\u2019s French Instagram and TikTok channels, and support publishing, translation coordination, and community management. \u2022 Owned Social Content: Manage the content calendar and support content planning, partnering with the Social Content team to bring social-first creative concepts to life . \u2022 Influencer Marketing: Support influencer marketing initiatives through creator partnerships, product shipments, event support, campaign coordination, and results tracking. What You\u2019ll Bring: \u2022 Experience managing social media accounts and creating engaging social content \u2022 Fluency in French and English, with strong communication skills and the ability to adapt content for both audiences \u2022 Strong social media video editing skills and comfort appearing on camera \u2022 Strong organizational skills and attention to detail \u2022 A passion for social media and influencer marketing, with a curiosity for emerging trends and what\u2019s next in culture \u2022 A genuine interest in beauty and enthusiasm for exploring products, following trends, and joining the conversation \u2022 Comfort and confidence using digital and AI-enabled tools responsibly in your day-to-day work As part of the application process, please include a link to your portfolio or examples that showcase your video editing skills and ability to create engaging, social-first content in English and/or French. #FSCHIRING What You\u2019ll Get: \u2022 Caring Community. You\u2019ll collaborate with teammates who are equally passionate about innovating, doing the right things, and driving the industry forward \u2013 together, united in beauty. \u2022 Fulfilling Path. Your career glow-up starts here with access to opportunities that will challenge, stretch, and develop your skills. You\u2019ll have access to the global community of luxury group LVMH (Louis Vuitton Mo\u00ebt Hennessy) for endless career opportunities. \u2022 Meaningful Work. As you make an impact on beauty, you\u2019ll feel and see the positive change (consumer, industry, and social) your individual voice is a part of. Rewards as Unique as You Are: Eligibility requirements apply to certain benefits and may vary depending on job classification and length of employment. \u2022 Wealth. We\u2019re passionate about pay equity and transparency. The compensation ranges between CAD$57,000.00 \u2013 CAD$64,000.00 . The final pay offered will depend on various factors, including but not limited to the actual qualifications and experience of the individual, and any additional non-discriminatory, legitimate business factors relevant to the position and/or location. \u2022 Health. Choose a healthcare plan to fit you and your family\u2019s needs with medical and dental coverage. Access to our Well-Being@Sephora program to support your mental, financial, physical, and social well-being. \u2022 Balance. You\u2019ll be trusted to "
-  },
-  {
-   "id": "jsearch:R2dFaXM3X3E3WnVjSGVpZUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTakZ5ZG5odWFuaFNZVlJqVTNZeGRFWmZPWHBrUm01MVJYYzFZWFJ3VERCTmFVMW9ObVJHVmt4ek0xbDZiRnBZWjJ4YU5XMUZhRjluVnpsMFZFVkpaRTVsZEdoT09UQjRjM0pFVEU1b1FpMUtWamxRWkU1U1VHcHZkVWxHWmpOVFN6QlFibWhVYjFWS01tSlFiVUZ5Ymt4RlUyRktZVlZKZW5oTmJrWkJXbDkzTFVRekxVWVNGMHMwVEdkaGNHWkJSalZQY0RsMU9GQnpUR1pWTWxGUkdpSkJSSE55T1daUlQwbEpWa3RNWVRSQ2FXVm9ha1p6ZWxkWE5rNWlTa3MzY1dSMw",
-   "source": "jsearch",
-   "publisher": "Toronto Jobs Expertini",
-   "title": "Part Time Client Services Coordinator Toronto",
-   "company": "Spectrum Health Care (SHC)",
-   "location": "Toronto, ON, Canada",
-   "remote": false,
-   "url": "https://toronto.ca.expertini.com/job/part-time-client-services-coordinator-toronto-toronto-spectrum-health-care-shc-291-11338329/",
-   "posted": "2026-10-21T00:00:00+00:00",
-   "salary": "",
-   "description": "Elevate client care at Spectrum Health Care as a Part Time Client Services Coordinator in Toronto. Work evening and weekend shifts, providing essential support to patients and staff. Spectrum Health Care is looking for a dedicated Client Services Coordinator to enhance patient experiences in its Toronto office. This role requires exceptional communication skills and a passion for healthcare. Collaborating with clinical staff, you will manage inquiries and assist with service scheduling, ensuring quality in patient care. Key Responsibilities: \u2022 Collaborate with community PSWs and Nurses for service scheduling \u2022 Act as liaison between clients, staff, and community partners \u2022 Resolve client inquiries and report concerns to supervisors \u2022 Collect and enter client data into systems accurately \u2022 Provide administrative support for nurse and PSW programs Requirements: \u2022 Medical Office Admin Diploma or equivalent \u2022 Minimum 2 years office experience required \u2022 Must be able to work weekends \u2022 Excellent communication and customer service skills \u2022 Proficient in Word, Outlook, and learn proprietary software Contribute to a top-performing healthcare team focused on exceptional service and patient support. #J-18808-Ljbffr"
-  },
-  {
-   "id": "builtin:11900021",
+   "id": "builtin:11925641",
    "source": "builtin",
    "publisher": "Built In",
-   "title": "Marketing Coordinator, Consumer Shows",
-   "company": "Blue Ant Media",
+   "title": "Marketing Coordinator (Graphic Design & Video Production)",
+   "company": "Penny Appeal Canada",
    "location": "Toronto, ON",
    "remote": false,
-   "url": "https://builtintoronto.com/job/marketing-coordinator-consumer-shows/11900021",
+   "url": "https://builtintoronto.com/job/marketing-coordinator-graphic-design-video-production/11925641",
    "posted": null,
    "salary": "",
-   "description": "Marketing Coordinator, Consumer Shows - Blue Ant Media | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Blue Ant Media Jobs Marketing Coordinator, Consumer Shows Blue Ant Media Marketing Coordinator, Consumer Shows Posted 10 Hours Ago Be an Early Applicant In-Office Toronto, ON, CAN Mid level In-Office Toronto, ON, CAN Mid level Coordinates integrated marketing campaigns for Blue Ant Media\u2019s Toronto Home Shows portfolio. Responsibilities include managing campaign deliverables, social media and email marketing, website updates, exhibitor and sponsor materials, partner coordination, on-site content support, and post-show reporting. The role tracks ticket sales, engagement, email performance, and survey results while collaborating with creative, data, communications, and event teams. It is hybrid in Toronto and requires in-office attendance at least three days per week. The summary above was generated by AI TELLING CAPTIVATING STORIES TO AUDIENCES EVERYWHERE Blue Ant Media (TSX: BAMI) is an international streamer, production studio, advertising sales and rights-management business. The company operates a diverse portfolio of free streaming and pay TV channels internationally, including Love Nature, Cottage Life, Smithsonian Channel Canada, BBC Earth Canada, HauntTV, Homeful, and Love Pets, as well as the subscription streaming service MagellanTV. Its studio business produces and distributes a wide range of premium content across key genres for streaming and broadcast platforms worldwide. Blue Ant Media is headquartered in Toronto, with a presence in Los Angeles, New York, Miami, Singapore, London, Washington, Sydney, Halifax, and Ottawa. blueantmedia.com \u2f01 Instagram \u2f01 LinkedIn Our employees are passionate experts in all of our business areas. They are fanatical about creating outstanding content and experiences, and about delivering them on new and evolving platforms. We actively seek new employees who embody our core values. We want them to think big, act with purpose, celebrate creativity, do the right thing, respect one another, and succeed together. We attract creative talents who are optimistic about the evolving future of content and who take pride in recognizing opportunities where others see challenges. At Blue Ant Media, we give them the flexibility to think like entrepreneurs, take ownership of their projects, take risks, and embrace innovation in a rapidly evolving media landscape. Our team members excel at collaborating with internal and external partners by building trusting, respectful working relationships. Marketing Coordinator, Consumer Shows Blue Ant Media is looking for a highly organized, detail-oriented and creative Marketing Coordinator to support the planning and execution of marketing campaigns across our Toronto Home Shows portfolio, including the National Home Show, Fall Home Show and GTA Home Show. You will help drive attendance, exhibitor participation, sponsorship visibility and audience engagement across multiple live events. In addition, you will work closely with the Marketing Manager, Show Directors, and our Creative, Data and Communications teams to keep campaigns moving and marketing deliverables on time. This is a hands-on role for someone who enjoys keeping projects organized, coordinating creative, updating websites, running email and social campaigns, and helping bring live events to life before, during and after showtime. This role will re"
+   "description": "Marketing Coordinator (Graphic Design & Video Production) - Penny Appeal Canada | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Penny Appeal Canada Jobs Marketing Coordinator (Graphic Design & Video Production) Penny Appeal Canada Marketing Coordinator (Graphic Design & Video Production) Posted Yesterday Be an Early Applicant Hybrid Mississauga, ON, CAN Entry level Hybrid Mississauga, ON, CAN Entry level Creates and adapts graphics, videos, advertisements, social media content, and promotional materials for fundraising campaigns. Edits videos for multiple platforms, maintains brand consistency, supports social media publishing, coordinates creative assignments, and collaborates with the marketing team to meet deadlines. The role also provides additional production support for campaigns, events, and organizational initiatives. The summary above was generated by AI About Penny Appeal Canada Penny Appeal Canada is a registered Canadian charity dedicated to providing sustainable solutions to poverty and supporting vulnerable communities locally and internationally. Through our humanitarian programs, fundraising initiatives, and community engagement efforts, we strive to make a meaningful difference in the lives of those who need it most. Position Overview Penny Appeal Canada is seeking a creative, organized, and detail-oriented Marketing Coordinator (Graphic Design & Video Production) to join our Marketing Department on a three-month, part-time contract. The successful candidate will play an important role in supporting the development and production of engaging digital content, including social media graphics, fundraising appeal videos, digital advertising creatives, and promotional materials. The ideal candidate is a versatile creative professional with strong graphic design and video editing skills, excellent attention to detail, and the ability to manage multiple projects in a fast-paced, collaborative environment. Key Responsibilities Graphic Design & Creative Production Design and develop high-quality static graphics for organic social media, digital advertising campaigns, fundraising appeals, and promotional initiatives. Create visually engaging marketing materials that align with Penny Appeal Canada's branding and campaign objectives. Resize, adapt, and optimize creative assets for various digital platforms, advertising specifications, and content formats. Maintain consistency in visual branding across marketing materials and communications. Video Editing & Content Development Edit and produce compelling fundraising appeal videos, promotional content, and organic social media videos. Adapt existing video content into multiple lengths, formats, and aspect ratios suitable for various platforms. Support ongoing video production needs, including campaign launches, events, and other organizational initiatives. Provide additional video editing and production support during the temporary absence of the team's Video Editor. Social Media & Digital Marketing Support Assist with scheduling, organizing, and publishing organic social media content across Penny Appeal Canada's digital platforms. Collaborate with the Marketing Department to develop creative assets that support fundraising and engagement objectives. Ensure digital content is formatted appropriately for social media and advertising platforms. Support content planning and production activities as needed. Campaign Coordina"
   },
   {
-   "id": "builtin:11894940",
+   "id": "builtin:11932582",
    "source": "builtin",
    "publisher": "Built In",
-   "title": "Franchise Operations Coordinator",
-   "company": "WildBrain",
+   "title": "Customer Experience Associate",
+   "company": "TD Bank",
    "location": "Toronto, ON",
    "remote": false,
-   "url": "https://builtintoronto.com/job/franchise-operations-coordinator/11894940",
+   "url": "https://builtintoronto.com/job/customer-experience-associate/11932582",
    "posted": null,
    "salary": "",
-   "description": "Franchise Operations Coordinator - WildBrain | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job WildBrain Jobs Franchise Operations Coordinator WildBrain Franchise Operations Coordinator Posted Yesterday Be an Early Applicant Hybrid Toronto, ON, CAN Entry level Hybrid Toronto, ON, CAN Entry level Provides administrative and financial support to the franchise team, including onboarding, compliance tracking, records management, invoice processing, account reconciliation, budgeting, expense tracking, audits, and franchisee communications. Coordinates franchise materials in the portal and manages global mascot shipping and cleaning logistics. Maintains confidential documentation and supports regulatory compliance while serving as a liaison between franchisees, vendors, and corporate teams. The summary above was generated by AI Company Description Location: Toronto, Canada or Los Angeles, US Vacancy: This posting is for an existing open role at WildBrain\u2019s Toronto office. Start date: ASAP Hybrid work: Employees work in a hybrid model balancing collaboration in our office and remote work. Find a job that lets your imagination run wild! WildBrain is made up of a team of innovators and creators who bring industry-leading kids\u2019 content and brands to families globally. We inspire imagination, put creativity first and believe in the power of storytelling. We are constantly connecting the powers of our global team, making WildBrain a collaborative, openminded and passionate environment to work in. To work at WildBrain means you get to create stories that lets imaginations run wild. Join our team today and make us part of your story! About the Role We're looking for a Franchise Coordinator to will support the effective administration of the franchise team and managing finance-related administrative tasks. Job Description Provide administrative support to the franchise team, including scheduling meetings, preparing reports, and maintaining records. Coordinate franchise onboarding, compliance tracking, and communication between franchisees and the corporate office. Coordinate all Franchise materials and organization in the Franchise Portal Coordinate the processing of all vendor invoices and tracking payment issues/delays Assist in managing financial administration, such as processing invoices, reconciling accounts, managing budgets, and tracking expenses. Maintain and organize confidential financial and franchise documentation, ensuring accuracy and accessibility. Character Mascot Management (SSC & TT) Lead contact for Mascot Management Companies Coordinate the shipping and cleaning of all Mascots around the world Support internal audits, help prepare financial statements, and assist with regulatory compliance requirements. Respond to franchisee inquiries regarding administrative and financial matters, providing timely and professional assistance. Qualifications Post-secondary education in business administration, accounting, or a related field. Strong organizational and communication skills. Experience with accounting software and Microsoft Office Suite, including CoPilot and AI administration tools Ability to manage multiple priorities and work collaboratively in a team environment. Attention to detail and a high level of confidentiality. Additional Information What We Offer Working at WildBrain is more than a job \u2014 it\u2019s the opportunity to join forces with extraordinary, insightful and ima"
+   "description": "Customer Experience Associate - TD Bank | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job TD Bank Jobs Customer Experience Associate TD Bank Customer Experience Associate Posted 3 Hours Ago Be an Early Applicant In-Office Toronto, ON, CAN Junior In-Office Toronto, ON, CAN Junior Provides frontline banking support by processing deposits, withdrawals, bill payments, and other financial transactions. Assesses customer needs, recommends appropriate banking solutions, resolves concerns, follows regulations and procedures, promotes products, and supports team effectiveness. The role requires accurate administration, strong organization, effective communication, customer service skills, and proficiency with Microsoft Office. Training and onboarding are provided. The summary above was generated by AI Work Location: Toronto, Ontario, Canada Hours: 15 Line of Business: Personal & Commercial Banking Pay Details: 22.50 - 28.33 CAD TD is committed to providing fair and equitable compensation opportunities to all colleagues. Growth opportunities and skill development are defining features of the colleague experience at TD. Our compensation policies and practices have been designed to allow colleagues to progress through the salary range over time as they progress in their role. The base pay actually offered may vary based upon the candidate's skills and experience, job-related knowledge, geographic location, and other specific business and organizational needs. As a candidate, you are encouraged to ask compensation related questions and have an open dialogue with your recruiter who can provide you more specific details for this role. Job Description: Department Overview: At TD Canada Trust, we are the frontline of TD Bank. We strive to build deep and long-lasting relationships with our customers by performing a broad range of customer service transactions and providing information and advice on services, products, and solutions to existing or prospective TD customers. At the branch, we understand customer needs and identify opportunities to promote products and services to refer customers to the appropriate team member or internal Bank partner, while ensuring a positive customer experience. Join TD Canada Trust and Think like a customer, Act like an Owner, Innovate with purpose and Execute with Speed and Impact. Job Description: Can you bring your charming self to work and make customer interactions delightful one? Can you process financial transactions accurately and get a sense of achievement by providing excellent customer experience? If so then, take the next step to your future today and apply for the position of a Customer Experience Associate. We are expecting an all-around champion who can understand customer needs and advise best suited banking solutions for a positive customer experience. In this role, you will: Process financial transactions like deposits, withdrawals, and bill payments as per standardized operating procedures, industry regulations and TD's Code of Conduct and Ethics Understand and determine customer needs to recommend solutions specific to those needs while exercising discretion in confidential matters Respond and resolve customers' concerns using standard procedures and escalating non-standard activities, as necessary Achieve assigned goals and business objectives by promoting banking solutions and completing business processes in a timely and accurate manner C"
+  },
+  {
+   "id": "builtin:11922699",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Sales Technology Data Operations Specialist",
+   "company": "Manulife",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/sales-technology-data-operations-specialist/11922699",
+   "posted": null,
+   "salary": "",
+   "description": "Sales Technology Data Operations Specialist - Manulife | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Manulife Jobs Sales Technology Data Operations Specialist Manulife Sales Technology Data Operations Specialist Posted Yesterday Be an Early Applicant In-Office Toronto, ON, CAN Junior In-Office Toronto, ON, CAN Junior Supports sales technology business operations by coordinating data processes, managing requests, performing imports and record updates, validating information, resolving issues, and maintaining documentation. The role manages a shared mailbox, applies complex business rules, collaborates across teams, and ensures data-related activities are completed accurately and on time. The summary above was generated by AI The Sales Technology Data Operations Specialist plays a key role in supporting business operations through the management of data-driven processes and requests. This position works across multiple teams to ensure information is handled accurately, issues are resolved efficiently, and operational activities are executed effectively. The ideal candidate is highly organized, detail-oriented, and comfortable managing multiple priorities while driving work to completion. Responsibilities: Execute and coordinate data-related business processes across teams, ensuring work is completed accurately and within established timelines. Develop and apply a detailed understanding of complex business rules, guidelines, exceptions, and process nuances. Execute recurring activities in accordance with established requirements and timelines. Serve as a central point of coordination for questions and issues, working across teams to research needs, facilitate updates, and manage items through resolution. Manage the shared mailbox, coordinate responses, and ensure requests receive appropriate follow-up. Coordinate and execute data-related requests, including list management, data imports, mass attribute tagging, campaign data uploads, and other business needs. Maintain process documentation and identify recurring issues requiring escalation or additional review. Requirements: Education and Experience: College degree or with at least 2+ years of relevant business experience. Confidentiality : Ability to handle confidential information with discretion. Technical Proficiency: Proficient with Microsoft Office, particularly Excel, as well as Outlook and Teams. CRM Familiarity : Familiarity with Salesforce or a similar CRM platform; experience with data imports or list tools is a plus. Financial Services Knowledge: General understanding of financial services or insurance operations preferred. Autonomy and Team Collaboration: Ability to work independently while contributing in a team-based environment. Process Execution: Ability to understand and apply complex business rules, guidelines, exceptions, and nuances. Data Management: Experience with list management, data imports, record updates, and data validation, including strong proficiency in Microsoft Excel. Organization and Time Management: Strong attention to detail with the ability to manage competing priorities and meet deadlines. Customer Service: Provides responsive, service-oriented support to internal requesters, ensuring questions and requests receive timely, accurate follow-up. Some business travel may be required. Competencies: Collaboration: Builds productive working relationships across teams to coordinate activities an"
   }
  ]
 }
