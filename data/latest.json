@@ -1,29 +1,31 @@
 {
- "run_id": "2026-10-28T113239Z",
- "run_at": "2026-10-28T11:32:39.063110+00:00",
- "date": "2026-10-28",
+ "run_id": "2026-10-29T114117Z",
+ "run_at": "2026-10-29T11:41:17.390426+00:00",
+ "date": "2026-10-29",
  "source_counts_after_filters": {
-  "jsearch": 5,
+  "jsearch": 6,
   "remoteok": 0,
-  "weworkremotely": 1,
+  "weworkremotely": 2,
   "adzuna": 0,
-  "builtin": 3
+  "builtin": 2
  },
- "new_count": 4,
+ "new_count": 7,
  "diagnostics": {
   "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
-   "returned": 10,
-   "kept": 5,
+   "returned": 9,
+   "kept": 2,
    "error": null,
    "rejected_by": {
-    "title": 5
+    "title": 7
    },
    "rejected_samples": [
+    "[title] Manager, Partner Marketing | Chexy | Toronto, ON, Canada | 2026-10-27T00:00:00+00:00",
     "[title] Events Marketing Coop (December 2026 - May 2027) | commonsku | Toronto, ON, Canada | 2026-10-26T00:00:00+00:00",
-    "[title] Digital Marketing & Demand Generation Specialist | Altis | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
-    "[title] Charg\u00e9 marketing publicit\u00e9 F/H | Augusta Fruit Market | Toronto, ON, Canada | 2026-10-21T00:00:00+00:00",
-    "[title] Associate Shopper Marketing Manager | Mondel\u0113z International | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
-    "[title] Sr. Project Manager, Marketing & Comms | Thomson Reuters | Toronto, ON, Canada | 2026-10-26T00:00:00+00:00"
+    "[title] Sr. Project Manager, Marketing & Comms | Thomson Reuters | Toronto, ON, Canada | 2026-10-26T00:00:00+00:00",
+    "[title] Remote senior marketing manager, ehsq saas | Valsoft Corporation | Toronto, ON, Canada (Remote) | 2026-10-26T00:00:00+00:00",
+    "[title] Manager, Products, Technologies and Marketing Experience | AIR CANADA | Toronto, ON, Canada | 2026-10-23T00:00:00+00:00",
+    "[title] Head of Growth Marketing (Remote, Toronto) | Blacksmith Agency LLC | Toronto, ON, Canada (Remote) | 2026-10-25T00:00:00+00:00",
+    "[title] Marketing Manager | Robert Half | Oshawa, ON, Canada | 2026-10-27T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -85,12 +87,12 @@
     ]
    },
    "pages": [
-    10
+    9
    ]
   },
   "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
-   "returned": 0,
-   "kept": 0,
+   "returned": 1,
+   "kept": 1,
    "error": null,
    "rejected_by": {},
    "rejected_samples": [],
@@ -115,18 +117,59 @@
      "country": "ca",
      "language": "en"
     },
-    "job_keys": []
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
    },
    "pages": [
-    0
+    1
    ]
   },
   "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
-   "returned": 0,
-   "kept": 0,
+   "returned": 4,
+   "kept": 2,
    "error": null,
-   "rejected_by": {},
-   "rejected_samples": [],
+   "rejected_by": {
+    "title": 2
+   },
+   "rejected_samples": [
+    "[title] Business Operations Lead, Canada Strategy and Operations | Amazon Web Services Canada, Inc. | Toronto, ON, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Revenue Operations Strategist | SysAid Technologies | Toronto, ON, Canada | 2026-10-28T14:00:00+00:00"
+   ],
    "response_shape": {
     "top_keys": [
      "status",
@@ -148,37 +191,146 @@
      "country": "ca",
      "language": "en"
     },
-    "job_keys": []
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
    },
    "pages": [
-    0
+    4
    ]
   },
   "jsearch: remote marketing coordinator Canada (ca)": {
-   "returned": 0,
-   "kept": 0,
-   "error": "HTTP 504: {\"messages\":\"The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider\", \"info\": \"Your Client (working) ---> Gateway (working) ---> API (took too long to respond)\"}",
-   "rejected_by": {},
-   "rejected_samples": []
-  },
-  "weworkremotely": {
-   "returned": 205,
+   "returned": 10,
    "kept": 1,
    "error": null,
    "rejected_by": {
-    "title": 200,
-    "too old": 2,
-    "location": 2
+    "title": 9
    },
    "rejected_samples": [
+    "[title] Customer Marketing Manager (Remote Canada) | Directive | Calgary, AB, Canada (Remote) | 2026-10-22T00:00:00+00:00",
+    "[title] Marketing Manager / FOH Specialist | Sutton Food Solutions 2025 Inc | Nova Scotia, Canada | 2026-10-23T00:00:00+00:00",
+    "[title] Growth Marketing Manager; Remote, Montreal | Blacksmith Agency LLC | Ottawa, ON, Canada (Remote) | 2026-10-27T00:00:00+00:00",
+    "[title] Associate Shopper Marketing Manager | Mondel\u0113z International | Toronto, ON, Canada | 2026-10-23T00:00:00+00:00",
+    "[title] Senior Customer Marketing Manager | Varicent | Regina, SK, Canada | 2026-10-22T00:00:00+00:00",
+    "[title] Search Marketing Manager; Remote | Blacksmith Agency LLC | Kitchener, ON, Canada (Remote) | 2026-10-25T00:00:00+00:00",
+    "[title] [Remote] Global Marketing Manager, Industrial Coatings | Product Management | United States (Remote) | 2026-10-25T00:00:00+00:00",
+    "[title] Facebook + Google Ads Manager / Customer Support / General VA to CEO &#8211; Full Time Position | Frontpage Digital Ltd. |  | 2026-10-25T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 206,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 201,
+    "location": 2,
+    "too old": 1
+   },
+   "rejected_samples": [
+    "[title] Enterprise Account Executive | Salesloft | Anywhere in the World (Remote) | 2026-10-29T07:30:52+00:00",
+    "[title] Marketing Manager, MENAT | Roblox | Anywhere in the World (Remote) | 2026-10-29T07:30:52+00:00",
+    "[title] Business Development Assistant | Bybit | Anywhere in the World (Remote) | 2026-10-29T07:30:40+00:00",
+    "[title] Sales Development Representative - Strategics | Legion | Anywhere in the World (Remote) | 2026-10-29T07:30:36+00:00",
     "[title] Account Executive, Mid Market (Northeast) | Samsara | Anywhere in the World (Remote) | 2026-10-28T07:31:13+00:00",
     "[title] AI Security Sales Executive | Abnormal | Anywhere in the World (Remote) | 2026-10-28T07:31:13+00:00",
     "[title] Account Development Representative - France | Samsara | Anywhere in the World (Remote) | 2026-10-28T07:31:07+00:00",
-    "[title] Senior Account Executive II, Federal DOW/Army/Navy/Air Force/Pentagon | Collibra | Anywhere in the World (Remote) | 2026-10-28T07:31:06+00:00",
-    "[title] Head of Enterprise Marketing | Descript | Anywhere in the World (Remote) | 2026-10-28T07:30:57+00:00",
-    "[title] Video Editor | PlanetScale | Anywhere in the World (Remote) | 2026-10-27T07:31:09+00:00",
-    "[title] Solutions Engineer | PlanetScale | Anywhere in the World (Remote) | 2026-10-27T07:31:09+00:00",
-    "[title] Senior Website Manager | Veracode | Anywhere in the World (Remote) | 2026-10-27T07:30:57+00:00"
+    "[title] Senior Account Executive II, Federal DOW/Army/Navy/Air Force/Pentagon | Collibra | Anywhere in the World (Remote) | 2026-10-28T07:31:06+00:00"
    ]
   },
   "builtin search 1": {
@@ -197,79 +349,118 @@
    "rejected_by": {},
    "rejected_samples": [],
    "http_status": 200,
-   "links_found": 13
+   "links_found": 17
   },
   "builtin job pages": {
-   "returned": 25,
-   "kept": 3,
+   "returned": 29,
+   "kept": 2,
    "error": null,
    "rejected_by": {
-    "title": 22
+    "title": 27
    },
    "rejected_samples": [
-    "[title] Director, Brand",
-    "[title] Writer for Minute Taking - Toronto, ON",
-    "[title] Executive Producer, Publishing (English Services) (On-Site)",
-    "[title] Brand Manager",
-    "[title] Manager, Activation",
-    "[title] Senior Analyst, Activation",
-    "[title] Copy Supervisor",
-    "[title] Manager, Brand Strategy & Governance"
+    "[title] Senior Manager, Marketing, Canada & LATAM",
+    "[title] Content Marketing Manager",
+    "[title] Director, Strategic Account Management - Research Services (Bilingual)",
+    "[title] Head of Creative (Remote Canada)",
+    "[title] Manager, Brand Management",
+    "[title] Director, Marketing Strategy and Business Management",
+    "[title] Producer, Scams Unit (English Services) (On-Site)",
+    "[title] Video Producer, Scams Unit (English Services) (On Site)"
    ]
   }
  },
  "jobs": [
   {
-   "id": "wwr:https://weworkremotely.com/remote-jobs/storyblok-senior-content-marketing-specialist-uk",
+   "id": "wwr:https://weworkremotely.com/remote-jobs/flag-theory-customer-onboarding-specialist-for-company-incorporations-full-time-3",
    "source": "weworkremotely",
    "publisher": "weworkremotely",
-   "title": "Senior Content Marketing Specialist - UK",
-   "company": "Storyblok",
+   "title": "Customer Onboarding Specialist for Company Incorporations (Full Time)",
+   "company": "Flag Theory",
    "location": "Anywhere in the World (Remote)",
    "remote": true,
-   "url": "https://weworkremotely.com/remote-jobs/storyblok-senior-content-marketing-specialist-uk",
-   "posted": "2026-10-28T07:31:07+00:00",
+   "url": "https://weworkremotely.com/remote-jobs/flag-theory-customer-onboarding-specialist-for-company-incorporations-full-time-3",
+   "posted": "2026-10-28T15:26:29+00:00",
    "salary": "",
-   "description": "Headquarters: Remote Storyblok is a headless CMS that enables marketers and developers to create with joy and publish with confidence. It empowers you to deliver structured and consistent content everywhere: websites, apps, AI search, and beyond. Legendary brands like Virgin Media O2, Oatly, and TomTom use Storyblok to make a bigger, faster market impact. WHAT IS IN IT FOR YOU You will be joining a growing company where you can contribute to many \u201cfirsts\u201d. Plus these benefits: Monthly remote work stipend (home internet costs, electricity). Home office equipment package right at the start (laptop, keyboard, monitor\u2026) Home office equipment upgrade (furniture, ear plugs \u2026) or membership to a local co-working space after your onboarding Sick leave benefit, parental leave and 25 days of annual leave plus your local national holidays Personal development fund for courses, books, conferences, and material The annual international team-building trip, quarterly and monthly online get-togethers As a fully remote company, with work-life balance at its core, you\u2019ll enjoy flexible schedules An international team that loves to have fun at work and works hard together to accomplish shared goals JOB SUMMARY We're looking for a Senior Content Marketing Specialist to shape and create impactful, thought-leadership led content across our 6 monthly brand campaign cycles, plus additional ICP tracks as needed, while owning customer advocacy content - e.g. case studies. The right candidate understands what makes great B2B marketing content, is AI-native, takes initiative in a fast-paced scale up environment, and brings a data-driven mindset to connect strategy with business results. This person will sit within Storyblok's Brand and Communications team, supporting marketing across the buyer journey, driving case study development, and partnering with field marketing, social, and events on content needs. They'll also help build and launch a new UGC programme and support executive communications on LinkedIn. ESSENTIAL JOB FUNCTIONS Content strategy Shape and execute content creation efforts within the Brand and Communications Team, from long-form whitepapers and blog posts to short-form landing pages and other supporting assets that require content support Generate creative, storytelling-focused content ideas that produce engaging thought leadership, staying abreast of B2B social trends and thinking beyond the 'usual' types of content Support aligning content marketing efforts with the wider Brand and Communications team functions, including PR, company social media, and executive communications via LinkedIn Conduct in-depth keyword research using tools like Ahrefs and/or Semrush to identify relevant topics and keyword groups for Storyblok content Briefing videographers and motion graphics experts to create videos for campaign tracks, events, social to name a few Optimisation and monitoring of content health of all Storyblok content via the website Customer advocacy Ownership of the case study content process, from initial ideation and customer contact, to creation and publication of the assets Optimisation and monitoring of all case study pages on Storyblok's website Ensuring consistent quality across all case study pages by updating older case studies and coordinating with the Partner and/or Customer Success team Planning measurable outreach strategies to garner more customer success stories in response to business requirements Defining and tracking precise KPIs for all case study efforts EDUCATION AND EXPERIENCE Must haves 5+ years\u2019 experience in content marketing or content strategy Knowledge of SEO best practices and familiarity with on-page and off-page SEO tactics Tech industry marketing experience Content reporting experience including analysing data and making recommendations Nice to haves Content marketing experience in a B2B tech scale up environment Experience developing and executing UGC programmes, particularly in B2B/tech settings Experie"
+   "description": "Headquarters: Remote URL: https://flagtheory.com/ Job Responsibilities Own the post-sale customer journey for company incorporation services across multiple jurisdictions. Guide clients through KYC and jurisdiction-specific documentation requirements with clarity and care. Maintain prompt, clear communication via email and phone; resolve issues and unblock clients quickly. Coordinate with external vendors to ensure timely, accurate service delivery. Maintain and update SOPs for all onboarding and incorporation-related workflows. Identify friction points and implement improvements that enhance client satisfaction and response rates. Ensure compliance with internal quality checks and jurisdictional regulatory standards. Requirements / Must Have 2+ years of hands-on experience in corporate services or company incorporation. Proven knowledge of KYC processes and compliance protocols. Strong organizational skills; able to self-prioritize and manage multiple client onboarding tracks. Excellent written and spoken English; clear communicator under pressure. High level of empathy and client orientation; anticipates client concerns before they escalate. Critical thinking is an absolute must-have Demonstrated self-motivation and proactiveness in remote environments. Listen, Learn, Grow mindset Minimum 2 years of successful remote work experience. Strong proficiency with Google Workspace (Docs, Sheets, Calendar, Drive). Based in a European timezone (UTC to UTC+3). Nice to Have Experience handling KYC for complex incorporations and/or international bank account setups. Multilingual fluency, particularly in languages relevant to offshore or international clientele. Familiarity with CRM tools or client-facing ticketing systems. Benefits Work from anywhere, on a flexible schedule, part of a fully remote team Compensation based on experience with regular performance reviews 20 paid vacation days per year To apply: https://weworkremotely.com/remote-jobs/flag-theory-customer-onboarding-specialist-for-company-incorporations-full-time-3"
   },
   {
-   "id": "builtin:11925641",
-   "source": "builtin",
-   "publisher": "Built In",
-   "title": "Marketing Coordinator (Graphic Design & Video Production)",
-   "company": "Penny Appeal Canada",
-   "location": "Toronto, ON",
+   "id": "jsearch:b1JmTFZ5QXhXb25QVXZUWEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZWE01T0U1V01GaFhURWxCZUZCeFVWbExYMU15VjB0MlYxUmphMGRyU21wR04yNTNXalpRWW5GVmFGTndkMncwYUZkUlYwZGlURU0wWWtOU2JIVnZSR2xIV2paWVZFSTFRVXh6ZUVsTVVGbzNaRzFhWm5veGJtTmhjMDB0WlVnM1JEVmpWVWRDYnpaUFJrUk1iVWxtZEVObE0xZDRaMnBPWWtwMFNHMVdRVEkyTWxwd2JUY1NGelY2UkdwaGIxOHdUeTE1ZVRBdGExQTBaa05EWjBGekdpSkJTRTR3UlRkRlJ6SndVWE0yVVU5ZkxVeHpjRkZvWkhCcFdqSmhVakZwZVZGQg",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Associate, Client Service & Operations",
+   "company": "BMO",
+   "location": "Toronto, ON, Canada",
    "remote": false,
-   "url": "https://builtintoronto.com/job/marketing-coordinator-graphic-design-video-production/11925641",
-   "posted": null,
+   "url": "https://ca.linkedin.com/jobs/view/associate-client-service-operations-at-bmo-4483702456",
+   "posted": "2026-10-26T00:00:00+00:00",
    "salary": "",
-   "description": "Marketing Coordinator (Graphic Design & Video Production) - Penny Appeal Canada | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Penny Appeal Canada Jobs Marketing Coordinator (Graphic Design & Video Production) Penny Appeal Canada Marketing Coordinator (Graphic Design & Video Production) Posted Yesterday Be an Early Applicant Hybrid Mississauga, ON, CAN Entry level Hybrid Mississauga, ON, CAN Entry level Creates and adapts graphics, videos, advertisements, social media content, and promotional materials for fundraising campaigns. Edits videos for multiple platforms, maintains brand consistency, supports social media publishing, coordinates creative assignments, and collaborates with the marketing team to meet deadlines. The role also provides additional production support for campaigns, events, and organizational initiatives. The summary above was generated by AI About Penny Appeal Canada Penny Appeal Canada is a registered Canadian charity dedicated to providing sustainable solutions to poverty and supporting vulnerable communities locally and internationally. Through our humanitarian programs, fundraising initiatives, and community engagement efforts, we strive to make a meaningful difference in the lives of those who need it most. Position Overview Penny Appeal Canada is seeking a creative, organized, and detail-oriented Marketing Coordinator (Graphic Design & Video Production) to join our Marketing Department on a three-month, part-time contract. The successful candidate will play an important role in supporting the development and production of engaging digital content, including social media graphics, fundraising appeal videos, digital advertising creatives, and promotional materials. The ideal candidate is a versatile creative professional with strong graphic design and video editing skills, excellent attention to detail, and the ability to manage multiple projects in a fast-paced, collaborative environment. Key Responsibilities Graphic Design & Creative Production Design and develop high-quality static graphics for organic social media, digital advertising campaigns, fundraising appeals, and promotional initiatives. Create visually engaging marketing materials that align with Penny Appeal Canada's branding and campaign objectives. Resize, adapt, and optimize creative assets for various digital platforms, advertising specifications, and content formats. Maintain consistency in visual branding across marketing materials and communications. Video Editing & Content Development Edit and produce compelling fundraising appeal videos, promotional content, and organic social media videos. Adapt existing video content into multiple lengths, formats, and aspect ratios suitable for various platforms. Support ongoing video production needs, including campaign launches, events, and other organizational initiatives. Provide additional video editing and production support during the temporary absence of the team's Video Editor. Social Media & Digital Marketing Support Assist with scheduling, organizing, and publishing organic social media content across Penny Appeal Canada's digital platforms. Collaborate with the Marketing Department to develop creative assets that support fundraising and engagement objectives. Ensure digital content is formatted appropriately for social media and advertising platforms. Support content planning and production activities as needed. Campaign Coordina"
+   "description": "The Associate, Client Service and Operations supports the Institutional Sales team by coordinating the onboarding, ongoing servicing, and retention of institutional clients. The role serves as a primary day-to-day service contact and internal coordinator, ensuring that client requirements are accurately documented, communicated, and delivered across Institutional Sales, Portfolio Management, Investment Operations, Compliance, Legal, Product, Finance, custodians, recordkeepers, and other service providers. The associate leads the servicing components of the client lifecycle, including onboarding execution, account administration, client reporting, inquiry management, service reviews, issue resolution, and account transitions. The role proactively identifies service risks, tracks commitments through completion, and provides timely client intelligence to Institutional Sales to support strong relationships, asset retention, and growth opportunities. Key Accountabilities Client Onboarding and Implementation \u2022 Coordinate end-to-end onboarding of new institutional clients, accounts, products, and mandates. \u2022 Maintain onboarding plans, checklists, dependencies, owners, approvals, target dates, and outstanding-item logs. \u2022 Coordinate legal, AML/KYC, compliance, tax, operational, reporting, invoicing, account-opening, funding-readiness, and system-setup requirements. \u2022 Proactively identify risks to agreed launch dates, escalate delays, and provide clear status updates to clients, Institutional Sales, and internal stakeholders. \u2022 Maintain complete, accurate, and audit-ready onboarding records and approvals in designated repositories. Day-to-Day Client Service \u2022 Serve as a primary service contact for assigned institutional clients, consultants, and authorized representatives. \u2022 Respond to inquiries accurately and promptly, coordinating internal action and tracking requests through resolution. \u2022 Coordinate account information, statements, reports, invoices, contributions, withdrawals, transfers, contacts, authorized signatories, and other account-maintenance requests. \u2022 Anticipate client needs and ensure commitments are completed within agreed timelines. Client Reporting \u2022 Coordinate the preparation, quality review, and delivery of monthly, quarterly, annual, and ad hoc client reporting. \u2022 Validate reporting recipients, delivery instructions, distribution lists, and client preferences. \u2022 Coordinate fee-invoice delivery and support resolution of reporting and invoicing inquiries. Service Delivery, Escalation and Retention Support \u2022 Act as the central coordinator for operational and servicing matters affecting assigned clients. \u2022 Establish clear issue ownership, actions, target dates, escalation points, and communication plans. \u2022 Monitor recurring inquiries, missed commitments, reporting failures, service delays, and other indicators of potential client dissatisfaction. \u2022 Communicate service concerns, changing needs, stakeholder changes, retention risks, and potential expansion signals to Institutional Sales. \u2022 Support client service reviews through service metrics, open-item logs, incident summaries, remediation updates, and documented actions. CRM, Governance and Process Improvement \u2022 Maintain complete and timely client records in Salesforce and other designated systems, including contacts, meeting notes, commitments, risks, issues, and actions. \u2022 Coordinate ongoing mandate and account changes, client transitions, and account closures. \u2022 Identify opportunities to simplify workflows, standardize templates, strengthen controls, and reduce manual handoffs or duplicate client requests. \u2022 Support audits, control testing, regulatory inquiries, and maintenance of audit-ready evidence. \u2022 Provide backup coverage, share knowledge, and support training of new team members. Qualifications \u2022 Four to six years of relevant experience and a post-secondary degree in business, finance, economics, or a related field, or an equivalent combination of education"
   },
   {
-   "id": "builtin:11932582",
-   "source": "builtin",
-   "publisher": "Built In",
-   "title": "Customer Experience Associate",
-   "company": "TD Bank",
-   "location": "Toronto, ON",
-   "remote": false,
-   "url": "https://builtintoronto.com/job/customer-experience-associate/11932582",
-   "posted": null,
+   "id": "jsearch:NS1sem45bXlvSjFyRUpoaUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbmhUWkhoTFVtMURkVFV6WDFSd0xUZHpYekJhY214ck5tOXFRbmx5Yld0WFptZEdjVXhEWVVwMlptaDNRM1JEWW1KVlVURXRUM2hoVEZveVNtMWFhMVl5TWt0alZtbG5jRTB5YmpjdFpWZFZWMkZzVlhod1JEZEZkVEF6UVVvME9Ga3djMkpWZGpKWmVrOUJRVzFUUzE5U1lsSlFUMnRwUkVoR1QwOUdWV3B3VDJjMFZ6TVNGelJxUkdwaGIzRjRUM1ZVWmpKeWIxQnVOV2x2ZFVGSkdpSkJTRTR3UlRkR05FRmZaRmRZU1hFNVRYZEZMVGw1Y1dObmFXd3dObG8wTlRSbg",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Performance Marketing Specialist (Remote, Montreal)",
+   "company": "Blacksmith Agency LLC",
+   "location": "Toronto, ON, Canada (Remote)",
+   "remote": true,
+   "url": "https://ca.jobrapido.com/jobpreview/1997158488043683840",
+   "posted": "2026-10-24T00:00:00+00:00",
    "salary": "",
-   "description": "Customer Experience Associate - TD Bank | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job TD Bank Jobs Customer Experience Associate TD Bank Customer Experience Associate Posted 3 Hours Ago Be an Early Applicant In-Office Toronto, ON, CAN Junior In-Office Toronto, ON, CAN Junior Provides frontline banking support by processing deposits, withdrawals, bill payments, and other financial transactions. Assesses customer needs, recommends appropriate banking solutions, resolves concerns, follows regulations and procedures, promotes products, and supports team effectiveness. The role requires accurate administration, strong organization, effective communication, customer service skills, and proficiency with Microsoft Office. Training and onboarding are provided. The summary above was generated by AI Work Location: Toronto, Ontario, Canada Hours: 15 Line of Business: Personal & Commercial Banking Pay Details: 22.50 - 28.33 CAD TD is committed to providing fair and equitable compensation opportunities to all colleagues. Growth opportunities and skill development are defining features of the colleague experience at TD. Our compensation policies and practices have been designed to allow colleagues to progress through the salary range over time as they progress in their role. The base pay actually offered may vary based upon the candidate's skills and experience, job-related knowledge, geographic location, and other specific business and organizational needs. As a candidate, you are encouraged to ask compensation related questions and have an open dialogue with your recruiter who can provide you more specific details for this role. Job Description: Department Overview: At TD Canada Trust, we are the frontline of TD Bank. We strive to build deep and long-lasting relationships with our customers by performing a broad range of customer service transactions and providing information and advice on services, products, and solutions to existing or prospective TD customers. At the branch, we understand customer needs and identify opportunities to promote products and services to refer customers to the appropriate team member or internal Bank partner, while ensuring a positive customer experience. Join TD Canada Trust and Think like a customer, Act like an Owner, Innovate with purpose and Execute with Speed and Impact. Job Description: Can you bring your charming self to work and make customer interactions delightful one? Can you process financial transactions accurately and get a sense of achievement by providing excellent customer experience? If so then, take the next step to your future today and apply for the position of a Customer Experience Associate. We are expecting an all-around champion who can understand customer needs and advise best suited banking solutions for a positive customer experience. In this role, you will: Process financial transactions like deposits, withdrawals, and bill payments as per standardized operating procedures, industry regulations and TD's Code of Conduct and Ethics Understand and determine customer needs to recommend solutions specific to those needs while exercising discretion in confidential matters Respond and resolve customers' concerns using standard procedures and escalating non-standard activities, as necessary Achieve assigned goals and business objectives by promoting banking solutions and completing business processes in a timely and accurate manner C"
+   "description": "Blacksmith Agency \u2022 Marketing \u2022 Full time \u2022 Remote (Canada, South Africa or USA) Paid media only. SEO is a separate seat with its own strategist, so you are never split across both. About The Role Blacksmith Agency is an AI-first digital agency. As Performance Marketing Specialist you own paid media for a book of B2B and growing-brand clients: the targeting, the budget calls, the roadmap and the narrative when the client asks why. You are the strategic voice at the table, and you make the calls. What You Will Own \u2022 Paid media across Google Ads, Meta, LinkedIn and Microsoft Ads for your accounts. \u2022 Budget allocation, bidding, targeting and creative testing, and when to kill a campaign. \u2022 Conversion tracking and attribution you can trust: GA4, tag manager and platform pixels. \u2022 The 90 day and quarterly roadmap for each client, and the story behind the numbers on the call. \u2022 Account growth: retention, upsell and the long-term relationship. What You Bring \u2022 3+ years hands-on in Google Ads and Meta: you have built, run and optimized the campaigns yourself. \u2022 A record of moving ROAS, CPA or pipeline numbers you can walk us through. \u2022 Agency experience across several clients at once. \u2022 Clear spoken English with US clients on live calls. #J-18808-Ljbffr"
   },
   {
-   "id": "builtin:11922699",
+   "id": "jsearch:Zlg5dFlFYmJrTVVUTzNLZUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbGMyVWxsaWRGRnplRVp0TTFsUlEzTTRSVmxHVjNwc1JUaHhOVmt0Y0Mwd1MzcElUMHAzYW0xcllVSlNObFJ1UWtGdVRWbFlRbk41ZUdwUVNESkpUVVp2YTJ0RFYwVlFkbXQyWW5kRllWRlpUWEpVZFY5Sk4wcFBlakl4UnpsamFYTmZSblkxVEZvdE5HVkdha2d5WkROSGFFNW9Nbk5JUkdKUlIzZENaRTlWYlRCNWFUZ1NGelpxUkdwaGIyMVRRa3d6Y25KbVkxQTNMVzVPYlZGekdpSkJTRTR3UlRkR04zcHdXalozVFY5RFNtRk9kR3BMY0ZsR2NGRjRaMUpZYkVKbg",
+   "source": "jsearch",
+   "publisher": "BeBee",
+   "title": "Toronto Business Operations Associate",
+   "company": "Terminal",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://bebee.com/ca/jobs/toronto-business-operations-associate-terminal-toronto-on--jooble-3804377933317959883",
+   "posted": "2026-10-24T00:00:00+00:00",
+   "salary": "",
+   "description": "Build Terminal\u2019s operating systems in Toronto through workplace operations, events, people processes, and finance support. This is an in-person role for local candidates. As a Founding Operations Associate, you will work directly with the Chief of Staff on cross-functional projects. You will solve operational problems, create reliable systems, and improve processes across a growing company. Your work will include vendor management, hiring workflows, events, and financial administration. Key Responsibilities: Run King West workplace operations and maintain vendor relationships Plan offsites, recruiting events, dinners, and customer visits Support onboarding, interview scheduling, and offer preparation Execute payables, billing reviews, expense tracking, and collections Document processes and apply AI automation thoughtfully Requirements: Two to five years in operations, People operations, events, or startups Experience implementing workflows end to end Strong detail, follow-through, and operational judgment Fluency with spreadsheets, Rippling, Slack, Notion, and Drive Ability to align talent, engineering, and leadership teams Bring operational ownership, systems fluency, and cross-functional judgment to Terminal\u2019s workplace, people, events, and finance operations."
+  },
+  {
+   "id": "jsearch:eWlSMDFzaXZmLXRMd1Z0QUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZazFIV1dRNFpEZzNURGQ0VVdwbVFVRk1VMW8yT0RBd2NXSktWRmgxWDNrNFRWUlhVVjh5TW1Gd1l6ZHdRM2RWT1hOR1NGbE5aR1ZaYVV0UU4weE1SWFpIVEhkd2FWaGZOVTFTZW1KQlYzbDZWVWx5WVU5TFpVMXRXbk5RUm0weVZGRjVPRWxUWTNkYVVVbGlkekpsVmxSbFVqWkNhamhzWHpsMWNrRlFVVFJ5ZUZCTlZrZ1NGemhVUkdwaGMzVmtUVzltZFhKMVJWQnVOR1ZpTmtFNEdpSkJTRTR3UlRkR2NEUkdkMjU1UzJGTlVIcEdaelYwUWpodmVtRTVUR3hCZG5SQg",
+   "source": "jsearch",
+   "publisher": "Dynamite Jobs",
+   "title": "Events & Marketing Coordinator, Remote Job",
+   "company": "Fabstation",
+   "location": "(Remote)",
+   "remote": true,
+   "url": "https://dynamitejobs.com/company/fabstation/remote-job/events-marketing-coordinator",
+   "posted": "2026-10-23T00:00:00+00:00",
+   "salary": "",
+   "description": "About Us Eterio Realities Inc. is a software company in Victoria, British Columbia, building augmented reality tools for industrial manufacturing. Our story began in 2010, out of challenges encountered during the construction of the Sparkling Hill Resort in Vernon, B.C. Today we're a team of 30+ across Canada and India, and growing! We have built FabStation, an AR-enabled manufacturing execution system used by 250+ fabrication shops in 30+ countries. FabStation replaces paper and 2D drawings on the shop floor with AR-guided assembly, dimensional inspection, and production tracking, and it integrates with the workflows shops already run. Our mission is to empower steel fabricators with innovative augmented reality technology, revolutionizing the way they work. What We Are Looking For We are seeking a detail-oriented Marketing Coordinator (Event Management and Social Media) to manage and coordinate FabStation's participation in industry trade shows from end to end. You will also help shape our social strategy and maintain quarterly social calendars across LinkedIn and other channels. This role focuses on maintaining a strong brand presence on social media, particularly LinkedIn, Instagram, and YouTube. You'll work closely with the Marketing and Sales Managers to create and run promotional initiatives that build brand awareness and help grow the sales pipeline. What You Will Do Event Management (Trade Shows and Virtual Events) \u2022 Manage a yearly calendar of FabStation's trade show participation. Handle new event requests and book all events in a timely manner. \u2022 Make sure every part of trade show and event booking runs smoothly and give leadership weekly updates on upcoming events. \u2022 Work directly with the sales and marketing team on day-to-day trade show arrangements, including booking booths, logistics, printing, digital campaigns, and general administrative support. \u2022 Communicate independently with internal and external partners attending trade shows and get them information in a timely manner. \u2022 Coordinate and fulfill incoming marketing requests, prioritizing those aligned with lead generation and sales objectives. Social Media and Content \u2022 Manage and execute the social media calendar for LinkedIn and Instagram. \u2022 Post engaging, brand-consistent content across LinkedIn, Instagram and other relevant platforms on a regular weekly schedule. \u2022 Produce engaging video content for LinkedIn, YouTube Shorts, and other social platforms, using AI tools as a core part of your workflow. \u2022 Work with videographer to create short-form and long-form videos for trade shows, the website, and promotional campaigns using internal video shoots, AI-generated clips, and product videos. \u2022 Coordinate marketing efforts, including print advertising, brochures, and direct mail. \u2022 Design graphics for digital tiles, social posts, and digital invitations using Canva and AI tools (e.g., Claude). What We're Looking For \u2022 At least 2 years of relevant experience in event coordination and social media management in a B2B environment. \u2022 Strong experience organizing and coordinating events, from planning to execution. \u2022 Knowledge of HubSpot (or other CRMs), Canva, CapCut, Descript, and other video editing tools. \u2022 Ability to use AI tools such as Claude or Copilot in daily workflows, from running reports to creating new content. \u2022 Willingness to learn new content creation tools, send surveys, and arrange customer interviews. \u2022 Ability to create promotional content and develop marketing assets (videos, flyers, brochures, invitations). \u2022 Versatility and initiative, with the ability to manage several priorities at once. \u2022 Some travel is required. What We Offer \u2022 Competitive compensation: $55,000-65,000 CAD \u2022 Comprehensive benefits \u2022 2 weeks paid vacation plus 5 paid sick days \u2022 Annual company offsite \u2022 $2,000 CAD tech stipend \u2022 Fully remote work environment \u2022 Company-wide holiday week closure over Christmas \u2022 Continuous coaching for career growth Thank you to all appl"
+  },
+  {
+   "id": "builtin:11957683",
    "source": "builtin",
    "publisher": "Built In",
-   "title": "Sales Technology Data Operations Specialist",
-   "company": "Manulife",
+   "title": "Client Operations Specialist",
+   "company": "Leads.io",
    "location": "Toronto, ON",
    "remote": false,
-   "url": "https://builtintoronto.com/job/sales-technology-data-operations-specialist/11922699",
+   "url": "https://builtintoronto.com/job/client-operations-specialist/11957683",
    "posted": null,
    "salary": "",
-   "description": "Sales Technology Data Operations Specialist - Manulife | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Manulife Jobs Sales Technology Data Operations Specialist Manulife Sales Technology Data Operations Specialist Posted Yesterday Be an Early Applicant In-Office Toronto, ON, CAN Junior In-Office Toronto, ON, CAN Junior Supports sales technology business operations by coordinating data processes, managing requests, performing imports and record updates, validating information, resolving issues, and maintaining documentation. The role manages a shared mailbox, applies complex business rules, collaborates across teams, and ensures data-related activities are completed accurately and on time. The summary above was generated by AI The Sales Technology Data Operations Specialist plays a key role in supporting business operations through the management of data-driven processes and requests. This position works across multiple teams to ensure information is handled accurately, issues are resolved efficiently, and operational activities are executed effectively. The ideal candidate is highly organized, detail-oriented, and comfortable managing multiple priorities while driving work to completion. Responsibilities: Execute and coordinate data-related business processes across teams, ensuring work is completed accurately and within established timelines. Develop and apply a detailed understanding of complex business rules, guidelines, exceptions, and process nuances. Execute recurring activities in accordance with established requirements and timelines. Serve as a central point of coordination for questions and issues, working across teams to research needs, facilitate updates, and manage items through resolution. Manage the shared mailbox, coordinate responses, and ensure requests receive appropriate follow-up. Coordinate and execute data-related requests, including list management, data imports, mass attribute tagging, campaign data uploads, and other business needs. Maintain process documentation and identify recurring issues requiring escalation or additional review. Requirements: Education and Experience: College degree or with at least 2+ years of relevant business experience. Confidentiality : Ability to handle confidential information with discretion. Technical Proficiency: Proficient with Microsoft Office, particularly Excel, as well as Outlook and Teams. CRM Familiarity : Familiarity with Salesforce or a similar CRM platform; experience with data imports or list tools is a plus. Financial Services Knowledge: General understanding of financial services or insurance operations preferred. Autonomy and Team Collaboration: Ability to work independently while contributing in a team-based environment. Process Execution: Ability to understand and apply complex business rules, guidelines, exceptions, and nuances. Data Management: Experience with list management, data imports, record updates, and data validation, including strong proficiency in Microsoft Excel. Organization and Time Management: Strong attention to detail with the ability to manage competing priorities and meet deadlines. Customer Service: Provides responsive, service-oriented support to internal requesters, ensuring questions and requests receive timely, accurate follow-up. Some business travel may be required. Competencies: Collaboration: Builds productive working relationships across teams to coordinate activities an"
+   "description": "Client Operations Specialist - Leads.io | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Leads.io Jobs Client Operations Specialist Leads.io Client Operations Specialist Posted An Hour Ago Be an Early Applicant In-Office Toronto, ON, CAN Entry level In-Office Toronto, ON, CAN Entry level Owns end-to-end client campaign operations, including setup, data and system alignment, client administration, invoicing details, internal coordination, live campaign oversight, quality assurance, and post-campaign reporting. The role manages client requests, ensures campaigns run efficiently and profitably, and provides performance insights to business development, marketing teams, and clients. The summary above was generated by AI We\u2019re looking for a Client Operations Specialist to own the end-to-end rollout and quality assurance of our direct client campaigns at Leads.io. From pre-launch preparation to live campaign management and post-campaign checks, you\u2019ll ensure everything runs smoothly, accurately and to the highest standard. Core responsibilities: Building the client relationship during setting up new campaigns and ongoing campaigns. Responsible for data input and aligning all the necessary systems in setting-up a new campaign. Making sure to administrate all important details about the clients (i.e. invoicing). Aligning client request to internal team as well as providing answers to both sides that are important to run a successful campaign. Overlooking the big picture of running campaigns and managing it in a way that is timely, efficient and profitable for the company. Responsible for arranging the post-campaign reporting for our Business Developers and Marketing teams and also help provide the client with important insights/learnings for future campaigns. Requirements Role Specific Competencies: You enjoy working with clients Project management Attention to Detail Customer Service Technically savvy Time Management One of Leads.io's cultural values is Thrive as a team, and with this in mind, we are committed to building teams that are as diverse as our clients in an inclusive way. Leads.io is looking for the best and most motivated talent and welcomes all applicants. Applicants are assessed fairly and impartially, regardless of race, gender, skin color, religion, national origin, age, disability, genetic information, or any other legally protected status. Benefits What do you get? 20 vacation days per year Hybrid working The opportunity to develop new technical skills by working with channels such as Meta Working in an open culture with plenty of room for personal initiative and growth Knowledge-sharing sessions organized several times a year by internal and external experts Amazing Friday Lunches MacBook Pro, Logitech MX, or Apple Magic Mouse/Keyboard The opportunity to work fully remotely from your dream location for up to one month per year Excited? Wait until you see our cultural values! \ud83d\udc9c Trust \u2013 Trusting each other brings out the best in us. Trust helps us build long-lasting relationships. \ud83e\udd29 Own it \u2013 Own it means taking pride in your work and in yourself. We are committed to Leads.io and continuously take initiative to improve our company. \ud83c\udf40 Grow smart \u2013 Our vision is to be the world leader in lead generation. We are committed to continuously growing our business while growing as individuals. \ud83d\ude4c Thrive as a team \u2013 We believe achieving excellent results is easier and more enjo"
+  },
+  {
+   "id": "builtin:11949518",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Operations Coordinator",
+   "company": "Mattamy Homes",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/operations-coordinator/11949518",
+   "posted": null,
+   "salary": "",
+   "description": "Operations Coordinator - Mattamy Homes | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Mattamy Homes Jobs Operations Coordinator Mattamy Homes Operations Coordinator Posted 11 Hours Ago Be an Early Applicant In-Office Mississauga, ON, CAN Junior In-Office Mississauga, ON, CAN Junior Coordinates permits, construction documentation, BuildPro and JDE system data, lot setup, access management, operational records, and administrative processes. Collaborates with Construction, Customer Care, Land Development, and Finance teams to maintain data accuracy, resolve issues, and improve processes. The role requires strong organization, Excel proficiency, attention to detail, communication skills, and the ability to manage multiple priorities in a hybrid construction-office environment. The summary above was generated by AI Role: Operations Coordinator Location: Mississauga , Ontario \u2013 Hybrid ( 4 days/week in office) Company : Mattamy Homes Canada Department: Construction Office, GTA Homebuilding Employment Type: Full-Time Reports to: Senior Manager, Operations When it comes to forward-thinking homebuilding and thoughtfully planned communities, Canadians think of Mattamy Homes. And that success is centred on a foundation of great people, because our team is as solid as they come. At Mattamy, we are optimistic, hardworking and supportive. Together we learn and grow as we strive to create a positive impact in the homebuilding industry. Contributing to the Mattamy Way means being surrounded by caring people who encourage you to be exactly who you are. It means your opinion is invited and your contributions count. And it means a career filled with pride, knowing you\u2019re part of an environmentally-conscious, action-oriented organization with big plans for the future. The opportunity to bring the future of living to homeowners based on what Canadians value is exciting \u2013 and we\u2019re making it happen. Learn more about what makes working at Mattamy special and our award-winning culture. What we offer This is an exciting opportunity for a highly organized, detail-oriented coordinator who enjoys keeping projects, systems and people moving. In this role, you\u2019ll play an important part in supporting GTA Homebuilding operations by coordinating permits, maintaining accurate construction data and documentation, and collaborating across teams to improve processes and help deliver great experiences for our homeowners. What you\u2019ll do Coordinate permit-related activities, including permit application submissions, intake reviews, document management and stakeholder follow-up to support timely approvals. Maintain and administer BuildPro system data, including lot personnel assignments, project setup activities and ongoing auditing to ensure data accuracy and compliance with established processes. Upload, manage and validate structural, grading and other construction documentation between enterprise systems and BuildPro. Maintain and track operational tools and records, including specification trackers, lockbox codes, quality management information and other construction support documentation. Monitor lot setup and integration activities between JDE and BuildPro, ensuring all lots are accurately established and maintained within company systems. Track system access, user accounts and usage for Construction and Operations teams, coordinating setup, changes and issue resolution as required. Provide administrative su"
   }
  ]
 }
