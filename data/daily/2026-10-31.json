@@ -1,0 +1,488 @@
+{
+ "run_at": "2026-10-31T11:08:29.033183+00:00",
+ "date": "2026-10-31",
+ "runs": [
+  "2026-10-31T110829Z"
+ ],
+ "source_counts_after_filters": {
+  "jsearch": 8,
+  "remoteok": 0,
+  "weworkremotely": 2,
+  "adzuna": 0,
+  "builtin": 3
+ },
+ "new_count": 11,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 7
+   },
+   "rejected_samples": [
+    "[title] Remote Marketing & Client Engagement Specialist | Beyond Ordinary Living Co. | Toronto, ON, Canada (Remote) | 2026-10-30T12:00:00+00:00",
+    "[title] Field and Event Marketing Manager | Leo Berwick | Toronto, ON, Canada | 2026-10-30T16:00:00+00:00",
+    "[title] Marketing Manager, Member Marketing & Growth | Manulife | Toronto, ON, Canada | 2026-10-28T00:00:00+00:00",
+    "[title] Intern - Marketing Performance | Kensington | Toronto, ON, Canada | 2026-10-30T17:00:00+00:00",
+    "[title] Remote Digital Marketing Manager | Adult Industry | J-Recruit Recruitment Agency | Toronto, ON, Canada (Remote) | 2026-10-30T00:00:00+00:00",
+    "[title] Marketing Manager, Client Communications | Royal Bank of Canada | Toronto, ON, Canada | 2026-10-31T00:00:00+00:00",
+    "[title] Hybrid Digital Marketing Manager \u2014 Multi-Channel Growth | Mattamy Homes | Toronto, ON, Canada | 2026-10-28T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 4,
+   "error": null,
+   "rejected_by": {
+    "title": 6
+   },
+   "rejected_samples": [
+    "[title] Administrative Operations Support Coordinator - Temporary | Air Canada | Toronto, ON, Canada | 2026-10-30T00:00:00+00:00",
+    "[title] Duty Manager | AvPosts | Mississauga, ON, Canada | 2026-10-31T00:00:00+00:00",
+    "[title] Hybrid Field Tech Operations & Logistics \u2013 Events | Collage | Toronto, ON, Canada | 2026-10-28T00:00:00+00:00",
+    "[title] Operations Manager | University of Toronto | Toronto, ON, Canada | 2026-10-29T00:00:00+00:00",
+    "[title] Revenue Operations Strategist | SysAid Technologies | Toronto, ON, Canada | 2026-10-28T00:00:00+00:00",
+    "[title] Operations Manager \u2013 Night Shift | Kohl & Frisch Limited | Toronto, ON, Canada | 2026-10-29T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 8,
+    "location": 1
+   },
+   "rejected_samples": [
+    "[title] Digital Marketing Lead (Remote) | Earthscape Play | Ontario, Canada (Remote) | 2026-10-30T23:00:00+00:00",
+    "[title] Partner Marketing Lead | Affirm | Kelowna, BC, Canada | 2026-10-28T00:00:00+00:00",
+    "[location] Job (Alberta): Communications & Marketing Coordinator \u2013 Theatre Alberta | Theatre Alberta | Edmonton, AB, Canada | 2026-10-25T00:00:00+00:00",
+    "[title] Director of Sales and Marketing | Terex | Greater Sudbury, ON, Canada | 2026-10-29T00:00:00+00:00",
+    "[title] Growth Marketing Manager, B2B SaaS | Power Digital Marketing | Canada   (+136 others) | 2026-10-28T00:00:00+00:00",
+    "[title] Junior Marketing Manager | Springs | Burnaby, BC, Canada | 2026-10-26T00:00:00+00:00",
+    "[title] Remote Marketing Assistant for Arts and Culture Campaigns | mpmgarts | British Columbia, Canada (Remote) | 2026-10-28T00:00:00+00:00",
+    "[title] Digital Marketing Lead | Turning Point Brands Canada | Canada   (+30 others) | 2026-10-27T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 208,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 204,
+    "location": 2
+   },
+   "rejected_samples": [
+    "[title] Account Executive, NAS Product Specialist | Rubrik Job Board | Anywhere in the World (Remote) | 2026-10-31T07:31:02+00:00",
+    "[title] Account Executive, NAS Product Specialist | Rubrik Job Board | Anywhere in the World (Remote) | 2026-10-31T07:31:02+00:00",
+    "[title] AI Security Sales Executive, North Central | Abnormal | Anywhere in the World (Remote) | 2026-10-31T07:31:02+00:00",
+    "[title] AI Security Sales Executive, Bay Area | Abnormal | Anywhere in the World (Remote) | 2026-10-31T07:31:02+00:00",
+    "[title] Independent Sales Agent, B2B Media - Commission Based, Remote | The Supply Chainer | Anywhere in the World (Remote) | 2026-10-31T06:20:35+00:00",
+    "[title] Educational Consultant (Full-Time) | Empower Tutoring | North America Only (Remote) | 2026-10-30T16:01:09+00:00",
+    "[title] Asian American Expo Marketing - Local Community & Influencer Outreach | IMPULSE UNIVERSE INC | USA Only (Remote) | 2026-10-30T16:01:08+00:00",
+    "[title] Principal Competitive Intelligence Manager | 6sense | Anywhere in the World (Remote) | 2026-10-29T22:53:36+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 14
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 13
+  },
+  "builtin job pages": {
+   "returned": 27,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 24
+   },
+   "rejected_samples": [
+    "[title] Events Marketing Manager",
+    "[title] Executive Producer, CBC, Personal Finance Business News, Toronto (English Services) (On-Site)",
+    "[title] Media Planning Coordinator",
+    "[title] Print Production Manager",
+    "[title] Sr. Technical GEO/SEO Specialist",
+    "[title] Product Marketing Manager",
+    "[title] Global GEO Manager",
+    "[title] Search Engine Optimization Manager"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:M3JVTTQ5c2FXZ3l1Ny1YVUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbDh5WmtsSVYwOHplbWhVVkdaMVpUSmFSakpDTWpGSFdsTktOa3B1VnpaNk5GUTFNbWh5TVRWb1pHdHdOR1phVkZCZlVGSTFOVE41TFZFeGREZzJXRzFvV0RreWVWSjNZemx0T1V4MGNWRkZjM0EwU1dac00ydFVlRkJ1T1VaTFFXNWtTVGRzVTJSc01uUlBZV3RtY20xa1NWQlphR2hyYmt4d0xYUldjV1ZSZEVWTU1uVVNGMDVqZW14aGNXWXRTbDlJUVd0UVNWQnpYMGRXZVVGTkdpSkJTRTR3UlRkRmQwWkpUMVZvYVY5RVltMXZWRUpIYzBGV01IUXhRVGsxUmtoQg",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "V106 - Law Firm Brand and Digital Marketing Coordinator",
+   "company": "Job Duck",
+   "location": "Canada   (+136 others)",
+   "remote": false,
+   "url": "https://jobgether.com/offer/6ae447d3d6c8b081a795af41-v106---law-firm-brand-and-digital-marketing-coordinator",
+   "posted": "2026-10-30T00:00:00+00:00",
+   "salary": "",
+   "description": "This a Full Remote job, the offer is available from: South America, North America, United States, Central America, Latin America, El Salvador, Honduras, Colombia, Argentina, Chile, Peru, Mexico For ambitious, culturally diverse, curious minds seeking booming careers, Job Duck unlocks and nurtures your potential. We connect you with rewarding, remote job opportunities with US-based employers who recognize and appreciate your skills, allowing you to not just survive but thrive. As a lifestyle company, we ensure that everybody working here has a fantastic time, which is why we\u2019ve earned the Great Place to Work Certification every year since 2022! Job Description: Job Duck is seeking a creative and proactive Law Firm Brand and Digital Marketing Coordinator to take ownership of day to day digital marketing efforts and help strengthen a professional legal brand across multiple channels. This role is ideal for someone who enjoys turning timely developments, media coverage, and professional achievements into engaging content while maintaining a polished and consistent online presence. The successful candidate will manage social media, develop multimedia content, monitor marketing performance, support website updates, and identify opportunities to expand audience reach and visibility. They will thrive in an environment that values initiative, organization, responsiveness, and the ability to work independently with minimal supervision. Because marketing opportunities can develop quickly, this person should be comfortable adapting priorities while maintaining accuracy, professionalism, and appropriate approval processes. \u2022 Monthly Compensation Range: From 1,245 to 1,350 USD Responsibilities include, but are not limited to: \u2022 Ensure case related marketing content is submitted for approval before publication. \u2022 Take ownership of day to day marketing execution with minimal supervision, responding promptly to significant case developments, settlements, and media opportunities. \u2022 Strengthen the organization\u2019s brand and professional online presence by promoting significant settlements, litigation achievements, awards, and media appearances while maintaining consistent messaging across marketing channels. \u2022 Track social media performance, website traffic, and audience growth, preparing monthly reports with actionable recommendations to improve visibility and attract potential clients. \u2022 Create engaging graphics, reels, short form videos, captions, educational content, newsletters, email campaigns, and promotional materials. \u2022 Develop and execute social media strategies and monthly content calendars, publishing approximately three to four posts per week. \u2022 Manage the organization\u2019s presence across Instagram, Facebook, TikTok, LinkedIn, and YouTube, including audience engagement and consistent brand presentation. \u2022 Manage the Google Business Profile and coordinate client reviews to support the organization\u2019s online reputation. \u2022 Maintain and update website content, including settlements, media coverage, attorney biographies, announcements, blogs, articles, and educational materials, while supporting SEO initiatives and website improvements. \u2022 Repurpose press conferences, news interviews, significant settlements, and other media coverage into relevant digital content while organizing and maintaining the photo and video library. Requirements: \u2022 1-2 years of experience working as a Marketing Assistant \u2022 Prior experience inside a law firm is preferred \u2022 Experience managing professional social media accounts and digital marketing initiatives \u2022 Experience developing content calendars and executing consistent content strategies across multiple platforms \u2022 Experience creating graphics, reels, short form videos, captions, newsletters, email campaigns, and promotional materials \u2022 Working knowledge of social media analytics, website traffic monitoring, audience growth, and performance reporting \u2022 Familiarity with website content management and search engine"
+  },
+  {
+   "id": "jsearch:WFpJVHZCSDU1c1pISHJNU0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXazFFY25wamVUUkxibU5wTXpoNVYwTnlObXcwTVZjNGN6TktRMVZWTWt0UFFraE5WVmRxU1VGTVpuZGhjMFY2Y1ZoZlJ6RkpibHBYWlhWNlJVbGtVMFp2VERZelJsRTRVRmhLTUhaV0xXUmhjV2RuYlVoVVNtczNaVE5VYjFaVGJuUnpNbU5OZVVsUE1HVlhhek5wZDJkNk1uQjBjbTl1WTFKSmVqZG1SVkYyZWxaUVV6Z1NGMDFOZW14aGNHNWlSVzgyVVhWeU9GQnlkSHBITWxGUkdpSkJTRTR3UlRkR1ZGUTVTVXBDWkZSUmFGOHhlVVJyWVVSNFFWbG5kblZrVEZaQg",
+   "source": "jsearch",
+   "publisher": "Eluta.ca",
+   "title": "Investment Operations Associate",
+   "company": "CI Financial Corp.",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://m.eluta.ca/spl/investment-operations-associate-c516236f96ea7f522b4f355962b1fba6?imo=12",
+   "posted": "2026-10-29T00:00:00+00:00",
+   "salary": "",
+   "description": "At CI, we see a great place to work as one that is a safe place for everyone to have a voice, where people are empowered to take ownership over meaningful work, where there is an opportunity to grow through stretching themselves, where they can work on innovative products and projects, and where employees are supported and engaged in doing so. Aligned Capital Partners Inc. (ACPI) is a fast-growing investment dealer with a dynamic team committed to expanding our business. Our corporate culture encourages teamwork, service excellence, creativity, and initiative. We are currently hiring for a full-time Investment Operations Associate to become part of our Client Experience team in Burlington, Ontario. This role will join The Client Experience Team within Aligned Capital Partners Inc. (ACPI, a member of CI Financial). In this role, the successful candidate will work to investigate issues, gather information, and create solutions in their mission to provide excellent support to our Investment Advisor clients. The Client Experience Team is the 'go to' for our Advisors, this relationship is based on the trust they have in our expertise and ability to support them effectively. We are looking for someone who works calmly in a fast-paced environment and ensures work is completed in a timely and holistic fashion. This is a client-facing role that requires a heightened level of experience working within the financial services industry. What You Will Do: \u2022 Taking a team approach, support our Advisor clients with day-to-day inquiries and any specific requests for assistance- relating to Systems, Compliance, Trading, Estates, and more \u2022 Provide training to advisors and their branches/teams \u2022 Collaborate with other departments as required for multi-faceted issues \u2022 Work on project-specific tasks relating to procedural updates \u2022 Assist and support management on ad-hoc and priority items You Will Bring: \u2022 1-3 years of experience providing client service in the investment, banking or related industries - Focus on very strong client service skills \u2022 Industry-related academic experience (ex. CSC, CPH) or an evidenced commitment towards further education \u2022 Strong MS Office skills (Outlook, Word and Excel) \u2022 Team Player with friendly personality and strong communication skills \u2022 Proven ability to manage high volumes with a positive and professional attitude \u2022 Ability/Flexibility to work independently in hybrid home/office environment \u2022 Strong problem-solving aptitude - Ability to execute both first and second level thinking when assessing an issue This opportunity is for an existing vacancy with the company. The anticipated base salary range for this position is $60,000 - $75,000. Exact salary depends on several factors such as experience, skills, education, and budget. Salary range may vary based on geographic location. In addition to base salary, this position is eligible for participation in a bonus program. In addition, The Company offers a variety of benefits to eligible employees, including health insurance coverage, wellness programs, life and disability insurance, retirement savings plans, paid leave programs, education-related programs, paid holidays and vacation time, and many others. Many of these benefits are subsidized or fully paid for by the company. CI Financial is an independent company offering global wealth management and asset management advisory services through diverse financial services firms. Since 1965, we have consistently anticipated and responded to the changing needs of investors. We are driven by a commitment to provide individuals and institutions with the highest-quality investments and advice. Our commitment to the highest levels of performance means that whatever their position, CI employees must be comfortable in a fast-paced environment that will stretch them to tap into their highest potential. Employees with a healthy dose of ambition, a desire to commit to a curious mindset for continuous learning, and a willin"
+  },
+  {
+   "id": "jsearch:VnFnWkpadkRuZWxkbHZwM0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZV054WkhJeFIxWXRNWFF6TUhGRmIyRTVVbGxOUTFKMlMwVmhVMjFRTnpCeFUyZENZMHQwUWpoMlFrUnNhM0V3U1RkcVZGbGtiVmxPVTBzMWFteHdha1kxZWxsQlpuTnRaR0pJYkRGVVRYa3lOVVExWkRaak1UVkpSa0p0VUVGWmF6TnNZWHBaYXpoWGNVRmhTWFk0V21GeVVtSkJOWEkzUzFaRmRVdHpiMDFxUmtwak5GVVNGMDFOZW14aGNHNWlSVzgyVVhWeU9GQnlkSHBITWxGUkdpSkJTRTR3UlRkSFF5MVRiR2x1ZFZaTlYyRndRa3RqYUZWbWFWWmljVVpxUTFGbg",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Commercial Operations Specialist",
+   "company": "Calculated Hire",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/commercial-operations-specialist-at-calculated-hire-4484502844",
+   "posted": "2026-10-29T00:00:00+00:00",
+   "salary": "",
+   "description": "Commercial Deal Specialist 1 Year Contract-to-Hire Toronto, ON \u2013 hybrid $27/hour CAD This posting is intended to identify and connect with qualified candidates for potential future opportunities. A specific position is not currently be available, and the timing and details of future opportunities will depend on business needs. Role Overview The Elevate program Deal Specialist role is an early\u2011career position within BMO\u2019s Commercial and Corporate Lending Operations organization. This role supports the execution and ongoing administration of loan facilities, with primary responsibility for deal setup, loan trading (assignments), and post\u2011closing support. Designed for recent college graduates, the role provides structured training and hands\u2011on exposure to complex lending transactions. Deal Specialists help ensure loan data, legal documentation, and system records are accurate, complete, and aligned with approved credit terms. As part of the Elevate program, participants rotate through key operational functions, build technical and analytical skills, and progressively assume greater responsibility while working closely with internal business partners and operational teams, legal teams, and external lenders. Key Responsibilities Deal Setup & Execution \u2022 Review approved credit and legal documentation to understand deal structure, pricing, and key terms. \u2022 Set up and maintain loan facilities, pricing, and documentation tracking in Loan IQ. \u2022 Validate system setups against approved terms and escalate discrepancies when identified. Loan Closings & Funding Support \u2022 Support pre\u2011closing activities by ensuring required documentation, compliance items, and system setups are completed prior to funding. \u2022 Coordinate with internal partners to confirm funding instructions and closing conditions. Loan Trading & Assignments \u2022 Assist with processing loan assignments and trades using both external (ClearPar) and internal systems (Loan IQ) \u2022 Review assignment documentation to confirm alignment with approved trade terms. \u2022 Coordinate with internal teams and agent banks to support timely settlement. Post\u2011Closing Monitoring \u2022 Track post\u2011closing deliverables, reporting requirements, and documentation updates. \u2022 Monitor exception reports and resolve issues in a timely manner. Compliance & Controls \u2022 Perform required compliance and control checks (e.g., KYC, AML, flood determinations) in accordance with bank policies. \u2022 Assist with audits and internal reviews by providing documentation and responding to inquiries. \u2022 Identify opportunities to improve processes, controls, or efficiency. Professional Development \u2022 Participate in structured Elevate training covering syndicated lending, loan systems, risk awareness, and professional skills. \u2022 Build effective working relationships with teammates and business partners. \u2022 Develop sound judgment around issue identification, escalation, and quality standards. Qualifications Required \u2022 Bachelor\u2019s degree in Finance, Accounting, Economics, or a related field. \u2022 Strong attention to detail and ability to work accurately within defined processes. \u2022 Analytical and problem\u2011solving skills. \u2022 Clear written and verbal communication skills. \u2022 Ability to manage multiple priorities in a deadline\u2011driven environment. \u2022 Willingness to learn, ask questions, and accept feedback. Preferred \u2022 Internship or prior exposure to banking, finance, or operations. \u2022 Working knowledge of Excel beyond basic formulas. \u2022 Interest in commercial banking, syndicated lending, or financial operations. \u2022 Curiosity about using technology or automation to improve efficiency and accuracy. How to Apply: Straightforward, easy one-click apply. Applications will be accepted until at least November 30th, 2026 About Us: Calculated Hire is modernizing the professional services and staffing industry. When it comes to building teams, we understand that your organization\u2019s culture is key to its success. We customize solutions to your unique needs through staff augm"
+  },
+  {
+   "id": "jsearch:aDhZSF9ZbWkzNWgybS1PYUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZWFJoYmxSclNrUkRObkJWVEZGRlJFRnRha0p6TjFGRk5UbFdRa1ZuTVRGQ01sTXljVWR0TmtoMWVVNDRPRTVXTVY5TGVrWXhlbWMwZEVsSGVVdHlWa0pOVTFoS1RYVnhlVlZGZG00MlpEWTVUakZ5Y2s1aE5XcEJUM1YzZUZCM1ZUbDFSa0ZNYmkxYWFqaHBRVEZUZUU1UmJVbERlVzFtYUVrMFdHZG1kMlk0TmpaMWFFc1NGMHhqZW14aGMybE5SalF6VFd0UVNWQnhjVXczTkVGRkdpSkJTRTR3UlRkR1MyVmtSbTFaYVdWblpVdE9TMU5EZWw5dGRWWjRTa2h2VVV4bg",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Remote Marketing Coordinator: Paid Media & Campaigns",
+   "company": "Commonsku-1",
+   "location": "Toronto, ON, Canada (Remote)",
+   "remote": true,
+   "url": "https://www.jobleads.com/ca/job/remote-marketing-coordinator-paid-media-campaigns--toronto--eafca5e8264758daa175f08148c04968b",
+   "posted": "2026-10-27T00:00:00+00:00",
+   "salary": "",
+   "description": "commonsku is seeking a Marketing Coordinator Coop to join our remote-first Marketing team. You\u2019ll help drive demand generation, execute paid media strategies, and maintain clear campaign reporting across our channels. You\u2019ll collaborate with Marketing, Creative, and Sales, contribute to a high-trust environment, and influence the future of the industry. This role runs January\u2013August 2027, offering hands-on experience with analytics and AI-enhanced marketing tools."
+  },
+  {
+   "id": "jsearch:YVQ0WFAyX25SODU1UHh5MkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVUZ2UXkxalRsQm9Ta3hTYUhjM1FUbEJaMnN5YVdKTU5UWjVTazVyUmxOV2NFazJabGQwYlV0QlpIRlNha0ZCZFY5bVkzb3lUVVZaYWxCVlYxWkNXVEZLU25neVlYcGlUVFF3WkdGcE1UZHVXbHBGUzFsSldISXRSUzFNUVU0Mk5ETlNOREpoVlRSVmIzUnlaVkZDYzFKYWNsbElNbkZJWlVKcWJtMWhTbUYwVTNnMU1XSVNGMHhqZW14aGMybE5SalF6VFd0UVNWQnhjVXczTkVGRkdpSkJTRTR3UlRkSU5scGZNa1ZZVGs1SFZEZDBVVVJITlhaQ00xVnVkV3hrUlVOUg",
+   "source": "jsearch",
+   "publisher": "Isarta",
+   "title": "Digital Marketing Associate",
+   "company": "PKF ANTARES",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://isarta.com/jobs/?job=122271&lang=en",
+   "posted": "2026-10-27T00:00:00+00:00",
+   "salary": "",
+   "description": "The Opportunity PKF Antares is seeking a motivated and creative Digital Marketing Associate to join our Toronto office. In this hands-on role, you will support the execution of our digital marketing, content, and brand initiatives, helping strengthen our online presence, increase brand awareness, and generate new business opportunities. Working across digital advertising, social media, website content, and marketing analytics, you will collaborate with colleagues and subject-matter experts to develop engaging content and deliver effective marketing campaigns that connect with our target audiences. This is an excellent opportunity for an early-career marketing professional who enjoys a varied and fast-paced environment, is comfortable working across multiple digital platforms, and is eager to develop their skills while contributing to the continued growth and success of PKF Antares. Responsibilities Digital Marketing & Campaigns \u2022 Support the planning, setup, launch, and optimization of digital marketing campaigns. \u2022 Assist with paid advertising across Google Ads, LinkedIn Ads, and Meta Ads, including audience targeting, ad copy, creative coordination, and landing pages. \u2022 Monitor leads, conversions, and campaign results; identify trends and recommend improvements. \u2022 Support lead-generation and remarketing initiatives. Social Media Marketing \u2022 Manage and maintain company social media channels, particularly LinkedIn, Instagram, and other relevant platforms. \u2022 Create and maintain a content calendar; draft, schedule, and publish engaging, on-brand posts. \u2022 Coordinate graphics, videos, and other social media assets. \u2022 Monitor engagement and identify opportunities to grow reach and audience engagement. Content, Website & SEO \u2022 Assist with articles, insights, newsletters, case studies, landing pages, and other marketing content. \u2022 Publish and update website content, ensuring accuracy and consistency with the brand. \u2022 Apply basic SEO practices, including keyword use, page titles, meta descriptions, and internal linking. \u2022 Work with internal subject-matter experts to turn technical knowledge into clear, accessible content. Analytics & Reporting \u2022 Monitor website, social media, and advertising performance using Google Analytics 4, Google Ads, and platform analytics. \u2022 Track key metrics such as website traffic, engagement, leads, conversions, and campaign performance. \u2022 Prepare regular marketing reports and recommend opportunities to improve results. Marketing & Business Development Support \u2022 Support email, event, and targeted marketing campaigns. \u2022 Assist with campaign lists, presentations, marketing collateral, and lead-generation activities. \u2022 Coordinate with internal teams and external vendors as required. \u2022 Contribute to other marketing and business development initiatives as assigned. Qualifications \u2022 Approximately 1-3 years of relevant marketing experience, including internships or substantial hands-on digital marketing experience. \u2022 Bachelor's degree or diploma in Marketing, Communications, Business, Digital Marketing, or a related discipline. \u2022 Strong understanding of digital marketing and social media marketing. \u2022 Working knowledge of Google Ads and online advertising platforms. \u2022 Experience managing business social media accounts, particularly LinkedIn. \u2022 Understanding of paid social advertising, particularly LinkedIn Ads and/or Meta Ads. \u2022 Basic knowledge of SEO, website optimisation, and Google Analytics or a similar analytics platform. \u2022 Strong writing, editing, and communication skills, with the ability to create clear, engaging content. \u2022 Comfort using Microsoft 365, Canva, and content management systems. \u2022 Strong organizational and project-management skills, with the ability to manage multiple campaigns and deadlines. \u2022 Analytical mindset and ability to interpret marketing performance data. Assets \u2022 Google Ads or Google Analytics certification. \u2022 Experience with CRM or marketing automation platforms such as HubSpot. \u2022 Ex"
+  },
+  {
+   "id": "jsearch:cVBYYXVPUE9TZlNnMkh6S0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZa0ZzT0d3d2IxRjBkSHBCUVhwUFMxRkxjMm96WjFCM1pVcHFkMjVYVG5wSFZFUmlhbUUyUzAwdGJXbEdMVlZyUzBoU2RVbG5jMGxJVWtNdFFVSjRkWEkxYnpjeE1FcHNVVEJaWkhrNGNWWnNRMk5NVDJkME5FaHNYMUp0WTFaMExVZEVTVnBhWlc1QlluazRaekEyYTJaRFVVOUdUM2hNZHpCRVkyRnJhRmxqT0ZCV09XUVNGMDFOZW14aGNHNWlSVzgyVVhWeU9GQnlkSHBITWxGUkdpSkJTRTR3UlRkSVgzTlJaRWgwWTNoaGNqWXpkbkpyV25WYWNGWmlkMXBqWjFkQg",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Associate, Operations II - Mail & Distribution",
+   "company": "rbc",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/associate-operations-ii-mail-distribution--toronto--eff1132a464933c0bc30768b7f8062161",
+   "posted": "2026-10-27T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Description As an Operations Associate II - Mail & Distribution, you will be responsible for handling all Incoming/Outgoing mail and processing activities such as sorting, inserting client documents in a timely manner to provide a positive client experience. Additionally, you will be responsible for securely handling pickup and delivery of stock certificates, cheques, documents, etc. from brokers, banks and other institutions throughout downtown core. You will liaise with various operations departments to research and investigate inquiries and issues, as well as resolve concerns with the aim to provide a seamless operations service experience. What will you do? \u2022 Provide accurate processing support for standardize and/or manual processes within Mail & Distribution Department. \u2022 Messenger - Plan and follow most efficient routes for pickup and delivery or high value items. \u2022 Maintain highest degree of security and control of documents at all times while keeping record of daily deliveries and pickups. \u2022 Assist with opening mail and distribute as per Internal Controls. In addition, perform other duties and responsibilities as assigned. \u2022 Support team in all weekly/monthly high volume mailing to meet team benchmarks and service level agreements. \u2022 Accurately review, verify, and/or record data into technology supporting department processes. Understand department procedures and required accountabilities in the area or department in which the incumbent works. Refers to department manuals for instructions and task assignments for the specific role. \u2022 Liaise and provide customer service support for individuals requiring research, problem resolution, or securing information from other Operation's departments, RBC Business Units, external customers or industry participants. Address escalated questions independently; seeking assistance from Team Lead or Manager as appropriate following established department procedures. \u2022 Reduce risk or increase efficiencies by suggesting process changes and system modifications. Participate in testing and implementation of new systems and processes as required. What do you need to succeed? \u2022 4-year degree from an accredited university (or equivalent) OR High school diploma (or equivalent) AND 2 years of job-related experience. \u2022 Effective problem identification, analytical, and resolution skills along with proficient computer skills in Windows-based software products. Effective exceptions based processing skills. \u2022 Ability to communicate effectively both verbally and in writing, excellent customer service skills, organizational skills, and superb attention to detail. \u2022 Ability to handle multiple priorities in a fast-paced and deadline driven environment. \u2022 Strong teamwork and relationship building skills, as success is dependent on working in co-operation with others. \u2022 This role is fully in-office, 5 days a week. Nice-to-have: \u2022 PC literate in MS Office applications Excel. \u2022 Prior banking experience in Operations/Back Office is an asset. \u2022 Process Improvement and innovation. What's in it for you? \u2022 We thrive on the challenge to be our best, progressive thinking to keep growing, and working together to deliver trusted advice to help our clients thrive and communities prosper. We care about each other, reaching our potential, making a difference to our communities, and achieving success that is mutual. \u2022 A comprehensive Total Rewards Program including bonuses and flexible benefits, competitive compensation, commissions, and stock where applicable. \u2022 Leaders who support your development through coaching and managing opportunities. \u2022 Ability to make a difference and lasting impact. \u2022 Work in a dynamic, collaborative, progressive, and high-performing team. \u2022 Flexible work/life balance options. \u2022 Opportunities to do challenging work. \u2022 Opportunities to take on progressively greater accountabilities. \u2022 Access to a variety of job opportunities across business. Job Skills \u2022 Active Learning \u2022 Communication \u2022 "
+  },
+  {
+   "id": "jsearch:dGtWNGhYYWRqOUxQQUJEcEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbk01VlRSWmMwTkdaMWhWWjFocmR6QXRlVkZ5ZFRNNFNESkdWRzlVU1hjMFdsOHRRa1UxWlZNMk1sQjNaR1ZxVW1KbmJHNW1NVjlWVVY5WmNEYzNMVWx5Ym1OU1gyWnBhVGhtY0UxQ1MySkhURlI2UlZndGRrUkRkR2Q1VmpsS2FFUlJZa0V3VGtOcWIxcEhRbk5aU0dOdlJqUmFPSFk0UVhSWE4yTnFiMVIzVG5nNWMyb1NGMDFOZW14aGNHNWlSVzgyVVhWeU9GQnlkSHBITWxGUkdpSkJTRTR3UlRkR1NEQkRXa3Q0UWpWUmJsYzNXbTFmUVhSR1ZGbG5kSEZwVDFaMw",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Operations and Communications Coordinator",
+   "company": "The Fueling Station",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.indeed.com/viewjob?jk=7f2fcf4c8c2c1081",
+   "posted": "2026-10-27T00:00:00+00:00",
+   "salary": "",
+   "description": "The Fueling Station Operations and Communications Coordinator Reports to: Operations Manager Location: 147 Liberty St (onsite) Salary Range :$50,000 - $55,000 Job Description Role Overview The Operations & Communications Coordinator is responsible for supporting the day-to-day operations of the Liberty workplace, delivering an exceptional member and guest experience, and ensuring the office environment is organized, welcoming, and operating efficiently. This role combines membership services, building operations, communications, administrative support, bookkeeping and invoice management, requiring strong organizational skills. 1. Membership Operations & Community Engagement \u2022 Serve as the first point of contact for visitors, members, incoming calls, couriers, and general inquiries, providing a professional and welcoming experience. \u2022 Oversee incoming and outgoing mail, courier deliveries, and package management. \u2022 Prepare and distribute member communications, including building updates, newsletters, and other community announcements. \u2022 Support community-building initiatives that foster meaningful connections among members, including member introductions, event coordination, and ongoing email communications. \u2022 Encourage member participation in social events, lunch-and-learns, and other community activities. 2. Building Operations & Facilities Management \u2022 Complete and maintain daily, weekly, and monthly facility checklists, ensuring tasks are followed through to completion. \u2022 Coordinate new member arrivals and departures, including preparing welcome materials, issuing keys, and managing move-in and move-out requirements. \u2022 Coordinate onboarding for new members, as requested, including technology setup, access permissions, and orientation. \u2022 Monitor and maintain office supplies, including coffee, tea, snacks, stationery, and other workplace essentials; manage inventory and place orders as needed. \u2022 Monitor the condition and functionality of the building, office equipment, Wi-Fi, printers, meeting rooms, and shared spaces. \u2022 Document facility and building-related issues, track outstanding items, and escalate matters requiring management attention to the appropriate manager. 3. Office Administration & Executive Support \u2022 Maintain organized and up-to-date digital and physical filing systems for contracts, deal files, legal documents, and other business records. \u2022 Provide accounting and administrative, including invoice processing, account reconciliations, payment tracking, financial record maintenance, and assistance with month-end reporting. \u2022 Oversee day-to-day office administration, ensuring the workplace remains clean, organized, professional, and efficient. Monitor office readiness, including cleanliness, supplies, meeting room availability, and the functionality of workplace technology, addressing issues promptly. \u2022 Provide administrative support to senior leadership as requested, including travel arrangements, itinerary preparation, and expense reporting. \u2022 Assist with the planning and coordination of team-building activities, training sessions, and internal communications. \u2022 Support ongoing administrative improvement initiatives, special projects, and other assignments as required. 4. General Expectations \u2022 Take ownership of day-to-day responsibilities, ensuring tasks are completed accurately, efficiently, and on time. \u2022 Demonstrate initiative by anticipating operational needs, identifying potential issues, and recommending practical solutions. \u2022 Maintain a high standard of professionalism, discretion, and attention to detail when interacting with members, guests, colleagues, contractors, and senior leadership. Candidate Experience and Qualifications \u2013 Operations and Communications Coordinator \u2022 2 + years of experience in operations coordination, administrative support, communications, or a related role. \u2022 Strong written and verbal communication skills, with the ability to prepare professional correspondence, reports, and i"
+  },
+  {
+   "id": "jsearch:S1JIOHNVbDZvRWw1MFlmbUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbGczVm5OUlRUZGxaa2hqVVZkQ2RGSkRZamhUTTNrM1UyeDZTSEV6WkZGcllWcDFiREJpU0dremEzWjFWWFZLVEc5WlZqWmFXSFl3UjFCTmVsSllTVzR4UzNGc1FWSm5WMEV0V1VGelJVOVpRbWhaWkZWdlgxOVNOek5pVFZKcVluQmxhblJ2VDFoYVltOUdlRE5UU1ZOaWR6WjFabFo0YlZodmNWTjJZMHBuWlRacFkzQVNGMHhqZW14aGMybE5SalF6VFd0UVNWQnhjVXczTkVGRkdpSkJTRTR3UlRkSVlqVjVSbnBLUjJkNVNXNXVXQzA0ZFU1a2IzRTJaalIxZEZwUg",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Technical Marketing Specialist",
+   "company": "Hays",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/technical-marketing-specialist-at-hays-4483746562",
+   "posted": "2026-10-26T00:00:00+00:00",
+   "salary": "",
+   "description": "Our client is a leading organization in the mining and metals industry to recruit a Technical Marketing Specialist for their team in Toronto, Ontario. Our client is seeking a technically strong and commercially minded professional who can connect product performance, engineering and processing capabilities, market intelligence, and customer requirements to support commercial growth and product strategy. Your New Role As a Technical Marketing Specialist, you will work closely with technical, operational, commercial, and customer-facing teams to evaluate product performance, market opportunities, and commercial outcomes. Key responsibilities include: \u2022 Analyzing product specifications, quality performance, customer requirements, and market conditions. \u2022 Conducting technical-commercial evaluations of metals products and customer applications. \u2022 Developing value-in-use analyses, financial models, business cases, and scenario assessments. \u2022 Supporting customer product qualifications, technical discussions, and performance reviews. \u2022 Evaluating technical feasibility, regulatory requirements, operational implications, and commercial opportunities. \u2022 Supporting market intelligence, competitive analysis, and product strategy. \u2022 Collaborating with Operations, Engineering, Quality, Sustainability, Finance, Supply Chain, and Commercial teams. \u2022 Preparing reports, presentations, dashboards, and recommendations for senior stakeholders. What You\u2019ll Need to Succeed \u2022 5\u201310 years of relevant experience within technical, engineering, operational, product, commercial, or customer-facing roles. \u2022 Experience within mining, metals, mineral processing, refining, manufacturing, or industrial environments. \u2022 Bachelor\u2019s degree in Metallurgical Engineering, Chemical Engineering, Materials Engineering, Mineral Processing Engineering, Mechanical Engineering, or a related discipline. \u2022 Strong understanding of product specifications, quality, process performance, and customer requirements. \u2022 Experience with financial modelling, value-in-use analysis, business cases, and scenario planning. \u2022 Strong analytical, problem-solving, communication, and stakeholder-management skills. \u2022 P.Eng., postgraduate business qualifications, or market intelligence experience would be considered an asset. What You\u2019ll Get in Return This is an exciting permanent opportunity to join a leading organization within the mining and metals sector, offering: \u2022 Competitive compensation \u2022 Annual incentive opportunity \u2022 Pension and comprehensive benefits \u2022 Career development and training opportunities \u2022 A collaborative and inclusive working environment What You Need to Do Now If you're interested in this opportunity and your experience aligns with the requirements, apply directly or reach out to me on LinkedIn for a confidential discussion."
+  },
+  {
+   "id": "builtin:11997499",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Senior Specialist, Digital Marketing Corporate Communications (Hybrid/Telework)",
+   "company": "CBC/Radio-Canada",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/senior-specialist-digital-marketing-corporate-communications-hybrid-telework/11997499",
+   "posted": null,
+   "salary": "",
+   "description": "Senior Specialist, Digital Marketing Corporate Communications (Hybrid/Telework) - CBC/Radio-Canada | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job CBC/Radio-Canada Jobs Senior Specialist, Digital Marketing Corporate Communications (Hybrid/Telework) CBC/Radio-Canada Senior Specialist, Digital Marketing Corporate Communications (Hybrid/Telework) Posted Yesterday Be an Early Applicant Hybrid Toronto, ON, CAN Senior level Hybrid Toronto, ON, CAN Senior level Develops and executes CBC/Radio-Canada corporate digital marketing and communications strategies across social media, newsletters, and digital platforms. Responsibilities include creating and distributing campaign content, moderating online communities in English and French, advising senior leadership, leading cross-functional projects, analyzing social performance, managing paid campaigns, monitoring communications issues, and supporting public relations activities. The summary above was generated by AI Position Title: Senior Specialist, Digital Marketing Corporate Communications (Hybrid/Telework) Status of Employment: Temporary Long-Term (Fixed Term) Position Language Requirement: English, French Language Skills: English (Reading - P - Professional), English (Speaking - P - Professional), English (Writing - P - Professional), French (Reading - P - Professional), French (Speaking - P - Professional), French (Writing - P - Professional) Work at CBC/Radio-Canada At CBC/Radio-Canada, we create content that informs, entertains and connects Canadians on multiple platforms. Our successes and accomplishments are driven by embodying and upholding values, which include creativity, integrity, inclusiveness and relevance. Do you think you have the ability and drive to keep up with this exciting, ever-changing industry? Whether it be in front of the camera, on air, online or behind the scenes, you would be joining a team that thrives on making connections and telling stories that are important to Canadians. Unposting Date: 2026-11-15 11:59 PM This role can be based in Toronto, Montreal or Ottawa. This role is a hybrid work arrangement. Work schedule to be discussed with the Hiring Manager according to the guidelines defined by the department. This is a 1-year temporary role. Your role As Senior Specialist, Digital Marketing, you will be a key player in the public broadcaster\u2019s corporate communications activities, helping us engage with Canadians and employees across the country. Reporting to the Senior Manager, Content and Editorial Strategy, you will work closely with the Corporate, CBC and Radio-Canada Communications teams as well as the Office of the President and CEO. Your mandate is to strengthen CBC/Radio-Canada\u2019s relationship with Canadians through our social communities and digital platforms (internal and external), including newsletters You will be responsible for contributing to the creation, the implementation and the promotion of content across our Corporate platforms, nurturing relationships with various audiences, identifying potential communications issues, and providing senior management with strategic advice. You will also be responsible for writing your own content and will work with other teams to arrange approvals, design, translation, layout and online posting. You will help bring the existing content strategy to life, while also identifying new opportunities and responding to potential issues. You will be required"
+  },
+  {
+   "id": "builtin:11995817",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Retention Marketing Specialist",
+   "company": "Knix",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/retention-marketing-specialist/11995817",
+   "posted": null,
+   "salary": "",
+   "description": "Retention Marketing Specialist - Knix | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Knix Jobs Retention Marketing Specialist Knix Retention Marketing Specialist Posted Yesterday Be an Early Applicant Hybrid Toronto, ON, CAN Mid level Hybrid Toronto, ON, CAN Mid level Owns day-to-day email, SMS, and direct mail campaign execution, including calendar management, audience segmentation, creative approvals, quality assurance, and deployment. Partners with cross-functional teams to meet business goals, implements retention strategy, identifies lifecycle communication opportunities, and analyzes tests. The role requires hands-on Klaviyo experience, strong organization, attention to detail, and the ability to work under tight deadlines. The summary above was generated by AI Knix is an award-winning intimate apparel and activewear brand that is re-inventing intimates for real life. Through our innovative products and our engaged community, we are empowering people everywhere to be unapologetically free. Launched in 2013, we are one of the fastest-growing intimate apparel brands in North America and are globally recognized as an innovator within the apparel space. We reach over 3 million customers through our online stores, Knix retail locations across North America and channels such as wholesale and Amazon. We are revolutionizing the apparel industry with our best-in-class customer experience, innovative products and brands Knix and Kt by Knix. Come join us if you are looking for a purpose-driven and authentic career! Knix is looking for a Retention Marketing Specialist to be the keeper of all owned channel campaigns. You own the calendar, briefs and execution across email and SMS. This role is very execution based and requires a lot of attention to detail. Owned channels account for 35% of total repeat revenue, with campaigns currently accounting for 53% of it. Campaigns drive a significant amount of revenue for the business, with SMS seeing a $15 ROI, we are continuing to invest further in SMS over the next year to continue to propel the business forward. The Opportunity Overseeing the day-to-day, hands-on execution of all things email & SMS campaign marketing for KW. This includes managing campaign calendar, briefing, creative approvals, QA and execution of daily campaigns. Campaigns are hyper targeted and personalized, you'll build all audience segments Partner closely with Customer Experience, IMC, Creative, Product, and Digital Merchandising teams to ensure campaigns are meeting overall brief and company OKRs Handling the execution of direct mail marketing campaigns Working closely with Retention Marketing Managers to implement campaign strategy and execution roadmap Understanding customer lifecycle and identifying opportunities for personalized communication Embracing the test and iterate mindset and playing an active role in devising, executing, and analyzing tests Staying up-to-date with trends and best practices in Email and SMS marketing Qualifications You bring 1\u20135 years of experience in email marketing You have hands-on experience with Klaviyo Having experience with Attentive,Figma, and Shopify is an asset You are organized, detail-oriented, and reliable You are a creative problem solver You possess strong time management skills and a dependable work ethic You have a deep sense of responsibility and accountability You are adaptable, self-motivated, and take initiative"
+  },
+  {
+   "id": "builtin:11990633",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Communications Specialist (Writer, Executive Communications)",
+   "company": "Intact (intactfc.com)",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/communications-specialist-writer-executive-communications/11990633",
+   "posted": null,
+   "salary": "",
+   "description": "Communications Specialist (Writer, Executive Communications) - Intact (intactfc.com) | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Intact (intactfc.com) Jobs Communications Specialist (Writer, Executive Communications) Intact (intactfc.com) Communications Specialist (Writer, Executive Communications) Posted Yesterday Be an Early Applicant Hybrid Toronto, ON, CAN Senior level Hybrid Toronto, ON, CAN Senior level Leads executive communications for Intact\u2019s CEOs and senior leadership, writing speeches, employee messages, briefing notes, scripts, and other internal and external content. Advises executives, develops communications plans, coordinates video production, aligns messaging across brands and markets, manages stakeholders, and measures communication effectiveness. The role requires exceptional writing, strategic business understanding, executive presence, sound judgment, and the ability to manage multiple projects independently. The summary above was generated by AI Our employees are at the heart of everything we do. Together, we help people, businesses, and society prosper in good times and be resilient in bad times. Our employee promise represents Intact\u2019s commitment to you in exchange for living our Values, striving to do your best work, being open to change and investing in your career. In return, we promise to provide support, opportunities and performance-led financial rewards at a workplace where you can shape the future, win as a team and grow with us. Pay at Intact is about much more than just salary. Flexible work arrangements and a hybrid work model Possibility to purchase up to 5 extra days off per year Multiple benefits offered to support physical and mental wellbeing, including telemedicine, Wellness account and much more Share plan & other savings: up to 12% of salary or even more (ask how you could earn guaranteed income for life) Salary range (but not limited to): 109,900 - 134,300 Annual bonus target, based on the base salary, with a potential payout of up to double the target (subject to personal and company performance): 15% As part of our commitment to Win As A Team , we share our success with employees through our annual bonus plan and Employee Share Purchase Plan (ESPP) \u2013 with Intact matching 50% of your net shares. Our pension offerings provide flexibility and long-term security for our employees beyond their careers. We are one of the few companies offering the opportunity to receive guaranteed income for life via our defined benefit pension plan. Salary for the candidate will be determined taking into consideration a number of factors including: experience, skills, qualifications, anticipated contribution to role, internal equity, etc. The salary range presented above is based on a 35-hour workweek and would represent a majority of different candidate profiles. However, we encourage candidates who may fall outside of this range to apply as well. About the role The Corporate Communications team leads Intact Financial Corporation\u2019s internal and external communications in support of IFC\u2019s business objectives and strategic roadmap. This includes: Supporting and amplifying the common elements that bring us together, define our unique culture and drive outperformance. Enhancing employee engagement across IFC \u2013 emphasizing what makes us a winning team. Protecting and promoting the IFC brand and reputation globally. Elevating IFC\u2019s role in helping to"
+  }
+ ]
+}
