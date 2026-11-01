@@ -1,0 +1,400 @@
+{
+ "run_id": "2026-11-01T115907Z",
+ "run_at": "2026-11-01T11:59:07.320924+00:00",
+ "date": "2026-11-01",
+ "source_counts_after_filters": {
+  "jsearch": 10,
+  "remoteok": 0,
+  "weworkremotely": 2,
+  "adzuna": 0,
+  "builtin": 0
+ },
+ "new_count": 5,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 4,
+   "error": null,
+   "rejected_by": {
+    "title": 6
+   },
+   "rejected_samples": [
+    "[title] Intern - Marketing Performance | Kensington | Toronto, ON, Canada | 2026-10-30T00:00:00+00:00",
+    "[title] Principal, Lifestyle Marketing | CrowdRiff | Toronto, ON, Canada | 2026-10-26T00:00:00+00:00",
+    "[title] Remote Account Manager - Digital Marketing & Client Growth | H2O Digital Marketing Agency | Toronto, ON, Canada (Remote) | 2026-10-30T00:00:00+00:00",
+    "[title] Marketing Manager, Client Communications | Royal Bank of Canada | Toronto, ON, Canada | 2026-10-31T23:00:00+00:00",
+    "[title] Director, Marketing Partnerships Lead \u2013 NBA Canada NBA Est. $175,000 - $220,000 Toronto, Canada Director Lead Toronto, Canada 16 hours ago | SportsTechJobs | Toronto, ON, Canada | 2026-10-29T00:00:00+00:00",
+    "[title] Principal, Lifecyle Marketing | CrowdRiff | Toronto, ON, Canada | 2026-10-26T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 5,
+   "error": null,
+   "rejected_by": {
+    "title": 5
+   },
+   "rejected_samples": [
+    "[title] Duty Manager | AvPosts | Mississauga, ON, Canada | 2026-10-31T00:00:00+00:00",
+    "[title] Hybrid Field Tech Operations & Logistics \u2013 Events | Collage | Toronto, ON, Canada | 2026-10-28T00:00:00+00:00",
+    "[title] Business Operations Lead | Cohere | Toronto, ON, Canada | 2026-10-31T15:00:00+00:00",
+    "[title] Operations Manager \u2013 Night Shift | Kohl & Frisch Limited | Toronto, ON, Canada | 2026-10-28T00:00:00+00:00",
+    "[title] Associate Manager, Operations Management | DoorDash Canada | Toronto, ON, Canada | 2026-10-29T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 8,
+    "location": 1
+   },
+   "rejected_samples": [
+    "[title] Digital Marketing Lead (Remote) | Earthscape Play | Ontario, Canada (Remote) | 2026-10-30T00:00:00+00:00",
+    "[title] Marketing and Sales Coordinator | InnovMarine Inc. | Canada | 2026-10-30T00:00:00+00:00",
+    "[title] Global Product Marketing Manager | Ignition | Toronto, ON, Canada | 2026-10-31T23:00:00+00:00",
+    "[location] Junior Marketing Coordinator - Brand Campaigns | Placements24 |  | 2026-10-30T00:00:00+00:00",
+    "[title] Remote Marketing Assistant for Arts and Culture Campaigns | mpmgarts | British Columbia, Canada (Remote) | 2026-10-28T00:00:00+00:00",
+    "[title] Remote Field Marketing Leader - NA Growth & ABM | The Adaptavist Group | Canada (Remote) | 2026-10-28T00:00:00+00:00",
+    "[title] AI-First Sales & Marketing Manager (Remote) | AccessE11 | Ottawa, ON, Canada (Remote) | 2026-10-29T00:00:00+00:00",
+    "[title] Email Marketing Manager \u00e2\u20ac\u201c Brazil (Remote) | The Elite Job | Brazil (Remote) | 2026-10-29T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 210,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 206,
+    "location": 2
+   },
+   "rejected_samples": [
+    "[title] Sales Development Representative, Clinical Search | Doximity | Anywhere in the World (Remote) | 2026-11-01T07:30:53+00:00",
+    "[title] Commercial Account Executive | Gong.io | Anywhere in the World (Remote) | 2026-11-01T07:30:45+00:00",
+    "[title] AI Enterprise Architect | Gong.io | Anywhere in the World (Remote) | 2026-11-01T07:30:45+00:00",
+    "[title] Account Executive, NAS Product Specialist | Rubrik Job Board | Anywhere in the World (Remote) | 2026-10-31T07:31:02+00:00",
+    "[title] Account Executive, NAS Product Specialist | Rubrik Job Board | Anywhere in the World (Remote) | 2026-10-31T07:31:02+00:00",
+    "[title] AI Security Sales Executive, North Central | Abnormal | Anywhere in the World (Remote) | 2026-10-31T07:31:02+00:00",
+    "[title] AI Security Sales Executive, Bay Area | Abnormal | Anywhere in the World (Remote) | 2026-10-31T07:31:02+00:00",
+    "[title] Independent Sales Agent, B2B Media - Commission Based, Remote | The Supply Chainer | Anywhere in the World (Remote) | 2026-10-31T06:20:35+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 1
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 1
+  },
+  "builtin job pages": {
+   "returned": 2,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 2
+   },
+   "rejected_samples": [
+    "[title] Events Marketing Manager",
+    "[title] Application Support Engineer (Front Office)"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:b1FrZWQ5N1h6eTJMRVNKYUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXa0ZPT0RVMWIyZzJXbmhpTURRNU5FZHlNbk5VZGt0VGFITkVSall4ZG1kWmRqaGpTUzFLYjAxWldYWk5aMGRPU1hjdFkwSmhaM0ZuWjBkSk1Xa3hVbE5yYVdOaGFGVnhjRTFQTWw5TFVVaFlaMmRUZUhnNGVVaHpSak5sTjA1ZlN6Tk5ibTFIZG04eGIzRnJhWGxRWXpSbE1XUklYemR3ZUhkc1JqTnlVa0pRU25wWFdGVVNGMnREYm01aGRXRkhTMkZ1T1hCMFVWQnpObmw0ZDBGVkdpSkJTRTR3UlRkRlluaFRURnBaTFVvd05sVnBTRTFDWTJRM04wd3RSalpUVGkxQg",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Senior Specialist, Marketing (Social Media)-18 month contract",
+   "company": "Definity",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/senior-specialist-marketing-social-media-18-month-contract-at-definity-4466358783",
+   "posted": "2026-10-29T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Description The Opportunity Reporting to the Director of Content Marketing, the Specialist, Marketing, is responsible for activating Petline\u2019s social media strategy to engage consumers, customers, and partners while managing brand reputation. This role champions social media governance and best practices across the company, requiring strong campaign and community management skills. Key responsibilities include executing strategic plans, monitoring engagement, analyzing performance, and supporting content strategy and planning. What To Expect \u2022 Activate Petline\u2019s social media strategy to strengthen brand voice and reputation. \u2022 Plan, create, and publish engaging content across all social platforms; manage editorial calendars. \u2022 Oversee community engagement and social listening, responding to comments and identifying proactive opportunities. \u2022 Monitor trends, platform updates, and best practices to inform content and channel strategy. \u2022 Lead reporting and analysis of social performance; share insights and recommend optimizations. \u2022 Coordinate content planning and production with internal teams and external partners. \u2022 Support integrated marketing initiatives and maintain the annual content calendar. \u2022 Ensure adherence to social media governance and collaborate across business units and committees. What You Bring \u2022 3+ years of social media, project management and marketing experience \u2022 Well versed in both traditional & digital/social campaign development \u2022 Ability to balance quick timing while still ensuring quality of work. \u2022 Balance attention to detail with swift execution. \u2022 Hustle is essential, moving quickly and executing to allow for continual iteration is a core competency of our team \u2022 Passion for connecting with consumers and bringing to life killer campaigns. Salary Range: $59,300 - $109,200 About Us Actual salary for the role may vary depending on work location of the successful candidate and other factors including but not limited to, skills, education, experience, working conditions and the local labour market. This position is being posted to fill an existing vacancy. We also take potential into consideration. If you don\u2019t have this exact experience, but you know you have what it takes, be sure to give us more insight through your application and cover letter. Our inclusive work environment welcomes diversity and supports accessibility. If you require accommodation at any time during the recruitment process, please let us know by contacting accessibility@economical.com. As part of Definity\u2019s commitment to reconciliation, we acknowledge that our work, meetings, and travel take place on the lands now known as Canada, and recognize the enduring presence, wisdom, and stewardship of the First Nations, M\u00e9tis, and Inuit peoples who have long cared for these lands. Background checks This role requires successful clearance of a background check (including criminal checks and leadership references). About The Team Petline is part of Definity, which includes some of Canada\u2019s most long-standing and innovative insurance brands, including Economical Insurance, Sonnet Insurance, Family Insurance Solutions, and Petline Insurance. Our ambition is to be one of Canada\u2019s leading and most innovative property and casualty insurers. We can\u2019t do that without our people, so we embrace and encourage a culture that\u2019s collaborative, ambitious, rewarding, and empowering. We offer a flexible, hybrid work experience where employees work from the office and virtually depending on the type of work they are doing and who they are working with. Bring your true self and be a part of our journey. It\u2019s better here."
+  },
+  {
+   "id": "jsearch:MVR4ZjBKX0FFLW8zdVJGdEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXakpLUlhGU1JEazFaMVE0YzA5VWNtNVBabWhmY1dkMU4wRkRWa3M0WkdwRWEydE5XbmszTm1KeFluWktkME5HVWxReVZsWkNOMkZvTUdOdVoxQkNia1JzY3pkblpGUm9Sa0ZaVTJkVFV6Qm1WVXBTYjJKeGRVdDNiVEp6Y0haaVdtZEtWRFV6WWtOd01rRnZlQzF6V1RBNWJXWTVZMUI0Ym0xeE4yWnVWV1ZVVDIxSlYwMFNGMnREYm01aGRXRkhTMkZ1T1hCMFVWQnpObmw0ZDBGVkdpSkJTRTR3UlRkR2VIbE9aME5CTFdWdGVsVjVRMGRrVVdKV2NuUm9iSEJzYkZGUg",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Marketing Coordinator: Content, Campaigns & Events",
+   "company": "Triumph Group of Companies",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/marketing-coordinator-content-campaigns-events--toronto--e6a431bab2f57cabd1759e73ebbd2405d",
+   "posted": "2026-10-29T00:00:00+00:00",
+   "salary": "",
+   "description": "Triumph Group of Companies in the Greater Toronto Area is seeking a Marketing Coordinator to turn ideas into content, sales materials, campaigns, and events across Heather & Little, PrimeFab, Haus Architectural Supply, and Rawley Resort & Marina. You\u2019ll partner with the marketing team, division leaders, and sales to keep projects on track and maintain high standards. You\u2019ll own social posts, email content, website updates, newsletters, and announcements\u2014adapting messages for each audience and"
+  },
+  {
+   "id": "jsearch:MXNaWEFTVVlrQWFqbTViOUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXakpQT0hsUk5rcHdkRFI1VWxocVdUZDNaSEp0T1dsVWJEY3RWRVF5TlU1bFYwaElkRTVhU1ZkQ2FFMWZXSHBhTFY5TVdreDZOVlJoYkRRdGRWVjRTbXBHWlRZdGFYZGZWM2xmYnpJM1UwSkJTSFpvU21SMmRVVlBkV0ZsYmxaemNISnJZa2x2Y21KNFRrdGlWVzVRU21OamQxTkNRbTFYZFhKdFZtSmlRazFEZEV0MWRUVVNGMnQ1Ym01aGRFdHRUVXMyT1hKMVJWQTBkRU5KTmxGRkdpSkJTRTR3UlRkRmIzRklNVnAxYnpoV1ZESnJTMGx0Y0ZWcWNrdEZNbHBzWWsxMw",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "E-Commerce & Retail Operations Specialist",
+   "company": "TISSOT",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/e-commerce-retail-operations-specialist--toronto--e23ac2248531c02e05c4d95b02f059c99",
+   "posted": "2026-10-29T00:00:00+00:00",
+   "salary": "",
+   "description": "Tissot is seeking an E-Commerce & Retail Operations Coordinator to support day-to-day e-commerce and boutique operations, aligning online and in-store activities for a seamless customer experience. You will collaborate across boutiques, customer service, warehouses, HQ, and cross-functional teams. The role reports to leadership within Retail and E-Commerce and offers a base salary range with performance bonuses. Benefits include health, RRSP contributions, and more."
+  },
+  {
+   "id": "jsearch:Skg5UDNYTkJKODR2anRIaEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbVJxYm01VmNtaGhUVzF6YWxoTk4xcDJkR001Vm5OT09XZGxOa0pNWTNkQ1R6WXpWVlpyTXpWNlN6VnJiamRIZW1saFNqRkNlR3N4Y1Uwd1ZYUjRUalo1YTNOQ1kyTnZSRlEzY1hsUGVrbEpaV05OZEVKNVZYQnBSRFpOYjAxVVUxQTRhMGhzYkhOMlJXdDZPRUY1VTNZMldqVnFXVXBvUmxCeldHNWhYMlpmT0U1cGF6UVNGMnQ1Ym01aGRFdHRUVXMyT1hKMVJWQTBkRU5KTmxGRkdpSkJTRTR3UlRkRllrMWZOazR6YWxaYVlsUllhVnBWWVMxNE5XdFFhVUpMV2xKbg",
+   "source": "jsearch",
+   "publisher": "Jooble",
+   "title": "Legal Operations Specialist at WalterFedy",
+   "company": "The Walter Fedy Partnership",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jooble.org/jdp/5320250487464637428",
+   "posted": "2026-10-29T00:00:00+00:00",
+   "salary": "",
+   "description": "Elevate your career with WalterFedy as a Legal Operations Specialist, focusing on compliance and contract governance. Contribute to legal frameworks and enterprise risk management in a dynamic environment. This role demands strong organizational skills as you review contracts, manage compliance, and coordinate legal operations. Reporting to the CFO, you will identify and document risks while facilitating communication between stakeholders. Your expertise in legal documents will ensure robust governance throughout the organization. Key Responsibilities: \u2022 Lead contract intake and review process improvements \u2022 Conduct first-level reviews of various legal documents \u2022 Document high-risk contract provisions and recommended actions \u2022 Maintain accurate records of executed agreements and decisions \u2022 Coordinate reviews across various corporate teams Requirements: \u2022 Degree in legal studies, business administration, or related field \u2022 Minimum five years in legal operations or compliance \u2022 Experience reviewing commercial agreements \u2022 Strong analytical and organizational skills \u2022 Excellent written and verbal communication abilities Drive legal compliance and robust governance practices at WalterFedy by leveraging your legal expertise. #J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:OV9CODN6SU4xSE9kQ3VhY0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXblUzVkZKbldqZFBSbk5zVVd0WU1qbDJiMFppYlc1eVIwcG5UREp3U0dsb1VtSm9OR3d5TjBKMGIwVllWVUZYVFMxM1YyOW1OblZEY25SaWVtZEpUbEpSUWt0UFJsaEdMWE5aT0dsSldtcGxXbk5EWlZSRVJIRjNjamhmYURZMVJ6bExTRzlMUWtGdVZXRTBUSGR5UWpac2VHRnZOVjlLY2tKNFdURXlVa3hyUjNrdFpVRVNGMnQ1Ym01aGRFdHRUVXMyT1hKMVJWQTBkRU5KTmxGRkdpSkJTRTR3UlRkR09ETnBVblpOUjBKVmRGYzNOR1JLUTNNMlNGbERjSE5oYVZWQg",
+   "source": "jsearch",
+   "publisher": "SimplyHired",
+   "title": "E-Commerce and Retail Operations Coordinator",
+   "company": "Swatch Group",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.simplyhired.ca/job/AmFr73BU9NXOu6Vopeu0AQdWt7ap3QEgL_38l3IKiePEFDdvSDHQtQ",
+   "posted": "2026-10-28T00:00:00+00:00",
+   "salary": "",
+   "description": "The company Since 1853, Tissot has been at the heart of Swiss watchmaking. Our dedication to craftsmanship and quality is matched only by our passion for performance and precision. Over the years, our pioneering products such as the legendary Tissot T-Touch have made headlines as well as history. The ground-breaking Tissot T-Touch Connect Solar uses sustainable solar energy and connected technology that guarantees privacy. It confirms our long-held reputation as innovators by tradition. Job description As an E-Commerce & Retail Operations Coordinator, you will play a key role in supporting day-to-day e-commerce operations and retail boutique activities, helping deliver a seamless customer experience across online and physical channels. Reporting to leadership within the Retail and E-Commerce teams, you will support operational excellence through effective coordination with boutiques, customer service, warehouse partners, HQ, and cross-functional teams. Starting base pay of $60,000.00 - $65,000.00 plus monthly performance bonus. Benefits: \u2022 Health benefits, including dental and vision coverage \u2022 RRSP contributions with company match \u2022 Company discount \u2022 Life insurance \u2022 Paid vacations \u2022 Paid sick days Responsibilities include: \u2022 E-Commerce Operations Support: Monitor online order flow, website performance, and operational issues; support website testing and implementation of updates; ensure alignment between product availability and promotional activities; and support the ongoing optimization of the online shopping experience. \u2022 Customer Service & Client Support: Provide exceptional customer service by responding to customer inquiries via phone and email; assist with order status requests, product information, returns and exchanges, warranty inquiries, and delivery-related concerns; resolve customer issues in a professional and timely manner; and collaborate with internal teams to ensure a seamless customer experience. \u2022 Retail Operations Coordination: Support daily boutique operations, inventory transfers, replenishment activities, cycle counts, and operational compliance; partner with boutique teams to resolve operational issues and ensure consistent execution of company standards. \u2022 Fulfillment, Logistics & Inventory: Coordinate with warehouse and fulfillment partners to ensure timely order processing and deliveries; support returns and customer follow-up communications; monitor inventory levels and assist with stock reconciliation activities. \u2022 Reporting & Process Improvement: Monitor operational performance, prepare recurring reports, identify opportunities for process improvement, and support business initiatives that enhance customer experience and operational efficiency. \u2022 Cross-Functional Project Support: Collaborate with Marketing, Customer Service, E-Commerce, and Retail teams on product launches, promotional campaigns, special events, and other business initiatives. WORKING CONDITIONS This role is primarily office-based with regular work performed on a computer, involving extended periods of sitting, typing, and digital documentation management. Occasional handling, photographing, or packaging of repair items may be required. While this position has a low risk of injury, the position requires lifting, pushing, pulling and holding (up to 35 lbs and above with appropriate support) of boxes and store fixtures, as well as, significant focus when completing paperwork. EMPLOYMENT STATUS Full-Time: 40 hours per week. Additional hours may occasionally be required during peak business periods, store opening activities, product launches, inventory counts, or special projects. Profile \u2022 Strong organizational and time-management skills with exceptional attention to detail. \u2022 Excellent verbal and written communication skills. \u2022 Ability to manage multiple priorities in a fast-paced environment. \u2022 Analytical mindset with a proactive and solutions-oriented approach. \u2022 Collaborative team player who thrives in a cross-functional envi"
+  }
+ ]
+}
