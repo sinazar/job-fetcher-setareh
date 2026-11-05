@@ -1,0 +1,409 @@
+{
+ "run_at": "2026-11-05T13:27:08.520103+00:00",
+ "date": "2026-11-05",
+ "runs": [
+  "2026-11-05T132708Z"
+ ],
+ "source_counts_after_filters": {
+  "jsearch": 11,
+  "remoteok": 0,
+  "weworkremotely": 1,
+  "adzuna": 0,
+  "builtin": 1
+ },
+ "new_count": 5,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 5,
+   "error": null,
+   "rejected_by": {
+    "title": 5
+   },
+   "rejected_samples": [
+    "[title] Marketing & Business Development Coordinator | LD Human Resources | Vaughan, ON, Canada | 2026-11-04T16:00:00+00:00",
+    "[title] Account Manager, Digital Marketing | The Influence Agency | Toronto, ON, Canada | 2026-11-02T00:00:00+00:00",
+    "[title] Marketing Events Coordinator | Quanser | Markham, ON, Canada | 2026-11-03T00:00:00+00:00",
+    "[title] Marketing Content Creator Automotive | Kaizen Automotive Group | Toronto, ON, Canada | 2026-11-01T00:00:00+00:00",
+    "[title] Marketing Strategy Planning Specialist | Elastic | Toronto, ON, Canada | 2026-10-29T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 5,
+   "error": null,
+   "rejected_by": {
+    "title": 4,
+    "location": 1
+   },
+   "rejected_samples": [
+    "[title] Administrative Operations Support Coordinator | Air Canada | Toronto, ON, Canada | 2026-11-01T00:00:00+00:00",
+    "[location] Operations Coordinator | TalentSphere Staffing Solutions | Schomberg, ON, Canada | 2026-10-30T00:00:00+00:00",
+    "[title] Sports League Operations and Growth Coordinator | Community Sports Partners | Toronto, ON, Canada | 2026-10-30T00:00:00+00:00",
+    "[title] Business Operations Lead | Cohere | Toronto, ON, Canada | 2026-10-31T00:00:00+00:00",
+    "[title] Director, New Accounts and Documentation | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-03T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 8,
+    "location": 1
+   },
+   "rejected_samples": [
+    "[title] Marketing and Events Coordinator - Full Time | Fellow Insights Inc | Canada | 2026-11-03T00:00:00+00:00",
+    "[location] Employment Opportunity: Media and Marketing Coordinator | The Aristotle Foundation | Canada | 2026-11-03T00:00:00+00:00",
+    "[title] Search Marketing Manager (Remote, Victoria) | Blacksmith Agency LLC | Victoria, BC, Canada (Remote) | 2026-11-03T00:00:00+00:00",
+    "[title] Director, Customer & Partner Marketing | SOCi.ai | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Proposals and Marketing Manager | PCL Construction | Montreal, Quebec, Canada | 2026-11-01T00:00:00+00:00",
+    "[title] Marketing Manager | Elastic Path | Canada   (+81 others) | 2026-10-30T00:00:00+00:00",
+    "[title] Email Coordinator, Internal Content, Newsletters | LabX Media Group |  | 2026-11-01T00:00:00+00:00",
+    "[title] Growth Marketing Manager, Paid Social | Thumbtack | Victoria, BC, Canada | 2026-11-04T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 217,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 211,
+    "too old": 2,
+    "location": 3
+   },
+   "rejected_samples": [
+    "[title] Founding Account Executive | Mozaiq | USA Only (Remote) | 2026-11-05T13:22:31+00:00",
+    "[title] Product Growth Manager (Acquisition Funnels) | Welltech | Anywhere in the World (Remote) | 2026-11-05T06:51:49+00:00",
+    "[title] Director of Affiliates | TalentXD | Anywhere in the World (Remote) | 2026-11-05T06:51:49+00:00",
+    "[title] Creative Design Team Lead (AI & Performance Marketing) | CapsLock | Remote (Remote) | 2026-11-05T06:51:49+00:00",
+    "[title] Creative Design Team Lead (AI & Performance Marketing) | CapsLock | Europe (Remote) | 2026-11-05T06:51:49+00:00",
+    "[title] Marketing Assistant | Teamswell | Anywhere in the World (Remote) | 2026-11-05T06:51:49+00:00",
+    "[title] Remote Sales Representative for Education Company | LIFT Enrichment | Anywhere in the World (Remote) | 2026-11-05T06:49:19+00:00",
+    "[title] Digital Marketing - Organic Growth and Lead Generation Specialist | Reframe Space Inc. | Anywhere in the World (Remote) | 2026-11-04T09:33:18+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 10
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 17
+  },
+  "builtin job pages": {
+   "returned": 27,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 26
+   },
+   "rejected_samples": [
+    "[title] Senior Consultant, Content & Editorial, Advice & Education",
+    "[title] Senior Strategist",
+    "[title] Associate Director, Activation",
+    "[title] AVP, CTR Promo Strategy & Programs",
+    "[title] Community Manager - AntiSocial",
+    "[title] Account Supervisor",
+    "[title] Founding Director of Marketing - Broad Republic",
+    "[title] AVP, CTR Promo Strategy & Programs"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:cHhSWlBHellvQmNoWVFDSkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZVWh1Um1FNVZuTkZWblpYTXpNeVdraEhTUzFtYlZab1drOWhVVlpoUnpoRlFsOVdaMjVpVjNGcmNVY3hVVVJ5TTJVNFNGSmZjMEZYWkVwNFRVeEJRVjgwYjJFd2NrRXlZMk5YVmkxaFltRjJTblZyTmxSblIwZHNTWEIyTlZwblNFbHJjR2xSY1hkc1drdHpkSFF5YkVzMU5UTk9iR3BmZFhKRWNDMDNPSFJQY0Y5MGRWUVNGMDFKVkhOaGJ6STRUR05oVlhObFRWQXhTMDl2TmtFd0dpSkJTRTR3UlRkR1p6ZE9TQzFXU0hwUmJuaFRPVE5YTFV4ZmRtRkpRMHRhU0dOUg",
+   "source": "jsearch",
+   "publisher": "Learn4Good",
+   "title": "Digital Marketing Specialist; SEO & Content",
+   "company": "WiseMatic Inc.",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.learn4good.com/jobs/toronto/canada/info_technology/5579240238/e/",
+   "posted": "2026-11-03T00:00:00+00:00",
+   "salary": "",
+   "description": "Position: Digital Marketing Specialist (SEO & Content) We are hiring a Digital Marketing Specialist to grow Wise Matic's visibility and pipeline, and to support marketing for selected clients. You will own SEO, content, social media and campaign reporting, turning our expertise in AI, software and immersive technology into content that ranks, educates and converts. Responsibilities \u2022 Plan and execute SEO: keyword research, on-page optimisation, technical audits and Google Search Console monitoring \u2022 Manage the content calendar for our blog, Linked In, Instagram and Facebook \u2022 Write and edit articles, case studies and landing pages with our technical team \u2022 Run and optimise paid campaigns on Google and Linked In \u2022 Track performance in GA4 and Search Console and report on leads, not just traffic \u2022 Support client digital marketing projects as needed Qualifications \u2022 2-4 years of hands-on digital marketing experience, including SEO and content \u2022 Excellent English writing and editing skills \u2022 Working knowledge of Google Analytics 4, Search Console and Google Ads \u2022 Ability to explain technical topics in clear, plain language \u2022 Legally entitled to work in Canada Preferred skills \u2022 Experience marketing B2B technology or professional services \u2022 Familiarity with structured data, Core Web Vitals and AI search (GEO) \u2022 Basic design skills in Canva or Figma \u2022 Linked In Ads and marketing automation experience What we offer \u2022 Competitive salary plus performance-based incentives \u2022 Hybrid work from our Toronto office (401, 180 Duncan Mills Road) \u2022 Health and dental benefits \u2022 Annual learning and certification budget \u2022 Work on AI, SaaS, AR/VR and game projects for clients across North America \u2022 A small, senior team where your work is visible and your ideas ship"
+  },
+  {
+   "id": "jsearch:SWV2VzJDVk5ERTJaWDlSRUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZblJhVEc1TVVFbEtkMVpwVkUxck1HVm9hRmhOT1VNd1FraFJUMmRPZFVSTU1USjVhRWhsT0hGRlgyc3pkMk5mUVVSaU0xTTNRa05CVkV0dU9VMVRWMmRhYm5WVlExOXNia1V6VWpsemJVbEtYMXBrYXpaWVJqbENTbmhFYkRGV1pWWTBNRmxSVkZSNlRHSkJhRE5NVldodVpEVm1NM0JtVm1ZNGFVbHpURzFIY2twdVgwY1NGMUEwVkhOaGRsTXdTWEppZVRRdFJWQTFkVjlhYlZGakdpSkJTRTR3UlRkSVJscHNRVUp0Y1d0VWVGOVpjemxqVW01U2NVUkhiWFJRZUZwQg",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Operations Associate - Third Party Transfers",
+   "company": "Insight Global",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/operations-associate-third-party-transfers--toronto--e288d11ae321d87c9d0260713221938f1",
+   "posted": "2026-11-02T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Description Strong verbal and written communication skillsExcellent coordination, investigative, and organizational abilitiesProactive approach with a strong focus on completing tasks independentlyFast learner with the ability to adapt to new processes and systems quicklyStrong typing and data entry skills with attention to detailProficiency in Microsoft Office applications, particularly Excel, Outlook, Word, and TeamsPrevious experience or knowledge of Mutual Funds, Investments, and the financial services industry is preferredAbility to manage multiple priorities in a fast-paced operational environmentStrong follow-up skills to ensure timely completion of tasks with internal and external partners. Skills and Requirements \u2022 1 year financial services exp (banking preferred \u2022 No upcoming vacation \u2022 1 day a month onsite - 250 yonge st toronto \u2022 Must be located in Toronto/ GTA \u2022 Fast learner \u2022 Can work autonomously We are a company committed to creating diverse and inclusive environments where people can bring their full, authentic selves to work every day. We are an equal employment opportunity/affirmative action employer that believes everyone matters. Qualified candidates will receive consideration for employment without regard to race, color, ethnicity, religion, sex (including pregnancy), sexual orientation, gender identity and expression, marital status, national origin, ancestry, genetic factors, age, disability, protected veteran status, military or uniformed service member status, or any other status or characteristic protected by applicable laws, regulations, and ordinances. If you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please send a request to HR@insightglobal.com."
+  },
+  {
+   "id": "jsearch:OU5kSHFON3FJcjBROTZWUkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbmx2VUd4NWNVSnhSVVJ1Y1cxRU1VdERWbkE0YUMwMlRYaFVXblJMYkZWWlNUUlFZVUV3YUV0MU1YUktMVXRMVkhKdVdWRTBiM3BIYXpad1VGa3lia3QzYjNoNmNUWTRaemR0VFRWU1lXcFhia2x2VWxkQ1lsVkxhMlV6VURac1YzQllhVTluVW5CcE5tZzBSbEJ1Y1V3Mk4wcFllbWhaZVV4aGNucFBVREpIUVdSdFRFTVNGMUEwVkhOaGRsTXdTWEppZVRRdFJWQTFkVjlhYlZGakdpSkJTRTR3UlRkSVlraEJWelphUm0xZlptNXRhVlo2TjFWMlFVbzJUMmhIY0VsUg",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Senior Events Sales & Operations Coordinator",
+   "company": "Royal Ontario Museum",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/senior-events-sales-operations-coordinator--toronto--eecb57a7482f3b81a38d9431dcdbdb921",
+   "posted": "2026-11-01T00:00:00+00:00",
+   "salary": "",
+   "description": "Royal Ontario Museum in Toronto seeks a Coordinator, Events Sales Business Operations to support administration behind ROM\u2019s event sales portfolio. You will coordinate client information, estimates, invoicing, revenue reconciliation, reporting, and procurement, acting as a key operator of Delphi and Delphi Diagrams to keep data accurate and workflows smooth. You will also support business reporting, digital event content, and select event coordination, collaborating with cross-functional teams"
+  },
+  {
+   "id": "jsearch:LTYxNEhKb0I4cWQtelMwc0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZWEZEUTBwWlpsUklRaTF3U0VocmIxQklOVkZ5TTBOV09VOWtVV1JKWTBSaWVVUjVZWFZ6YmxKWmJFSnpRVWRZTkhabU1GRkhVMFU1VlVwVVkwVklOalZsTjJObVFXOTFNRWx3ZDFoS09YSktNRmt4VkdJM2VYQkpTSEF5UzBGaGQxcFRYMjlTWVVjeFFrUklVMjgyZFU5c05FcGpXRkJuWkU5Q2IyVm5UVlF6V1Mxa00wOFNGMUEwVkhOaGRsTXdTWEppZVRRdFJWQTFkVjlhYlZGakdpSkJTRTR3UlRkR2JuQm9XWHB3WVhKa1Z6SnlNazFYZVhOck1YQnpObU41UWpSbg",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Investment Funds Operations Associate \u2013 Toronto (Onsite)",
+   "company": "CI Investments Inc.",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/investment-funds-operations-associate-toronto-onsite--toronto--e4bbe6190e92d3301c7af08d2d00d574d",
+   "posted": "2026-10-31T00:00:00+00:00",
+   "salary": "",
+   "description": "CI Investments Inc. in Toronto is seeking a full-time IFM Associate to join the IFM team. The role supports fund operations, money moves, pricing reviews, and dealer relationships across front, middle and back-office areas. You will liaise with third-party providers and advisors, assist in developing the IFM/UMA platform, and report to the Director of Investment Funds Management. Onsite four days a week, with a base salary in the mid-range for the region."
+  },
+  {
+   "id": "builtin:12088137",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Senior Customer Growth Marketing Specialist, Staples Promotional Products",
+   "company": "Staples",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/senior-customer-growth-marketing-specialist-staples-promotional-products/12088137",
+   "posted": null,
+   "salary": "",
+   "description": "Senior Customer Growth Marketing Specialist, Staples Promotional Products - Staples | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Staples Jobs Senior Customer Growth Marketing Specialist, Staples Promotional Products Staples Senior Customer Growth Marketing Specialist, Staples Promotional Products Posted 8 Hours Ago Be an Early Applicant Hybrid Vaughan, ON, CAN Senior level Hybrid Vaughan, ON, CAN Senior level Owns B2B customer growth marketing initiatives, including email marketing, lead nurturing, integrated campaigns, analytics, customer research, and marketing communications. Uses Marketo, Salesforce, GA4, and campaign reporting to optimize engagement, conversions, loyalty, and revenue. Partners with customers, sales, agencies, vendors, and international teams while managing budgets, marketing materials, events, compliance, and end-to-end campaign execution. The summary above was generated by AI Staples is business to business. You\u2019re what binds us together. While you may know Staples as the world\u2019s leading office supply company, Staples Promotional Products \u2013 a division of Staples \u2013 is a national leader in the promotional products industry. At Staples Promotional Products, we help customers build love for their brands with customized merchandise solutions. Whatever story they want to tell, connection they want to make, or goal they need to deliver, Staples Promo makes it easy to design promo experiences that create lasting impact. Join our winning team! The Senior Customer Growth Marketing Specialist (B2B) applies communications expertise, marketing strategy, and customer insights to develop impactful marketing programs that drive incremental sales and customer loyalty. This role owns the end-to-end execution of customer marketing initiatives, from targeted communications to complex, integrated campaigns, while determining the most effective channels, timelines, and strategies to achieve measurable outcomes. With a strong focus on marketing automation, email marketing, campaign analytics, and customer growth strategies, this individual partners closely with internal stakeholders, key customer accounts, and international teams to increase awareness, engagement, and adoption of Staples Promotional Products\u2019 branded merchandise programs. What You\u2019ll Be Doing: Develop annual customer marketing and communication plans that support business objectives and drive program growth. Own, create, and execute email marketing, lead nurture, and conversion campaigns using marketing automation platforms, including Marketo and Salesforce. Measure and analyze campaign performance across email and digital channels using reporting tools, UTM tracking, and Google Analytics 4 (GA4). Leverage data and customer insights to optimize campaign effectiveness, engagement, conversions, and revenue impact. Conduct in-depth customer and industry research to develop tailored marketing strategies and recommendations. Support Business Development efforts through customer case studies, targeted campaigns, sales enablement tools, and customer-specific marketing initiatives. Develop and manage e-blasts, e-store promotions, digital assets, banners, and printed marketing materials. Maintain compliant customer marketing lists and ensure adherence to applicable marketing regulations. Provide marketing support for events, sponsorships, catalogs, and customer-facing initiatives. Develop statements of work (SOWs)"
+  }
+ ]
+}
