@@ -1,29 +1,31 @@
 {
- "run_id": "2026-11-05T132708Z",
- "run_at": "2026-11-05T13:27:08.520103+00:00",
- "date": "2026-11-05",
+ "run_id": "2026-11-06T131049Z",
+ "run_at": "2026-11-06T13:10:49.818404+00:00",
+ "date": "2026-11-06",
  "source_counts_after_filters": {
-  "jsearch": 11,
+  "jsearch": 9,
   "remoteok": 0,
-  "weworkremotely": 1,
+  "weworkremotely": 2,
   "adzuna": 0,
-  "builtin": 1
+  "builtin": 3
  },
- "new_count": 5,
+ "new_count": 6,
  "diagnostics": {
   "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
    "returned": 10,
-   "kept": 5,
+   "kept": 4,
    "error": null,
    "rejected_by": {
-    "title": 5
+    "title": 5,
+    "too old": 1
    },
    "rejected_samples": [
-    "[title] Marketing & Business Development Coordinator | LD Human Resources | Vaughan, ON, Canada | 2026-11-04T16:00:00+00:00",
     "[title] Account Manager, Digital Marketing | The Influence Agency | Toronto, ON, Canada | 2026-11-02T00:00:00+00:00",
+    "[title] Mission-Driven Marketing Leader for Growth | Real Food For Real Kids | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Marketing & Business Development Coordinator | LD Human Resources | Vaughan, ON, Canada | 2026-11-04T00:00:00+00:00",
+    "[too old] Brand-Forward Marketing Coordinator & Community Builder | Nutbar | Toronto, ON, Canada | 2026-10-30T00:00:00+00:00",
     "[title] Marketing Events Coordinator | Quanser | Markham, ON, Canada | 2026-11-03T00:00:00+00:00",
-    "[title] Marketing Content Creator Automotive | Kaizen Automotive Group | Toronto, ON, Canada | 2026-11-01T00:00:00+00:00",
-    "[title] Marketing Strategy Planning Specialist | Elastic | Toronto, ON, Canada | 2026-10-29T00:00:00+00:00"
+    "[title] Marketing consultant - market research | Mercor | Toronto, ON, Canada | 2026-11-03T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -123,18 +125,19 @@
   },
   "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
    "returned": 10,
-   "kept": 5,
+   "kept": 4,
    "error": null,
    "rejected_by": {
-    "title": 4,
-    "location": 1
+    "title": 5,
+    "too old": 1
    },
    "rejected_samples": [
     "[title] Administrative Operations Support Coordinator | Air Canada | Toronto, ON, Canada | 2026-11-01T00:00:00+00:00",
-    "[location] Operations Coordinator | TalentSphere Staffing Solutions | Schomberg, ON, Canada | 2026-10-30T00:00:00+00:00",
-    "[title] Sports League Operations and Growth Coordinator | Community Sports Partners | Toronto, ON, Canada | 2026-10-30T00:00:00+00:00",
+    "[title] Channel & Partner Operations Manager (Remote) | Procore | Toronto, ON, Canada (Remote) | 2026-11-04T00:00:00+00:00",
+    "[title] Directeur Op\u00e9rations Garde Institutionnelle | National Bank of Canada | Toronto, ON, Canada | 2026-10-31T00:00:00+00:00",
     "[title] Business Operations Lead | Cohere | Toronto, ON, Canada | 2026-10-31T00:00:00+00:00",
-    "[title] Director, New Accounts and Documentation | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-03T00:00:00+00:00"
+    "[title] Director, New Accounts and Documentation | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00",
+    "[too old] Associate, Operations III - Estate & Trust Processer | Royal Bank of Canada | Toronto, ON, Canada | 2026-10-30T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -204,18 +207,18 @@
    "kept": 1,
    "error": null,
    "rejected_by": {
-    "title": 8,
-    "location": 1
+    "location": 2,
+    "title": 7
    },
    "rejected_samples": [
+    "[location] Lifecycle Marketing Coordinator, CRM | Instacart | Ontario, Canada | 2026-11-05T23:00:00+00:00",
+    "[location] Employment Opportunity: Media and Marketing Coordinator | The Aristotle Foundation | Ontario, Canada | 2026-11-04T00:00:00+00:00",
     "[title] Marketing and Events Coordinator - Full Time | Fellow Insights Inc | Canada | 2026-11-03T00:00:00+00:00",
-    "[location] Employment Opportunity: Media and Marketing Coordinator | The Aristotle Foundation | Canada | 2026-11-03T00:00:00+00:00",
-    "[title] Search Marketing Manager (Remote, Victoria) | Blacksmith Agency LLC | Victoria, BC, Canada (Remote) | 2026-11-03T00:00:00+00:00",
-    "[title] Director, Customer & Partner Marketing | SOCi.ai | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00",
     "[title] Proposals and Marketing Manager | PCL Construction | Montreal, Quebec, Canada | 2026-11-01T00:00:00+00:00",
-    "[title] Marketing Manager | Elastic Path | Canada   (+81 others) | 2026-10-30T00:00:00+00:00",
-    "[title] Email Coordinator, Internal Content, Newsletters | LabX Media Group |  | 2026-11-01T00:00:00+00:00",
-    "[title] Growth Marketing Manager, Paid Social | Thumbtack | Victoria, BC, Canada | 2026-11-04T00:00:00+00:00"
+    "[title] Director, Customer & Partner Marketing | SOCi.ai | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Search Marketing Manager (Remote, Victoria) | Blacksmith Agency LLC | Victoria, BC, Canada (Remote) | 2026-11-03T00:00:00+00:00",
+    "[title] Marketing Manager | Veres Career Consulting | Canada   (+30 others) | 2026-11-02T00:00:00+00:00",
+    "[title] Marketing Manager | Elastic Path | Canada   (+81 others) | 2026-10-30T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -281,23 +284,24 @@
    ]
   },
   "weworkremotely": {
-   "returned": 217,
-   "kept": 1,
+   "returned": 224,
+   "kept": 2,
    "error": null,
    "rejected_by": {
-    "title": 211,
-    "too old": 2,
-    "location": 3
+    "title": 215,
+    "location": 4,
+    "aggregator": 1,
+    "too old": 2
    },
    "rejected_samples": [
-    "[title] Founding Account Executive | Mozaiq | USA Only (Remote) | 2026-11-05T13:22:31+00:00",
-    "[title] Product Growth Manager (Acquisition Funnels) | Welltech | Anywhere in the World (Remote) | 2026-11-05T06:51:49+00:00",
-    "[title] Director of Affiliates | TalentXD | Anywhere in the World (Remote) | 2026-11-05T06:51:49+00:00",
-    "[title] Creative Design Team Lead (AI & Performance Marketing) | CapsLock | Remote (Remote) | 2026-11-05T06:51:49+00:00",
-    "[title] Creative Design Team Lead (AI & Performance Marketing) | CapsLock | Europe (Remote) | 2026-11-05T06:51:49+00:00",
-    "[title] Marketing Assistant | Teamswell | Anywhere in the World (Remote) | 2026-11-05T06:51:49+00:00",
-    "[title] Remote Sales Representative for Education Company | LIFT Enrichment | Anywhere in the World (Remote) | 2026-11-05T06:49:19+00:00",
-    "[title] Digital Marketing - Organic Growth and Lead Generation Specialist | Reframe Space Inc. | Anywhere in the World (Remote) | 2026-11-04T09:33:18+00:00"
+    "[title] Marketing Lead | $2.5K - $3K USD Base monthly | Exciting Multicultural E-learning Company | UPROSPECT | Latin America Only (Remote) | 2026-11-06T04:12:20+00:00",
+    "[location] Operations Associate (Hiring or Client Delivery) | Drop Zero Digital | Latin America Only (Remote) | 2026-11-06T04:12:18+00:00",
+    "[title] SOCIAL MEDIA & SEO MANAGER | Ace Stainless Supply | Anywhere in the World (Remote) | 2026-11-06T03:37:48+00:00",
+    "[title] Creative Design Team Lead (AI & Performance Marketing) | CapsLock | Remote (Remote) | 2026-11-05T21:25:07+00:00",
+    "[title] Marketing Lead - DeFi | Alium.Finance | Harju maakond (Remote) | 2026-11-05T21:25:07+00:00",
+    "[title] Google & YouTube Ads Specialist - Ecommerce (Remote, Full-time) - Asia | Convertibles | Bali (Remote) | 2026-11-05T21:25:07+00:00",
+    "[aggregator] Google Ads Media Buyer | Jobgether | Anywhere in the World (Remote) | 2026-11-05T21:25:07+00:00",
+    "[title] Paid Media Coordinator | Zanda Health | Anywhere in the World (Remote) | 2026-11-05T19:23:51+00:00"
    ]
   },
   "builtin search 1": {
@@ -307,7 +311,7 @@
    "rejected_by": {},
    "rejected_samples": [],
    "http_status": 200,
-   "links_found": 10
+   "links_found": 14
   },
   "builtin search 2": {
    "returned": 0,
@@ -316,92 +320,105 @@
    "rejected_by": {},
    "rejected_samples": [],
    "http_status": 200,
-   "links_found": 17
+   "links_found": 12
   },
   "builtin job pages": {
-   "returned": 27,
-   "kept": 1,
+   "returned": 26,
+   "kept": 3,
    "error": null,
    "rejected_by": {
-    "title": 26
+    "title": 23
    },
    "rejected_samples": [
-    "[title] Senior Consultant, Content & Editorial, Advice & Education",
-    "[title] Senior Strategist",
-    "[title] Associate Director, Activation",
-    "[title] AVP, CTR Promo Strategy & Programs",
-    "[title] Community Manager - AntiSocial",
-    "[title] Account Supervisor",
-    "[title] Founding Director of Marketing - Broad Republic",
-    "[title] AVP, CTR Promo Strategy & Programs"
+    "[title] Marketing Manager, Customer Execution",
+    "[title] Senior Account Executive, Creator Marketing",
+    "[title] Specialist, Creator",
+    "[title] Digital Marketing Manager",
+    "[title] VP, Media Strategy and Planning",
+    "[title] Paid Social Manager",
+    "[title] Paid Social Coordinator",
+    "[title] Communications Manager, Canada"
    ]
   }
  },
  "jobs": [
   {
-   "id": "jsearch:cHhSWlBHellvQmNoWVFDSkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZVWh1Um1FNVZuTkZWblpYTXpNeVdraEhTUzFtYlZab1drOWhVVlpoUnpoRlFsOVdaMjVpVjNGcmNVY3hVVVJ5TTJVNFNGSmZjMEZYWkVwNFRVeEJRVjgwYjJFd2NrRXlZMk5YVmkxaFltRjJTblZyTmxSblIwZHNTWEIyTlZwblNFbHJjR2xSY1hkc1drdHpkSFF5YkVzMU5UTk9iR3BmZFhKRWNDMDNPSFJQY0Y5MGRWUVNGMDFKVkhOaGJ6STRUR05oVlhObFRWQXhTMDl2TmtFd0dpSkJTRTR3UlRkR1p6ZE9TQzFXU0hwUmJuaFRPVE5YTFV4ZmRtRkpRMHRhU0dOUg",
-   "source": "jsearch",
-   "publisher": "Learn4Good",
-   "title": "Digital Marketing Specialist; SEO & Content",
-   "company": "WiseMatic Inc.",
-   "location": "Toronto, ON, Canada",
-   "remote": false,
-   "url": "https://www.learn4good.com/jobs/toronto/canada/info_technology/5579240238/e/",
-   "posted": "2026-11-03T00:00:00+00:00",
+   "id": "wwr:https://weworkremotely.com/remote-jobs/london-recruitment-and-social-media-specialist",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Recruitment and Social Media Specialist",
+   "company": "London",
+   "location": "Anywhere in the World (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/london-recruitment-and-social-media-specialist",
+   "posted": "2026-11-05T21:25:07+00:00",
    "salary": "",
-   "description": "Position: Digital Marketing Specialist (SEO & Content) We are hiring a Digital Marketing Specialist to grow Wise Matic's visibility and pipeline, and to support marketing for selected clients. You will own SEO, content, social media and campaign reporting, turning our expertise in AI, software and immersive technology into content that ranks, educates and converts. Responsibilities \u2022 Plan and execute SEO: keyword research, on-page optimisation, technical audits and Google Search Console monitoring \u2022 Manage the content calendar for our blog, Linked In, Instagram and Facebook \u2022 Write and edit articles, case studies and landing pages with our technical team \u2022 Run and optimise paid campaigns on Google and Linked In \u2022 Track performance in GA4 and Search Console and report on leads, not just traffic \u2022 Support client digital marketing projects as needed Qualifications \u2022 2-4 years of hands-on digital marketing experience, including SEO and content \u2022 Excellent English writing and editing skills \u2022 Working knowledge of Google Analytics 4, Search Console and Google Ads \u2022 Ability to explain technical topics in clear, plain language \u2022 Legally entitled to work in Canada Preferred skills \u2022 Experience marketing B2B technology or professional services \u2022 Familiarity with structured data, Core Web Vitals and AI search (GEO) \u2022 Basic design skills in Canva or Figma \u2022 Linked In Ads and marketing automation experience What we offer \u2022 Competitive salary plus performance-based incentives \u2022 Hybrid work from our Toronto office (401, 180 Duncan Mills Road) \u2022 Health and dental benefits \u2022 Annual learning and certification budget \u2022 Work on AI, SaaS, AR/VR and game projects for clients across North America \u2022 A small, senior team where your work is visible and your ideas ship"
+   "description": "Headquarters: Sarajevo, Bosnia And Herzegovina URL: http://blue-storm.co.uk Recruitment and Social Media Specialist We are a tech-first cleaning company based in London, and we are looking for a recruiter and social media specialist to join us during this growth period in 2024/2025. What You'll Do: Recruitment Excellence: Source, engage, and recruit top-tier candidates for various cleaning roles. Manage the recruitment lifecycle from job posting to onboarding. Contract Management: Create and manage contracts for cleaners, ensuring all legal documentation and valid work permits are in place for compliance with UK regulations. Social Media Savvy: Develop and execute engaging social media strategies across platforms like LinkedIn, Facebook, Instagram, and Twitter to build our brand and attract potential candidates. Content Creation: Design eye-catching posts and campaigns using tools like Canva and CapCut. Craft compelling content that resonates with our audience and showcases our company culture. Analytics & Reporting: Monitor social media metrics and recruitment data to optimize strategies and improve our outreach efforts. Requirements You will be expected to be a team player and report to the Head of Operations Able to conduct many phone calls, WhatsApp messages, video calls, and emails each day Confident in Microsoft Office and Google Suite (including Docs, email, and Calendar) What We\u2019re Looking For: Ability to work in a fast-paced environment and able to multi-task multiple projects Proven experience in recruitment and social media management. Strong proficiency with social media platforms and design/editing tools. Excellent communication skills and a knack for creating engaging content. A proactive and results-driven approach with the ability to adapt in a fast-paced environment. Confident in Microsoft Office and Google Suite (including Docs, email, and Calendar) You must be a person that wants to keep going till the job is delivered! What We Offer: Competitive Monthly Salary: Enjoy a great salary that reflects your skills and experience. Monthly Team Day: Join us for a day each month at our office with the full team (10 people), complete with lunch and drinks. Annual Luxury Retreat: Experience a high-end villa retreat in Sarajevo, featuring a private pool, BBQs, pool parties, live music, and plenty of beers! Supportive Team Environment: Work with a fantastic, family-friendly team that\u2019s always supportive and collaborative. Performance-Based Promotions: Benefit from scalable promotions based on your achievements and contributions to the company. We are looking for problem solvers and NOT people who give up easily! If this is you we'd be delighted to have a video interview with you ASAP. Thanks for stopping by we look forward to meeting you on a video call soon! www.dazzle.london To apply: https://weworkremotely.com/remote-jobs/london-recruitment-and-social-media-specialist"
   },
   {
-   "id": "jsearch:SWV2VzJDVk5ERTJaWDlSRUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZblJhVEc1TVVFbEtkMVpwVkUxck1HVm9hRmhOT1VNd1FraFJUMmRPZFVSTU1USjVhRWhsT0hGRlgyc3pkMk5mUVVSaU0xTTNRa05CVkV0dU9VMVRWMmRhYm5WVlExOXNia1V6VWpsemJVbEtYMXBrYXpaWVJqbENTbmhFYkRGV1pWWTBNRmxSVkZSNlRHSkJhRE5NVldodVpEVm1NM0JtVm1ZNGFVbHpURzFIY2twdVgwY1NGMUEwVkhOaGRsTXdTWEppZVRRdFJWQTFkVjlhYlZGakdpSkJTRTR3UlRkSVJscHNRVUp0Y1d0VWVGOVpjemxqVW01U2NVUkhiWFJRZUZwQg",
+   "id": "jsearch:b01RNklPM3FjNkNSM0JLb0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZV0ZTTjFoRVpXMUNOVmRCUzFWc1MxOTVRMDVKZVRZMGVFNUZVblF4ZEZKek5qWjRhWEJRZG1oQmJrMUtlbUZRWWpOeU1IVkRSMk5PUXpkaGQxZHJTekYyWlMxNFMwbExOMmhIZDFCcmFGVlhNREpaYUZjMFJqUjFOMEY0VlZWNVFVVlFhR2xuUkhCV2NEUnVjRzVsVFV4c1IyeG9VemR0TFMxcE0wVlhVVGRsZEhRdGJXc1NGekowU0hSaGMxOVlTSFJMWmpWT2IxQjNiMDlFZVVFMEdpSkJTRTR3UlRkSGJVa3RYMUIxZUcxcFFVRTNRbkpmYTNSWmNrcEdUalY0WlRSUg",
    "source": "jsearch",
-   "publisher": "JobLeads",
-   "title": "Operations Associate - Third Party Transfers",
-   "company": "Insight Global",
+   "publisher": "Business Directory - AfroToronto",
+   "title": "Digital Marketing Specialist: Altis in Toronto",
+   "company": "AfroToronto Team",
    "location": "Toronto, ON, Canada",
    "remote": false,
-   "url": "https://www.jobleads.com/ca/job/operations-associate-third-party-transfers--toronto--e288d11ae321d87c9d0260713221938f1",
-   "posted": "2026-11-02T00:00:00+00:00",
-   "salary": "",
-   "description": "Job Description Strong verbal and written communication skillsExcellent coordination, investigative, and organizational abilitiesProactive approach with a strong focus on completing tasks independentlyFast learner with the ability to adapt to new processes and systems quicklyStrong typing and data entry skills with attention to detailProficiency in Microsoft Office applications, particularly Excel, Outlook, Word, and TeamsPrevious experience or knowledge of Mutual Funds, Investments, and the financial services industry is preferredAbility to manage multiple priorities in a fast-paced operational environmentStrong follow-up skills to ensure timely completion of tasks with internal and external partners. Skills and Requirements \u2022 1 year financial services exp (banking preferred \u2022 No upcoming vacation \u2022 1 day a month onsite - 250 yonge st toronto \u2022 Must be located in Toronto/ GTA \u2022 Fast learner \u2022 Can work autonomously We are a company committed to creating diverse and inclusive environments where people can bring their full, authentic selves to work every day. We are an equal employment opportunity/affirmative action employer that believes everyone matters. Qualified candidates will receive consideration for employment without regard to race, color, ethnicity, religion, sex (including pregnancy), sexual orientation, gender identity and expression, marital status, national origin, ancestry, genetic factors, age, disability, protected veteran status, military or uniformed service member status, or any other status or characteristic protected by applicable laws, regulations, and ordinances. If you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please send a request to HR@insightglobal.com."
-  },
-  {
-   "id": "jsearch:OU5kSHFON3FJcjBROTZWUkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbmx2VUd4NWNVSnhSVVJ1Y1cxRU1VdERWbkE0YUMwMlRYaFVXblJMYkZWWlNUUlFZVUV3YUV0MU1YUktMVXRMVkhKdVdWRTBiM3BIYXpad1VGa3lia3QzYjNoNmNUWTRaemR0VFRWU1lXcFhia2x2VWxkQ1lsVkxhMlV6VURac1YzQllhVTluVW5CcE5tZzBSbEJ1Y1V3Mk4wcFllbWhaZVV4aGNucFBVREpIUVdSdFRFTVNGMUEwVkhOaGRsTXdTWEppZVRRdFJWQTFkVjlhYlZGakdpSkJTRTR3UlRkSVlraEJWelphUm0xZlptNXRhVlo2TjFWMlFVbzJUMmhIY0VsUg",
-   "source": "jsearch",
-   "publisher": "JobLeads",
-   "title": "Senior Events Sales & Operations Coordinator",
-   "company": "Royal Ontario Museum",
-   "location": "Toronto, ON, Canada",
-   "remote": false,
-   "url": "https://www.jobleads.com/ca/job/senior-events-sales-operations-coordinator--toronto--eecb57a7482f3b81a38d9431dcdbdb921",
+   "url": "https://directory.afrotoronto.com/jobs/digital-marketing-specialist-altis-in-toronto",
    "posted": "2026-11-01T00:00:00+00:00",
    "salary": "",
-   "description": "Royal Ontario Museum in Toronto seeks a Coordinator, Events Sales Business Operations to support administration behind ROM\u2019s event sales portfolio. You will coordinate client information, estimates, invoicing, revenue reconciliation, reporting, and procurement, acting as a key operator of Delphi and Delphi Diagrams to keep data accurate and workflows smooth. You will also support business reporting, digital event content, and select event coordination, collaborating with cross-functional teams"
+   "description": "Altis is hiring a full-time Digital Marketing & Demand Generation Specialist in Toronto, with hybrid work available in Toronto or Ottawa. The role pays $75,000 to $90,000 CAD a year and reports to the VP, Marketing. The specialist generates employer and candidate leads through paid advertising, search visibility, content, landing pages, and conversion work. The position calls for three to five years of hands-on digital marketing experience and a record of measurable lead-generation campaigns. The role combines campaign execution with the measurement work that keeps a growth programme accountable. Altis needs someone who can work across marketing, recruitment, sales, content, design, and outside partners while turning performance data into practical changes. The published role also names Google Ads, paid social, SEO, GA4, CRM data, CMS work, and landing-page optimisation as part of the job. Role: Digital Marketing & Demand Generation Specialist Employer: Altis Location: Toronto, Ontario, with hybrid Toronto or Ottawa work Employment type: Full-time Pay: $75,000 to $90,000 CAD per year Lead generation and campaign work The specialist builds qualified employer and candidate leads through paid campaigns, organic search, content, and landing pages. Campaign work includes Google Ads, LinkedIn or other paid social channels, audience decisions, messaging, and conversion improvements. Altis also expects the role to improve the visibility of its website and content in conventional search and AI search environments. The work connects acquisition activity to the next step in the funnel, so landing-page structure and website conversion sit beside media buying rather than apart from it. Manage paid advertising and lead-generation campaigns Create and improve content and landing pages Improve organic and AI search visibility Evaluate marketing technology and conversion opportunities Measurement and team partnerships GA4, analytics, CRM data, and campaign reporting give the specialist the evidence needed to assess performance. The position includes tracking results, identifying weak points, and changing campaigns or pages when the data supports a different approach. The salary range and role scope are detailed in the published role details. Daily work crosses Sales, Recruitment, Content, Design, external partners, and the marketing function. Clear writing and organised project work matter because campaign changes need to be explained, measured, and carried through several teams. Experience and working knowledge Applicants need three to five years of digital marketing experience, including measurable lead-generation results. The role names Google Ads, paid social, SEO, GA4, CMS platforms, and landing-page optimisation as core experience areas. B2B lead generation, marketing automation, conversion rate optimisation, and experience with Canadian or US audiences are useful additions. Webflow experience is an asset, as are relevant certifications. Strong writing, analytical judgement, organisation, and collaboration support the technical requirements. These capabilities give the specialist a practical route from campaign planning to a reported business result. Toronto-based hybrid work The job is anchored in Toronto and allows hybrid work in Toronto or Ottawa. Toronto roles in marketing roles cover campaign, communications, and growth functions across the region. This position is specifically filed with digital marketing opportunities. The GTA location places the specialist close to the employer, recruitment, and client conversations that shape campaign priorities. The work remains digital, but the role depends on regular coordination with people responsible for sales, hiring, content, design, and partner delivery. Applications should include evidence of lead-generation campaigns, the channels used, and the measures that improved. A clear account of Google Ads, paid social, SEO, analytics, and landing-page work will help connect past results to th"
   },
   {
-   "id": "jsearch:LTYxNEhKb0I4cWQtelMwc0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZWEZEUTBwWlpsUklRaTF3U0VocmIxQklOVkZ5TTBOV09VOWtVV1JKWTBSaWVVUjVZWFZ6YmxKWmJFSnpRVWRZTkhabU1GRkhVMFU1VlVwVVkwVklOalZsTjJObVFXOTFNRWx3ZDFoS09YSktNRmt4VkdJM2VYQkpTSEF5UzBGaGQxcFRYMjlTWVVjeFFrUklVMjgyZFU5c05FcGpXRkJuWkU5Q2IyVm5UVlF6V1Mxa00wOFNGMUEwVkhOaGRsTXdTWEppZVRRdFJWQTFkVjlhYlZGakdpSkJTRTR3UlRkR2JuQm9XWHB3WVhKa1Z6SnlNazFYZVhOck1YQnpObU41UWpSbg",
+   "id": "jsearch:VWU5MjJkd01FSmpSeVVuY0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZV3BpWlMxTlZtcDNhbU50VjNORFZGVlBSa3B3Vm5KdGNuTm5jRTB6Tm5RM01uSnFZazVIZUU1ME0xRmFPWEo1YzE5b09VRjZjRkJYUldoQlgyTmlaQzAwV25BMFRUTllMV2xuY0ZWRFF6RmlZa2ROUTJreVZGUlpla1o1Wm5kYWF6QmxPV3Q2VjB0Q2VrUXRlVjlKVVdsSk9VbEtSRWx6Y3pGYWNXZFdWM0pWTFhCRVZXSVNGekowU0hSaGMxOVlTSFJMWmpWT2IxQjNiMDlFZVVFMEdpSkJTRTR3UlRkSFdGcHRZbGx5WDJvMlJHNUxRblkzU0hoM05IVkpUVmRhWVY5Mw",
    "source": "jsearch",
-   "publisher": "JobLeads",
-   "title": "Investment Funds Operations Associate \u2013 Toronto (Onsite)",
-   "company": "CI Investments Inc.",
+   "publisher": "Finance Professionals",
+   "title": "Jr. Project Manager \u2013 Digital Marketing",
+   "company": "Finance Professionals",
    "location": "Toronto, ON, Canada",
    "remote": false,
-   "url": "https://www.jobleads.com/ca/job/investment-funds-operations-associate-toronto-onsite--toronto--e4bbe6190e92d3301c7af08d2d00d574d",
-   "posted": "2026-10-31T00:00:00+00:00",
+   "url": "https://fpinc.ca/jobs/jr-project-manager-digital-marketing-bnsjp00042402-toronto-on/",
+   "posted": "2026-11-01T00:00:00+00:00",
    "salary": "",
-   "description": "CI Investments Inc. in Toronto is seeking a full-time IFM Associate to join the IFM team. The role supports fund operations, money moves, pricing reviews, and dealer relationships across front, middle and back-office areas. You will liaise with third-party providers and advisors, assist in developing the IFM/UMA platform, and report to the Director of Investment Funds Management. Onsite four days a week, with a base salary in the mid-range for the region."
+   "description": "An Initial AI Screening will be conducted for this role. Please Click Here to complete your AI screening while submitting your application. JOB DESCRIPTION Location: Hybrid (Downtown, Toronto) Duration: 12 months Our client, a leading financial institution in Downtown Toronto, is looking for a Jr. Project Manager - Digital Marketing to support the Agile Marketing squads with all activities related to digital campaigns, publishing, digital user experiences, and digital sales. The successful candidate will have the opportunity to work with one of the Top 5 Banks in Canada. Typical Day in role: \u2022 Assists the Campaign Enablement team with investigating any pre-production or post-production errors or issues. \u2022 Monitors and ensures compliance with relevant CASL, anti-spam, and privacy regulations. \u2022 Works with channel partners to find opportunities for collaboration and optimization, including retargeting, deep-linking, and optimization of campaigns for an omni-channel experience. \u2022 Makes recommendations based on key learnings for channel optimizations, including email triggers, resolving customer pain points, and the integration of new vendors and omni-channel opportunities. \u2022 Champions a customer-focused culture to deepen client relationships and leverage broader Bank relationships, systems, and knowledge. \u2022 Champions a high-performance environment and demonstrates a commitment to Scotiabank\u2019s values: accountability, passion, integrity, and respect. Delivers results in accordance with Scotiabank behavioral competencies. Creates an inclusive team culture and an environment where team members hear, share, and appreciate diverse perspectives. \u2022 Directs day-to-day activities in a manner consistent with the Bank\u2019s risk culture and the relevant risk appetite statement and limits. Communicates and models the Bank\u2019s risk culture and risk appetite statement throughout their teams. \u2022 Oversees the planning and execution of marketing campaigns, ensuring that all elements are delivered on time and within budget. \u2022 Coordinates with various teams (creative, content, analytics, etc.) to gather necessary assets and information for campaign execution. \u2022 Monitors campaign performance and provides regular updates to stakeholders, making adjustments as needed to optimize results. \u2022 Manages project timelines and ensures that all team members are aware of their responsibilities and deadlines. \u2022 Collaborates with external vendors and partners to ensure seamless integration and execution of campaigns. Must-Have Skills: \u2022 1-2 years\u2019 experience with cross-functional project management and PM tools such as Adobe Workfront. \u2022 1+ years of experience in leading and coaching a high-performing team \u2022 Previous experience with Adobe Analytics, Power BI, and Adobe CDP \u2022 Strong experience with Excel, reporting, and insights Nice-To-Have Skills: \u2022 Financial services experience \u2022 AI automation experience, such as the creation of playbooks and best practices. \u2022 1+ years of experience with digital marketing platforms such as Responsys, Adobe Campaign, Adobe Journey Optimizer, Salesforce Marketing Cloud, Adobe Experience Manager. Adobe Journey Optimizer Soft Skills: \u2022 Agile thinkers who are quick on their feet \u2022 Enthusiastic team player who has an exceptionally keen eye for detail \u2022 Data-minded but with an eye for aesthetics \u2022 Comfortable prioritizing tasks and managing multiple strands of work with a willingness to take on additional projects as needed \u2022 Must have strong leadership, organizational, communication, and decision-making skills with a thorough understanding of how to communicate effectively across one-to-one marketing channels \u2022 Ability to analyze results to help make informed decisions and program enhancements over time \u2022 High level of professionalism, ability to work calmly in difficult and high-pressure situations. \u2022 Excellent verbal and written communication skills Education: \u2022 Marketing accreditation or four-year degree [Marketing, Business or related fi"
   },
   {
-   "id": "builtin:12088137",
+   "id": "builtin:12100013",
    "source": "builtin",
    "publisher": "Built In",
-   "title": "Senior Customer Growth Marketing Specialist, Staples Promotional Products",
-   "company": "Staples",
+   "title": "Marketing Coordinator",
+   "company": "Ripley's Believe It or Not! World Entertainment",
    "location": "Toronto, ON",
    "remote": false,
-   "url": "https://builtintoronto.com/job/senior-customer-growth-marketing-specialist-staples-promotional-products/12088137",
+   "url": "https://builtintoronto.com/job/marketing-coordinator/12100013",
    "posted": null,
    "salary": "",
-   "description": "Senior Customer Growth Marketing Specialist, Staples Promotional Products - Staples | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Staples Jobs Senior Customer Growth Marketing Specialist, Staples Promotional Products Staples Senior Customer Growth Marketing Specialist, Staples Promotional Products Posted 8 Hours Ago Be an Early Applicant Hybrid Vaughan, ON, CAN Senior level Hybrid Vaughan, ON, CAN Senior level Owns B2B customer growth marketing initiatives, including email marketing, lead nurturing, integrated campaigns, analytics, customer research, and marketing communications. Uses Marketo, Salesforce, GA4, and campaign reporting to optimize engagement, conversions, loyalty, and revenue. Partners with customers, sales, agencies, vendors, and international teams while managing budgets, marketing materials, events, compliance, and end-to-end campaign execution. The summary above was generated by AI Staples is business to business. You\u2019re what binds us together. While you may know Staples as the world\u2019s leading office supply company, Staples Promotional Products \u2013 a division of Staples \u2013 is a national leader in the promotional products industry. At Staples Promotional Products, we help customers build love for their brands with customized merchandise solutions. Whatever story they want to tell, connection they want to make, or goal they need to deliver, Staples Promo makes it easy to design promo experiences that create lasting impact. Join our winning team! The Senior Customer Growth Marketing Specialist (B2B) applies communications expertise, marketing strategy, and customer insights to develop impactful marketing programs that drive incremental sales and customer loyalty. This role owns the end-to-end execution of customer marketing initiatives, from targeted communications to complex, integrated campaigns, while determining the most effective channels, timelines, and strategies to achieve measurable outcomes. With a strong focus on marketing automation, email marketing, campaign analytics, and customer growth strategies, this individual partners closely with internal stakeholders, key customer accounts, and international teams to increase awareness, engagement, and adoption of Staples Promotional Products\u2019 branded merchandise programs. What You\u2019ll Be Doing: Develop annual customer marketing and communication plans that support business objectives and drive program growth. Own, create, and execute email marketing, lead nurture, and conversion campaigns using marketing automation platforms, including Marketo and Salesforce. Measure and analyze campaign performance across email and digital channels using reporting tools, UTM tracking, and Google Analytics 4 (GA4). Leverage data and customer insights to optimize campaign effectiveness, engagement, conversions, and revenue impact. Conduct in-depth customer and industry research to develop tailored marketing strategies and recommendations. Support Business Development efforts through customer case studies, targeted campaigns, sales enablement tools, and customer-specific marketing initiatives. Develop and manage e-blasts, e-store promotions, digital assets, banners, and printed marketing materials. Maintain compliant customer marketing lists and ensure adherence to applicable marketing regulations. Provide marketing support for events, sponsorships, catalogs, and customer-facing initiatives. Develop statements of work (SOWs)"
+   "description": "Marketing Coordinator - Ripley's Believe It or Not! World Entertainment | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Ripley's Believe It or Not! World Entertainment Jobs Marketing Coordinator Ripley's Believe It or Not! World Entertainment Marketing Coordinator Posted Yesterday Be an Early Applicant In-Office Toronto, ON, CAN Junior In-Office Toronto, ON, CAN Junior Owns social media planning, publishing, community management, influencer partnerships, content creation, and performance reporting for Ripley\u2019s Aquarium of Canada. Produces written, photographic, and video content; coordinates shoots, vendors, creators, and internal teams; develops graphics and campaigns; maintains brand assets; and ensures factual accuracy and permissions. The role requires onsite work for shoots and events, including evenings and weekends. The summary above was generated by AI Position: Marketing & Communications Coordinator Facility: Ripley\u2019s Aquarium of Canada Reports to: Manager of Marketing & Communications Job Purpose: Reporting to the Manager of Marketing and Communications, the Marketing and Communications Coordinator will work closely with our guest experience, events, education and animal care teams across several areas. This role is suited to someone confident, organised and with a sound, practical knowledge of the social and marketing landscape. This is a hands-on, full-time role for a creative and organized marketer who is equally comfortable with writing captions, producing social shoots and reading analytics reports. The Marketing and Communications Coordinator will own the end-to-end running of our social media channels and support the marketing department across planning and delivering campaigns. Please remember that due to the nature of our business, we work when others play in an attraction that is open 365 days of the year. You will be expected to be onsite for any video, photo, film shoot, as well as our events throughout the year, during, before or after the hours of operation. Critical Accountabilities: Plan, schedule and publish content across our social channels (such as Instagram, TikTok, Facebook and YouTube) using a monthly content calendar that supports business priorities. Capture and produce video, photos and stories on site, working closely with our education and animal care departments. Assist with influencer and creator partnerships: identify and vet creators, agree on deliverables and schedules, write briefs, host on site, review content before it goes live, and report on results. Monitor comments, direct messages and mentions daily. Work with guest-generated content, including requesting permissions and usage rights. Track performance across social channels and campaigns and prepare monthly reports with clear takeaways and recommendations. Write clear, engaging copy for social posts, email newsletters, web pages and internal signage. Assist with graphics and layouts in Adobe Creative Suite for departments across the aquarium. Create all social graphics in Photoshop and Canva. Plan and coordinate photo and video shoots with outside vendors such as photographers, videographers and production crews, film crews, media crews including briefs, schedules, on-site logistics and delivery of final assets. Shoot and edit video and photo content in house using Adobe Creative Suite and CapCut, with DJI and GoPro cameras and lighting and audio equipment. Maintain accurac"
+  },
+  {
+   "id": "builtin:12098368",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Marketing Coordinator",
+   "company": "Ripley Entertainment Inc.",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/marketing-coordinator/12098368",
+   "posted": null,
+   "salary": "",
+   "description": "Marketing Coordinator - Ripley Entertainment Inc. | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Ripley Entertainment Inc. Jobs Marketing Coordinator Ripley Entertainment Inc. Marketing Coordinator Posted Yesterday Be an Early Applicant In-Office Toronto, ON, CAN Junior In-Office Toronto, ON, CAN Junior Owns the aquarium\u2019s social media channels by planning, creating, scheduling, and analyzing content across Instagram, TikTok, Facebook, and YouTube. Produces photo and video content, writes social, email, web, and signage copy, supports influencer partnerships and campaigns, coordinates external production vendors, prepares performance reports, and maintains brand assets. The role requires onsite work for shoots and events, including evenings and weekends. The summary above was generated by AI Position: Marketing & Communications Coordinator Facility: Ripley\u2019s Aquarium of Canada Reports to: Manager of Marketing & Communications Job Purpose: Reporting to the Manager of Marketing and Communications, the Marketing and Communications Coordinator will work closely with our guest experience, events, education and animal care teams across several areas. This role is suited to someone confident, organised and with a sound, practical knowledge of the social and marketing landscape. This is a hands-on, full-time role for a creative and organized marketer who is equally comfortable with writing captions, producing social shoots and reading analytics reports. The Marketing and Communications Coordinator will own the end-to-end running of our social media channels and support the marketing department across planning and delivering campaigns. Please remember that due to the nature of our business, we work when others play in an attraction that is open 365 days of the year. You will be expected to be onsite for any video, photo, film shoot, as well as our events throughout the year, during, before or after the hours of operation. Critical Accountabilities: Plan, schedule and publish content across our social channels (such as Instagram, TikTok, Facebook and YouTube) using a monthly content calendar that supports business priorities. Capture and produce video, photos and stories on site, working closely with our education and animal care departments. Assist with influencer and creator partnerships: identify and vet creators, agree on deliverables and schedules, write briefs, host on site, review content before it goes live, and report on results. Monitor comments, direct messages and mentions daily. Work with guest-generated content, including requesting permissions and usage rights. Track performance across social channels and campaigns and prepare monthly reports with clear takeaways and recommendations. Write clear, engaging copy for social posts, email newsletters, web pages and internal signage. Assist with graphics and layouts in Adobe Creative Suite for departments across the aquarium. Create all social graphics in Photoshop and Canva. Plan and coordinate photo and video shoots with outside vendors such as photographers, videographers and production crews, film crews, media crews including briefs, schedules, on-site logistics and delivery of final assets. Shoot and edit video and photo content in house using Adobe Creative Suite and CapCut, with DJI and GoPro cameras and lighting and audio equipment. Maintain accuracy by confirming animal facts, programming details, hours and pricing"
+  },
+  {
+   "id": "builtin:12096979",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Marketing Coordinator",
+   "company": "Community Engagement - Contract - Farmboy Inc.",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/marketing-coordinator-community-engagement-contract/12096979",
+   "posted": null,
+   "salary": "",
+   "description": "Marketing Coordinator - Community Engagement - Contract - Farmboy Inc. | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Farmboy Inc. Jobs Marketing Coordinator - Community Engagement - Contract Farmboy Inc. Marketing Coordinator - Community Engagement - Contract Posted Yesterday Be an Early Applicant In-Office Mississauga, ON, CAN Mid level In-Office Mississauga, ON, CAN Mid level Coordinates community engagement strategy, events, sponsorships, in-store activations, sampling programs, seasonal campaigns, and customer experiences. Manages event logistics, equipment, merchandise, promotional materials, and on-site activities while tracking timelines, budgets, outcomes, and recommendations. Supports Nutrition and Dietitian Programs across retail locations through administration, reporting, and budgeting. Requires strong organization, communication, stakeholder management, flexibility, and customer service skills. The summary above was generated by AI Company Description If you\u2019re looking for more, you\u2019ve come to the right place. From the moment we opened our doors in 1981, we knew we wanted to be different. The people who work here are special, and that\u2019s what makes us special. Our team members uphold the standards we set long ago by making the exceptional everyday, building relationships with our customers and with each other, and finding a place where their potential meets opportunity. Job Description Be part of what makes us different. In this 4 - 6 month contract position, you\u2019ll be responsible for supporting the planning and execution of our Community Engagement Strategy across the business. Through the coordination of community events and marketing initiatives, this role helps bring the Farm Boy brand to life while creating meaningful connections with our customers and communities. The position plays an active, hands-on role in delivering engaging experiences, coordinating program requirements and ensuring initiatives are executed efficiently, consistently, and in keeping with established brand guidelines. Here are some of the other ways you\u2019ll help us stand out: Support the planning and execution of our Community Engagement Strategy across the business, coordinating community events, sponsorships, in-store activations and related programs. Coordinate all aspects of event execution, including: mascot appearances, on-site activations, sampling programs, merchandise, and giveaways, ensuring resources and deliverables are organized and available as required. Lead on-site event activities, overseeing logistics, coordinating resources, and ensuring engaging experiences for customers, community partners, and participants. Support the planning and execution of marketing initiatives, seasonal campaigns, and in-store experience programs, including: holiday activations, mascot experiences, and store events that engage our customers. Coordinate event logistics and maintain related resources, including: the Farm Boy vehicle, event equipment, mascot costumes, signage, merchandise, and promotional materials. Monitor project progress against established strategies and timelines, providing updates, post-event evaluations, and recommendations to the Manager of Community and Sponsorship to support continuous improvement. Support the delivery of Nutrition and Dietitian Programs across all Retail locations, including: departmental administration, budgeting, and reporting. Contribute to overal"
   }
  ]
 }
