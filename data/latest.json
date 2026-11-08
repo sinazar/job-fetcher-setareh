@@ -1,31 +1,32 @@
 {
- "run_id": "2026-11-07T115322Z",
- "run_at": "2026-11-07T11:53:22.142203+00:00",
- "date": "2026-11-07",
+ "run_id": "2026-11-08T120815Z",
+ "run_at": "2026-11-08T12:08:15.050381+00:00",
+ "date": "2026-11-08",
  "source_counts_after_filters": {
-  "jsearch": 10,
+  "jsearch": 7,
   "remoteok": 0,
   "weworkremotely": 2,
   "adzuna": 0,
   "builtin": 2
  },
- "new_count": 7,
+ "new_count": 3,
  "diagnostics": {
   "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
    "returned": 10,
    "kept": 3,
    "error": null,
    "rejected_by": {
-    "title": 7
+    "too old": 3,
+    "title": 4
    },
    "rejected_samples": [
-    "[title] Marketing & Business Development Coordinator | LD Human Resources | Vaughan, ON | 2026-11-04T00:00:00+00:00",
-    "[title] Account Manager, Digital Marketing | The Influence Agency | Toronto, ON | 2026-11-02T00:00:00+00:00",
-    "[title] Remote Digital Marketing & Sales Pro \u2014 Growth Focus | Supalifeco | Toronto, ON (Remote) | 2026-11-05T00:00:00+00:00",
-    "[title] Mission-Driven Marketing Leader for Growth | Real Food For Real Kids | Toronto, ON | 2026-11-05T00:00:00+00:00",
-    "[title] Brand Transition Marketing Lead - 18-Month | Gore Mutual Insurance | Toronto, ON | 2026-11-05T00:00:00+00:00",
-    "[title] AVP, Broker Marketing & Brand | Definity Financial Corporation | Toronto, ON | 2026-11-02T00:00:00+00:00",
-    "[title] Performance Marketing Manager Paid Acquisition | Roadpost, Inc. | Toronto, ON | 2026-11-06T00:00:00+00:00"
+    "[too old] Marketing Coordinator: Augusta Fruit Market in Toronto | AfroToronto Team | Toronto, ON, Canada | 2026-11-01T00:00:00+00:00",
+    "[title] Account Manager, Digital Marketing | The Influence Agency | Toronto, ON, Canada | 2026-11-02T00:00:00+00:00",
+    "[too old] Digital Marketing Specialist: Altis in Toronto | AfroToronto Team | Toronto, ON, Canada | 2026-11-01T00:00:00+00:00",
+    "[too old] Senior CBC News Marketing Specialist | CBC/Radio-Canada | Toronto, ON, Canada | 2026-11-01T00:00:00+00:00",
+    "[title] Marketing & Business Development Coordinator | LD Human Resources | Vaughan, ON, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Remote Digital Marketing & Sales Pro \u2014 Growth Focus | Supalifeco | Toronto, ON, Canada (Remote) | 2026-11-04T00:00:00+00:00",
+    "[title] AVP, Broker Marketing & Brand | Definity Financial Corporation | Toronto, ON, Canada | 2026-11-02T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -91,8 +92,8 @@
    ]
   },
   "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
-   "returned": 0,
-   "kept": 0,
+   "returned": 1,
+   "kept": 1,
    "error": null,
    "rejected_by": {},
    "rejected_samples": [],
@@ -117,24 +118,65 @@
      "country": "ca",
      "language": "en"
     },
-    "job_keys": []
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
    },
    "pages": [
-    0
+    1
    ]
   },
   "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
    "returned": 10,
-   "kept": 6,
+   "kept": 2,
    "error": null,
    "rejected_by": {
-    "title": 4
+    "title": 7,
+    "too old": 1
    },
    "rejected_samples": [
+    "[title] Administrative Operations Support Coordinator | Air Canada | Toronto, ON, Canada | 2026-11-08T00:00:00+00:00",
     "[title] Channel & Partner Operations Manager (Remote) | Procore | Toronto, ON, Canada (Remote) | 2026-11-04T00:00:00+00:00",
-    "[title] Directeur Op\u00e9rations Garde Institutionnelle | National Bank of Canada | Toronto, ON, Canada | 2026-11-01T00:00:00+00:00",
-    "[title] Business Operations Lead | Cohere | Toronto, ON, Canada | 2026-10-31T00:00:00+00:00",
-    "[title] Director, New Accounts and Documentation | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-05T00:00:00+00:00"
+    "[too old] Senior Events Sales & Operations Coordinator | Royal Ontario Museum | Toronto, ON, Canada | 2026-11-01T00:00:00+00:00",
+    "[title] Digital Operations Manager | PHD | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Manager, Launch and Growth Operations | Thumbtack | Toronto, ON, Canada | 2026-11-02T00:00:00+00:00",
+    "[title] Business Operations Manager, Architecture & Interior Design | Ware Malcomb | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00",
+    "[title] IT Operations Manager, AI & Automation | FacilityOS | Toronto, ON, Canada | 2026-11-03T00:00:00+00:00",
+    "[title] Regional Operations Manager | Canadian Mobile Wash Inc. | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -209,13 +251,13 @@
    },
    "rejected_samples": [
     "[location] Lifecycle Marketing Coordinator, CRM | Instacart | Ontario, Canada | 2026-11-05T00:00:00+00:00",
-    "[location] Employment Opportunity: Media and Marketing Coordinator | The Aristotle Foundation | Ontario, Canada | 2026-11-05T00:00:00+00:00",
-    "[title] Proposals and Marketing Manager | PCL Construction | Montreal, Quebec, Canada | 2026-11-02T00:00:00+00:00",
-    "[title] Influencer Executive | NewGen | Canada   (+52 others) | 2026-11-05T00:00:00+00:00",
-    "[title] Director, Customer & Partner Marketing | SOCi.ai | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00",
-    "[title] Search Engine Marketing Manager; Remote, Montreal | Blacksmith Agency | Vancouver, BC, Canada (Remote) | 2026-11-06T00:00:00+00:00",
-    "[title] Search Marketing Manager (Remote, Victoria) | Blacksmith Agency LLC | Victoria, BC, Canada (Remote) | 2026-11-04T00:00:00+00:00",
-    "[title] Marketing Manager | Veres Career Consulting | Canada   (+30 others) | 2026-11-02T00:00:00+00:00"
+    "[location] Employment Opportunity: Media and Marketing Coordinator | The Aristotle Foundation | Ontario, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Proposals and Marketing Manager | PCL Construction | Montreal, Quebec, Canada | 2026-11-01T00:00:00+00:00",
+    "[title] Senior Manager, Integrated Marketing (6-Month Contract) | The Coca-Cola Company | Canada   (+30 others) | 2026-11-04T00:00:00+00:00",
+    "[title] Growth Marketing Manager, Paid Social | Thumbtack | Victoria, BC, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Senior Manager, Performance Marketing | CoVet | Canada | 2026-11-02T00:00:00+00:00",
+    "[title] Search Engine Marketing Manager; Remote, Montreal | Blacksmith Agency | Vancouver, BC, Canada (Remote) | 2026-11-05T00:00:00+00:00",
+    "[title] Growth Marketing Manager (Remote, Edmonton) | Blacksmith Agency | Edmonton, AB, Canada (Remote) | 2026-11-01T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -281,11 +323,11 @@
    ]
   },
   "weworkremotely": {
-   "returned": 219,
+   "returned": 212,
    "kept": 2,
    "error": null,
    "rejected_by": {
-    "title": 210,
+    "title": 203,
     "location": 4,
     "aggregator": 1,
     "too old": 2
@@ -308,7 +350,7 @@
    "rejected_by": {},
    "rejected_samples": [],
    "http_status": 200,
-   "links_found": 12
+   "links_found": 10
   },
   "builtin search 2": {
    "returned": 0,
@@ -317,118 +359,66 @@
    "rejected_by": {},
    "rejected_samples": [],
    "http_status": 200,
-   "links_found": 14
+   "links_found": 10
   },
   "builtin job pages": {
-   "returned": 26,
+   "returned": 20,
    "kept": 2,
    "error": null,
    "rejected_by": {
-    "title": 24
+    "title": 18
    },
    "rejected_samples": [
+    "[title] Manager, Performance Marketing - Paid Search & Display",
     "[title] Hayu Marketing Intern",
     "[title] Associate Brand Manager",
+    "[title] SEO/AEO Specialist, Silvie",
     "[title] Content Editor",
     "[title] (CAN) Senior Director, Digital Strategy and Media",
     "[title] Development Officer",
-    "[title] AVP, Promo Operations, Planning & Integration",
-    "[title] INTEGRATED COMMUNICATIONS ACCOUNT DIRECTOR",
-    "[title] Account Manager"
+    "[title] AVP, Promo Operations, Planning & Integration"
    ]
   }
  },
  "jobs": [
   {
-   "id": "jsearch:Z1JSOW5YRjhTZ1NuSWtLS0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbE5KVUVWd1gyVnJVRzgxY0dJMVdFY3RVMGxTZWxCMk1VaEZhbkoxTkZWNFRWZFpPRFJaZVdWV05WUXRiblJRUkVkVVpYQTBUbVJ5YWpoWlpqQTRiaTFKWlRoWGJqVTJRMVpOWmxKZlEwVklkemxJV21sQ1ZFaE1ka1EyUWxWT2MyTTBZM2h0V0hoQlN6ZFBhMVp6YkVFdFVYVTBNbDlmUlVWUGJFODVkRWhDYVRoVVRYQVNGMDFvU0haaGMyazNTMWxIWkhjNFkxQjZUME56ZFZGUkdpSkJTRTR3UlRkSE1YUkxWREZLTW5ZNVJqRTRVVlpzWWpOaFEzZEpVbE5mWTFWMw",
+   "id": "jsearch:NUFlNC01QkJjbEZtLWI3WUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbGR6WTJScFVHVTRiMXAzWmxwRlJUVnZkRms1VVhoVFkzTjRibDlqVHpRd1oweHZkR1Z2UW1GRk1IVXljR3cwVEd4emRFZHhlSE53TFRkVWQzbzNUa1F5VTFkSmVIRktjREJhVlhoelNHOWFNRGxzU0V0c1FqaG5ha1ZtTVdnMFZtcFpWblZrZVhKZlJHSjFURGhLWW1Vek0yZE9RWEZhUzNkc1dtWnpOell4Y1c0MVoyMFNGMDFYWW5kaGRrOHRUVXh5ZG10UVNWQmZXVEk1ZDFGWkdpSkJTRTR3UlRkRmNsbHBTRzgwV1VRMlJURnRkbVF6YjFGV1IwdElNa2g0V214bjozNTYzYWIyMg",
    "source": "jsearch",
-   "publisher": "JobLeads",
-   "title": "Marketing Specialist, Enterprise",
-   "company": "Clio",
-   "location": "Toronto, ON",
+   "publisher": "Talent.com",
+   "title": "Client Services Coordinator",
+   "company": "Town of Whitchurch-Stouffville",
+   "location": "Whitchurch-Stouffville, ON, Canada",
    "remote": false,
-   "url": "https://www.jobleads.com/ca/job/marketing-specialist-enterprise--toronto--e69b737c2a2e633d7911f47bb9d4cd6c6",
+   "url": "https://ca.talent.com/view?id=641610770676843028",
+   "posted": "2026-11-06T00:00:00+00:00",
+   "salary": "",
+   "description": "Scheduled Hours/Shifts: 35 hours per week Salary: $76,178- $92,682 per year Flexible Working : Arrangements: Yes Vacancy Reason: New WHY Stouffville: Working for the Town of Stouffville means being a part of one of HRD Canada\u2019s Best Places to Work. Here, we foster a sense of belonging as a tightknit workforce. The Town is dedicated to supporting its employees, by providing competitive compensation, OMERS Pension, employer funded benefits, paid vacation, sick time, EAP and flexible work arrangements, to help you prioritize what matters most. Make a difference in a growing community by helping deliver outstanding customer service and operational excellence. As the Client Services Coordinator, you will play a key role in supporting front-line operations, mentoring staff, managing business systems, coordinating training initiatives and driving continuous improvement. This varied position offers the opportunity to collaborate with teams across the organization, lead operational initiatives and help create positive experiences for residents every day. We are committed to being an equal opportunity employer, supportive of an inclusive, barrier-free recruitment and selection process and as we grow, it\u2019s important that our workforce reflect the citizens we serve. At the Town, we respect, encourage, and celebrate our diversity. If contacted for an employment opportunity, please advise if you require accommodation. Position Purpose: Reporting to the Supervisor of Client Services, the Client Services Coordinator provides operational and administrative support and day-to-day coordination for the leisure centre customer service team. The role serves as a subject matter resource and works collaboratively with Town divisions to support service delivery, payroll administration, training and staff scheduling. The Coordinator liaises with key stakeholders, including elected officials, to respond to customer service inquiries and concerns and acts as a first point of contact for operational matters and escalations, resolving issues where appropriate and referring complex matters to the Supervisor. The position supports consistent service practices, assists with daily operations, and contributes to continuous improvement initiatives. The Coordinator also participates in corporate and divisional projects and new initiatives, including research, meeting coordination, preparation of supporting materials, and staff training. The role prepares reports and statistics, summarizes findings, and provides insights to inform business planning and operational enhancements. Qualifications and Requirements: \u2022 Minimum of Ontario Secondary School Diploma, Community College in Business and Accounting Diploma or suitable equivalent. \u2022 Minimum of three (3) years related working knowledge and demonstrated experience in customer service, payment handling functions, recreation software applications, business process management, financial management, public administration or suitable equivalents. \u2022 Demonstrated experience in a customer service environment, ideally with team leadership responsibilities. \u2022 Experience in payment processing or cashier operations, including familiarity with POS systems and electronic payment methods. \u2022 Strong knowledge of financial regulations, accounting principles, PCI-DSS compliance, anti-fraud measures, and cash handling procedures. \u2022 Excellent communication, and interpersonal skills to manage and motivate a diverse team. \u2022 Strong analytical skills to reconcile payment reports. \u2022 Ability to train and develop staff on both customer service and payment handling protocols. \u2022 Proficiency with Microsoft Office, and payment processing software. \u2022 High level of integrity and attention to detail to ensure accuracy and security in transactions. \u2022 Ability to work under pressure, manage multiple priorities, and handle escalated customer/payment issues professionally. \u2022 Experience administering business management software systems, recreation manage"
+  },
+  {
+   "id": "jsearch:YTdSeUE1WXZOSnhneGdna0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbFk0UlVvMWFteElOR2h4ZEUxbWVqTlRkV1Y0WkVGUmJtdEpTelZVYXpKckxVVkdSVUZKUzFwcGFXSlNaMGRrTWtVMFVXTkNkM05yYVROSGJFOXFSV3MzZEVadVpHeE5RVXcwTjBVM1kxTlllVnBpT1U1SFNXNWFNWE5HTFhoS1ZVcE1UVTB4WVhSdVdVZGhlWGgwYW5SRGMwaEtPWE0zYVRsRWRsVkZNVmxxYjB4SFowSVNGMHd5WW5kaGRHWm1TRGRxVW10UVNWQjNZVGR2TUZGM0dpSkJTRTR3UlRkSWRVTkZWeTFrTW1aVlV6ZEJha2t5TjJabExXbFVkVkJEUWtSbjo3N2I0NjczMA",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Senior Paid Media Marketing Specialist",
+   "company": "CanadaLync",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jobrapido.com/jobpreview/2383855593661136896",
    "posted": "2026-11-04T00:00:00+00:00",
    "salary": "",
-   "description": "Clio is the global leader in legal AI technology, empowering legal professionals and law firms of every size to work smarter, faster, and more securely. We are currently seeking a Marketing Specialist to join our Enterprise Marketing team in Toronto. What your team does: This role sits with Events and Community, where the highest volume of vendor, supplier and contract activity lives, and supports the full Enterprise Marketing team on procurement, contracts and budget. Who you are: The Marketing Specialist is the operational and administrative backbone of Enterprise Marketing. The role owns the mechanics that keep our events and community programmes moving: managing project plans and timelines in Asana, raising and tracking purchase orders in Coupa, shepherding vendor and partner contracts through legal and procurement, and owning the budget tracker so committed and remaining spend is always current and visible. This is a role for someone who is energised by making complicated things run smoothly, who is comfortable chasing people politely and persistently, and who wants a broad view of how an enterprise marketing function actually operates before specializing. What you\u2019ll work on: Event Project Management: Build and maintain project plans, timelines and task boards in Asana for events, sponsorships and community programmes. Keep owners, due dates and milestones accurate, run the recurring status cadence \u2014 planning meetings, stand-ups, status updates and post-event retrospectives \u2014 and surface slipping items and risks early. Budget Management: Own the budget tracker. Track spend against budget by event and programme, reconcile actuals to forecast with Finance, monitor commitments and accruals, and give the Sr. Manager and Sr. Director a current, trusted view of committed and remaining budget at any point in the year. Procurement & Coupa: Raise, submit and track purchase requisitions and purchase orders in Coupa. Onboard new suppliers, resolve blocked or rejected requisitions, match invoices to POs, chase approvals, and act as the team's first point of contact for anything Coupa-related. Contracts & Vendor Management: Route vendor, venue, sponsorship and partner agreements through legal, procurement, privacy and security review. Track where every agreement sits, flag renewal and expiry dates, maintain the contract register, and gather the information reviewers need so agreements are not delayed by missing detail. Accounting & Finance Coordination: Work with Finance and Accounts Payable on invoicing, payment queries, vendor set-up, month-end close inputs and expense reconciliation. Resolve discrepancies between what was contracted, ordered and invoiced. Events & Community Logistics: Support event delivery end to end: registration lists, shipping and inventory, supplier and venue bookings, attendee communications, on-site materials and post-event wrap-up. Travels roughly 3-5x per quarter across the GTA & US to provide on the ground support for key events. Stakeholder Coordination: Act as a point of contact for internal stakeholders and external vendors on event timelines, deliverables and approvals, and make sure requests going to design, video or content are complete before handoff. Team Operations & Process: Keep shared drives, asset libraries, distribution lists, team calendars and the marketing calendar organized and current. Document and maintain recurring processes \u2014 procurement, contract routing, budget reporting, event run-of-show \u2014 so they are repeatable. Turn retrospective learnings into concrete changes to how the next programme runs. Administration: Act as a general administrative partner to the Sr. Director, Enterprise Marketing and the wider leadership group. Other duties as assigned. What good looks like: No event, sponsorship or programme is delayed by a purchase order, contract or approval that was not moved in time. Budget is never a question mark. Committed and remaining spend is current, reconciled and availab"
+   "description": "Lead paid search and paid social performance for BDO Canada LLP in Toronto through blended office, client-site, and virtual work. Apply deep digital marketing expertise to measurable campaigns and growth. As Senior Digital Marketing Specialist, Growth & Digital Performance, you will manage acquisition and conversion initiatives. The full-time individual contributor role covers Google Analytics 4, Google Tag Manager, SEO, AEO, dashboards, and landing-page optimization. You will report to the Digital Manager and coordinate digital deliverables with stakeholders. Key Responsibilities: \u2022 Manage paid search and paid social campaigns \u2022 Analyze funnel performance and identify actionable trends \u2022 Plan briefs, timelines, approvals, and measurement requirements \u2022 Support landing-page optimization, experimentation, and A/B testing \u2022 Report performance through dashboards and data visualization Requirements: \u2022 Five to seven or more years in related digital marketing \u2022 Hands-on paid search and paid social experience \u2022 Strong Google Analytics 4 knowledge \u2022 Practical Google Tag Manager experience \u2022 Experience with SEO and conversion optimization Bring paid media, analytics, and optimization expertise to BDO Canada LLP\u2019s Toronto digital performance team. #J-18808-Ljbffr"
   },
   {
-   "id": "jsearch:VnF0V2RqelF5Z05NMDNyYUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZa2RqZEdwUGRWaE5Nazk2WXpnd2VVRnRZV1E0ZVVwQ2NqSkJTRlZEUm1GYVEzUk5aRUpoU3pKT1dsOW1VV1pZZFZOS1MxcHlMV3RqUmpJM1FUZHNhSGRoZDFkamVGbHpkME5xWDNCTlp6Qm5PVE56YkhJNU1HVlJOa1JCZURocVExQjVZV3RZV2xRdGRqbGtVR05oUzNORFYzZFFNMU5IVmtveU5HZGFjelJYZFRRelVHY1NGMDVvU0haaGNsQlNSMDlMZFhCMFVWQnZPVjluWjFFNEdpSkJTRTR3UlRkSWNVUkxjMWQyZEVFNE9EVlVOSGxUT1VJdGRGRkdUbVpuVFcxMw",
-   "source": "jsearch",
-   "publisher": "Talent.com",
-   "title": "Client - Operations Coordinator",
-   "company": "STR Search",
-   "location": "Toronto, ON, Canada",
-   "remote": false,
-   "url": "https://ca.talent.com/view?id=642846126238404016",
-   "posted": "2026-11-03T00:00:00+00:00",
-   "salary": "",
-   "description": "Client - Operations Coordinator STR Search \u2014 Operations Team Role Summary The Client - Operations Coordinator, owns the client-facing coordination work inside STR Search's operations function. This role provides supplementary coordination support to the Client Success Lead and contributes to internal operations and team experience as capacity allows. A note on AI: as a company, we're actively building in AI and automation solutions across the business. Some tasks this person handles today will eventually be automated. We need someone comfortable with that, who documents processes clearly enough that they can be automated, and stays adaptable as the work evolves. Developing AI literacy is expected, using tools like Claude, ChatGPT, and Google Notebook to draft client communications, summarize calls, build templates, implement rollouts and clean up documentation. Core Responsibilities 1. Operational Client Success Support This area is meant to support the client success lead operationally. They assist with open projects and tasks that help keep the client experiences streamlined. \u2022 Monthly 1:1 with the Client Success Lead to discuss open projects, new changes coming, outstanding tasks, goals. \u2022 Maintain client communication documentation, updating when necessary and updating stakeholders to ensure proper communication is being delivered to clients. \u2022 Ensuring Notion portals are created on a daily basis and are updated in a timely manner when clients are needing resources. \u2022 Assisting with planning and executing new initiatives for the client experience as a whole. \u2022 Assisting with testimonial gift card distribution. 2. Team Experience and Culture This role contributes to internal team experience, with focus on global team coverage where existing programs do not yet reach. \u2022 Monitor birthday and work anniversary automations for the US and Canada-based team \u2022 Collaborate with the People team to support programs for other regions \u2022 Coordinate one-off team and partner recognition \u2014 thank-yous, gifts, and milestone moments \u2022 Maintain a global team map and develop appreciation flows for team members in regions not yet covered by existing programs \u2022 Support in the execution of team or client swag initiatives end-to-end \u2022 Support in the hiring process, onboarding new team members and offboarding when necessary \u2022 Support the human-side of new team member onboarding and offboarding (welcome touches, recognition enrollment, farewell coordination) 3. Shared Access & Tooling Support Because of established trust with this role, this Coordinator holds access to the tools required to resolve common lockouts and access issues. Google Workspace admin remains with existing super admins and is escalated to them when needed. 4. General Operations \u2022 Write and maintain SOPs for repeatable processes \u2022 As applicable, create self-service guides (Loom + short written docs) so team members can handle routine tasks themselves \u2022 Contribute to the organization and maintenance of Google Drive, Notion, and shared documentation spaces \u2022 Keep credential records updated (1Password, shared logins, 2FA) \u2022 Cross-team task routing: make sure requests get to the right person and do not sit unanswered \u2022 Help set up project channels, timelines, and milestone trackers \u2022 Follow up with team members on deliverables and deadlines \u2022 Administrative filing of receipts for all platform subscriptions tied to John. \u2022 Administrative assistance with the Support email account. Keeping email amounts low, forwarding and looping in the appropriate team members when necessary. \u2022 Occasional support across the Holdco (special projects, hiring, general tasks). 5. Listing Creation Support (current initiative, phasing out) Support the delivery of any remaining Listing Creation client commitments, including client coordination, project tracking, and internal handoffs. This is a temporary service offering with a finite list of clients. If the current client list is not complete before the trans"
-  },
-  {
-   "id": "jsearch:Y25Cdk1zS0c4OWQwX3NLVUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZWGd4V1hwbGEzaFlSMVZVY1ZKV1ZEVmZOVXBmVUhSSGN6VTJZV3M1YzI5NFduazRVa0ZFVEVVMFpVTlpUbmxCTVRsQ2MyaHJOVEJmTkdock1HSkhVVGMxY1dWeVRGUnJaWE16WkdWYVV6UkdXVWcwTnpsSFRqSnRiV3B3YjFsSWF6VTNTMjlRTVY4elRqVnpURUZUY1RSQ2J6ZDRSV0ZET1ZKTFRXTjBUME5RTjJKQ1ZFRVNGMDVvU0haaGNsQlNSMDlMZFhCMFVWQnZPVjluWjFFNEdpSkJTRTR3UlRkR1gyVnRlVkJKU2xKd1pIRldXV3ROVm10TlZqVllaRWhIVG14bg",
-   "source": "jsearch",
-   "publisher": "Talent.com",
-   "title": "Fleet Operations Coordinator | Fleet Operations Coordinator",
-   "company": "Coach Canada",
-   "location": "Toronto, ON  (+1 other)",
-   "remote": false,
-   "url": "https://ca.talent.com/view?id=644540157091450859",
-   "posted": "2026-11-03T00:00:00+00:00",
-   "salary": "",
-   "description": "Fleet Operations Coordinator \u2013 Mississauga Garage Coach Canada | Mississauga, ON Coach Canada is seeking a Fleet Operations Coordinator for an upcoming, newly created position at our Mississauga garage. This role will support daily coordination between maintenance and dispatch and serve as a key point of contact for Toronto drivers, supporting bus readiness, timely departures and effective communication across teams. What You Will Do Coordinate daily activities with maintenance and dispatch to support bus readiness for scheduled departures. Act as a main garage point of contact for drivers, providing support with bus assignments, departures and returns. Assist with fleet and driver scheduling to support efficient use of resources. Coordinate maintenance requirements, follow up on repairs and confirm bus release status with the appropriate teams before communicating availability to dispatch. Communicate dispatch instructions, assignment changes and operational updates to drivers. Respond to changing operational needs and communicate delays or concerns promptly. Support established safety, inspection and reporting procedures. Maintain operational records, support shift handovers and complete related administrative duties. Collaborate across departments to support service quality and efficient workflows. Support drivers with day-to-day operational needs and assist with other departmental initiatives as required What You Bring Proven experience in transportation, dispatch, fleet coordination or a related operational environment. A minimum of two years of experience working in a unionized environment. Willingness to work outdoors in varying weather conditions and provide hands-on operational support as needed. A solid understanding of the Canada Labour Code and applicable occupational health and safety requirements. Supervisory experience is considered an asset. Project management skills, with the ability to coordinate tasks and follow through on initiatives. Strong verbal and written communication, organizational and problem-solving skills. Ability to manage changing priorities and work collaboratively across teams. A commitment to safety, accountability and employee support. A diplomatic and professional approach to resolving concerns, managing competing priorities and maintaining positive working relationships. Understanding of electronic Driver Vehicle Inspection Reports (EDVIRs), vehicle maintenance requirements and applicable commercial vehicle safety regulations. Flexibility to support our 24/7 operations, with a work schedule to be determined that may include days, afternoons, nights, weekends and holidays. Equal Opportunity and Accessibility Statement Coach Canada is a federally regulated employer, and an equal opportunity employer committed to employment equity and fostering a diverse, inclusive, and accessible workplace. We welcome applications from all qualified individuals, including those who self-identify as members of the four designated groups under the Employment Equity Act : women, Indigenous peoples, persons with disabilities, and members of visible minorities. In accordance with the Canadian Human Rights Act , the Pay Equity Act , and the Accessible Canada Act , we are committed to treating all applicants fairly and without discrimination. Accommodations are available upon request throughout the recruitment process for applicants with disabilities or other accessibility needs. If you require accommodation at any stage of the hiring process, please contact us to make arrangements that best support your full participation. We thank all applicants for their interest; however, only those selected for an interview will be contacted. Coordonnateur ou coordonnatrice des op\u00e9rations de flotte \u2013 Garage de Mississauga Coach Canada | Mississauga (Ontario) Coach Canada est \u00e0 la recherche d\u2019un coordonnateur ou d\u2019une coordonnatrice des op\u00e9rations de flotte pour soutenir la coordination quotidienne entre notre garage de Missis"
-  },
-  {
-   "id": "jsearch:S2xnTHR5TWJDdWFwZV9nMEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXa0ZsZG5ORk5WODNVMkpGTFVSZk5UTlBZVFJIY1VGc1drdGlhVE5PTTA5cGQwVkZNRWhCY2tWalVWTlFia1p5TlRCMFlUTmZOMkpDVUc5M2MzSktTemhMUTFGRVpHcERUMGRaY2tOcWEwRnphbDl2VFZBNVNXeFdZakE1VUVwTmNWRkRkVUp2YmpkNGFUSkRVbVJHUVRnM1ZFcFNhalZyWlhVeWRqUnZiM1pwYUdOemRub1NGMDVvU0haaGNsQlNSMDlMZFhCMFVWQnZPVjluWjFFNEdpSkJTRTR3UlRkSVNEbDJaVkJQVldOaE9ESXdkekJIYkdjM09HZHVNVk5wWlZsUg",
-   "source": "jsearch",
-   "publisher": "Eluta.ca",
-   "title": "Retail Customer Service and Operations Coordinator Full Time Winners \u2013 Scotia Plaza",
-   "company": "TJX Canada",
-   "location": "Toronto, ON, Canada",
-   "remote": false,
-   "url": "https://www.eluta.ca/spl/retail-customer-service-and-operations-coordinator-full-time-winners-%E2%80%93-scotia-plaza-ace5de22cb701528fdf6c1b916c4b4e4",
-   "posted": "2026-11-03T00:00:00+00:00",
-   "salary": "",
-   "description": "Winners At TJX Canada, every day brings new opportunities for growth, exploration, and achievement. You\u2019ll be part of our vibrant team that embraces diversity, fosters collaboration, and prioritizes your development. Whether you\u2019re working in our Distribution Centers, Corporate Offices, or Retail Stores\u2014WINNERS, HomeSense, and Marshalls, you\u2019ll find abundant opportunities to learn, thrive, and make an impact. Come join our TJX family\u2014a Fortune 100 company and the world\u2019s leading off-price retailer. Here at TJX Canada, we are an equal opportunity employer committed to the inclusion and accommodation of all individuals. Job Description: We\u2019re looking for a Retail Store Coordinator to join our team in a welcoming environment. In this role, you\u2019ll lead and inspire to deliver outstanding customer experiences. If you thrive in a fast-paced, dynamic environment and enjoy leading by example, this could be the perfect opportunity for you.\u200b \u200b Why Work With Us? \u200b We value integrity, respect, and teamwork, encouraging a unique and inclusive culture. Enjoy exclusive discounts at our stores, available to you and eligible family members. Comprehensive training and development resources designed to help you learn, grow, and succeed. Support for you and your family through our Associate and Family Assistance programs, offering helpful resources and services to enhance your well-being. What You\u2019ll Do: \u200b Drive operational excellence in areas like visual merchandising, customer service, back room and merchandise processing. \u200b Maintain high standards of customer service and store operations by providing clear updates and ensuring team alignment. \u200b Plan, prioritize, and guide tasks while encouraging collaboration and training Associates on service policies and procedures. \u200b Train and develop Associates in merchandise presentation and customer service, promoting a culture of collaboration and improvement. \u200b Enhance the store\u2019s brand and value strategy by creating eye-catching merchandise displays in key areas. \u200b About You: \u200b Relevant Experience \u2013 1-2 years in retail or service, with a strong grasp of customer needs and operational processes. \u200b Team Collaboration \u2013 A collaborative mindset that fosters effective teamwork and positive relationships. \u200b Task Management \u2013 Ability to efficiently manage multiple tasks in a fast-paced environment while adapting to new challenges. \u200b Communication and Time Management \u2013 Strong communication and time management skills for clear information sharing and effective prioritization. \u200b If you\u2019re ready to bring your energy and passion, we\u2019d love to hear from you! Join us and be part of a place where every day is a chance to make a difference. Additional Information: Candidates aged 18 and over will be required to undergo a criminal record check as part of the hiring process. This job posting is for an existing position vacancy within our organization. Internal TJX Associates must submit their applications via the Jobs Hub in Workday. Direct applications to this job posting will not be accepted. Address: 40 King Street West Location: CAN Winners Store 0390 Toronto ON Hourly range: $19.95-$24.94 / hour * This represents the expected hiring range and may not represent the full pay range for the position. The pay rate offered may be higher than the posted range depending on several factors such as relevant skills, experience, and local labor market demands. Report Job"
-  },
-  {
-   "id": "jsearch:eDRoZkViRGYxWEZQUnloM0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZa3BaYkhkd00yTjFORE5zVkcxc1p6QmlYMlF0T1Roek5WRjBZMk5ZTlVSWVRVWmFkRFJuVDFOaU0waFFXRkUzVjFSUGFqRnBTMHd5WDNsRU5HUlRjRTFTY2sxaWRsRkpiSGxzVlRSeFdUZG1lbkJJZDJGeFR6VkphakZ3VTFkdlpHZFJTVTlTVjFneVZuaDBZakJCV0RoZlZYbDFXbE5CVjBVdFdXMXVhMHRyWmxKM2MyOFNGMDFvU0haaGMyazNTMWxIWkhjNFkxQjZUME56ZFZGUkdpSkJTRTR3UlRkRloyZDBaV3hCUzJWRFRFMWpURXN5ZWtKaGFHNHlZV3BmYTNWMw",
-   "source": "jsearch",
-   "publisher": "Jooble",
-   "title": "Senior CBC News Marketing Specialist",
-   "company": "CBC/Radio-Canada",
-   "location": "Toronto, ON",
-   "remote": false,
-   "url": "https://ca.jooble.org/jdp/8852438031983064794",
-   "posted": "2026-11-02T00:00:00+00:00",
-   "salary": "",
-   "description": "Lead CBC News marketing in Toronto through strategic communications, social media expertise, and a hybrid work arrangement supporting national audiences. As Senior Communications and Marketing Specialist, you will promote CBC News across digital and traditional platforms. You will craft integrated strategies, persuasive presentations, and audience engagement plans. The work requires strong writing, editing, collaboration, and knowledge of current affairs. Key Responsibilities: \u2022 Develop integrated plans promoting CBC News across multiple platforms \u2022 Identify audiences, increase tune in, and foster brand engagement \u2022 Create marketing materials and tailored online and in person experiences \u2022 Collaborate with stakeholders, personalities, and local CBC teams \u2022 Manage program assets and provide articulate stakeholder feedback Requirements: \u2022 University education in marketing, communications, public relations, or related discipline \u2022 Five years of direct communications and marketing experience \u2022 Superior writing, editing, and proofreading skills \u2022 In depth knowledge of multiple social media platforms \u2022 Knowledge of CBC, CBC News, and current affairs Bring strategic thinking, persuasive communications, and news marketing expertise to CBC News in Toronto\u2019s hybrid environment. #J-18808-Ljbffr"
-  },
-  {
-   "id": "builtin:12126323",
+   "id": "builtin:12134628",
    "source": "builtin",
    "publisher": "Built In",
-   "title": "Account Coordinator",
-   "company": "APEX Public Relations Inc.",
+   "title": "Communications Specialist",
+   "company": "BGIS",
    "location": "Toronto, ON",
    "remote": false,
-   "url": "https://builtintoronto.com/job/account-coordinator/12126323",
+   "url": "https://builtintoronto.com/job/communications-specialist/12134628",
    "posted": null,
    "salary": "",
-   "description": "Account Coordinator - APEX Public Relations Inc. | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job APEX Public Relations Inc. Jobs Account Coordinator APEX Public Relations Inc. Account Coordinator Posted 8 Hours Ago Be an Early Applicant In-Office Toronto, ON, CAN Entry level In-Office Toronto, ON, CAN Entry level Coordinates integrated PR and communications activities, including media and social monitoring, influencer mailers, fact checks, client reporting, research, copywriting, proofreading, event logistics, vendor liaison, and consumer or media requests. Supports influencer campaigns, client meetings, agency initiatives, and administrative coordination. The role requires PR agency experience, strong technology skills, excellent organization, and the ability to manage multiple priorities under pressure. The summary above was generated by AI APEX PR Hiring Full Time I ntegrated Communications Account Coordinator US It\u2019s how brands \u201cwalk the talk\u201d that matters most. That\u2019s where APEX PR / ruckus Digital comes in. We help brands connect to what matters most to people by shifting perceptions and making real connections. Our unmatched track record of award-winning campaigns, client retention and client satisfaction is a testament to our ability to get it right, over and over again . Our work extends to all sectors, and the key to our success is a fusion of senior level strategists, creative ideas, a passion for our work, client collaboration and a disciplined focus on achieving results that impact our clients\u2019 bottom line. If you\u2019re a highly organized, creative and proactive project manager who\u2019s obsessed with tracking the pulse of culture, come join our team in creating share-worthy stories across all the feeds . Coordinators are required to be in our office at 160 Bloor St East, Toronto, 4 days a week. We feel that this model promotes creativity, collaboration and professional development while still giving employees the flexibility of remote work. YOU Daily media/social monitoring for a variety of clients \u2013 owned, earned, paid Handling all aspects of media/influencer mailers Coordinating fact checks and sample requests Developing and u pdating client reports and media / influencer lists Writing : research reports, wrap reports and MRP /measurement reports , social copy and content calendars , proofreading and editing Research skills \u2013 competitive intelligence, new business Assisting with special event logistics including sourcing and liaising with vendors , onsite event support Working with clients on consumer interactions and media requests Working with the influencer team on various campaigns Participating in brainstorms, agency staff meetings and any agency training taking place Administrative \u2014 coordination of meetings, meeting notes, supplier liaison , UPS/ FedEX , internal and external marketing ASK Post-graduate diploma in Public Relations, Corporate Communications , Marketing, Advertising or related discipline \u2013 PR agency experience is a must Strong tech skills - PowerPoint, Excel, Word, Cision, Meltwater , MRP and social media monitoring tools ( e.g. Sprout Social) . We use Monday.com as our program management tool Excellent time management skills , strong attention to detail and ability to multi-task is a must Enthusiastic team player with a positive, can - do attitude demonstrating initiative and the ability to work well under pressure Experience with social media"
-  },
-  {
-   "id": "builtin:12112977",
-   "source": "builtin",
-   "publisher": "Built In",
-   "title": "Private Client Services Coordinator",
-   "company": "CI Financial",
-   "location": "Toronto, ON",
-   "remote": false,
-   "url": "https://builtintoronto.com/job/private-client-services-coordinator/12112977",
-   "posted": null,
-   "salary": "",
-   "description": "Private Client Services Coordinator - CI Financial | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job CI Financial Jobs Private Client Services Coordinator CI Financial Private Client Services Coordinator Posted 11 Hours Ago Be an Early Applicant In-Office Toronto, ON, CAN Entry level In-Office Toronto, ON, CAN Entry level Provides account administration and client service for high-net-worth investment clients, advisors, and internal teams. Investigates account issues, coordinates resolutions with custodians and back-office departments, responds to program inquiries, submits trade requests, supports reporting needs, and assists with projects and campaigns. The role requires investment-industry knowledge, strong communication and relationship-building skills, accuracy, independence, and the ability to work under pressure in an onsite environment. The summary above was generated by AI At CI, we see a great place to work as one that is a safe place for everyone to have a voice, where people are empowered to take ownership over meaningful work, where there is an opportunity to grow through stretching themselves, where they can work on innovative products and projects, and where employees are supported and engaged in doing so. We are currently seeking a Private Client Service Coordinator to join our Private Client Services team. As the primary service contact for Investment Counselors (IC), Financial Advisors and their Assistants, the Private Client Service Coordinator acts as a liaison with the Custodian (RBC IST/NBIN/CIIS) and CI back-offices in a high net worth and fast-paced environment. Primary responsibilities include account administration, investigating account issues and coordinating complicated requests with administration and custodians for high-net worth clients. WHAT YOU WILL DO Act as the primary service contact for ICs, financial advisors, and clients Investigate account-related problems, make recommendations, and implement the best possible agreed-upon solution for the client in a timely manner Respond to account-specific inquiries and procedural questions about the Private Client program via email and phone and provide value added suggestions where possible Liaise and maintain strong relationships with internal departments (PC Administration, Investment Policy (IP) Group, PC trading desk, Managed Solutions), ICs, Stonegate Private Counsel Advisors, and Custodians (RBC Investor Services Trust, NBIN, CIIS) Submit accurate and complete trade requests prior to 2 pm and seek appropriate approvals and where appropriate (depending on the ICs/region assigned) Keep current on industry updates, custodian announcements, corporate initiatives, product changes and updates to policies and procedures to assist with field support and inquiries. Assist with various reporting requests from the field (ie. statements and tax packages) Assist in special projects and various campaigns where applicable. WHAT YOU WILL BRING Completion of post-secondary education in Business or a related discipline Experience in the investment industry; Private Client or high net worth industry experience considered an asset Mutual fund and securities industry knowledge Exceptional customer service and relationship-building skills Exceptional written and verbal communication skills Ability to work in a high-pressure environment Ability to be resourceful and work independently This role follows our in\u2011office"
+   "description": "Communications Specialist - BGIS | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job BGIS Jobs Communications Specialist BGIS Communications Specialist Posted Yesterday Be an Early Applicant In-Office Toronto, ON, CAN Mid level In-Office Toronto, ON, CAN Mid level Leads regional communications initiatives supporting client programs. Develops tenant and occupant engagement strategies, creates and distributes digital and print materials, writes and edits communications, supports branding, social media, events, awards, translations, and vendor engagement. Collaborates with internal and external stakeholders to implement communication plans, promote services, improve client relationships, and increase awareness of programs. Supports building certification communications and presents initiatives to stakeholders. The summary above was generated by AI SUMMARY The Communications Specialist leads various communications initiatives within a region, in support of BGIS client programs. They create, implement and oversee communications programs that effectively describe and promote services and special programs, that support improved client relationships. KEY DUTIES & RESPONSIBILITIES Tenant & Occupant Engagement Builds and implements Tenant communication programs based on national and regional initiatives. Oversees all Tenant and occupant regional communications, ensuring messaging is consistent with national initiatives and is engaging and informative. Develops and implements new methods to engage with clients, Tenants and occupants. Supports the development of occupant engagement program in digital and print formats. Supports building certification programs such as LEED, BOMA and WELL from a communications perspective. General Communications Develops and implements effective communication strategies that build customer loyalty programs, brand awareness, and customer satisfaction. Collaborates with internal and external concerned parties to design and develop communication plans and implement communication initiatives that are specific to the client account. Researches, writes and edits related materials such as presentations, posters, notices, briefing notes, social media posts and newsletters, in line with communications plan. Distributes communications to internal and external audiences. Leads assigned internal communications initiatives at a regional level, including refreshment of various communication materials to ensure team members are aware of client programs and are engaged. Designs and creates branded tools, resources, collateral and communication materials in support of regional initiatives. Working with different BGIS departments, identifies unique and innovative ways to communicate internally and externally. Develops and provides presentations to concerned parties, outlining key initiatives and programs. Supports the submission of awards to improve awareness of programs. Conducts research to support communication initiatives and ensure information provided is relevant, concise and correct. Supports translation to French of communication materials by working with BGIS\u2019 translation company. Assist with various industry events including registration, booth set up, coordination of materials. Supports vendor engagement to improve awareness of BGIS opportunities. Supports social media requirements. KNOWLEDGE & SKILLS Strong knowledge and understanding of current trends in communica"
   }
  ]
 }

@@ -1,0 +1,424 @@
+{
+ "run_id": "2026-11-08T120815Z",
+ "run_at": "2026-11-08T12:08:15.050381+00:00",
+ "date": "2026-11-08",
+ "source_counts_after_filters": {
+  "jsearch": 7,
+  "remoteok": 0,
+  "weworkremotely": 2,
+  "adzuna": 0,
+  "builtin": 2
+ },
+ "new_count": 3,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "too old": 3,
+    "title": 4
+   },
+   "rejected_samples": [
+    "[too old] Marketing Coordinator: Augusta Fruit Market in Toronto | AfroToronto Team | Toronto, ON, Canada | 2026-11-01T00:00:00+00:00",
+    "[title] Account Manager, Digital Marketing | The Influence Agency | Toronto, ON, Canada | 2026-11-02T00:00:00+00:00",
+    "[too old] Digital Marketing Specialist: Altis in Toronto | AfroToronto Team | Toronto, ON, Canada | 2026-11-01T00:00:00+00:00",
+    "[too old] Senior CBC News Marketing Specialist | CBC/Radio-Canada | Toronto, ON, Canada | 2026-11-01T00:00:00+00:00",
+    "[title] Marketing & Business Development Coordinator | LD Human Resources | Vaughan, ON, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Remote Digital Marketing & Sales Pro \u2014 Growth Focus | Supalifeco | Toronto, ON, Canada (Remote) | 2026-11-04T00:00:00+00:00",
+    "[title] AVP, Broker Marketing & Brand | Definity Financial Corporation | Toronto, ON, Canada | 2026-11-02T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 1,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    1
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 7,
+    "too old": 1
+   },
+   "rejected_samples": [
+    "[title] Administrative Operations Support Coordinator | Air Canada | Toronto, ON, Canada | 2026-11-08T00:00:00+00:00",
+    "[title] Channel & Partner Operations Manager (Remote) | Procore | Toronto, ON, Canada (Remote) | 2026-11-04T00:00:00+00:00",
+    "[too old] Senior Events Sales & Operations Coordinator | Royal Ontario Museum | Toronto, ON, Canada | 2026-11-01T00:00:00+00:00",
+    "[title] Digital Operations Manager | PHD | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Manager, Launch and Growth Operations | Thumbtack | Toronto, ON, Canada | 2026-11-02T00:00:00+00:00",
+    "[title] Business Operations Manager, Architecture & Interior Design | Ware Malcomb | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00",
+    "[title] IT Operations Manager, AI & Automation | FacilityOS | Toronto, ON, Canada | 2026-11-03T00:00:00+00:00",
+    "[title] Regional Operations Manager | Canadian Mobile Wash Inc. | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "location": 2,
+    "title": 7
+   },
+   "rejected_samples": [
+    "[location] Lifecycle Marketing Coordinator, CRM | Instacart | Ontario, Canada | 2026-11-05T00:00:00+00:00",
+    "[location] Employment Opportunity: Media and Marketing Coordinator | The Aristotle Foundation | Ontario, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Proposals and Marketing Manager | PCL Construction | Montreal, Quebec, Canada | 2026-11-01T00:00:00+00:00",
+    "[title] Senior Manager, Integrated Marketing (6-Month Contract) | The Coca-Cola Company | Canada   (+30 others) | 2026-11-04T00:00:00+00:00",
+    "[title] Growth Marketing Manager, Paid Social | Thumbtack | Victoria, BC, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Senior Manager, Performance Marketing | CoVet | Canada | 2026-11-02T00:00:00+00:00",
+    "[title] Search Engine Marketing Manager; Remote, Montreal | Blacksmith Agency | Vancouver, BC, Canada (Remote) | 2026-11-05T00:00:00+00:00",
+    "[title] Growth Marketing Manager (Remote, Edmonton) | Blacksmith Agency | Edmonton, AB, Canada (Remote) | 2026-11-01T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 212,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 203,
+    "location": 4,
+    "aggregator": 1,
+    "too old": 2
+   },
+   "rejected_samples": [
+    "[title] Product Marketing Manager | Siemens | USA Only (Remote) | 2026-11-06T17:00:43+00:00",
+    "[title] Associate Product Marketing Manager \u2013 GRC | Mitratech | USA Only (Remote) | 2026-11-06T17:00:39+00:00",
+    "[title] Proposal Writer | Pritchard Industries | USA Only (Remote) | 2026-11-06T17:00:36+00:00",
+    "[title] UGC Coordinator | Elavate | Latin America Only (Remote) | 2026-11-06T17:00:28+00:00",
+    "[title] Marketing Lead | $2.5K - $3K USD Base monthly | Exciting Multicultural E-learning Company | UPROSPECT | Latin America Only (Remote) | 2026-11-06T04:12:20+00:00",
+    "[location] Operations Associate (Hiring or Client Delivery) | Drop Zero Digital | Latin America Only (Remote) | 2026-11-06T04:12:18+00:00",
+    "[title] SOCIAL MEDIA & SEO MANAGER | Ace Stainless Supply | Anywhere in the World (Remote) | 2026-11-06T03:37:48+00:00",
+    "[title] Creative Design Team Lead (AI & Performance Marketing) | CapsLock | Remote (Remote) | 2026-11-05T21:25:07+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 10
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 10
+  },
+  "builtin job pages": {
+   "returned": 20,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 18
+   },
+   "rejected_samples": [
+    "[title] Manager, Performance Marketing - Paid Search & Display",
+    "[title] Hayu Marketing Intern",
+    "[title] Associate Brand Manager",
+    "[title] SEO/AEO Specialist, Silvie",
+    "[title] Content Editor",
+    "[title] (CAN) Senior Director, Digital Strategy and Media",
+    "[title] Development Officer",
+    "[title] AVP, Promo Operations, Planning & Integration"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:NUFlNC01QkJjbEZtLWI3WUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbGR6WTJScFVHVTRiMXAzWmxwRlJUVnZkRms1VVhoVFkzTjRibDlqVHpRd1oweHZkR1Z2UW1GRk1IVXljR3cwVEd4emRFZHhlSE53TFRkVWQzbzNUa1F5VTFkSmVIRktjREJhVlhoelNHOWFNRGxzU0V0c1FqaG5ha1ZtTVdnMFZtcFpWblZrZVhKZlJHSjFURGhLWW1Vek0yZE9RWEZhUzNkc1dtWnpOell4Y1c0MVoyMFNGMDFYWW5kaGRrOHRUVXh5ZG10UVNWQmZXVEk1ZDFGWkdpSkJTRTR3UlRkRmNsbHBTRzgwV1VRMlJURnRkbVF6YjFGV1IwdElNa2g0V214bjozNTYzYWIyMg",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Client Services Coordinator",
+   "company": "Town of Whitchurch-Stouffville",
+   "location": "Whitchurch-Stouffville, ON, Canada",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=641610770676843028",
+   "posted": "2026-11-06T00:00:00+00:00",
+   "salary": "",
+   "description": "Scheduled Hours/Shifts: 35 hours per week Salary: $76,178- $92,682 per year Flexible Working : Arrangements: Yes Vacancy Reason: New WHY Stouffville: Working for the Town of Stouffville means being a part of one of HRD Canada\u2019s Best Places to Work. Here, we foster a sense of belonging as a tightknit workforce. The Town is dedicated to supporting its employees, by providing competitive compensation, OMERS Pension, employer funded benefits, paid vacation, sick time, EAP and flexible work arrangements, to help you prioritize what matters most. Make a difference in a growing community by helping deliver outstanding customer service and operational excellence. As the Client Services Coordinator, you will play a key role in supporting front-line operations, mentoring staff, managing business systems, coordinating training initiatives and driving continuous improvement. This varied position offers the opportunity to collaborate with teams across the organization, lead operational initiatives and help create positive experiences for residents every day. We are committed to being an equal opportunity employer, supportive of an inclusive, barrier-free recruitment and selection process and as we grow, it\u2019s important that our workforce reflect the citizens we serve. At the Town, we respect, encourage, and celebrate our diversity. If contacted for an employment opportunity, please advise if you require accommodation. Position Purpose: Reporting to the Supervisor of Client Services, the Client Services Coordinator provides operational and administrative support and day-to-day coordination for the leisure centre customer service team. The role serves as a subject matter resource and works collaboratively with Town divisions to support service delivery, payroll administration, training and staff scheduling. The Coordinator liaises with key stakeholders, including elected officials, to respond to customer service inquiries and concerns and acts as a first point of contact for operational matters and escalations, resolving issues where appropriate and referring complex matters to the Supervisor. The position supports consistent service practices, assists with daily operations, and contributes to continuous improvement initiatives. The Coordinator also participates in corporate and divisional projects and new initiatives, including research, meeting coordination, preparation of supporting materials, and staff training. The role prepares reports and statistics, summarizes findings, and provides insights to inform business planning and operational enhancements. Qualifications and Requirements: \u2022 Minimum of Ontario Secondary School Diploma, Community College in Business and Accounting Diploma or suitable equivalent. \u2022 Minimum of three (3) years related working knowledge and demonstrated experience in customer service, payment handling functions, recreation software applications, business process management, financial management, public administration or suitable equivalents. \u2022 Demonstrated experience in a customer service environment, ideally with team leadership responsibilities. \u2022 Experience in payment processing or cashier operations, including familiarity with POS systems and electronic payment methods. \u2022 Strong knowledge of financial regulations, accounting principles, PCI-DSS compliance, anti-fraud measures, and cash handling procedures. \u2022 Excellent communication, and interpersonal skills to manage and motivate a diverse team. \u2022 Strong analytical skills to reconcile payment reports. \u2022 Ability to train and develop staff on both customer service and payment handling protocols. \u2022 Proficiency with Microsoft Office, and payment processing software. \u2022 High level of integrity and attention to detail to ensure accuracy and security in transactions. \u2022 Ability to work under pressure, manage multiple priorities, and handle escalated customer/payment issues professionally. \u2022 Experience administering business management software systems, recreation manage"
+  },
+  {
+   "id": "jsearch:YTdSeUE1WXZOSnhneGdna0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbFk0UlVvMWFteElOR2h4ZEUxbWVqTlRkV1Y0WkVGUmJtdEpTelZVYXpKckxVVkdSVUZKUzFwcGFXSlNaMGRrTWtVMFVXTkNkM05yYVROSGJFOXFSV3MzZEVadVpHeE5RVXcwTjBVM1kxTlllVnBpT1U1SFNXNWFNWE5HTFhoS1ZVcE1UVTB4WVhSdVdVZGhlWGgwYW5SRGMwaEtPWE0zYVRsRWRsVkZNVmxxYjB4SFowSVNGMHd5WW5kaGRHWm1TRGRxVW10UVNWQjNZVGR2TUZGM0dpSkJTRTR3UlRkSWRVTkZWeTFrTW1aVlV6ZEJha2t5TjJabExXbFVkVkJEUWtSbjo3N2I0NjczMA",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Senior Paid Media Marketing Specialist",
+   "company": "CanadaLync",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jobrapido.com/jobpreview/2383855593661136896",
+   "posted": "2026-11-04T00:00:00+00:00",
+   "salary": "",
+   "description": "Lead paid search and paid social performance for BDO Canada LLP in Toronto through blended office, client-site, and virtual work. Apply deep digital marketing expertise to measurable campaigns and growth. As Senior Digital Marketing Specialist, Growth & Digital Performance, you will manage acquisition and conversion initiatives. The full-time individual contributor role covers Google Analytics 4, Google Tag Manager, SEO, AEO, dashboards, and landing-page optimization. You will report to the Digital Manager and coordinate digital deliverables with stakeholders. Key Responsibilities: \u2022 Manage paid search and paid social campaigns \u2022 Analyze funnel performance and identify actionable trends \u2022 Plan briefs, timelines, approvals, and measurement requirements \u2022 Support landing-page optimization, experimentation, and A/B testing \u2022 Report performance through dashboards and data visualization Requirements: \u2022 Five to seven or more years in related digital marketing \u2022 Hands-on paid search and paid social experience \u2022 Strong Google Analytics 4 knowledge \u2022 Practical Google Tag Manager experience \u2022 Experience with SEO and conversion optimization Bring paid media, analytics, and optimization expertise to BDO Canada LLP\u2019s Toronto digital performance team. #J-18808-Ljbffr"
+  },
+  {
+   "id": "builtin:12134628",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Communications Specialist",
+   "company": "BGIS",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/communications-specialist/12134628",
+   "posted": null,
+   "salary": "",
+   "description": "Communications Specialist - BGIS | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job BGIS Jobs Communications Specialist BGIS Communications Specialist Posted Yesterday Be an Early Applicant In-Office Toronto, ON, CAN Mid level In-Office Toronto, ON, CAN Mid level Leads regional communications initiatives supporting client programs. Develops tenant and occupant engagement strategies, creates and distributes digital and print materials, writes and edits communications, supports branding, social media, events, awards, translations, and vendor engagement. Collaborates with internal and external stakeholders to implement communication plans, promote services, improve client relationships, and increase awareness of programs. Supports building certification communications and presents initiatives to stakeholders. The summary above was generated by AI SUMMARY The Communications Specialist leads various communications initiatives within a region, in support of BGIS client programs. They create, implement and oversee communications programs that effectively describe and promote services and special programs, that support improved client relationships. KEY DUTIES & RESPONSIBILITIES Tenant & Occupant Engagement Builds and implements Tenant communication programs based on national and regional initiatives. Oversees all Tenant and occupant regional communications, ensuring messaging is consistent with national initiatives and is engaging and informative. Develops and implements new methods to engage with clients, Tenants and occupants. Supports the development of occupant engagement program in digital and print formats. Supports building certification programs such as LEED, BOMA and WELL from a communications perspective. General Communications Develops and implements effective communication strategies that build customer loyalty programs, brand awareness, and customer satisfaction. Collaborates with internal and external concerned parties to design and develop communication plans and implement communication initiatives that are specific to the client account. Researches, writes and edits related materials such as presentations, posters, notices, briefing notes, social media posts and newsletters, in line with communications plan. Distributes communications to internal and external audiences. Leads assigned internal communications initiatives at a regional level, including refreshment of various communication materials to ensure team members are aware of client programs and are engaged. Designs and creates branded tools, resources, collateral and communication materials in support of regional initiatives. Working with different BGIS departments, identifies unique and innovative ways to communicate internally and externally. Develops and provides presentations to concerned parties, outlining key initiatives and programs. Supports the submission of awards to improve awareness of programs. Conducts research to support communication initiatives and ensure information provided is relevant, concise and correct. Supports translation to French of communication materials by working with BGIS\u2019 translation company. Assist with various industry events including registration, booth set up, coordination of materials. Supports vendor engagement to improve awareness of BGIS opportunities. Supports social media requirements. KNOWLEDGE & SKILLS Strong knowledge and understanding of current trends in communica"
+  }
+ ]
+}
