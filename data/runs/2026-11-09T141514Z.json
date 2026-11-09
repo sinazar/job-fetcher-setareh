@@ -1,0 +1,362 @@
+{
+ "run_id": "2026-11-09T141514Z",
+ "run_at": "2026-11-09T14:15:14.391278+00:00",
+ "date": "2026-11-09",
+ "source_counts_after_filters": {
+  "jsearch": 6,
+  "remoteok": 0,
+  "weworkremotely": 2,
+  "adzuna": 0,
+  "builtin": 1
+ },
+ "new_count": 4,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": "HTTP 504: {\"messages\":\"The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider\", \"info\": \"Your Client (working) ---> Gateway (working) ---> API (took too long to respond)\"}",
+   "rejected_by": {},
+   "rejected_samples": []
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 1,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    1
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 4,
+   "error": null,
+   "rejected_by": {
+    "too old": 1,
+    "title": 5
+   },
+   "rejected_samples": [
+    "[too old] Client - Operations Coordinator | STR Search | Toronto, ON  (+1 other) | 2026-11-02T00:00:00+00:00",
+    "[title] Channel & Partner Operations Manager (Remote) | Procore | Toronto, ON (Remote) | 2026-11-04T00:00:00+00:00",
+    "[title] Associate, Strategy & Business Operations | Fusion Fuel Cycles | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00",
+    "[title] Digital Operations Manager | PHD | Toronto, ON | 2026-11-04T00:00:00+00:00",
+    "[title] Manager, Launch and Growth Operations | Thumbtack | Toronto, ON | 2026-11-02T00:00:00+00:00",
+    "[title] Business Operations Manager, Architecture & Interior Design | Ware Malcomb | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "location": 4,
+    "aggregator": 1,
+    "title": 4
+   },
+   "rejected_samples": [
+    "[location] Employment Opportunity: Media and Marketing Coordinator | The Aristotle Foundation | Ontario | 2026-11-04T00:00:00+00:00",
+    "[location] Lifecycle Marketing Coordinator, CRM | Instacart | Ontario | 2026-11-05T00:00:00+00:00",
+    "[location] Participant Marketing Coordinator | 220 Altasciences Company Inc | Canada | 2026-11-02T00:00:00+00:00",
+    "[aggregator] Digital Marketing Specialist (English & Russian) | Jobgether | Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Senior Manager, Integrated Marketing (6-Month Contract) | The Coca-Cola Company | Canada   (+30 others) | 2026-11-04T00:00:00+00:00",
+    "[title] Director, Customer & Partner Marketing | SOCi.ai | Toronto, ON | 2026-11-04T00:00:00+00:00",
+    "[location] Lifecycle Marketing Coordinator, CRM | Instacart | Alberta | 2026-11-06T00:00:00+00:00",
+    "[title] Search Marketing Manager (Remote, Halifax) | Blacksmith Agency | Canada (Remote) | 2026-11-03T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 218,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 209,
+    "location": 4,
+    "aggregator": 1,
+    "too old": 2
+   },
+   "rejected_samples": [
+    "[title] Senior Video Editor | Advantage HQ | Latin America Only (Remote) | 2026-11-09T09:06:51+00:00",
+    "[title] Founding Account Executive | True Talent Solutions Partners | USA Only (Remote) | 2026-11-09T09:06:50+00:00",
+    "[title] German Solutions Consultant - Mid Market (Remote) | PriceLabs | Europe Only (Remote) | 2026-11-09T01:39:23+00:00",
+    "[title] Life Insurance Agent - Remote (Nashville) | Kimbrell Agency | USA Only (Remote) | 2026-11-08T17:00:39+00:00",
+    "[title] Work-From-Home Life Insurance Agent | Detroit | Kimbrell Agency | USA Only (Remote) | 2026-11-08T17:00:37+00:00",
+    "[title] Product Marketing Manager | Siemens | USA Only (Remote) | 2026-11-06T17:00:43+00:00",
+    "[title] Associate Product Marketing Manager \u2013 GRC | Mitratech | USA Only (Remote) | 2026-11-06T17:00:39+00:00",
+    "[title] Proposal Writer | Pritchard Industries | USA Only (Remote) | 2026-11-06T17:00:36+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 7
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 1
+  },
+  "builtin job pages": {
+   "returned": 8,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 7
+   },
+   "rejected_samples": [
+    "[title] Product Marketing Manager (B2C FinTech)",
+    "[title] Senior Manager Provincial Government Affairs (Ontario and Western Canada)",
+    "[title] Content Marketing Manager",
+    "[title] Senior Marketing Manager",
+    "[title] Editorial Content Lead/Writer",
+    "[title] SEO/AEO Specialist, Silvie",
+    "[title] RQ11861 - Systems Administrator/Operations Support Specialist - Junior"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:WGlEN1FpRUs5Ukx1anBzekFBQUFBQT09OkVzc0JDb3dCUVVSRVlsZGxXbE5VYVhWV2RXNXBORGhRUlRSb2FsTmpOamxNVEdST1luUldNa1JNZFd0eWJVRlVkMEV3UVRCTmVrdEZXVlZtV2xCa01tUkpTMkkxVG5oR1JHTmFkbVJuWmxkNFREQm1TVTFNZG1OTlVIWkhhakV3WWt0SVVHeENPVEJHYUU5dVFWSmZXbWg0U2xSRFdIRjJUbGRRVldoTFVIbFJWemhzTlZsMFNqRXRjakJ3TWxSdE9IY1NGak01V0hoaGN6QlZkVGMyZERsM0xVRjJabWswUWxFYUlrRklUakJGTjBWV01URlBNelJvWTBaamNWUTFiMjl2Vm1FeGQwVlRhM0F6T0ZFOjEwNjYxZmNh",
+   "source": "jsearch",
+   "publisher": "Eluta.ca",
+   "title": "Sales Operations Specialist",
+   "company": "ExpertFile Inc.",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://www.eluta.ca/spl/sales-operations-specialist-245e4b96380909afb279683e5bb72ac6",
+   "posted": "2026-11-07T00:00:00+00:00",
+   "salary": "",
+   "description": "ExpertFile is a software company with offices in North America and the UK. We are changing the way organizations position their human capital to boost reputation and revenue. Our award-winning SaaS solution and online expert search engine helps leading organizations manage their expertise online and make their expert content more discoverable to generate more sales leads, boost search rank and media coverage. Our clients include IDC, Birmingham City University, Georgia Tech, Unum Group and Emory University. We are looking for a dynamic sales operations professional in our Toronto office to help scale ExpertFile\u2019s sales team to match the company's growth. You will be directly responsible for increasing sales efficiency within the company, and will report directly to our VP of Sales. In this role you will optimize and own the day-to-day management of our SalesForce CRM, and provide reports to our VP Sales and other colleagues. In this role, you'll have a direct impact on the growth of our business by enabling operational discipline across our Marketing & Sales teams as we look to double our impact over the next year. This is a great opportunity for an ambitious, hands-on marketing and sales ops professional who wants be part of an exciting journey. How will I make an impact? \u2022 Collaborating closely with the VP Sales and marketing colleagues to develop the following \u2022 Process improvements and management of Salesforce CRM (including workflow, reporting, data integrity). Updating and maintaining Salesforce records (accounts, opportunities, contacts and leads) \u2022 An improved process for proposal management including the creation of proposals as needed \u2022 Help manage contracts to track renewals and account growth \u2022 Tracking of day-to-day campaign activities to identify key lead sources and recommend improvements that drive scalable growth \u2022 Better organization of sales tools and materials to ensure these are up to date. \u2022 Assist sales with setting appointments for leads generated from our marketing programs \u2022 Assist with preparation for trade shows in the US and United Kingdom (some travel to assist on-site may be required) \u2022 Assist partners and leadership with technical demonstration of the ExpertFile platform \u2022 Proactively identify opportunities to help our partners accelerate sales opportunities \u2022 Collaborate with Customer Success team to stay abreast of customer needs and benefits for continuous improvement How do I know if this is for me? \u2022 You enjoy the fast pace and excitement of a high growth technology company \u2022 You have 2-5 years experience in a fast growing company \u2022 You possess advanced Microsoft Office, Excel, PowerPoint and Word skills and a strong understanding of Salesforce.com \u2022 You possess excellent communication skills and enjoy presenting your ideas \u2022 Have proven analytical skills and high attention to detail \u2022 You consistently look for creative ways to improve processes Perks: \u2022 Health, dental and vision benefits \u2022 Free coffee & lattes and yes\u2026Free beer \u2022 Monthly team lunch and demos \u2022 Bright, downtown office space (Yonge & Bloor) \u2022 Professional development program with an education allowance Does this sound like you? If so, show us your smarts. Send your resume to HR@expertfile.com along with a cover note indicating why you would like to join our team. ExpertFile is an equal opportunity employer. About ExpertFile ExpertFile is the world's leading content solution and global marketplace designed for experts and their organizations. Our SaaS platform helps corporate, higher education and healthcare clients manage their content and improve visibility for their experts.The ExpertFile global marketplace now lists experts searchable on over 30,000 topics and is integrated into over 15,000 newsrooms through its partnership with the Associated Press. ExpertFile clients include IDC, Berkeley Haas School of Business, Unum, University Health Network and Emory University. The company won the prestigious SIIA CODiE award for \""
+  },
+  {
+   "id": "jsearch:a3FMTlI1WENaS2hhUWdEcEFBQUFBQT09OkVzc0JDb3dCUVVSRVlsZGxXbFpVWkRNeVUyTjFYMkpEUXpacFJrZFBaMFJtUTA1cldtNWhValV5TUdSU2JucFVWM0J2U0MxWVNFeDNRbmxUZFd0aVlUaG1WbkJEVEdGTk4xbG9SV1F0UzBGSk1YZFNXbmd4Y25od01HdzVja3QxZEhGWlEzSTRVemxQTWtwdVdHNDJkalpqTlhGSU1YSTNXV053YjFsalgzRkpSM3BzVEhwZldWZHNjREJRY21aTE5sY1NGak01V0hoaGN6QlZkVGMyZERsM0xVRjJabWswUWxFYUlrRklUakJGTjBkVWIyWlplalphY0RnMFNsOXZiMjlIYUY5ak1WZERSVXhFVUVFOmI2NDg3ODU2",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Media Operations Coordinator \u2014 Production & Content (12-18m FTC)",
+   "company": "Warner Music Group",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/media-operations-coordinator-production-content-12-18m-ftc--toronto--ee7bbac60ff7c2b303ce1ff494f3826d6",
+   "posted": "2026-11-04T00:00:00+00:00",
+   "salary": "",
+   "description": "Warner Music Group in Toronto, Ontario is seeking a Production & Content Media Operations Coordinator for a 12-18 month fixed-term contract. You will schedule digital releases, manage timed release setups, and coordinate with labels, marketing, and accounts to ensure timely delivery across DSPs. This role requires a 4-day in-office schedule, post-secondary education in a related field, and excellent communication and time-management skills. Competitive benefits are offered."
+  },
+  {
+   "id": "jsearch:LVNxVWtlalJHdVVjYjNWWkFBQUFBQT09OkVzc0JDb3dCUVVSRVlsZGxZa28wT1d4NGRYSmhXbGhJVUhwRWVWSjNYM1pCUzFkc01saFdXbGxCWW5GS2NYTndNWGh2YUhwVlRUWkxkMmN6ZUdFelFVNU5WVFZMWnpoUFpIRjZZakJIYTNsYVNqTkdZVGRGTUZZMGFsaFVObGM0YzNSb2EzWlVNREZMT0dWTGFVYzVTRU5FYm1Oa2NWOHpkM2h0UzBaSk0zTXlOVUZ4WTJSTlJEa3RVV2RMUVhFMldFY1NGak01V0hoaGN6QlZkVGMyZERsM0xVRjJabWswUWxFYUlrRklUakJGTjBoVWFWUkZiazVyWTAxUE1URjRXV0Y1UXpCZldHTlhTekF5UTBFOmRmMDhkNTc5",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "People & Culture Operations Specialist",
+   "company": "Dixon Hall",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/people-culture-operations-specialist--toronto--ef4d17f61e1f7f99d8b61bbd137ad22b0",
+   "posted": "2026-11-04T00:00:00+00:00",
+   "salary": "",
+   "description": "Dixon Hall is seeking a P&C Administrator to provide administrative and data-analytic support within the People and Culture team in Toronto. This full-time role focuses on HRIS (UKG), benefits administration, onboarding, and meeting coordination, reporting metrics for management. You will handle confidential information, maintain filing systems, assist with recruitment and onboarding, and help organize People and Culture events."
+  },
+  {
+   "id": "builtin:12136415",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Sr. Communications Specialist, Impact Storytelling & Recognition",
+   "company": "Azrieli Foundation",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/sr-communications-specialist-impact-storytelling-recognition/12136415",
+   "posted": null,
+   "salary": "",
+   "description": "Sr. Communications Specialist, Impact Storytelling & Recognition - Azrieli Foundation | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Azrieli Foundation Jobs Sr. Communications Specialist, Impact Storytelling & Recognition Azrieli Foundation Sr. Communications Specialist, Impact Storytelling & Recognition Posted Yesterday Be an Early Applicant Hybrid Toronto, ON, CAN Senior level Hybrid Toronto, ON, CAN Senior level Coordinates grant-related communications, recognition commitments, branding approvals, calendars, and impact storytelling across a national and international portfolio. Advises Grants teams, monitors contractual communications obligations, develops acknowledgment language, manages stakeholder and service-provider coordination, and connects grantees with communications resources. The role also identifies stories and milestones for internal and external communications while maintaining grant-system records and supporting events and related communications activities. The summary above was generated by AI Driven by a strong belief in philanthropy's powerful role and responsibility, the Azrieli Foundation funds a broad range of organizations, facilitating innovative outcomes and increasing knowledge and understanding in the search for practical and novel solutions. With a firm conviction that everyone has potential, we work to open doors, break ground and nurture networks, supporting the most vulnerable to the most exceptional to achieve their best and contribute to society. In addition to strategic philanthropy, the Azrieli Foundation operates several initiatives including the Azrieli Fellows Program, the Canadian Centre for Caregiving Excellence, the Holocaust Survivor Memoirs Program, the Azrieli Music, Arts and Culture Centre and others. About the Foundation: The Azrieli Foundation is one of the largest public philanthropic foundations in Canada, supporting initiatives in education, science & healthcare, research and the arts, across communities in Canada and Israel. Through innovative and strategic philanthropy, we strive to help people of all faiths, ages, backgrounds and abilities reach their full potential and drive positive change in their communities. We are seeking a Sr. Communications Specialist, Impact Storytelling & Recognition to join our dynamic and collaborative communications team. Position Summary: The Sr. Communications Specialist, Impact Storytelling & Recognition will play a pivotal role in connecting the grants portfolio with strategic communications, ensuring recognition commitments, grantee communications and impactful storytelling opportunities are coordinated, tracked and delivered consistently across a diverse national and international portfolio. Serving as the primary subject matter expert on grant-related communications, recognition, branding and acknowledgement requirements, this role is the central point of expertise for all communications activities within the grants ecosystem. Working collaboratively between the Grant Services and Communications teams, the Sr. Communications Specialist, Impact Storytelling & Recognition provides guidance and oversight related to communications commitments embedded within grant agreements, champions opportunities to showcase impact and fosters strong relationships with grant managers, grantees, key stakeholders and external service providers. This highly collaborative role strengthens the connection b"
+  }
+ ]
+}
