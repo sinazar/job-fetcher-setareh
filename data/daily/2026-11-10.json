@@ -1,0 +1,424 @@
+{
+ "run_at": "2026-11-10T13:43:19.268564+00:00",
+ "date": "2026-11-10",
+ "runs": [
+  "2026-11-10T134319Z"
+ ],
+ "source_counts_after_filters": {
+  "jsearch": 8,
+  "remoteok": 0,
+  "weworkremotely": 2,
+  "adzuna": 0,
+  "builtin": 1
+ },
+ "new_count": 6,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 5,
+   "error": null,
+   "rejected_by": {
+    "title": 5
+   },
+   "rejected_samples": [
+    "[title] Integrated Marketing Strategist - Hybrid, Growth Focus | Canadian Blood Services | Toronto, ON, Canada | 2026-11-06T00:00:00+00:00",
+    "[title] Marketing Manager, Customer Execution | Revlon Corporate | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00",
+    "[title] Marketing & Business Development Coordinator | LD Human Resources | Vaughan, ON, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Performance Marketing Manager: Paid Search & Display | Capital One Group | Toronto, ON, Canada | 2026-11-03T00:00:00+00:00",
+    "[title] Senior Marketing Campaign Manager: Fable | CanadaLync | Toronto, ON, Canada | 2026-11-07T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 9,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 6
+   },
+   "rejected_samples": [
+    "[title] Company Manager | Roevond | Toronto, ON, Canada | 2026-11-05T00:00:00+00:00",
+    "[title] Channel & Partner Operations Manager (Remote) | Procore | Toronto, ON, Canada (Remote) | 2026-11-04T00:00:00+00:00",
+    "[title] Associate, Strategy & Business Operations | Fusion Fuel Cycles | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00",
+    "[title] Director, New Accounts and Documentation | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Digital Operations Manager | PHD | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Business Operations Manager, Architecture & Interior Design | Ware Malcomb | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    9
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 7,
+    "location": 2,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[title] Digital Marketing Campaign Manager (Remote-First) | Placements24 | Winnipeg, MB, Canada (Remote) | 2026-11-08T00:00:00+00:00",
+    "[location] Employment Opportunity: Media and Marketing Coordinator | The Aristotle Foundation | Ontario, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Growth Marketing Manager, Paid Social | Thumbtack | Victoria, BC, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Marketing and Communications Manager | Ontario Native Women's Association (ONWA) | Ontario, Canada | 2026-11-06T00:00:00+00:00",
+    "[aggregator] Digital Marketing Specialist (English & Russian) | Jobgether | Canada | 2026-11-04T00:00:00+00:00",
+    "[location] Lifecycle Marketing Coordinator, CRM | Instacart | Alberta, Canada | 2026-11-06T00:00:00+00:00",
+    "[title] Senior Manager, Integrated Marketing (6-Month Contract) | The Coca-Cola Company | Canada   (+30 others) | 2026-11-04T00:00:00+00:00",
+    "[title] Search Marketing Manager (Remote, Halifax) | Blacksmith Agency | Canada (Remote) | 2026-11-03T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 216,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 206,
+    "location": 4,
+    "aggregator": 1,
+    "too old": 3
+   },
+   "rejected_samples": [
+    "[title] Marketing Designer | Anchour | Anywhere in the World (Remote) | 2026-11-09T17:43:52+00:00",
+    "[title] Content Marketing Lead | OnTheGoSystems | Anywhere in the World (Remote) | 2026-11-09T14:53:28+00:00",
+    "[title] Senior Video Editor | Advantage HQ | Latin America Only (Remote) | 2026-11-09T09:06:51+00:00",
+    "[title] Founding Account Executive | True Talent Solutions Partners | USA Only (Remote) | 2026-11-09T09:06:50+00:00",
+    "[title] German Solutions Consultant - Mid Market (Remote) | PriceLabs | Europe Only (Remote) | 2026-11-09T01:39:23+00:00",
+    "[title] Life Insurance Agent - Remote (Nashville) | Kimbrell Agency | USA Only (Remote) | 2026-11-08T17:00:39+00:00",
+    "[title] Work-From-Home Life Insurance Agent | Detroit | Kimbrell Agency | USA Only (Remote) | 2026-11-08T17:00:37+00:00",
+    "[title] Product Marketing Manager | Siemens | USA Only (Remote) | 2026-11-06T17:00:43+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 12
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 11
+  },
+  "builtin job pages": {
+   "returned": 23,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 22
+   },
+   "rejected_samples": [
+    "[title] Hayu Marketing Intern",
+    "[title] Proposal Specialist",
+    "[title] Director of Marketing",
+    "[title] Director, SEO and GEO",
+    "[title] Media Planning Coordinator",
+    "[title] Manager, Internal Communications",
+    "[title] Communication & Events Coordinator",
+    "[title] Social Media Consultant"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:bVBWNERHWU41bXlSUkItMEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbEI2UjNWd2VHTlVRa1F3WDJSalIxUk1VRTVsZDB4d1YwY3RWbU5HZEd0bFdWWjROMUZZTjIxbmRra3pNRVJyTVZCS1QzTjZSSHAwYkdaNmFGOVZOWFF4ZDFacU9XbHJSRXBtZFhCNFZVUTRjREZpTlUxdU0zWjRNRVZUYm1KQlpFWXpVa0pNUjBoMk9GbGZPRWgwVmpKVVJHRmhkV3BHVDA0MldWSnZZVkowZEhkSExYb1NGMlZDWDNwaGRXb3RRV1JNYWpkZlZWQndjMmx0ZDFFNEdpSkJTRTR3UlRkSGFsbHhRamN6Vkd0bGVYUmFUVUV6TlVoUmNYbHVWRFZNTFRKbjo0ODgyY2VlMg",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Remote Healthcare Marketing Specialist",
+   "company": "Henry Schein, Inc.",
+   "location": "Toronto, ON, Canada (Remote)",
+   "remote": true,
+   "url": "https://ca.jobrapido.com/jobpreview/65809104890757120",
+   "posted": "2026-11-07T00:00:00+00:00",
+   "salary": "",
+   "description": "Remote across Canada, this Marketing Specialist role combines content development and brand management for dental and medical audiences. Turn product stories into demand. At Henry Schein Canada, you will support Power Brands and Owned Brands marketing. The work spans marketing communications, copywriting, and campaign materials. You will coordinate initiatives with Product Management, Commercial, Creative, Digital, Regulatory, and Legal teams. Key Responsibilities: Develop, implement, and manage brand marketing materials Create and proofread content using AI and LLM tools Translate product features into customer-focused communications Coordinate timelines, deliverables, meetings, and follow-up Recommend solutions using research and competitive insights Requirements: Two to four years of relevant marketing experience Understanding of marketing and brand principles Strong writing, proofreading, and organizational skills Project coordination and analytical problem-solving skills Bachelor\u2019s degree or relevant professional experience Apply your content, brand, and project coordination expertise to healthcare marketing with Henry Schein Canada remotely. #J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:QklDZ0dNYlNrSVc4UFFJdUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZazB3UmxoNFdHNW1aMnhqU3pOM2EwaDRRM0JqTVdwS00zbzBkWFJYUzFCVFVVdE9WakpCYWpORlpVZDZOM2w1TkRoNU4yRXpaVFJaUjJGRWF6bEtNMlpSVlVkMFZrOXhSMkpPUm1WNlZUa3hSUzFCYkhGdVJuWTNTbFJhYlVWVVRtOXVPRkZSVGtWM2RVdDFURkpqTlc5cGFtZE1Za000T1VaMFFXNTVjblJwZUhSRWJVd1NGMlZDWDNwaGRXb3RRV1JNYWpkZlZWQndjMmx0ZDFFNEdpSkJTRTR3UlRkSWNsbFZTMnQ2YVdONVlYbE1hbU10T0V0RWJVYzBaelF6UlVOMzpjY2RiYjQ3MQ",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Industry Marketing Specialist",
+   "company": "ZenaTech Inc.",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/industry-marketing-specialist-at-zenatech-inc-4488417703",
+   "posted": "2026-11-06T00:00:00+00:00",
+   "salary": "",
+   "description": "About Us: ZenaTech (Nasdaq: ZENA | FSE: 49Q) is a technology company specializing in AI drones, Drone-as-a-Service (DaaS), enterprise SaaS, and quantum computing solutions for mission critical business applications. Since 2017, the company has leveraged its software development expertise and expanded its drone design and manufacturing capabilities through ZenaDrone to innovate and enhance customer inspection, monitoring, safety, security, compliance, and surveying processes. This position in on site 5 days a week and is not offer hybrid or remote Position Summary The Industry Marketing Specialist is responsible for developing and executing go-to-market strategies for assigned industry verticals, including Mining, Construction, Infrastructure, Utilities, Energy, Environmental Services, or Government and other penetrating industry verticals. This role combines market research, positioning, campaign planning, content strategy, sales enablement, and customer insights to drive pipeline growth and market penetration within targeted industries. The Industry Marketing Specialist serves as the internal subject matter expert on market trends, customer challenges, competitive dynamics, and industry-specific opportunities. The successful candidate will work closely with sales teams, regional marketing managers, demand generation, content teams, and operational leaders to create compelling industry-focused marketing programs that generate awareness, leads, and revenue. Key Responsibilities Industry Expertise & Market Intelligence Become the organization's expert on assigned industry verticals. Responsibilities \u2022 Develop deep knowledge of industry trends, regulations, economic drivers, and emerging opportunities. \u2022 Conduct market/customer research and competitive analysis. \u2022 Monitor competitor positioning, messaging, campaigns, and market activity. \u2022 Identify customer pain points and emerging industry challenges. \u2022 Maintain industry-specific buyer personas. \u2022 Track market shifts and provide recommendations to leadership. Industry Positioning & Messaging Create compelling messaging that resonates with decision makers within target industries. Responsibilities \u2022 Develop vertical-specific value propositions. \u2022 Translate drone, survey, geospatial, and inspection capabilities into business outcomes. \u2022 Create messaging frameworks for key audiences. \u2022 Ensure industry terminology and language are reflected in marketing materials. \u2022 Align messaging across website, campaigns, collateral, and sales tools. Campaign Development Develop industry-focused campaigns that support pipeline growth. Responsibilities \u2022 Plan and execute marketing programs tailored to target industries. \u2022 Collaborate with the demand generation team on integrated campaigns. \u2022 Support account-based marketing initiatives. \u2022 Develop targeted nurture streams and content journeys. \u2022 Coordinate regional adaptations of global campaigns. Campaign Channels \u2022 Social media \u2022 Email marketing \u2022 Website \u2022 Webinars \u2022 Industry publications \u2022 Trade associations \u2022 Events and conferences \u2022 Thought leadership programs Content Strategy & Thought Leadership Drive the development of high-quality industry content. Responsibilities \u2022 Identify content gaps within assigned industries. \u2022 Partner with writers and offshore content teams. \u2022 Ensure content quality and industry relevance. \u2022 Develop thought leadership topics. \u2022 Source customer success stories and case studies. \u2022 Create industry playbooks and guides. Sales Enablement Support revenue teams with industry-focused materials and insights. Responsibilities \u2022 Partner closely with sales leadership. \u2022 Create industry-specific sales presentations. \u2022 Develop battle cards and competitive positioning guides. \u2022 Support strategic account planning. \u2022 Assist sales teams with key opportunities. \u2022 Deliver training on market trends and industry messaging. Deliverables \u2022 Sales playbooks \u2022 Industry presentations \u2022 Competitive battle cards \u2022 Opportunity-specific support m"
+  },
+  {
+   "id": "jsearch:OVN6MkVFTVVaMGQyeXJiZEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbkF5TlZkVGVVWm9OamRoU25GT2QzUnFUVmxrTTNWVUxUWklRV0ZqVHpkeWJEaEdNV0phTFhrMlVHUTBjM0JITWw5WE5HZDZSWFY0V2tWRmRVSjBTMjVZVUZsQ2FEZHhXV05JWVhRNVdWWjRhRkk0UkZWTU5UVk9SbUZOYldvM1NsOHlYM0ozUWpsUWFqSjNYMFp2YldsbWVWQXpTRlExZG5aYWNIRlpUazFZV1dGeFMyb1NGMlZDWDNwaGRXb3RRV1JNYWpkZlZWQndjMmx0ZDFFNEdpSkJTRTR3UlRkSFUyb3lPR2cyTUVoeVgzaDNOSFppU1d4aGFGYzVXR2QwUkZKQjowYWRiNDcxNQ",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Brand Strategy Marketing Specialist",
+   "company": "Gowling WLG",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jobrapido.com/jobpreview/2068803627782242304",
+   "posted": "2026-11-06T00:00:00+00:00",
+   "salary": "",
+   "description": "Shape Gowling WLG\u2019s brand strategy through client-focused storytelling, content, and market insight. Work hybrid from any Canadian office. This newly created Marketing Specialist role reports to the Brand & Marketing Leader and supports the Firm\u2019s growth engine. You will turn practice strengths, market opportunities, and business priorities into compelling strategies. Your work will advance visibility, credibility, reputation, and client engagement across Canada. Key Responsibilities: Shape brand, marketing, and content strategies across key audiences Develop compelling narratives supporting brand visibility and credibility Conduct market and competitor research to identify opportunities Support brand reviews against Firm standards and guidelines Provide strategic marketing consultations across internal teams Requirements: Bachelor's degree in business, marketing, or related field Five or more years of marketing experience, preferably B2B Professional services marketing experience is preferred Strong storytelling, communication, presentation, and interpersonal skills Ability to manage competing priorities with precision and accountability Bring strategic thinking, creative instincts, and client service orientation to Gowling WLG\u2019s brand and marketing programs. #J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:U0k1VnNYVmYzMTAxOVkzdUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZWEpRYUZaZmFIRm5aa3RPZDJjNWJrSjZabEZZZVZaUmJXcERZWHBNVVZGQ1JXVjNYMlV6YjBGU2VFRTNhVFI0UkhSRk5rcE5PRmxyU1hGb1lqVkdibEF3UVMxa2RGbGxRMHgxWlMxaldGbENjMlpXZWtGUVpqQnJRWFZhV205TlkwaEljSFJ5WDBaVVgySTJZMWhyVFZOeFdqQnZVM1JhTkZsSmVGSkVTM0ZWTkhGSFRVUVNGMlZDWDNwaGRXb3RRV1JNYWpkZlZWQndjMmx0ZDFFNEdpSkJTRTR3UlRkSGRrRnNjMUpyWm5STGNuZDVVVEoyU0ZCVmNFRTBVVE5TVG1aMzowMDhjOGI4Yg",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Event Marketing Coordinator, Consumer Shows (Hybrid)",
+   "company": "Blue Ant Media Corporation",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/event-marketing-coordinator-consumer-shows-hybrid--toronto--e6de0e85172dcd4861715fe9fd42e8c3c",
+   "posted": "2026-11-06T00:00:00+00:00",
+   "salary": "",
+   "description": "Blue Ant Media is seeking a Marketing Coordinator for Consumer Shows, based in Toronto. The role supports planning and execution of marketing campaigns across Home Shows portfolios, ensuring attendance, exhibitor participation, sponsorship visibility and audience engagement. You will collaborate with the Marketing Manager, Show Directors and cross-functional teams to keep campaigns moving, update websites, run email and social campaigns, and help bring live events to life before, during and"
+  },
+  {
+   "id": "wwr:https://weworkremotely.com/remote-jobs/zanda-health-marketing-coordinator-paid-media",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Marketing Coordinator - Paid Media",
+   "company": "Zanda Health",
+   "location": "Anywhere in the World (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/zanda-health-marketing-coordinator-paid-media",
+   "posted": "2026-11-05T19:23:51+00:00",
+   "salary": "",
+   "description": "Headquarters: Australia URL: https://zandahealth.com/eu/ Paid Media Coordinator Are you someone who loves building relationships, spotting new opportunities, and bringing great ideas to life? We're looking for a Paid Media Coordinator to help grow Zanda's reach and connect more health professionals with the tools they need to run successful practices. In this hands-on role, you'll manage our advertising, sponsorship, and association partnerships across international markets. From discovering new opportunities to promote Zanda and negotiating great deals to coordinating the deliverables and measuring their impact, you'll play an important part in how we grow. You'll work within our Marketing team while having the autonomy to make things happen. What You\u2019ll Be Doing Build and own relationships with associations, publishers, media partners, agencies, and vendors across our key international markets. Identify and pursue new opportunities for advertising, sponsorships, and partnerships that increase Zanda's brand awareness and reach. Evaluate and negotiate advertising opportunities, securing competitive rates, valuable placements, and partnerships that deliver results. Coordinate campaigns from start to finish, working with internal teams and external partners to keep creative assets, approvals, tracking, and deadlines on track. Manage Programmatic Advertising across channels such as Paid Social and Display, and support opportunities in Paid Search and emerging advertising platforms. Manage campaign operations, including advertising calendars, budgets, pipelines, and vendor coordination. Track and evaluate performance, using campaign data and insights to identify what's working, recommend improvements, and maximize the value of our advertising investments. What You\u2019ll Bring to the Team 2-3+ years of relevant experience in marketing, media, partnerships, sponsorships, or campaign management. Proven ability to build and maintain strong relationships with external partners, vendors, agencies, or stakeholders. Strong communication and negotiation skills, with the confidence to explore opportunities, discuss terms, and secure mutually beneficial outcomes. Experience coordinating campaigns or partnerships end-to-end, balancing multiple stakeholders, deliverables, and deadlines. Excellent organizational skills and attention to detail, with the ability to manage competing priorities independently. A good understanding of campaign performance and the ability to use data to evaluate results and make practical recommendations, alongside experience supporting creative briefs, advertising copy, or landing-page improvements. Bonus Points If You Have: Experience working with professional associations, publishers, sponsorships, or media partnerships across international markets. Familiarity with Paid Social, Display, Paid Search, or emerging advertising channels. Experience with tools such as HubSpot, Google Analytics, Canva, Adobe Creative Suite, or project management platforms. An understanding of marketing metrics such as CAC, CPA, ROAS, attribution, or UTM tracking. Experience in SaaS, HealthTech, or using AI and automation tools to improve marketing workflows. Who You Are A natural relationship builder. You enjoy connecting with people, creating genuine partnerships, and aren't afraid to negotiate or ask for a better deal. Proactive and resourceful. You spot opportunities, take initiative, and find ways to move things forward without waiting to be asked. Organized and detail-oriented. You can juggle multiple moving pieces while keeping track of the small details that make a big difference. Someone who takes ownership. You're comfortable making decisions, following through on commitments, and being accountable for outcomes. Adaptable and collaborative. You enjoy working with different people, navigating changing priorities and company direction, and finding solutions along the way. Why You\u2019ll Love Working With Us \u2705 Work from Anywhere We\u2019ve bee"
+  },
+  {
+   "id": "builtin:12156448",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Sr. Specialist, Social Media & Community Strategy",
+   "company": "Definity",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/sr-specialist-social-media-community-strategy/12156448",
+   "posted": null,
+   "salary": "",
+   "description": "Sr. Specialist, Social Media & Community Strategy - Definity | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Definity Jobs Sr. Specialist, Social Media & Community Strategy Definity Sr. Specialist, Social Media & Community Strategy Posted 8 Hours Ago Be an Early Applicant Hybrid 2 Locations Senior level Hybrid 2 Locations Senior level Leads social media execution, community engagement, content planning, campaign coordination, governance, and brand reputation management. Creates and publishes content across social platforms, monitors trends and engagement, analyzes performance, and recommends optimizations. Partners with marketing, communications, search, web, public relations, and internal communications teams to align editorial calendars and maintain corporate brand standards. The summary above was generated by AI The Opportunity Reporting to the Director of Content and Search on our Marketing & Communication team, the Sr. Specialist, Social Media & Community Strategy is responsible for supporting Definity\u2019s social media strategy to engage consumers, customers, and partners while managing brand reputation. This role champions social media governance and best practices across the company, requiring strong campaign and community management skills. Key responsibilities include executing strategic plans, monitoring engagement, analyzing performance, and supporting content strategy and planning. What to Expect Be responsible for Definity\u2019s social media execution to strengthen brand voice, visibility, and reputation. Plan, create, and publish engaging content across all social platforms Manage day-to-day community engagement and listening, responding to comments and identifying proactive opportunities. Manage and align content and editorial calendars with colleagues across our Marketing & Communication team, including content marketing, search optimization, web and digital, public relations, and internal communication Monitor trends, platform updates, and best practices to inform content and channel strategy. Lead reporting and analysis of social performance; share insights and recommend optimizations. Ensure adherence to social media governance and collaborate across business units and committees, ensuring our tone and the quality of our content meet corporate brand standards What you Bring 5+ years of social media, project management and marketing experience Well versed in both traditional & digital/social campaign development Ability to balance quick timing while still ensuring quality of work. Balance attention to detail with swift execution. Hustle is essential, moving quickly and executing to allow for continual iteration is a core competency of our team Passion for connecting with consumers and bringing to life killer campaigns. Salary Range: $73,500 - $123,500 About Us Actual salary for the role may vary depending on work location of the successful candidate and other factors including but not limited to, skills, education, experience, working conditions and the local labour market. This position is being posted to fill an existing vacancy. Interested in this role, but don\u2019t meet every requirement? We encourage you to apply! We know from experience that a candidate doesn\u2019t need 100% of the qualifications listed to bring incredible value to our team. We\u2019re actively seeking diverse backgrounds and perspectives to help us make in"
+  }
+ ]
+}
