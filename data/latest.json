@@ -1,15 +1,15 @@
 {
- "run_id": "2026-11-10T134319Z",
- "run_at": "2026-11-10T13:43:19.268564+00:00",
- "date": "2026-11-10",
+ "run_id": "2026-11-11T125441Z",
+ "run_at": "2026-11-11T12:54:41.397941+00:00",
+ "date": "2026-11-11",
  "source_counts_after_filters": {
-  "jsearch": 8,
+  "jsearch": 9,
   "remoteok": 0,
   "weworkremotely": 2,
   "adzuna": 0,
-  "builtin": 1
+  "builtin": 3
  },
- "new_count": 6,
+ "new_count": 9,
  "diagnostics": {
   "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
    "returned": 10,
@@ -19,11 +19,11 @@
     "title": 5
    },
    "rejected_samples": [
-    "[title] Integrated Marketing Strategist - Hybrid, Growth Focus | Canadian Blood Services | Toronto, ON, Canada | 2026-11-06T00:00:00+00:00",
-    "[title] Marketing Manager, Customer Execution | Revlon Corporate | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00",
+    "[title] Manager, Creator Marketing | SALT XC | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
     "[title] Marketing & Business Development Coordinator | LD Human Resources | Vaughan, ON, Canada | 2026-11-04T00:00:00+00:00",
-    "[title] Performance Marketing Manager: Paid Search & Display | Capital One Group | Toronto, ON, Canada | 2026-11-03T00:00:00+00:00",
-    "[title] Senior Marketing Campaign Manager: Fable | CanadaLync | Toronto, ON, Canada | 2026-11-07T00:00:00+00:00"
+    "[title] Integrated Marketing Strategist - Hybrid, Growth Focus | Canadian Blood Services | Toronto, ON, Canada | 2026-11-06T00:00:00+00:00",
+    "[title] Partner Marketing Manager, ISV Partnerships | Coveo | Toronto, ON, Canada | 2026-11-10T15:00:00+00:00",
+    "[title] Marketing Manager, Customer Execution | Revlon Corporate | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -122,19 +122,20 @@
    ]
   },
   "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
-   "returned": 9,
-   "kept": 3,
+   "returned": 10,
+   "kept": 4,
    "error": null,
    "rejected_by": {
-    "title": 6
+    "title": 5,
+    "too old": 1
    },
    "rejected_samples": [
     "[title] Company Manager | Roevond | Toronto, ON, Canada | 2026-11-05T00:00:00+00:00",
     "[title] Channel & Partner Operations Manager (Remote) | Procore | Toronto, ON, Canada (Remote) | 2026-11-04T00:00:00+00:00",
-    "[title] Associate, Strategy & Business Operations | Fusion Fuel Cycles | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00",
-    "[title] Director, New Accounts and Documentation | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00",
-    "[title] Digital Operations Manager | PHD | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00",
-    "[title] Business Operations Manager, Architecture & Interior Design | Ware Malcomb | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00"
+    "[title] Operations and Cleaning Coordinator | Vanmates Consulting Corportation | Toronto, ON, Canada | 2026-11-08T00:00:00+00:00",
+    "[too old] Media Operations Coordinator \u2014 Production & Content (12-18m FTC) | Warner Music Group | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Director, New Accounts and Documentation | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-09T00:00:00+00:00",
+    "[title] Digital Operations Manager | PHD | Toronto, ON, Canada | 2026-11-04T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -196,7 +197,7 @@
     ]
    },
    "pages": [
-    9
+    10
    ]
   },
   "jsearch: remote marketing coordinator Canada (ca)": {
@@ -204,19 +205,19 @@
    "kept": 0,
    "error": null,
    "rejected_by": {
-    "title": 7,
-    "location": 2,
-    "aggregator": 1
+    "title": 8,
+    "aggregator": 1,
+    "location": 1
    },
    "rejected_samples": [
     "[title] Digital Marketing Campaign Manager (Remote-First) | Placements24 | Winnipeg, MB, Canada (Remote) | 2026-11-08T00:00:00+00:00",
-    "[location] Employment Opportunity: Media and Marketing Coordinator | The Aristotle Foundation | Ontario, Canada | 2026-11-04T00:00:00+00:00",
-    "[title] Growth Marketing Manager, Paid Social | Thumbtack | Victoria, BC, Canada | 2026-11-04T00:00:00+00:00",
-    "[title] Marketing and Communications Manager | Ontario Native Women's Association (ONWA) | Ontario, Canada | 2026-11-06T00:00:00+00:00",
+    "[title] Senior Growth Analyst, Worldwide Marketing | Autodesk | Montreal, Quebec, Canada | 2026-11-10T00:00:00+00:00",
     "[aggregator] Digital Marketing Specialist (English & Russian) | Jobgether | Canada | 2026-11-04T00:00:00+00:00",
+    "[title] Remote Growth Marketing & Operations Manager | HireLATAM | Canada   (+85 others) (Remote) | 2026-11-09T00:00:00+00:00",
     "[location] Lifecycle Marketing Coordinator, CRM | Instacart | Alberta, Canada | 2026-11-06T00:00:00+00:00",
-    "[title] Senior Manager, Integrated Marketing (6-Month Contract) | The Coca-Cola Company | Canada   (+30 others) | 2026-11-04T00:00:00+00:00",
-    "[title] Search Marketing Manager (Remote, Halifax) | Blacksmith Agency | Canada (Remote) | 2026-11-03T00:00:00+00:00"
+    "[title] Remote Marketing Manager \u2014 Content & Campaigns Lead | Trivium | Toronto, ON, Canada (Remote) | 2026-11-07T00:00:00+00:00",
+    "[title] Search Engine Marketing Manager; Remote, Montreal | Blacksmith Agency | Vancouver, BC, Canada (Remote) | 2026-11-05T00:00:00+00:00",
+    "[title] Digital Marketing Manager (Remote) | Mercer Canada | Canada (Remote) | 2026-11-04T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -282,24 +283,24 @@
    ]
   },
   "weworkremotely": {
-   "returned": 216,
+   "returned": 221,
    "kept": 2,
    "error": null,
    "rejected_by": {
-    "title": 206,
+    "title": 211,
     "location": 4,
     "aggregator": 1,
     "too old": 3
    },
    "rejected_samples": [
+    "[title] Senior Account Executive - Payment | DataVisor | USA Only (Remote) | 2026-11-10T17:00:35+00:00",
+    "[title] E2open - US Area Sales Director (CPG) - Texas | WiseTech Global | USA Only (Remote) | 2026-11-10T17:00:33+00:00",
+    "[title] E2open - US Area Sales Director (CPG) - Washington | WiseTech Global | USA Only (Remote) | 2026-11-10T17:00:32+00:00",
+    "[title] E2open - US Area Sales Director (CPG) - Georgia | WiseTech Global | USA Only (Remote) | 2026-11-10T17:00:30+00:00",
     "[title] Marketing Designer | Anchour | Anywhere in the World (Remote) | 2026-11-09T17:43:52+00:00",
     "[title] Content Marketing Lead | OnTheGoSystems | Anywhere in the World (Remote) | 2026-11-09T14:53:28+00:00",
     "[title] Senior Video Editor | Advantage HQ | Latin America Only (Remote) | 2026-11-09T09:06:51+00:00",
-    "[title] Founding Account Executive | True Talent Solutions Partners | USA Only (Remote) | 2026-11-09T09:06:50+00:00",
-    "[title] German Solutions Consultant - Mid Market (Remote) | PriceLabs | Europe Only (Remote) | 2026-11-09T01:39:23+00:00",
-    "[title] Life Insurance Agent - Remote (Nashville) | Kimbrell Agency | USA Only (Remote) | 2026-11-08T17:00:39+00:00",
-    "[title] Work-From-Home Life Insurance Agent | Detroit | Kimbrell Agency | USA Only (Remote) | 2026-11-08T17:00:37+00:00",
-    "[title] Product Marketing Manager | Siemens | USA Only (Remote) | 2026-11-06T17:00:43+00:00"
+    "[title] Founding Account Executive | True Talent Solutions Partners | USA Only (Remote) | 2026-11-09T09:06:50+00:00"
    ]
   },
   "builtin search 1": {
@@ -309,7 +310,7 @@
    "rejected_by": {},
    "rejected_samples": [],
    "http_status": 200,
-   "links_found": 12
+   "links_found": 13
   },
   "builtin search 2": {
    "returned": 0,
@@ -321,102 +322,141 @@
    "links_found": 11
   },
   "builtin job pages": {
-   "returned": 23,
-   "kept": 1,
+   "returned": 24,
+   "kept": 3,
    "error": null,
    "rejected_by": {
-    "title": 22
+    "title": 21
    },
    "rejected_samples": [
     "[title] Hayu Marketing Intern",
-    "[title] Proposal Specialist",
-    "[title] Director of Marketing",
-    "[title] Director, SEO and GEO",
-    "[title] Media Planning Coordinator",
-    "[title] Manager, Internal Communications",
-    "[title] Communication & Events Coordinator",
-    "[title] Social Media Consultant"
+    "[title] Product Marketing Manager",
+    "[title] Product Marketing Manager",
+    "[title] Product Marketing Manager",
+    "[title] AVP, Digital Performance Marketing",
+    "[title] Manager of Insights and AI",
+    "[title] Managing Editor",
+    "[title] Lifecycle Marketing Manager"
    ]
   }
  },
  "jobs": [
   {
-   "id": "jsearch:bVBWNERHWU41bXlSUkItMEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbEI2UjNWd2VHTlVRa1F3WDJSalIxUk1VRTVsZDB4d1YwY3RWbU5HZEd0bFdWWjROMUZZTjIxbmRra3pNRVJyTVZCS1QzTjZSSHAwYkdaNmFGOVZOWFF4ZDFacU9XbHJSRXBtZFhCNFZVUTRjREZpTlUxdU0zWjRNRVZUYm1KQlpFWXpVa0pNUjBoMk9GbGZPRWgwVmpKVVJHRmhkV3BHVDA0MldWSnZZVkowZEhkSExYb1NGMlZDWDNwaGRXb3RRV1JNYWpkZlZWQndjMmx0ZDFFNEdpSkJTRTR3UlRkSGFsbHhRamN6Vkd0bGVYUmFUVUV6TlVoUmNYbHVWRFZNTFRKbjo0ODgyY2VlMg",
-   "source": "jsearch",
-   "publisher": "Jobrapido.com",
-   "title": "Remote Healthcare Marketing Specialist",
-   "company": "Henry Schein, Inc.",
-   "location": "Toronto, ON, Canada (Remote)",
-   "remote": true,
-   "url": "https://ca.jobrapido.com/jobpreview/65809104890757120",
-   "posted": "2026-11-07T00:00:00+00:00",
-   "salary": "",
-   "description": "Remote across Canada, this Marketing Specialist role combines content development and brand management for dental and medical audiences. Turn product stories into demand. At Henry Schein Canada, you will support Power Brands and Owned Brands marketing. The work spans marketing communications, copywriting, and campaign materials. You will coordinate initiatives with Product Management, Commercial, Creative, Digital, Regulatory, and Legal teams. Key Responsibilities: Develop, implement, and manage brand marketing materials Create and proofread content using AI and LLM tools Translate product features into customer-focused communications Coordinate timelines, deliverables, meetings, and follow-up Recommend solutions using research and competitive insights Requirements: Two to four years of relevant marketing experience Understanding of marketing and brand principles Strong writing, proofreading, and organizational skills Project coordination and analytical problem-solving skills Bachelor\u2019s degree or relevant professional experience Apply your content, brand, and project coordination expertise to healthcare marketing with Henry Schein Canada remotely. #J-18808-Ljbffr"
-  },
-  {
-   "id": "jsearch:QklDZ0dNYlNrSVc4UFFJdUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZazB3UmxoNFdHNW1aMnhqU3pOM2EwaDRRM0JqTVdwS00zbzBkWFJYUzFCVFVVdE9WakpCYWpORlpVZDZOM2w1TkRoNU4yRXpaVFJaUjJGRWF6bEtNMlpSVlVkMFZrOXhSMkpPUm1WNlZUa3hSUzFCYkhGdVJuWTNTbFJhYlVWVVRtOXVPRkZSVGtWM2RVdDFURkpqTlc5cGFtZE1Za000T1VaMFFXNTVjblJwZUhSRWJVd1NGMlZDWDNwaGRXb3RRV1JNYWpkZlZWQndjMmx0ZDFFNEdpSkJTRTR3UlRkSWNsbFZTMnQ2YVdONVlYbE1hbU10T0V0RWJVYzBaelF6UlVOMzpjY2RiYjQ3MQ",
+   "id": "jsearch:cXNMMjJPVjk2WExGUGt1Z0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVWRNV25ORmJXaHZNakJSU0ZWZk5uYzNXRXR3U1hwRFdsTm1ja1pvWjAxNFdtTnJlRVF0ZW1acFUwbDNNek5TWVd4a2MwbHNiRlJ1WjBsdWVHNTJVVzFWYXpoQ1lreGtkbmMzTjIxMVQyUnBjVTF1WjNZeExWbHFhV1JPYlcxVGMwWktMWFpqVjB4YWFsa3hhazFXY0RNMlRUUXdVbU5wU200MFFtTk5PRkZ3YlVsNFprVVNGMjB5V0RCaGNISjRRV05UU1RsMU9GQnRjbWxUY1ZGM0dpSkJTRTR3UlRkSWJFcFJTRzFJV0ROT1pYTndhRE5KYlVkb1FrZzVYMEkwWkdOUjpmOWVhODU5Ng",
    "source": "jsearch",
    "publisher": "LinkedIn",
-   "title": "Industry Marketing Specialist",
-   "company": "ZenaTech Inc.",
+   "title": "Studio + Operations Coordinator",
+   "company": "Kitworks",
    "location": "Toronto, ON, Canada",
    "remote": false,
-   "url": "https://ca.linkedin.com/jobs/view/industry-marketing-specialist-at-zenatech-inc-4488417703",
-   "posted": "2026-11-06T00:00:00+00:00",
+   "url": "https://ca.linkedin.com/jobs/view/studio-%2B-operations-coordinator-at-kitworks-4488390438?refId=KYTZUd2Z%2BAfVQT%2B13GBdqA%3D%3D&trackingId=VQcHZt1QUZnxUjg15MZG4w%3D%3D",
+   "posted": "2026-11-10T16:00:00+00:00",
    "salary": "",
-   "description": "About Us: ZenaTech (Nasdaq: ZENA | FSE: 49Q) is a technology company specializing in AI drones, Drone-as-a-Service (DaaS), enterprise SaaS, and quantum computing solutions for mission critical business applications. Since 2017, the company has leveraged its software development expertise and expanded its drone design and manufacturing capabilities through ZenaDrone to innovate and enhance customer inspection, monitoring, safety, security, compliance, and surveying processes. This position in on site 5 days a week and is not offer hybrid or remote Position Summary The Industry Marketing Specialist is responsible for developing and executing go-to-market strategies for assigned industry verticals, including Mining, Construction, Infrastructure, Utilities, Energy, Environmental Services, or Government and other penetrating industry verticals. This role combines market research, positioning, campaign planning, content strategy, sales enablement, and customer insights to drive pipeline growth and market penetration within targeted industries. The Industry Marketing Specialist serves as the internal subject matter expert on market trends, customer challenges, competitive dynamics, and industry-specific opportunities. The successful candidate will work closely with sales teams, regional marketing managers, demand generation, content teams, and operational leaders to create compelling industry-focused marketing programs that generate awareness, leads, and revenue. Key Responsibilities Industry Expertise & Market Intelligence Become the organization's expert on assigned industry verticals. Responsibilities \u2022 Develop deep knowledge of industry trends, regulations, economic drivers, and emerging opportunities. \u2022 Conduct market/customer research and competitive analysis. \u2022 Monitor competitor positioning, messaging, campaigns, and market activity. \u2022 Identify customer pain points and emerging industry challenges. \u2022 Maintain industry-specific buyer personas. \u2022 Track market shifts and provide recommendations to leadership. Industry Positioning & Messaging Create compelling messaging that resonates with decision makers within target industries. Responsibilities \u2022 Develop vertical-specific value propositions. \u2022 Translate drone, survey, geospatial, and inspection capabilities into business outcomes. \u2022 Create messaging frameworks for key audiences. \u2022 Ensure industry terminology and language are reflected in marketing materials. \u2022 Align messaging across website, campaigns, collateral, and sales tools. Campaign Development Develop industry-focused campaigns that support pipeline growth. Responsibilities \u2022 Plan and execute marketing programs tailored to target industries. \u2022 Collaborate with the demand generation team on integrated campaigns. \u2022 Support account-based marketing initiatives. \u2022 Develop targeted nurture streams and content journeys. \u2022 Coordinate regional adaptations of global campaigns. Campaign Channels \u2022 Social media \u2022 Email marketing \u2022 Website \u2022 Webinars \u2022 Industry publications \u2022 Trade associations \u2022 Events and conferences \u2022 Thought leadership programs Content Strategy & Thought Leadership Drive the development of high-quality industry content. Responsibilities \u2022 Identify content gaps within assigned industries. \u2022 Partner with writers and offshore content teams. \u2022 Ensure content quality and industry relevance. \u2022 Develop thought leadership topics. \u2022 Source customer success stories and case studies. \u2022 Create industry playbooks and guides. Sales Enablement Support revenue teams with industry-focused materials and insights. Responsibilities \u2022 Partner closely with sales leadership. \u2022 Create industry-specific sales presentations. \u2022 Develop battle cards and competitive positioning guides. \u2022 Support strategic account planning. \u2022 Assist sales teams with key opportunities. \u2022 Deliver training on market trends and industry messaging. Deliverables \u2022 Sales playbooks \u2022 Industry presentations \u2022 Competitive battle cards \u2022 Opportunity-specific support m"
+   "description": "About Kitworks Kitworks is a Toronto-based brand experience company creating custom kits, branded merchandise, PR drops, influencer kits, packaging and corporate experiences for brands and agencies. We're growing, we're busy, and we're building out our operations team. We're looking for a Studio + Operations Coordinator to be the welcoming face of our studio while also playing a critical role in keeping our day-to-day operations running smoothly. This is not a traditional receptionist role. You'll be the person who knows what's coming and going, which courier is coming at 2:00, where that box went, whether the monthly program is ready to ship and whether we have enough shipping supplies for next week. You'll work closely with our Production + Operations Manager and become an important part of the team that makes sure our projects get out the door looking great and on time. What You'll Do Own the Front of the Studio You'll be the first point of contact for clients, vendors, couriers and visitors. \u2022 Receive and sign for incoming deliveries \u2022 Check incoming shipments and ensure they get to the right place \u2022 Coordinate courier pickups and local deliveries \u2022 Prepare outgoing shipments \u2022 Keep track of incoming and outgoing packages \u2022 Greet clients, vendors and visitors \u2022 Answer the studio phone and manage general inquiries \u2022 Keep the front of the studio organized and welcoming \u2022 Help manage day-to-day office needs and supplies Support Shipping + Logistics You'll work closely with our Production + Operations Manager to keep products and projects moving. \u2022 Book couriers and deliveries \u2022 Prepare shipping labels and documentation \u2022 Track shipments and flag delays \u2022 Help resolve delivery issues \u2022 Maintain shipping and delivery records \u2022 Help with inventory counts and product organization \u2022 Pull and prepare products for upcoming projects \u2022 Keep shipping supplies stocked \u2022 Help organize outgoing project shipments Own Recurring Client Programs Kitworks manages several ongoing programs that ship on a recurring basis. You'll take ownership of the operational details for assigned programs, including: \u2022 Maintaining recipient lists \u2022 Confirming inventory \u2022 Preparing products and packaging \u2022 Coordinating assembly \u2022 Preparing shipping labels \u2022 Coordinating courier pickup \u2022 Tracking deliveries \u2022 Managing returned or failed deliveries \u2022 Maintaining program trackers \u2022 Preparing for the next shipment cycle You'll become the person who knows exactly where each recurring program stands. Help Run the Studio \u2022 Keep the studio organized and operational \u2022 Monitor office and shipping supplies \u2022 Order supplies when needed \u2022 Help maintain organized product storage \u2022 Coordinate building or office-related needs \u2022 Support production and assembly days \u2022 Help keep the studio looking polished and professional What We're Looking For We're looking for someone who is organized, energetic, resourceful and genuinely enjoys being busy. You might come from: \u2022 Events or experiential marketing \u2022 PR or an agency \u2022 E-commerce \u2022 Promotional products \u2022 Retail operations \u2022 Hospitality \u2022 Logistics or shipping \u2022 Studio coordination \u2022 Office operations \u2022 Production \u2022 Merchandising You don't need experience in all of these areas. What matters most is that you're comfortable juggling details, solving problems and taking ownership. You'll probably be great at this job if: \u2022 You notice when something is out of place \u2022 You love a good checklist \u2022 You can manage 10 things happening at once without losing track of number 11 \u2022 You're comfortable picking up the phone and figuring out where a package is \u2022 You don't wait for someone to tell you there's a problem before doing something about it \u2022 You're positive and professional when someone walks through the door \u2022 You're comfortable working with your hands and moving product around the studio \u2022 You care about presentation and details \u2022 Being organized is your super power \u2022 You can switch from greeting a client to dealing with a delivery witho"
   },
   {
-   "id": "jsearch:OVN6MkVFTVVaMGQyeXJiZEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbkF5TlZkVGVVWm9OamRoU25GT2QzUnFUVmxrTTNWVUxUWklRV0ZqVHpkeWJEaEdNV0phTFhrMlVHUTBjM0JITWw5WE5HZDZSWFY0V2tWRmRVSjBTMjVZVUZsQ2FEZHhXV05JWVhRNVdWWjRhRkk0UkZWTU5UVk9SbUZOYldvM1NsOHlYM0ozUWpsUWFqSjNYMFp2YldsbWVWQXpTRlExZG5aYWNIRlpUazFZV1dGeFMyb1NGMlZDWDNwaGRXb3RRV1JNYWpkZlZWQndjMmx0ZDFFNEdpSkJTRTR3UlRkSFUyb3lPR2cyTUVoeVgzaDNOSFppU1d4aGFGYzVXR2QwUkZKQjowYWRiNDcxNQ",
+   "id": "jsearch:WmZ4MXVfWVFYTXVxOU1BNUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZUzAyTWxsUlpISnFkekZuY0dFM2FXWXlUVUZFZGs5aVdWQkVaMWhMVlRaNVdHUk5OSE5CVFZRNVIyTkJXVk51UlU5RFpGZ3lkMXBKVDNsS1gydHpZbEZaWjA5ZlZVWmlieTB4VUhoWVlYTkdjbFJzZEdkbFlVZFNYM2N6ZVVkT1VYSlBkRkJKWW10cFNVVlRWSGs1YlVaaWNucE9UVXh1Vm1SV1JtcHRUMlZXU1dWRVdXNFNGMnN5V0RCaGRHa3lSMloxVERRdFJWQm5ZMlZxTUZGdkdpSkJTRTR3UlRkR1owOW1XSGhNUkVaVVlqbHlhMkY2ZDNVeVJ6bFFNRmRYYm5wQjowYmZlMTIzYw",
    "source": "jsearch",
-   "publisher": "Jobrapido.com",
-   "title": "Brand Strategy Marketing Specialist",
-   "company": "Gowling WLG",
+   "publisher": "Built In Toronto",
+   "title": "Bilingual Marketing Specialist -(Temporary 6 months)",
+   "company": "Co-operators",
    "location": "Toronto, ON, Canada",
    "remote": false,
-   "url": "https://ca.jobrapido.com/jobpreview/2068803627782242304",
-   "posted": "2026-11-06T00:00:00+00:00",
+   "url": "https://builtintoronto.com/job/bilingual-marketing-specialist-temporary-6-months/12166007",
+   "posted": "2026-11-09T00:00:00+00:00",
    "salary": "",
-   "description": "Shape Gowling WLG\u2019s brand strategy through client-focused storytelling, content, and market insight. Work hybrid from any Canadian office. This newly created Marketing Specialist role reports to the Brand & Marketing Leader and supports the Firm\u2019s growth engine. You will turn practice strengths, market opportunities, and business priorities into compelling strategies. Your work will advance visibility, credibility, reputation, and client engagement across Canada. Key Responsibilities: Shape brand, marketing, and content strategies across key audiences Develop compelling narratives supporting brand visibility and credibility Conduct market and competitor research to identify opportunities Support brand reviews against Firm standards and guidelines Provide strategic marketing consultations across internal teams Requirements: Bachelor's degree in business, marketing, or related field Five or more years of marketing experience, preferably B2B Professional services marketing experience is preferred Strong storytelling, communication, presentation, and interpersonal skills Ability to manage competing priorities with precision and accountability Bring strategic thinking, creative instincts, and client service orientation to Gowling WLG\u2019s brand and marketing programs. #J-18808-Ljbffr"
+   "description": "Company: CGL Department: Marketing & Partnership Employment Type: Temporary Full-Time (6 months) Work Model: Hybrid (2 days in office) Language: Bilingualism in English and French is required. Additional Information: This/these role(s) is/are currently vacant The Opportunity: We are a leading Canadian financial services co-operative committed to being a catalyst for a sustainable and resilient society and our team is essential to deliver on this strategy. That\u2019s why we prioritize our people, to ensure we provide a strong culture and development opportunities which enables our team to thrive and to live our purpose. The best part is that you will work with people that care passionately about you, our clients and our communities. The Marketing Specialist is responsible for applying highly developed marketing planning and execution skills to marketing programs. The Marketing Specialist is also responsible for the execution of our direct marketing, contest and response incentive programs. How you will create impact: \u2022 Lead, execute and monitor the effectiveness of projects as assigned, including, e-mail programs and marketing materials. This includes project management, content development, research, execution, testing and final approval of all deliverables. This also includes making and applying recommendations based on research, client input and steering committees to ensure effectiveness and efficiency. \u2022 Manage and monitor ongoing campaign programs, including accountability for ensuring distribution of standard reporting metrics with recommendations for review or improvement. \u2022 Responsible for the execution of programs within a set budget. \u2022 Project manage the creative aspects of the print and online versions of marketing projects. This includes the development of creative briefs, gathering feedback, final sign-off, testing, format and quantity approval, translation and distribution, and vendor management. \u2022 Close liaison with Marketing Consultants to ensure effective integration of new marketing initiatives into campaign scheduling to achieve maximum awareness in the marketplace. \u2022 Organize and document processes and procedures across functional teams. To join our team: \u2022 You have three (3) - five (5) years of related experience in a marketing/insurance environment to understand the intricacies of graphic design, print production and marketing communication. \u2022 You have experience in financial services/insurance. \u2022 You have a university degree (marketing, communication). \u2022 Proficiency in both English and French is essential to the main duties in this role, including servicing and communicating primarily with majority anglophone and francophone clients, groups, and teams. The essential non-French duties are not assignable to adjacent or other team members. How you will succeed: \u2022 You influence change and are committed to continuous improvement, in order to exceed client expectations. \u2022 You leverage critical thinking skills to identify problems and proactively propose solutions. \u2022 Your strong communication skills allow you to clearly convey messages. \u2022 You\u2019re an effective team player who shares knowledge to support our peers. What you need to know: \u2022 You will be subject to a Background check as a condition of employment, in the event you are the successful candidate. What\u2019s in it for you? \u2022 Training and development opportunities to grow your career. \u2022 Flexible work options to support personal and family needs. \u2022 A holistic approach to your well-being, with physical and mental health programs and a supportive workplace culture. \u2022 Volunteer opportunities to give back to your community.\u200b Expected salary/hourly range $60,574.00 to $100,956.00\u200b The salary amount for the successful candidate is determined by Co-operators in its discretion and will vary depending on several criteria including but not limited to: local market conditions, geography and relevant job-related factors such as knowledge, skills, qualification, experience and "
   },
   {
-   "id": "jsearch:U0k1VnNYVmYzMTAxOVkzdUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZWEpRYUZaZmFIRm5aa3RPZDJjNWJrSjZabEZZZVZaUmJXcERZWHBNVVZGQ1JXVjNYMlV6YjBGU2VFRTNhVFI0UkhSRk5rcE5PRmxyU1hGb1lqVkdibEF3UVMxa2RGbGxRMHgxWlMxaldGbENjMlpXZWtGUVpqQnJRWFZhV205TlkwaEljSFJ5WDBaVVgySTJZMWhyVFZOeFdqQnZVM1JhTkZsSmVGSkVTM0ZWTkhGSFRVUVNGMlZDWDNwaGRXb3RRV1JNYWpkZlZWQndjMmx0ZDFFNEdpSkJTRTR3UlRkSGRrRnNjMUpyWm5STGNuZDVVVEoyU0ZCVmNFRTBVVE5TVG1aMzowMDhjOGI4Yg",
+   "id": "jsearch:bU9tbUVmM0dzQTdBY1NKaEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbGhCVGxWNU9IZzJja1paU21VNWFtRm9MVlpEV1ZVNFMwTkZNakoyY3pFM1RUQTFPVmd6ZGxKc09UazNXa3g2Y2xsNFdXNTFTbTVKUjNoWVZFTjFZWGgxUzIxYVkxWmliMlIzVW01MVVXVnJaMVl5VTE5RFpWWlpZVGxQUldKUVFYSXlNSEZrTld4ME9HOXdaRkY1ZVc5MWJrRkRYMWxYTlRGZmJGRXdOVTlhTVVWQllqSVNGMjB5V0RCaGNISjRRV05UU1RsMU9GQnRjbWxUY1ZGM0dpSkJTRTR3UlRkSVJtRmtjbmswTkZGek9HbGFkWEpTTVVaNmQyVklVMnRyYkhOMzo4M2M5MTQ5MA",
    "source": "jsearch",
    "publisher": "JobLeads",
-   "title": "Event Marketing Coordinator, Consumer Shows (Hybrid)",
-   "company": "Blue Ant Media Corporation",
+   "title": "Logistics Operations Coordinator \u2014 Multilingual & Detail\u2011Driven",
+   "company": "Kelly Services",
+   "location": "Oakville, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/logistics-operations-coordinator-multilingual-detail-driven--oakville--eafb413498e3957985aefd72956b56b27",
+   "posted": "2026-11-09T00:00:00+00:00",
+   "salary": "",
+   "description": "Kelly Services in Oakville, Ontario, is seeking a permanent Logistics Operations Coordinator. You will enter and process orders, coordinate logistics, and maintain clear communication across sales, warehouse, and procurement teams. The role requires strong organization, attention to detail, and the ability to work both independently and as part of a team to meet delivery timelines. Fluency in English and Mandarin/Cantonese is essential."
+  },
+  {
+   "id": "jsearch:VzVFendTUW1KTkhsR0dOYUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZVzVGU1U1cU5VbEliRUZNTVVNeWRHWnNiakZ6YVdOQmRFRlljVUV0YlRkVVlqaHlTVTl1VEdKeGJsbHBkR1J1VjJKRE0xbG5USHBHVVd4elRHUjFiRWwzWTJwQ05XRm5YMlEyZEhKQ2FteEdVek5xZG5jMmJHVnRVekUzUzBZMFZsSlZOa0ZqVFdNeGQwVXpObVI1ZFVzek5FcDROalIzTldrMllYRlJVemxLU25OVWFqVVNGMjB5V0RCaGNISjRRV05UU1RsMU9GQnRjbWxUY1ZGM0dpSkJTRTR3UlRkSGJrSmxNMVoyYjJKYU4zSTBSMUpvVDJ0aWNVWm5XbTlhYmpsUjpiN2FmMTc4Zg",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Legal Operations Associate (Remote) Toronto, Ontario",
+   "company": "Jerry",
+   "location": "Toronto, ON, Canada (Remote)",
+   "remote": true,
+   "url": "https://ca.talent.com/view?id=645578879867685394",
+   "posted": "2026-11-09T00:00:00+00:00",
+   "salary": "",
+   "description": "More than 80% of Americans own a car and see it as a fundamental necessity, yet the experience of owning one is stuck in the 90s. At Jerry.ai, we are building the first app to manage it all. Since launching in 2019, we\u2019ve reached 5M+ customers, raised $240M+, scaled revenue 70X, and achieved profitability in 2024. Jerry operates across the US and Canada, and our legal team keeps all of it running: entity filings, IP protection, product reviews, consumer escalations, and audits. The team is small, so this role comes with real scope early. You\u2019ll run core legal operations and rebuild them with AI and low-code tools, so a small team can do the work of a much larger one. The person who succeeds in this role is a natural driver: someone who owns a project from start to finish, solves complex problems without a manual, and has the grit to thrive in a startup environment. If you are eager to sit at the intersection of law, technology, and AI-driven efficiency, we want to hear from you. Why You Will (Or Won\u2019t) Like Working Here \u2022 Real ownership early: You report directly to our Legal Counsel and work closely with them across the team\u2019s full scope. The projects you take on are yours from start to finish. \u2022 Room to build: Many of our legal processes are still being optimized. You\u2019ll decide how they should work and build the systems behind them. \u2022 Building and operating: Alongside the building, a large share of the job is recurring work: filings, deadlines, and audits that have to be done exactly right, every time. Your accuracy keeps Jerry in good standing in every jurisdiction, and people who enjoy both sides of the role do well here. \u2022 Growth that tracks results: You\u2019ll learn from leaders who come from Amazon, Better, LinkedIn, McKinsey, BCG, and Bain. Promotion is based on performance and ownership alone, so strong work moves you forward fast. What You\u2019ll Own \u2022 Automation: Use AI and low-code tools to replace manual legal tasks with workflows that run on their own. \u2022 Legal and regulatory projects: Work with our Legal Counsel on legal research, contract reviews, and other substantive projects as new questions come up. \u2022 Entity compliance: Keep Jerry\u2019s corporate entities in good standing across the US and Canada, handling annual reports and state requests end to end on your own. \u2022 Brand protection: Monitor Jerry\u2019s intellectual property, find infringements, and initiate cease-and-desist workflows. \u2022 Consumer escalations: Investigate complex escalations to their root cause, recommend fixes, and turn recurring issues into compliance training for teams across the company. \u2022 Product compliance reviews: Review products and processes for compliance risk and user friction, then work with Engineering and Product to fix the underlying issue. \u2022 Compliance audits: Lead audits across operations and keep watch on the highest-risk areas between them. Who You Are \u2022 A Closer: You track every open item until it\u2019s done, and you find the answer yourself before asking someone else for it. \u2022 A Builder: The second time you do a task by hand, you start working out how to automate the third. You reach for a spreadsheet or a low-code tool before a manual checklist. \u2022 A Zero-Error Operator: Regulatory filings and audits leave no room for mistakes, and you work accordingly. You keep your own system so no deadline or cross-functional project slips. \u2022 A Proactive Communicator: You provide updates without being chased, flag blockers early, and make sure teammates know what happens next. \u2022 Comfortable with ambiguity: You can take an unclear brief, define the problem yourself, and move on it with urgency. What You\u2019ll Bring \u2022 A Bachelor\u2019s degree from an academically rigorous program, with a record of high performance. \u2022 A track record of owning projects start to finish and solving problems without being told how, at school, at work, or on your own. \u2022 Demonstrated interest in using AI and technology to improve how work gets done, such as a tool, automation, or process y"
+  },
+  {
+   "id": "jsearch:WHhaUy1CQWx6RTgzanhKbEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVEpTVm5aM1ZXb3lUWEpTWkRWU1p6QmtZbEJFUVU1R0xYWlNjbkpxVkVKS1ZqRnhjR1ZQVDAxQ2JVSXdWRlY1TjBaNU1tY3lUVGxoZW05b1F6RlVVak5pVGtaUVdGWkdOVmt4UVRrNWFrOTRaRUZYWmtZNVVqUnBaWEEzVmxodGVsY3dXSE5FY1dGeFRrcFRVVm8zZG1aWVgycDJSV3RpZVZwMlZtdExVMWR0YzFwV2VEVVNGMnN5V0RCaGRHa3lSMloxVERRdFJWQm5ZMlZxTUZGdkdpSkJTRTR3UlRkSVJXWXhSamxGWlVSTmFVSXhjRWc1YTJ0U1FWTm5Ta3hIVURsMzphMjNlMjk5NQ",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Talent Marketing Specialist (Hybrid)",
+   "company": "Global Technical Talent, Inc.",
    "location": "Toronto, ON, Canada",
    "remote": false,
-   "url": "https://www.jobleads.com/ca/job/event-marketing-coordinator-consumer-shows-hybrid--toronto--e6de0e85172dcd4861715fe9fd42e8c3c",
-   "posted": "2026-11-06T00:00:00+00:00",
+   "url": "https://www.jobleads.com/ca/job/talent-marketing-specialist-hybrid--toronto--e6c821210c2f4b25b5a3ec43591479163",
+   "posted": "2026-11-07T00:00:00+00:00",
    "salary": "",
-   "description": "Blue Ant Media is seeking a Marketing Coordinator for Consumer Shows, based in Toronto. The role supports planning and execution of marketing campaigns across Home Shows portfolios, ensuring attendance, exhibitor participation, sponsorship visibility and audience engagement. You will collaborate with the Marketing Manager, Show Directors and cross-functional teams to keep campaigns moving, update websites, run email and social campaigns, and help bring live events to life before, during and"
+   "description": "Global Technical Talent, an Inc. 5000 Company, is seeking a Marketing Coordinator in Toronto, hybrid onsite with future in-office requirements. The role focuses on social content creation, talent attraction, and storytelling across LinkedIn and careers Instagram, aiming to grow channels and engage prospective candidates. The Social Marketing Specialist will manage day-to-day execution, analyze performance data, and support content updates across owned channels, newsletters, and external"
   },
   {
-   "id": "wwr:https://weworkremotely.com/remote-jobs/zanda-health-marketing-coordinator-paid-media",
-   "source": "weworkremotely",
-   "publisher": "weworkremotely",
-   "title": "Marketing Coordinator - Paid Media",
-   "company": "Zanda Health",
-   "location": "Anywhere in the World (Remote)",
-   "remote": true,
-   "url": "https://weworkremotely.com/remote-jobs/zanda-health-marketing-coordinator-paid-media",
-   "posted": "2026-11-05T19:23:51+00:00",
+   "id": "jsearch:VEFYdk5PUXZoa0RnQnVtRUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVEZXUzAxbFRsUk1XRXRDZFdaVlluTlVURUpCTVd0RE1IbEphakJvY2tKSFZYVTVSMDlKUjJRd05qaHpiRk5mWjJFMVFWZHpObXhwVTJwVlgyMXZlVFZMUjFoc01VSmZPR1UxYkRRMGVWSmxlWFppU1dGdWJrVkRWMWRwUmxwWGVWUnVjbDlEUkZOWVpFVnlNWHAyYlZWQk5tSlVaMW95UTE5c09VMDFVbFozUkZCb1prc1NGMnN5V0RCaGRHa3lSMloxVERRdFJWQm5ZMlZxTUZGdkdpSkJTRTR3UlRkR1RXMVZVSGh1Ym5wTFNVNTFTR1Z3ZVU4emRubHdlVU13VVdwMzplNDk0M2QxZA",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Hospitality Event & Marketing Coordinator",
+   "company": "Reitmr",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/hospitality-event-marketing-coordinator--toronto--ebe1276948e62643d092d806c83c133e6",
+   "posted": "2026-11-07T00:00:00+00:00",
    "salary": "",
-   "description": "Headquarters: Australia URL: https://zandahealth.com/eu/ Paid Media Coordinator Are you someone who loves building relationships, spotting new opportunities, and bringing great ideas to life? We're looking for a Paid Media Coordinator to help grow Zanda's reach and connect more health professionals with the tools they need to run successful practices. In this hands-on role, you'll manage our advertising, sponsorship, and association partnerships across international markets. From discovering new opportunities to promote Zanda and negotiating great deals to coordinating the deliverables and measuring their impact, you'll play an important part in how we grow. You'll work within our Marketing team while having the autonomy to make things happen. What You\u2019ll Be Doing Build and own relationships with associations, publishers, media partners, agencies, and vendors across our key international markets. Identify and pursue new opportunities for advertising, sponsorships, and partnerships that increase Zanda's brand awareness and reach. Evaluate and negotiate advertising opportunities, securing competitive rates, valuable placements, and partnerships that deliver results. Coordinate campaigns from start to finish, working with internal teams and external partners to keep creative assets, approvals, tracking, and deadlines on track. Manage Programmatic Advertising across channels such as Paid Social and Display, and support opportunities in Paid Search and emerging advertising platforms. Manage campaign operations, including advertising calendars, budgets, pipelines, and vendor coordination. Track and evaluate performance, using campaign data and insights to identify what's working, recommend improvements, and maximize the value of our advertising investments. What You\u2019ll Bring to the Team 2-3+ years of relevant experience in marketing, media, partnerships, sponsorships, or campaign management. Proven ability to build and maintain strong relationships with external partners, vendors, agencies, or stakeholders. Strong communication and negotiation skills, with the confidence to explore opportunities, discuss terms, and secure mutually beneficial outcomes. Experience coordinating campaigns or partnerships end-to-end, balancing multiple stakeholders, deliverables, and deadlines. Excellent organizational skills and attention to detail, with the ability to manage competing priorities independently. A good understanding of campaign performance and the ability to use data to evaluate results and make practical recommendations, alongside experience supporting creative briefs, advertising copy, or landing-page improvements. Bonus Points If You Have: Experience working with professional associations, publishers, sponsorships, or media partnerships across international markets. Familiarity with Paid Social, Display, Paid Search, or emerging advertising channels. Experience with tools such as HubSpot, Google Analytics, Canva, Adobe Creative Suite, or project management platforms. An understanding of marketing metrics such as CAC, CPA, ROAS, attribution, or UTM tracking. Experience in SaaS, HealthTech, or using AI and automation tools to improve marketing workflows. Who You Are A natural relationship builder. You enjoy connecting with people, creating genuine partnerships, and aren't afraid to negotiate or ask for a better deal. Proactive and resourceful. You spot opportunities, take initiative, and find ways to move things forward without waiting to be asked. Organized and detail-oriented. You can juggle multiple moving pieces while keeping track of the small details that make a big difference. Someone who takes ownership. You're comfortable making decisions, following through on commitments, and being accountable for outcomes. Adaptable and collaborative. You enjoy working with different people, navigating changing priorities and company direction, and finding solutions along the way. Why You\u2019ll Love Working With Us \u2705 Work from Anywhere We\u2019ve bee"
+   "description": "Sonesta International Hotels is seeking an Event Coordinator to support daily sales and marketing operations, client communications, reporting, and event support across our Toronto properties. You\u2019ll coordinate internal and external events from inquiry to execution, assist with proposals, contracts, site tours, and lead management, and collaborate with Revenue Management, Catering, and hotel leadership to enhance guest experiences."
   },
   {
-   "id": "builtin:12156448",
+   "id": "jsearch:Sm4zM1p2VldJLXpwTzlyZEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVXB6U3paVU5VbHdSRFY2VHkxaFUzZDNSR3BLYjJ4NE9IVkVja2hvVDBsbU5VRk9XV1JFVVZseU1VZFFkR2hHUWpOVk5sOWpjWHBJVDBGeE0zUTVjalJwVm1kdmN6Qk1jVXRxYTNWSmRuQlJTVkJCWmxwWWRrMVdRa3M0VlZoTFRpMVdVamx3WkZkUlVXRXpNakV5ZGxvMGVIbEJla2xxT1U5emNsWjNiME51WW5ndFNGWVNGMnN5V0RCaGRHa3lSMloxVERRdFJWQm5ZMlZxTUZGdkdpSkJTRTR3UlRkRlYxbENObk5XYVZOUVpISkdjamRCUWpaTlYwdHRkRXhDTlhOUjo5MDk5OWE4YQ",
+   "source": "jsearch",
+   "publisher": "Isarta",
+   "title": "Content Marketing Specialist",
+   "company": "Mappedin",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://emplois.isarta.com/jobs/?job=122456&lang=en",
+   "posted": "2026-11-05T00:00:00+00:00",
+   "salary": "",
+   "description": "ABOUT MAPPEDIN Mappedin is the leading indoor mapping platform transforming the way venues are experienced, managed, and understood. Built for scale and trusted by the world's biggest brands, our AI-powered tools make indoor mapping fast, flexible, and easy to integrate-powering indoor experiences at top destinations worldwide. With billions of square feet mapped across 57 countries, we help make public spaces easier to explore, simpler to manage, and safer for every visitor. For more information, visit mappedin.com. To try out our mapping tools, visit https://app.mappedin.com/editor/ THE ROLE You own the day-to-day strategy and execution of our content program at Mappedin. This is a highly collaborative, roll-up-your-sleeves role. You'll be hands-on in the content itself while helping to execute the broader content strategy that drives organic growth, AI discovery, and pipeline. Working closely with product marketing, demand gen, and AEO/SEO tools, you'll plan, produce, and optimize content that not only ranks but converts, helping us define and lead the indoor mapping category in a fast-paced environment where content is a core growth engine. You will be responsible for the following: Strategy & Planning Execute the content strategy across the full funnel with a focus on driving organic growth, building pipeline, and increasing conversion rates Map content to buyer personas, funnel stages, and use cases, identifying category-defining angles and white space opportunities leveraging Mappedin's known buying roles Plan, prioritize, and sequence content production based on keyword opportunity, AEO prompt coverage, pipeline gaps, and commercial priorities Conduct keyword research and content gap analysis using tools like Ahrefs, Google Search Console, and HubSpot AEO to identify high-impact topics across SEO and AI search, and translate them into content briefs SEO & AEO (AI Engine Optimization) Ensure all content is structured for traditional search rankings and optimized for AI discovery (ChatGPT, Claude, Google AI Overviews, Perplexity) Monitor and grow AI search visibility and share of voice and prioritize content investments accordingly. Maintain and iterate on the prompt-based content generation workflow ensuring quality, brand voice, and discoverability standards are met at scale. Collaborate with the SEO/AEO consultant to execute on technical recommendations Monitor GSC and Ahrefs for impression spikes, ranking jumps, and new keyword opportunities Content Production & Operations Audit and refresh legacy blog posts and resource pages based on traffic performance, keyword shifts, and conversion data Own the content workflow end-to-end, from ideation and brief creation, through drafting, SEO/AEO optimization, review cycles, CMS publishing, and post-publish performance tracking. Evaluate and integrate AI-assisted content tools (e.g., Outrank.so, Claude-based workflows) to increase the speed and efficiency of content production Growth & Conversion Optimize content for conversion at every funnel stage by ensuring blog content and resource pages include clear paths to conversion Partner with demand generation to produce content assets (guides, blogs, email sequences) that support targeted account-based marketing efforts Create and maintain content resources that sales can use in outreach Behind the scenes We move fast and pivot as needed. We operate with experimental mindsets and are constantly pushing the boundaries of our industry. Because of this, we can't guarantee exactly what you'll be working on three months from now but we can guarantee that you will be working on high value projects that will foster your growth along with Mappedin's. At Mappedin, we don't take a one-size-fits-all approach to how we work. While we have colleagues around the globe, some roles are best suited for full-time, in-person work at our home office in Waterloo. This is a remote role We believe in being transparent about how we hire. We use artifici"
+  },
+  {
+   "id": "builtin:12172687",
    "source": "builtin",
    "publisher": "Built In",
-   "title": "Sr. Specialist, Social Media & Community Strategy",
-   "company": "Definity",
+   "title": "Senior Specialist, Operations",
+   "company": "Walmart Global Tech",
    "location": "Toronto, ON",
    "remote": false,
-   "url": "https://builtintoronto.com/job/sr-specialist-social-media-community-strategy/12156448",
+   "url": "https://builtintoronto.com/job/senior-specialist-operations/12172687",
    "posted": null,
    "salary": "",
-   "description": "Sr. Specialist, Social Media & Community Strategy - Definity | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Definity Jobs Sr. Specialist, Social Media & Community Strategy Definity Sr. Specialist, Social Media & Community Strategy Posted 8 Hours Ago Be an Early Applicant Hybrid 2 Locations Senior level Hybrid 2 Locations Senior level Leads social media execution, community engagement, content planning, campaign coordination, governance, and brand reputation management. Creates and publishes content across social platforms, monitors trends and engagement, analyzes performance, and recommends optimizations. Partners with marketing, communications, search, web, public relations, and internal communications teams to align editorial calendars and maintain corporate brand standards. The summary above was generated by AI The Opportunity Reporting to the Director of Content and Search on our Marketing & Communication team, the Sr. Specialist, Social Media & Community Strategy is responsible for supporting Definity\u2019s social media strategy to engage consumers, customers, and partners while managing brand reputation. This role champions social media governance and best practices across the company, requiring strong campaign and community management skills. Key responsibilities include executing strategic plans, monitoring engagement, analyzing performance, and supporting content strategy and planning. What to Expect Be responsible for Definity\u2019s social media execution to strengthen brand voice, visibility, and reputation. Plan, create, and publish engaging content across all social platforms Manage day-to-day community engagement and listening, responding to comments and identifying proactive opportunities. Manage and align content and editorial calendars with colleagues across our Marketing & Communication team, including content marketing, search optimization, web and digital, public relations, and internal communication Monitor trends, platform updates, and best practices to inform content and channel strategy. Lead reporting and analysis of social performance; share insights and recommend optimizations. Ensure adherence to social media governance and collaborate across business units and committees, ensuring our tone and the quality of our content meet corporate brand standards What you Bring 5+ years of social media, project management and marketing experience Well versed in both traditional & digital/social campaign development Ability to balance quick timing while still ensuring quality of work. Balance attention to detail with swift execution. Hustle is essential, moving quickly and executing to allow for continual iteration is a core competency of our team Passion for connecting with consumers and bringing to life killer campaigns. Salary Range: $73,500 - $123,500 About Us Actual salary for the role may vary depending on work location of the successful candidate and other factors including but not limited to, skills, education, experience, working conditions and the local labour market. This position is being posted to fill an existing vacancy. Interested in this role, but don\u2019t meet every requirement? We encourage you to apply! We know from experience that a candidate doesn\u2019t need 100% of the qualifications listed to bring incredible value to our team. We\u2019re actively seeking diverse backgrounds and perspectives to help us make in"
+   "description": "Senior Specialist, Operations - Walmart Global Tech | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Walmart Global Tech Jobs Senior Specialist, Operations Walmart Global Tech Senior Specialist, Operations Posted Yesterday Be an Early Applicant Hybrid Mississauga, ON, CAN Senior level Hybrid Mississauga, ON, CAN Senior level Support Marketplace Operations by analyzing seller performance reporting, monitoring key performance indicators, resolving fulfillment, shipping, returns, dispute, and customer service issues, and improving seller processes. Build relationships with marketplace sellers, coordinate eCommerce projects, support site-to-store shipments, manage reimbursements, and collaborate with internal teams to enhance customer satisfaction and trust. The summary above was generated by AI Position Summary... Support the Marketplace Operations team by analyzing and evolving seller performance reporting. Establish relationships with sellers, monitor performance, and influence improvements in order fulfillment, on-time shipping, returns, and customer service. What you'll do... This role involves building strong business and operations relationships with Marketplace sellers. The role manages seller performance against key KPIs and works with sellers to identify and resolve issues, ensuring a positive customer experience. As an escalation point for customer inquiries, the role collaborates with sellers to provide excellent service. The role also represents Marketplace operations in eCommerce projects, planning and communicating efforts required from sellers. Additionally, the role designs and develops future Marketplace operations processes and reporting. Liaising with store teams to address and resolve opportunities related to Marketplace site-to-store shipments is also a key responsibility. Furthermore, the role manages the seller dispute and reimbursement process, ensuring all issues are resolved effectively. The role may also support various internal teams by leveraging relationships with sellers to enhance customer satisfaction and trust. Leadership Expectations: Respect the Individual: Demonstrates and encourages respect for others; drives a positive associate and customer experience for all; embraces differences in people, cultures, ideas, and experiences; supports workplaces where associated feel seen and connected through a culture of belonging, so all associates thrive and perform; contributes to an environment allowing everyone to bring their best selves to work. Demonstrates engagement and commitment to the team, developing others through feedback, coaching, mentoring, and developmental opportunities; and recognizes others\u2019 contributions and accomplishments. Builds strong and trusting relationships with team members and business partners; works collaboratively to achieve objectives; communicates with impact and listens attentively to a range of audiences; and demonstrates energy and positivity for own work. Acts with Integrity: Maintains and promotes the highest standards of integrity, ethics and compliance; models the Walmart values and leads by example to foster our culture; supports Walmart\u2019s goal of becoming a regenerative company by making a positive impact for associates, customers, and the world around us (e.g., creating a sense of belonging, eliminating waste, participating in local giving). Follows the law, our"
+  },
+  {
+   "id": "builtin:12170001",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Customer Experience Specialist",
+   "company": "Quince",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/customer-experience-specialist/12170001",
+   "posted": null,
+   "salary": "",
+   "description": "Customer Experience Specialist - Quince | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Quince Jobs Customer Experience Specialist Quince Customer Experience Specialist Posted Yesterday Be an Early Applicant In-Office Toronto, ON, CAN Junior In-Office Toronto, ON, CAN Junior Provides empathetic, accurate customer support across chat, email, phone, and social channels. Resolves issues, guides customers on products and policies, uses service tools efficiently, identifies recurring friction points, and represents the Quince brand. The role requires maintaining response-time, accuracy, productivity, and customer experience standards while working a fixed hybrid schedule with four onsite days weekly, including weekends. The summary above was generated by AI ABOUT QUINCE Quince is a destination for builders, creators, innovators, and operators who want to come together and challenge the status quo. Our mission is simple: make really high quality essentials for really low prices, fairly and sustainably. We deliver on that mission through a unique manufacturer-to-consumer (M2C) model eliminating the layers of traditional retail that add cost and result in consumers paying more than they need to. We find, build relationships with, and work directly with the manufacturing partners behind some of the world\u2019s finest products. From there, our teams design smart, efficient operational processes and build and deploy proprietary technology, AI, and analytics to help us scale fast. What began with a small assortment of elevated basics has quickly grown into a cross-category brand spanning apparel, accessories, home goods, and more. Today, tens of millions of people across a growing number of countries come \u2013 and return \u2013 to Quince because they trust us to deliver. OUR CULTURE Quince is a culture built for builders by builders. Our way of working starts with a blank sheet of paper. We question conventional thinking, use technology and data to uncover new opportunities, and move quickly to turn ideas into reality. We aren\u2019t interested in replicating how others do retail. We\u2019re building a better way \u2013 at a speed and scale unlike anything that\u2019s been done before. We dream big and chase the hard problems others shy away from. Rejecting long-held assumptions is part of our company's DNA. Where conventional wisdom says you have to choose \u2013 soft or durable, speed or rigor, quality or price \u2013 we ask why that trade-off has to exist in the first place. Our pace is fast and the bar is high because our customers expect a lot from us and we refuse to let them down. We believe the best results come from challenging ourselves, learning from one another, and building on each other's strengths. Here, responsibility is not determined by role, tenure, or seniority. Every team member - no matter their level - has the opportunity to drive our business and shape our trajectory. If you\u2019re someone who likes to imagine new possibilities and build better systems rather than plug-in to outdated ones, Quince is the place for you. The Role As a Customer Experience Specialist, you\u2019ll be the human heartbeat behind the Quince brand. You\u2019ll represent Quince across chat, email, phone, and social channels \u2014 balancing grace, precision, and care in every interaction. You\u2019ll make each conversation an extension of our promise: thoughtful service, timeless quality, and lasting customer"
   }
  ]
 }
