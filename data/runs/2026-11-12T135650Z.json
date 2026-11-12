@@ -1,0 +1,461 @@
+{
+ "run_id": "2026-11-12T135650Z",
+ "run_at": "2026-11-12T13:56:50.788856+00:00",
+ "date": "2026-11-12",
+ "source_counts_after_filters": {
+  "jsearch": 10,
+  "remoteok": 0,
+  "weworkremotely": 2,
+  "adzuna": 0,
+  "builtin": 5
+ },
+ "new_count": 9,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 5,
+   "error": null,
+   "rejected_by": {
+    "too old": 1,
+    "title": 4
+   },
+   "rejected_samples": [
+    "[too old] Content Marketing Specialist | Mappedin | Toronto, ON, Canada | 2026-11-05T00:00:00+00:00",
+    "[title] Sales and marketing manager - Immediate Start | Imperial Living | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] Director of Communications and Marketing | CAIS | Toronto, ON  (+1 other) | 2026-11-10T00:00:00+00:00",
+    "[title] VP, Communications, Brand and Marketing | Xanadu | Toronto, ON, Canada | 2026-11-06T00:00:00+00:00",
+    "[title] Integrated Marketing Strategist - Hybrid, Growth Focus | Blood | Toronto, ON, Canada | 2026-11-06T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 5,
+   "error": null,
+   "rejected_by": {
+    "too old": 1,
+    "title": 4
+   },
+   "rejected_samples": [
+    "[too old] Customer Service & Operations Coordinator \u2013 Freight Forwarding | Novalink Logistics Inc | Mississauga, ON, Canada | 2026-11-05T00:00:00+00:00",
+    "[title] Company Manager | Roevond | Toronto, ON, Canada | 2026-11-05T00:00:00+00:00",
+    "[title] Channel & Partner Operations Manager (Remote) | Procore Technologies | Toronto, ON, Canada (Remote) | 2026-11-05T00:00:00+00:00",
+    "[title] Operations and Cleaning Coordinator | Vanmates Consulting Corportation | Toronto, ON, Canada | 2026-11-08T00:00:00+00:00",
+    "[title] Operations and Financial Coordinator | Marsh | Toronto, ON, Canada | 2026-11-09T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 8,
+    "location": 2
+   },
+   "rejected_samples": [
+    "[title] Affiliate Marketing Manager | RECODemand Corp. | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] Marketing Manager, Communications & Content | Entrepreneur Cooperative | Canada   (+52 others) | 2026-11-11T18:00:00+00:00",
+    "[title] Digital Marketing Campaign Manager (Remote-First) | Placements24 | Winnipeg, MB, Canada (Remote) | 2026-11-08T00:00:00+00:00",
+    "[title] Senior Digital Marketing Lead - Remote, Flexible Hours | Konrad | Toronto, ON, Canada (Remote) | 2026-11-11T23:00:00+00:00",
+    "[location] Lifecycle Marketing Coordinator, CRM | Instacart | Ontario, Canada | 2026-11-05T00:00:00+00:00",
+    "[title] Performance Marketing Manager (Remote, Kitchener) | Blacksmith Agency LLC | Kitchener, ON, Canada (Remote) | 2026-11-08T00:00:00+00:00",
+    "[title] Responsable du marketing terrain / Field Marketing Manager | Microsoft | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] Senior Growth Analyst, Worldwide Marketing | Autodesk | Montreal, Quebec, Canada | 2026-11-10T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 229,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "location": 7,
+    "title": 216,
+    "aggregator": 1,
+    "too old": 3
+   },
+   "rejected_samples": [
+    "[location] Email Marketing Automation Specialist | ShowMojo | Asia Only (Remote) | 2026-11-11T17:00:54+00:00",
+    "[title] Deputy Manager - LV Sales - Agra - UP | Schneider Electric | Asia Only (Remote) | 2026-11-11T17:00:53+00:00",
+    "[title] Channel Account Manager I | Huntress Labs | Oceania Only (Remote) | 2026-11-11T17:00:51+00:00",
+    "[title] Channel Account Manager II | Huntress Labs | Oceania Only (Remote) | 2026-11-11T17:00:50+00:00",
+    "[title] Sales Specialist | Yalent | Africa Only (Remote) | 2026-11-11T17:00:49+00:00",
+    "[title] E2open - US Area Sales Director (CPG) | WiseTech Global | USA Only (Remote) | 2026-11-11T17:00:47+00:00",
+    "[title] E2open - US Area Sales Director (CPG) - Illinois | WiseTech Global | USA Only (Remote) | 2026-11-11T17:00:45+00:00",
+    "[title] Product Marketing Manager | Leap Tools | Canada Only (Remote) | 2026-11-11T17:00:44+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 13
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 10
+  },
+  "builtin job pages": {
+   "returned": 23,
+   "kept": 5,
+   "error": null,
+   "rejected_by": {
+    "title": 18
+   },
+   "rejected_samples": [
+    "[title] Manager, Philanthropic Writing & Reporting",
+    "[title] Marketing - Director, Marketing",
+    "[title] Paid Social Specialist",
+    "[title] SEM Manager",
+    "[title] Digital Experience Specialist",
+    "[title] Digital Experience Manager",
+    "[title] Business Development Specialist",
+    "[title] Reporter-Editor, Summer Internship"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:cXh5TzljUzZJMHh1UVVxMUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZWFZUYTJGUFRtWkpOMnhxVm01YWRXUndaME50TUUxc1pYSXhWM1ZqZDNOeFJHSlpOM0kxWjAxU1pHRnNkMDFRTXpWRVpGbG9ZekZaU0VkVkxWTjJYMGhrWkdsRU9IcG5NbVIyWm1RME5XZExOR1JPZURaSU5FSmZiRWR6UjB4V2JVcEllRFJoZW5oeGJqbE9ObXh2V0hkbFEzQk9jbFZZYkVkM2EzZFJZalpLYlRoTVVub1NGM000V0RGaGNHNVhURGx0YkRKeWIxQjBUbEJHTkZFd0dpSkJTRTR3UlRkSWRFOTNjRmMyZFdkRlUxQlBXV05SUzA1V2VIQXhhemM0V0VKbjpiNGUyYzAyNg",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Specialist, Marketing Ops & AI",
+   "company": "Flywheel",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=645701340210529533",
+   "posted": "2026-11-11T23:00:00+00:00",
+   "salary": "",
+   "description": "About Flywheel Flywheel's suite of digital commerce solutions accelerate growth across all major digital marketplaces for the world's leading brands. We give clients access to near real-time performance measurement and improve sales, share, and profit. With teams across the Americas, Europe and APAC, we offer a career with real impact, endless growth opportunities and the support you need to be the best you can be. The Opportunity We're looking for a Specialist, Marketing Ops & AI to join our team in Toronto as part of our Sales function. This role will play a critical role in optimizing our sales AI-powered technology stack & its integrations, supporting Sales team pipeline campaigns, and enabling data-driven decision-making across the revenue organization. This role requires significant experience with Salesforce, HubSpot (Marketing & Sales Hub), other GTM technologies, and the ability to partner with sales, marketing and RevOps stakeholders to drive operational excellence. This is an exciting opportunity for a detail-oriented, tech-savvy individual who is passionate about building scalable processes, leveraging AI, and bridging the gap between sales & marketing. You\u2019ll have the chance to shape how we utilize tools, data, and AI-automation to accelerate growth. What You Will Do In this role, you\u2019ll support and enhance our Sales support infrastructure to ensure the effectiveness of our demand generation and revenue programs. Responsibilities include: \u2022 Support, optimize, and troubleshoot various Sales tooling & its AI capabilities, ensuring team members can work effectively. \u2022 Build, maintain, and optimize AI workflows, lead flows, and scoring frameworks to improve funnel health. \u2022 Maintain integrations between HubSpot, Salesforce, and other tools to ensure data accuracy and consistency. \u2022 Enable AI-supported campaign execution by aligning marketing signals with sales actions. \u2022 Partner with the Marketing & Demand Generation teams to support campaign execution. \u2022 Work with RevOps to build performance reporting, including pipeline attribution and ROI analysis. \u2022 Assist with data hygiene projects across various data sources, ensuring accurate lead, contact, and account information. \u2022 Identify opportunities for process improvements and automation across the Sales function. \u2022 Partner with Sales Operations to align on lead routing, qualification, and reporting. Who You Are \u2022 3+ years of hands-on Sales or Marketing Operations experience, with expert-level HubSpot (Marketing Hub), Salesforce, and AI knowledge. \u2022 Proven ability to deploy AI-powered automation across GTM workflows (lead routing, enrichment, follow-ups, task creation), CRM integrations (Salesforce), and Sales engagements. \u2022 Experience using AI for pipeline analysis, forecasting support, and deal risk identification. \u2022 Deep understanding of lead management, scoring, routing, and pipeline development. \u2022 Experience with BI/reporting tools is a plus. \u2022 Experience with basic coding/scripting (SQL, Python, Javascript, APIs (Postman), Version Control (Git)) is a plus. \u2022 Strong written and verbal communication skills to effectively collaborate internally with colleagues and externally with clients. \u2022 Team player with a genuine desire to contribute to the overall success of the entire team. Benefits \u2022 We have office hubs across the globe where team members can go to feel productive, inspired, and connected to others \u2013 team members go into Hub Offices 3x a week. \u2022 Competitive paid time off, including annual leave plus paid public holidays. \u2022 Great learning and development opportunities. \u2022 Benefits that help you live your best life. \u2022 Parental leave and benefits. \u2022 Volunteering opportunities. \u2022 ERG support for inclusion and identity. Salary Range: $60,000 CAD - $80,000 CAD. Flywheel Commerce Network is an Equal Opportunity Employer and participates in E-Verify. All applicants will receive fair consideration for employment. We do not discriminate based on race, color, religion, se"
+  },
+  {
+   "id": "jsearch:aWpFajBlaUFpSHBra2xYNkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZVWhuUzBkTGNXZHVhbmxrUkZKalNHRXpVR3d4Ym1aUU5tSTVTalpPUTBkbVpsYzBaSGR5VFhadU9EaFJZMFY1YTI5TFpHMWZVM0ZFWjJaTU5sQXpVSFpQY0U1dU0xcFplR3RITkU5cVptdDFVVVZTV1ZScGRYQjRPVzlEVUZOcFkwdzNWRXRCY2tOQllXdHVOVEEwZWxGbmNWOTJVMnhTVkVNMlV6Qm1SMlJ6Wkd4NFkyWVNGM000V0RGaGNHNVhURGx0YkRKeWIxQjBUbEJHTkZFd0dpSkJTRTR3UlRkRmFGcEJUVVJQTjJ4elgyODRSa3c1WTJsQlZVMTBjVmhQWmxKQjoyYzBmZWMwMQ",
+   "source": "jsearch",
+   "publisher": "ZipRecruiter",
+   "title": "Associate, Marketing & Communications",
+   "company": "Omers",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.ziprecruiter.com/c/omers/Job/Associate,-Marketing-&-Communications/-in-Toronto,ON?jid=c7d5f58394b3219b",
+   "posted": "2026-11-11T20:00:00+00:00",
+   "salary": "",
+   "description": "Choose a workplace that empowers your impact. Join a global workplace where employees thrive. One that embraces diversity of thought, expertise and passion. A place where you can personalize your employee journey to be - and deliver - your best. We are a leading global real estate investor, developer and manager. We combine our capital with our capabilities to create real estate that strengthenseconomies and communities. By prioritizing people, partnerships and places, we generate meaningful returnsfor OMERS members, enhance value for our capital partners and create a brighter world for our customers. Join us to accelerate your growth & development, prioritize wellness, build connections, and support the communities where we live and work. Don't just work anywhere - come build tomorrow together with us. Know someone at OMERS or Oxford Properties? Great! If you're referred, have them submit your name through Workday first. Then, watch for a unique link in your email to apply. Job Overview TheAssociate,Marketing and Communicationsis a member of Oxford's Global Brand, Marketing and Communications Team. The Associate, Marketing and Communicationsis a creative, digitally savvy professional who is eager to learn and grow their skills. Passionate about executing with excellence, theywill support multiple stakeholders to help drive business strategy. With interest and experience in marketing and communications best practices, they willassistthe team with completing tasks and contributing to various projects. Curious, proactive and with strong writing skills, theAssociatewill thrive in an evolving global organization. This role offers a unique opportunity to support a high performing and strategic team, playing an important part in executing marketing and communications programs. You will be responsible for: \u2022 Act as an Oxford brand advocate and steward. \u2022 Contribute to internal and external communications, supporting day-to-day activities and large-scale events, including supporting media relations and daily monitoring activities. \u2022 Aid in the development and maintenance of marketing content, reinforcing brand marketing efforts. \u2022 Support the team's operations and technology initiatives, including the upkeep of our internal and external websites and the Digital Asset Management (DAM) system. \u2022 Support administrative and operations duties across the Brand, Marketing, and Communications team. Required Skills & Experience \u2022 2-3 years' experience in marketing, public relations or communications preferred. \u2022 Proficiencyin Microsoft Office Suite (Word, Excel, PowerPoint). \u2022 Demonstrated passion for marketing, communications, and the real estate industry. \u2022 Strong presentation, communication, writing and interpersonal skills. \u2022 A collaborative mindset for effectively engaging with internal and external stakeholders. \u2022 Exceptional organizational skills with a proven ability to manage multiple priorities and thrive under pressure to meet deadlines. \u2022 Ability to travel occasionally as business needs require. Preferred Skills & Experience \u2022 University degree or equivalent \u2022 Proficiencyin Adobe Creative Suite, Canva anda demonstratedcomfort with adoptingnew technologies. \u2022 Innovative thinking with a talent for devising fresh solutions to challenges and a willingness to offer diverse perspectives that fosternew approachesand ways of working. \u2022 A quick learner who embraces challenges as learning opportunities and integrates lessons learned into future work. We believe that time together in the office is important for OMERS and Oxford, the strength of our employees, and the work we do for our pension members. Our flexible hybrid work guideline requires teams to come to the office a minimum of 4 days per week. This posting is for an existing vacancy. The expected salary range for this position is $62,000.00 - $92,000.00 per year. You may also be eligible to receive an annual Incentive Award pursuant to our Short-term Incentive plan and our Long-Term "
+  },
+  {
+   "id": "jsearch:UVBGc2JjWndXT29GWTZ2a0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVGxsUjNKcFJ6QlRVa3M1Y2paT1YwNUZURjlZU1hWWk1HdDBOMGhCYzJwbk1qQnhVMEo2YTE5clkyMXBWbHBWTlZaamJVUmthR05yUlV4MVpHbFZZVTFGTjFVMVFVaDFUVzUwYUZsMFRERjJUMTkwWDIxWmJXWTNNM0pLYlRSMFJtZHJaV2t4YWxKZlR5MTRYMjVLUVhwa2JtZzVibGh6VjBKT1NsWlBTbGRCVTJOMmVua1NGM2h6V0RGaGNtMDRTRW95ZFhObFRWQXlPVkJXYzFGRkdpSkJTRTR3UlRkRlJYWnlWbkJWYlhoeFkyZHNXRTh5TTNwaWFIWkliMnRMVTJSUjo5Y2E0Mjc3ZA",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Operations Coordinator Client Service Administration and Process Support",
+   "company": "Fitch Group",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=645583305963610120",
+   "posted": "2026-11-10T00:00:00+00:00",
+   "salary": "",
+   "description": "Fitch Learning is a leader in financial services training. With unrivaled breadth and depth the company delivers learning solutions for apprentices graduates and those with 10 years experience in Financial Services. Our offerings include expert faculty e-learning coaching and blended assessments improving individual and collective business performance. Working at Fitch Learning provides the opportunity to be part of a global leader in financial education committed to delivering cutting-edge training solutions. Youll collaborate with a team of experts dedicated to empowering professionals with the skills and knowledge needed to excel in the finance industry. By joining us youll be at the forefront of innovation in professional education contributing to impactful learning experiences that drive career advancement and industry success. Fitch Learning is currently seeking an Operations Coordinator Client Service Administration and Process Support based out of our Toronto office. About the Team: Working to an experienced Manager the operations team supports client service administration designation activity exam operations vendor coordination customer service escalations and process support across multiple operational workstreams. This role will be dynamic process and solutions driven on a positive supportive and adaptable team. How Youll Make an Impact: Support reliable service delivery by managing responses and escalations from candidates regarding a variety of support on courses and license exams. Process and track designation applications renewals reinstatements CE audit cases fit-and-proper reviews exception requests refunds forms and candidate record updates that require manual review and sound judgement. Coordinate exam operations working with our exam delivery vendor on delivery support and enquiries. Maintain accurate documentation tracking and follow-up for escalations invoices vendor updates audit activity exception cases and recurring operational processes. Identify repeatable manual tasks process gaps and opportunities for automation self-service digitization and general process improvements. You May be a Good Fit if: You have experience in operations coordination client service administration exam administration education administration regulatory program delivery or another high-volume administrative environment. You are comfortable managing escalated complaints and able to understand complex rules that impact decisions and outcomes of cases. You have strong system skills including experience with tools such as Salesforce Zendesk SharePoint Microsoft office and Copilot or similar case management and operational platforms. You are bilingual and comfortable communicating professionally with candidates clients and stakeholders in French and English. What Would Make You Stand Out: Experience working with licensure exam delivery and working in a regulatory environment Experience coordinating with multiple vendors and internal teams to resolve operational issues including exam delivery providers finance client service compliance or regulatory stakeholders. Strong comfort using AI tools such as Copilot with the ability to verify AI-assisted outputs. Demonstrated ability to support a cross-trained team model mentor others collaborate effectively and work to service level requirements. Some IT development and understanding of lean processes and platform/CRM build and management (code writing system connecting and testing). Why Choose Fitch: Hybrid Work Environment: 3 days per week in the office; 2 days remote A Culture of Learning & Mobility: Dedicated training leadership development and mentorship programs designed to ensure that your time at Fitch will be a continuous learning opportunity Investing in Your Future: Retirement planning and tuition reimbursement programs that empower you to achieve your short and long-term goals Promoting Health & Wellbeing: Comprehensive healthcare offerings that enable physical mental financ"
+  },
+  {
+   "id": "jsearch:WFEzMmVxandGWDV6dmJTY0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbFphVkhkNVN6bFNlR1ZTTVhVMldHdFdPV0ptWmtNelIzaHNOMmhzY1dFMlpVMDVSVkZDTjFSR1MxSkVTbFJvUVUxamFqQnVUVUZZWjJkMVpUVmllRWh5V2paMGJFbDVlWFJOWTFaV1lUWTFRMUIzYVRaTll6Sk9SMUZRTTJFMGIyMXlibWQ2V0hsT2FGVkZiRWQzWXpkV2EwMHpiR05pTm5wTlQxQmxXbUZRUnpKTVRWTVNGM000V0RGaGNHNVhURGx0YkRKeWIxQjBUbEJHTkZFd0dpSkJTRTR3UlRkSU1HeEhURk51VnpOTWQyUm1TVVZhYW1Sa1Exa3dNRzFmVjBKMzo0ZmFhODM0NA",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Marketing Specialist - Heavy Duty Automotive",
+   "company": "Work Truck Solutions, Inc.",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jobrapido.com/jobpreview/80618701883179008",
+   "posted": "2026-11-08T00:00:00+00:00",
+   "salary": "",
+   "description": "The Arcadium platform is the premier sales, CRM and vehicle management solution in the heavy-duty market. As part of Work Truck Solutions, Arcadium has a culture that combines strong leadership, collaboration, and fun (you have to enjoy what you do!), with growth opportunities in a fast-paced work environment providing associate engagement, recognition, and development. Our software company is committed to innovation in the rapidly changing heavy-duty market. Our vision and culture enable team members to be recognized as thought leaders and thrive in their careers. In addition to the job responsibilities and requirements, the following are essential to be a successful member of our team: \u2022 Curiosity : you seek knowledge, ask questions, and look for answers; you\u2019re proactive and engaged. \u2022 Perseverance : when you hit a delay, you know this is your moment to figure things out and shine by solving the challenge. \u2022 Innovation : you strive to make things better, solve the puzzle, and create something new. \u2022 Flexibility : as new opportunities arise, you\u2019re ready to flip the script, grow and adapt. Location: Remote \u00b7 Employment type: Full-time \u00b7 Reports to: Marketing What you'll do As a Marketing Specialist, you\u2019ll be focused on messaging centered around the heavy-duty truck and trailer industry, and the related emerging technologies. On any given day, you might be tapped to create/edit/update a case study, white paper, webpage, email, marketing flier, press release, or web form. You\u2019re a rare breed who welcomes creative challenges, enjoys crafting content that best tells the story, yet you also have an eye for details because you know they\u2019re important. Balancing the need for accuracy while still hitting deadlines is your jam. Ultimately, you want to positively impact the business, all while enjoying your teammates and the role you fulfill. Responsibilities: \u2022 Write/edit targeted long and short-form digital content, for a variety of channels, designed to achieve marketing campaign goals. \u2022 Understand the phases of the customer journey and create messaging specific to upper-, middle-, and lower-funnel audiences. \u2022 Work closely with team members on a variety of marketing projects. \u2022 Clearly understand our brand voice and review content to ensure consistency with our writing standards. \u2022 Evaluate internal/external input and feedback and make appropriate revisions. \u2022 Recommend graphical elements to support marketing pieces. What you bring Required: \u2022 Experience writing for/working in the heavy-duty truck space. \u2022 Content management and project management software experience preferred. \u2022 Attention to detail (it\u2019s in your nature to proof everything and seeing typos in the wild makes you cringe). \u2022 The ability to work with professionals as a diplomatic communicator. \u2022 Comfortable with changing technology. \u2022 Calm under pressure. Excellent multitasking skills with the ability to shift between projects on short notice. \u2022 Possess a creative mindset with an ability to deliver on a vision with impact. \u2022 As a fully remote company, self-discipline to get the job done is essential to this role and the ability to work normal business hours, Monday \u2013 Friday, is required. What you receive \u2022 Meaningful work on world class and industry changing products \u2022 Monday-Friday work week \u2022 Excellent medical, dental, 401k with match and complimentary life insurance \u2022 Employee options on voluntary vision, LTD and FSA coverage #J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:V3h2UFUtbmFndkwxUXk0ekFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZako2VDJaVVZXWlBTMk5EVDNkVGFWRXhaakZuTVc5NFdteHJNMHBPWHpKb09YZzRYMjF2VmtGVWNXSm9RbVIzVVZaMGRUQnpjRXRVTURSSVZESmhSakY0VjBkd2JEaDRhVFpmVkc5NVExOVhkR3BaY2t3MFVUbEliMVY0UTBWUlVHTm9iVkZUV2xsTllUTlNiMEozWDI1R09VMTJXbWxUT1Vsb2MybzFjazFxVFd0S1gyc1NGM2h6V0RGaGNtMDRTRW95ZFhObFRWQXlPVkJXYzFGRkdpSkJTRTR3UlRkRlEyRjNNMDFXWldZNGNFdHdibE5MYVhWU1ZsQkJjek41VTFoUjo4MTY0ZDBkZA",
+   "source": "jsearch",
+   "publisher": "Canada Jobs Expertini",
+   "title": "Strategy Business Operations Associate",
+   "company": "Fusion Fuel Cycles",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.expertini.com/job/strategy-business-operations-associate-toronto-fusion-fuel-cycles-291-12034840/",
+   "posted": "2026-11-06T00:00:00+00:00",
+   "salary": "",
+   "description": "Shape FFC\u2019s commercial strategy and operating model while supporting UNITY 2, the integrated fusion fuel cycle at Chalk River Laboratories. The Associate, Strategy & Business Operations works across commercial development, business operations, and supply chain. You will define markets, partnerships, and offerings; build scalable operating foundations; and strengthen supplier capabilities for first-of-a-kind engineered systems. The position supports executive priorities, strategic initiatives, and future commercialization. Key Responsibilities: \u2022 Define priority markets, partners, offerings, and supporting business cases \u2022 Design service scopes, delivery models, pricing, margins, and risk allocation \u2022 Build operating structures, workflows, decision rights, and tools \u2022 Support priority projects through planning, risk management, and reporting \u2022 Develop sourcing strategies and qualified supplier processes Requirements: \u2022 Bachelor\u2019s degree in business, economics, engineering, or related field \u2022 Three to five years in consulting, banking, private equity, or strategy \u2022 Advanced Excel and financial modeling skills \u2022 Strong structured problem-solving and stakeholder management abilities \u2022 Eligibility to work in Canada and obtain required site access Apply structured analysis, financial modeling, and cross-functional leadership to FFC\u2019s commercial and operational growth. #J-18808-Ljbffr"
+  },
+  {
+   "id": "builtin:12193599",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Specialist, Content Marketing & Personalization",
+   "company": "Mitsubishi Motor Sales of Canada, Inc.",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/specialist-content-marketing-personalization/12193599",
+   "posted": null,
+   "salary": "",
+   "description": "Specialist, Content Marketing & Personalization - Mitsubishi Motor Sales of Canada, Inc. | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Mitsubishi Motor Sales of Canada, Inc. Jobs Specialist, Content Marketing & Personalization Mitsubishi Motor Sales of Canada, Inc. Specialist, Content Marketing & Personalization Posted 7 Hours Ago Be an Early Applicant In-Office Mississauga, ON, CAN Mid level In-Office Mississauga, ON, CAN Mid level Develop and execute organic content strategies across blogs, video, social media, SEO, and digital channels. Manage agency partners, content calendars, community engagement, brand voice, and performance measurement. Collaborate with website and data teams on audience segmentation, personalization, lifecycle marketing, and A/B testing. Process invoices, track marketing budgets, and reconcile vendor payments. The summary above was generated by AI Mitsubishi Motor Sales of Canada, Inc. is an equal opportunity employer fostering an inclusive, accessible environment. We are committed to building an environment where all employees and customers feel valued, respected, and supported. Mitsubishi Motor Sales of Canada, Inc. will support applicants requiring accommodation during the recruitment process . All employees are required to espouse MMSCAN\u2019s company values, MMC WAY , and conduct themselves accordingly: Think of Our Customers First; Strengthen Trust Enrich Society Welcome All Facts; Share Difficult News First Conduct and Challenge Yourself Professionally and Respect All; Work as Part of a Broader Team Use of Artificial Intelligence (AI) MMSCAN does not utilize AI to review or assess applicants. All screening is conducted internally by a member of the HR team and/or the hiring manager. PURPOSE The Specialist, Content Marketing & Personalization is versatile and data-driven who will own the end-to-end organic strategy. You will be responsible to work with our agency partners to craft high-impact content, managing our social media presence, and leveraging data to deliver personalized experiences across our digital touchpoints. The role has the keys to our brand\u2019s voice and the tools to ensure that voice reaches the people who need to hear it most. You\u2019ll be bridging the gap between broad brand awareness and 1:1 customer relationships. RESPONSIBILITIES The primary goal is fostering long-term, organic relationships, building community and providing value through: Content Strategy & Creation : Develop and execute a multi-channel content calendar with our agency partner that aligns with the marketing funnel (awareness, consideration, decision) to achieve business goals and SEO best practices. Coordinate the production of high-quality assets (blogs, videos, images or articles) that resonate with our target personas considering multi-channel adaptation. Ensure all content maintains a consistent brand voice and serves the customer journey. Maximize SEO optimization by ensuring keywords are integrated and building links to ensure that the content actually ranks on Google and LLMs. Ensure that the measurement framework is implemented and reported monthly with the marketing team. Organic Social Media & Community : Manage and grow our presence on key social platforms, monitoring mentions and industry keywords to see what people are saying about the brand. Working with our social agency to engage with our community"
+  },
+  {
+   "id": "builtin:12195213",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Customer Success Coordinator",
+   "company": "ET Group",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/customer-success-coordinator/12195213",
+   "posted": null,
+   "salary": "",
+   "description": "Customer Success Coordinator - ET Group | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job ET Group Jobs Customer Success Coordinator ET Group Customer Success Coordinator Posted 6 Hours Ago Be an Early Applicant Hybrid Toronto, ON, CAN Junior Hybrid Toronto, ON, CAN Junior Serves as the first point of contact for client incidents, logs and routes service requests, monitors AV system alerts, manages tickets against SLAs, provides status updates, confirms resolutions, and supports reporting and knowledge-base development. The role includes training on ticketing and monitoring platforms, developing AV systems knowledge, and working early, late, or rotating shifts with primarily remote work and occasional office or client-site attendance. The summary above was generated by AI Company Description Are you ready to be part of a dynamic team and grow your career with a company that\u2019s redefining the future of work? At ET Group, we\u2019re transforming the way we operate and deliver excellence through transparency, collaboration, and innovation. We are proud to be recognized as one of the top workplaces in Canada. Ranked 30th on the 2026 Best Workplaces in Canada list, our commitment to fostering a positive and inclusive work environment is at the heart of everything we do. As pioneers in asynchronous work, we empower our team to make decentralized decisions and drive meaningful change. We design and integrate cutting-edge audiovisual (AV) solutions that enhance collaboration and communication. Committed to continuous learning and teamwork, we deliver high-touch, premium AV solutions to enterprise and government clients. Job Description PURPOSE Clients are informed, SLA's are met, failed systems are caught early, and every incident is logged and handed to the right team. CORE ACCOUNTABILITIES Acting as the first point of contact for incoming client calls and emails and logging each request accurately before it is routed. Monitoring remote monitoring platform alerts throughout the shift and confirming when products remain in a failed state beyond the defined hold period. Opening tickets for products that remain in a failed state and passing them to L1 for triage, with alert, site, room and device details. Ensuring tickets are accurately categorized, prioritized and documented from creation to closure. Providing clients with status updates on open incidents in line with their SLA, and confirming resolution with the client before closure. Updating partners to ensure that they have the latest incident information. Understanding each client's severity levels and their associated SLA response and resolution times. Tracking open tickets against SLA timers and alerting the Service Coordinator when a ticket is at risk. Assisting in preparing reports on alerts, recurring failures and SLA performance as needed. Attending relevant meetings both internal & external to support the team. Availability for early, late or rotating shifts as required. Working mostly remotely, with occasional work from the office or at client sites as required. As business needs evolve, support the broader team by applying and expanding skills beyond core responsibilities. DEVELOPMENTAL RESPONSIBILITIES Completing training on the ticketing system and the remote monitoring platforms used by the Service team. Building working knowledge of common AV systems through manufacturer online"
+  },
+  {
+   "id": "builtin:12194696",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Client Operations Associate",
+   "company": "Nicola Wealth",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/client-operations-associate/12194696",
+   "posted": null,
+   "salary": "",
+   "description": "Client Operations Associate - Nicola Wealth | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Nicola Wealth Jobs Client Operations Associate Nicola Wealth Client Operations Associate Posted 6 Hours Ago Be an Early Applicant In-Office Toronto, ON, CAN Junior In-Office Toronto, ON, CAN Junior Provides administrative, transactional, and processing support for wealth management operations, including new accounts, client services, reporting, and estate settlements. Responsibilities include preparing client documentation, processing custodian-platform transactions, coordinating with custodians and internal teams, maintaining Salesforce records, tracking estate requirements, and supporting process improvements. The role requires strong organization, attention to detail, communication, collaboration, and proficiency with Microsoft Office and financial services systems. The summary above was generated by AI About Nicola Wealth: We have a lot to be proud of at Nicola Wealth. Our sophisticated financial planning, our diversified private investment funds and their exceptional performance, our 98% client retention rate and our award-winning culture, combine to position us as a national leader in wealth management. Recognized as a Best Managed Company and one of Canada\u2019s Top Employers, we are dedicated to upholding our firm\u2019s values through this phase of significant growth. By bringing together smart, dedicated and supportive colleagues from diverse backgrounds, we deliver extraordinary client service in a values-driven work environment. The collaboration, creativity and entrepreneurial spirit we were founded on provides the opportunity for you to make a real impact and build a rewarding career. We are passionate about our business, our culture and investing deeply in your growth and development to build for the future. If you have this same drive, then let\u2019s talk! Purpose of the Role: As a Client Operations Associate, you will play an integral role in supporting the delivery of exceptional service to our Private Wealth Advisory teams and high-net-worth clients. As a member of our collaborative Client Operations division, you will provide essential administrative, transactional, and processing support across various operational functions, including New Accounts, Client Services, Client Reporting, and Estates. Working closely with experienced team members, you will help ensure client requests are executed accurately, efficiently, and in accordance with established procedures. This position offers the opportunity to develop a broad understanding of wealth management operations, build relationships across functional teams, and contribute to a seamless client experience. Your adaptability, attention to detail, and commitment to teamwork will be essential in supporting evolving operational priorities and delivering consistent, high-quality service. Core Responsibilities: Provide administrative and transactional support across Client Operations, including New Accounts, Client Services, Client Reporting, and Estates, with an initial focus on supporting the Estates team. Prepare, review, and process client documentation, including letters of direction, account maintenance requests, transaction forms, and other operational requirements. Initiate and coordinate transactions through custodian platforms, including NBIN, ensuring accurate and timely processi"
+  },
+  {
+   "id": "builtin:12191021",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Senior Strategy and Operations Specialist",
+   "company": "Roche",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/senior-strategy-and-operations-specialist/12191021",
+   "posted": null,
+   "salary": "",
+   "description": "Senior Strategy and Operations Specialist - Roche | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Roche Jobs Senior Strategy and Operations Specialist Roche Senior Strategy and Operations Specialist Posted 9 Hours Ago Be an Early Applicant In-Office Mississauga, ON, CAN Senior level In-Office Mississauga, ON, CAN Senior level Leads strategy and operations initiatives for Roche Product Development Data Sciences. Partners with senior leaders to shape strategy, manage planning cycles, oversee strategic initiatives, synthesize complex information, and drive cross-functional execution. The role supports workforce planning, operating model design, data and AI transformation, risk identification, business cases, and organizational alignment across global functions. The summary above was generated by AI At Roche you can show up as yourself, embraced for the unique qualities you bring. Our culture encourages personal expression, open dialogue, and genuine connections, where you are valued, accepted and respected for who you are, allowing you to thrive both personally and professionally. This is how we aim to prevent, stop and cure diseases and ensure everyone has access to healthcare today and for generations to come. Join Roche, where every voice matters. The Position A healthier future. It\u2019s what drives us to innovate. To continuously advance science and ensure everyone has access to the healthcare they need today and for generations to come. Creating a world where we all have more time with the people we love. That\u2019s what makes us Roche. This role is based within Business Strategy & Operations (BSO), which serves as the strategic backbone and operational enabler for Product Development Data Sciences (PDD). PDD brings together scientific, data, digital, and operational capabilities that enable the generation, analysis, and use of data across Roche Product Development. The Strategy & Operations team operates as the strategic connector across PDD\u2014partnering with senior leaders to shape strategy, translate complex priorities into actionable plans, and drive high-impact initiatives across the organization. The Opportunity: Serve as a trusted thought partner to Global Heads, helping structure ambiguous challenges, evaluate choices, and translate decisions into execution. Design and oversee leadership forums, business reviews, strategic planning cycles, and offsites to drive accountability and follow-through. Direct high-priority strategic initiatives from problem definition and business case development through to cross-functional implementation and measurement. Synthesize complex scientific, technical, and operational information into concise, decision-ready analyses, narratives, and presentations for senior leadership. Help shape and deliver initiatives spanning workforce planning, operating model design, data and analytics, and AI/agentic transformation. Identify cross-functional dependencies, emerging risks, and operational trade-offs early, bringing recommendations to leadership before issues impact delivery. Champion an enterprise mindset by aligning functional needs with broader Product Development and Roche priorities to simplify ways of working. Who You Are: Help yourself visualize success in this role by bringing your structured problem-solving skills, intellectual curiosity, and collaborative mindset to an inclusive global environ"
+  }
+ ]
+}
