@@ -1,0 +1,447 @@
+{
+ "run_at": "2026-11-13T13:23:04.502910+00:00",
+ "date": "2026-11-13",
+ "runs": [
+  "2026-11-13T132304Z"
+ ],
+ "source_counts_after_filters": {
+  "jsearch": 9,
+  "remoteok": 0,
+  "weworkremotely": 0,
+  "adzuna": 0,
+  "builtin": 5
+ },
+ "new_count": 8,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 4,
+   "error": null,
+   "rejected_by": {
+    "title": 6
+   },
+   "rejected_samples": [
+    "[title] Marketing and Commercial Specialist (Canada) | Who Gives A Crap | Toronto, ON, Canada | 2026-11-12T22:00:00+00:00",
+    "[title] Digital Marketing Genius \u2013 Lead Generation Specialist | Eco Home Group | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00",
+    "[title] Senior Marketing Insights Manager: Maple in Toronto | CanadaLync | Toronto, ON  (+1 other) | 2026-11-11T00:00:00+00:00",
+    "[title] Sales and marketing manager - Immediate Start | Imperial Living | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] Regional Marketing Lead, North America | StarTech.com | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] Integrated Marketing Strategist - Hybrid, Growth Focus | Blood | Toronto, ON, Canada | 2026-11-06T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 9,
+   "kept": 5,
+   "error": null,
+   "rejected_by": {
+    "title": 4
+   },
+   "rejected_samples": [
+    "[title] Operations and Cleaning Coordinator | Vanmates Consulting Corportation | Toronto, ON, Canada | 2026-11-08T00:00:00+00:00",
+    "[title] Business Operations Group Manager | International Financial Data Services Canada Ltd. / IFDS | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] Director, New Accounts and Documentation | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-09T00:00:00+00:00",
+    "[title] Strategy & Operations Analyst | Shake Shack Canada | Toronto, ON, Canada | 2026-11-06T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    9
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 10
+   },
+   "rejected_samples": [
+    "[title] Account Manager (CAM) \u2014 Digital Marketing | Workfuel | Canada | 2026-11-12T17:00:00+00:00",
+    "[title] Marketing and Commercial Specialist (Canada) | Who Gives A Crap | Toronto, ON, Canada | 2026-11-12T22:00:00+00:00",
+    "[title] Affiliate Marketing Manager | RECODemand Corp. | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] Marketing Manager - Market Data | Alpaca | Canada   (+111 others) | 2026-11-12T00:00:00+00:00",
+    "[title] Digital Marketing Campaign Manager (Remote-First) | Placements24 | Winnipeg, MB, Canada (Remote) | 2026-11-08T00:00:00+00:00",
+    "[title] Coordinator, Event Logistics | Sherweb | Canada   (+30 others) | 2026-11-12T21:00:00+00:00",
+    "[title] Performance Marketing Manager (Remote, Kitchener) | Blacksmith Agency LLC | Kitchener, ON, Canada (Remote) | 2026-11-08T00:00:00+00:00",
+    "[title] Influencer Marketing Operations Manager (Campaign Fulfillment) | AWISEE | Canada   (+52 others) | 2026-11-13T01:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 238,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 226,
+    "location": 7,
+    "too old": 4,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[title] Senior Performance Marketing Manager - Dayshift Remote | D2B | Asia Only (Remote) | 2026-11-13T03:41:36+00:00",
+    "[title] Senior Creative Strategist (eCommerce) | Right Hook Digital | North America Only (Remote) | 2026-11-13T03:41:28+00:00",
+    "[title] Amazon Brand Manager | Hadley Designs LLC | Anywhere in the World (Remote) | 2026-11-12T19:09:19+00:00",
+    "[title] Cinematic Video Editor - Real Estate & Construction | D2B | Asia Only (Remote) | 2026-11-12T17:02:06+00:00",
+    "[title] Sales Development Representative (UK B2B Outbound) - Remote | D2B | Africa Only (Remote) | 2026-11-12T17:02:02+00:00",
+    "[title] Outbound Sales Representative | Itechra Inc | USA Only (Remote) | 2026-11-12T17:01:29+00:00",
+    "[title] Performance Creative Coordinator (Contractor) | Thrive Market | USA Only (Remote) | 2026-11-12T17:01:26+00:00",
+    "[title] Marketing & Content Intern (Part-Time) | Kinelo | USA Only (Remote) | 2026-11-12T17:01:24+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 11
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 11
+  },
+  "builtin job pages": {
+   "returned": 22,
+   "kept": 5,
+   "error": null,
+   "rejected_by": {
+    "title": 17
+   },
+   "rejected_samples": [
+    "[title] Analyst, Lifecycle Marketing",
+    "[title] Senior Media Planning Specialist",
+    "[title] VP, New Customer Acquisition",
+    "[title] Growth Marketing Manager",
+    "[title] Manager, Philanthropic Writing & Reporting",
+    "[title] Marketing - Director, Marketing",
+    "[title] Digital Experience Specialist",
+    "[title] Assistant"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:aWpFajBlaUFpSHBra2xYNkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZalV4T1VKUFNqQlVkbWhPZWt0emVIVjZkMW8yYkhGclRrcHZkbGg0YVVSSE5VeHlkSEU0Y0ZONVpFczNaRzE2T1RGSk5UbDBVM0ZFVVU1b2JFVkZPRnBXUWpaU1FXUjRRME5yVnpKeGMySlVhRnB1VWtoTFUyOVBTRTF2VTFOM01HNUpUVXRwYVZSM2JEUndkV2cyZVhVemRYVmZjVlJqVURoRFVWTTROVUUyWTIxVGJHRVNGMDlSWHpOaGRYcEVSbTlIYUd0UVNWQXhURVI0Y1VGbkdpSkJTRTR3UlRkR2RWVTVWRUZLZVRSMU9ESlFVV3QwY2xScFlXbzNZMDgxTWpCMzoyYzBmZWMwMQ",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Associate, Marketing & Communications",
+   "company": "Oxford Properties Group",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/associate-marketing-communications-at-oxford-properties-group-4488278022",
+   "posted": "2026-11-11T00:00:00+00:00",
+   "salary": "",
+   "description": "Choose a workplace that empowers your impact. Join a global workplace where employees thrive. One that embraces diversity of thought, expertise and passion. A place where you can personalize your employee journey to be \u2014 and deliver \u2014 your best. We are a leading global real estate investor, developer and manager. We combine our capital with our capabilities to create real estate that strengthens economies and communities. By prioritizing people, partnerships and places, we generate meaningful returns for OMERS members, enhance value for our capital partners and create a brighter world for our customers. Join us to accelerate your growth & development, prioritize wellness, build connections, and support the communities where we live and work. Don\u2019t just work anywhere \u2014 come build tomorrow together with us. Know someone at OMERS or Oxford Properties? Great! If you're referred, have them submit your name through Workday first. Then, watch for a unique link in your email to apply. Job Overview The Associate, Marketing and Communications is a member of Oxford\u2019s Global Brand, Marketing and Communications Team. The Associate, Marketing and Communications is a creative, digitally savvy professional who is eager to learn and grow their skills. Passionate about executing with excellence, they will support multiple stakeholders to help drive business strategy. With interest and experience in marketing and communications best practices, they will assist the team with completing tasks and contributing to various projects. Curious, proactive and with strong writing skills, the Associate will thrive in an evolving global organization. This role offers a unique opportunity to support a high performing and strategic team, playing an important part in executing marketing and communications programs. You Will Be Responsible For \u2022 Act as an Oxford brand advocate and steward. \u2022 Contribute to internal and external communications, supporting day-to-day activities and large-scale events, including supporting media relations and daily monitoring activities. \u2022 Aid in the development and maintenance of marketing content, reinforcing brand marketing efforts. \u2022 Support the team\u2019s operations and technology initiatives, including the upkeep of our internal and external websites and the Digital Asset Management (DAM) system. \u2022 Support administrative and operations duties across the Brand, Marketing, and Communications team. Required Skills & Experience \u2022 2-3 years' experience in marketing, public relations or communications preferred. \u2022 Proficiency in Microsoft Office Suite (Word, Excel, PowerPoint). \u2022 Demonstrated passion for marketing, communications, and the real estate industry. \u2022 Strong presentation, communication, writing and interpersonal skills. \u2022 A collaborative mindset for effectively engaging with internal and external stakeholders. \u2022 Exceptional organizational skills with a proven ability to manage multiple priorities and thrive under pressure to meet deadlines. \u2022 Ability to travel occasionally as business needs require. Preferred Skills & Experience \u2022 University degree or equivalent \u2022 Proficiency in Adobe Creative Suite, Canva and a demonstrated comfort with adopting new technologies. \u2022 Innovative thinking with a talent for devising fresh solutions to challenges and a willingness to offer diverse perspectives that foster new approaches and ways of working. \u2022 A quick learner who embraces challenges as learning opportunities and integrates lessons learned into future work. We believe that time together in the office is important for OMERS and Oxford, the strength of our employees, and the work we do for our pension members. Our flexible hybrid work guideline requires teams to come to the office a minimum of 4 days per week. This posting is for an existing vacancy. The expected salary range for this position is $62,000.00 - $92,000.00 per year. You may also be eligible to receive an annual Incentive Award pursuant to our Short-term Incentive plan a"
+  },
+  {
+   "id": "jsearch:ZW50eEdER3ZWMExpamdWUEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZV1ZWV0dKalJXMVFhVVJOUWtoNVRVUmhWMUp3T0cxcVZYSldiak50YkU4dFFVeDZiMVJsWmtoRVpWOVhVVTkzWDNNd2QxRjFjRk54VjFSTlprbHJZWE56VXpkUmJIQkpRVFJCTjJsRVIydE5NVTVRTXpkeVJGTXRhRlEzVTE5MlJ6RnhWR1UyVVhkYVdHWjBSbmQxVG5GV1FWOXNNbGQzV0dKcU5XNWlkalV6UldKMlJqWVNGMDlSWHpOaGRYcEVSbTlIYUd0UVNWQXhURVI0Y1VGbkdpSkJTRTR3UlRkR2R6VkxZMnRQTWxOaVRsSkdaRWwyY1ZKMWFWTlNaMHAxWjI1MzphZDAxMDAyNQ",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Marketing & Brand Specialist",
+   "company": "Polaron Energy",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=645694901865945408",
+   "posted": "2026-11-11T00:00:00+00:00",
+   "salary": "",
+   "description": "Location: North York, ON Employment Type: Full-time (35 hours/a week), Hybrid Schedule, 4 days in office, one day work from home Annual Salary: $60,000.00 - $65,000.00/year About Us At Polaron, we\u2019re on a mission to make clean, renewable energy accessible and affordable for Canadian homeowners. As one of the fastest-growing solar companies in the country, we\u2019ve helped thousands of families reduce their carbon footprint and energy bills by transitioning to solar power. Our team is driven by innovation, integrity, and sustainability. With offices across multiple provinces and extensive knowledge of local incentives, we provide end-to-end solar solutions; from design and permitting to installation and long-term customer support. When you join Polaron, you\u2019re joining a purpose-driven organization shaping Canada\u2019s clean energy future. You\u2019ll work alongside talented professionals and play a key role in delivering real, impactful solar projects that make a difference. About The Role Polaron Energy Corp. and Pion Power are looking for a proactive, creative, and highly organized Marketing & Brand Specialist to help grow and strengthen our brand across digital, retail, and customer-facing channels. This role will support a wide range of marketing initiatives, including brand management, content creation, website and ecommerce content, product launches, marketing events, campaigns, and cross-functional projects. You\u2019ll work closely with internal teams, external partners, and other stakeholders to bring marketing initiatives from idea to execution while keeping projects organized and on track. The ideal candidate is someone who can balance creativity with strong project management skills, is comfortable managing multiple priorities at once, and enjoys working across different areas of marketing. Key Responsibilities \u2022 Support the development and execution of Pion Power's brand and marketing initiatives across digital, retail, and customer-facing channels. \u2022 Develop and coordinate marketing content, including website copy, product content, promotional materials, sales collateral, and other brand assets. \u2022 Manage website content and marketplace channels, landing pages, FAQs, product pages, and other customer-facing materials. \u2022 Coordinate product launches, promotional campaigns, customer education initiatives, and other marketing projects from planning through execution. \u2022 Optimize product listings, PDP content, pricing information, promotions, and other marketplace assets. \u2022 Coordinate trade shows, events, sponsorships, product demonstrations, and other marketing activities. \u2022 Work cross-functionally with Sales, Product, Operations, Customer Service, and other internal teams to coordinate marketing initiatives and ensure deliverables are completed on time. \u2022 Coordinate with external agencies, vendors, designers, and other marketing partners as needed. \u2022 Manage multiple marketing projects simultaneously, including timelines, deliverables, approvals, and follow-ups. \u2022 Conduct market and competitor research to help identify trends, opportunities, and content or campaign ideas. \u2022 Help maintain consistency across Pion Power's brand, messaging, and customer-facing materials. Qualifications \u2022 3 years or above of experience in marketing, brand management, content marketing, or a related field. \u2022 Strong written communication and content development skills. \u2022 Experience coordinating marketing projects, campaigns, events, or product launches. \u2022 Experience with Shopify and/or ecommerce or marketplace platforms is an asset. \u2022 Familiarity with Google Ads, Google Merchant Center, Google Analytics, Google Search Console, and SEO best practices. \u2022 Strong organizational and project management skills, with the ability to manage multiple priorities and deadlines. \u2022 Strong attention to detail and an understanding of brand consistency. \u2022 Ability to work collaboratively with cross-functional teams and external partners. \u2022 Comfortable taking ownership of projects"
+  },
+  {
+   "id": "jsearch:Ni00QWxNRUdQcFVlVGFtNUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbnBXTnpBNVJVNDFRVWROYjFZMlMzWlVOR3hYTWxOSWJqTmtSV0p2WDJGNFVIWjZkbXQwUkhOM05FbGhSbFJtZDJOWlYwczVaRGMzUWs1d1IyaDZXa1pGYWtselRWWk5Va3BDTm5sV2JrVmxhMUF4UmxVMFZqRTNaell5Wkd3MVRESTNlRkIyUWtOTk9WVk1TRkEyY0RsbGFIaFNkVXRpVHpSMVZVeG5WazlpYW5wWFFsVVNGMDkzWHpOaGMzbHlSa3R1ZVd0UVNWQm9YMTlUTWxGTkdpSkJTRTR3UlRkSU1HdzFkRU0wTlc1aFFucGhiR3BOZWs4eFNIVTNkR05PVFhCMzo5ODc4NjIwMA",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Workplace Operations Coordinator",
+   "company": "Bot Verification",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=642670070463011091",
+   "posted": "2026-11-11T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Title: Workplace Operations Coordinator Job Location: Toronto ON Canada Job Duration: 6 months on T4 Job Description: At Lyft we believe that ride by ride were changing the way our world works. Were seeking talented contractors to help us build a world where cities feel small again - where transportation and tech bring people together. This is a contract role and were looking for experienced professionals ready to hit the ground running. The Workplace Operations Coordinator will assist in facilitating the daily operations of an ongoing delightful experience for all employees of Lyft. They will provide consistent workplace related operational support and assist in maintaining an inclusive and safe environment for Lyft employees. ABOUT YOU You are an individual who possesses a strong ability to successfully prioritize and execute tasks/duties as assigned in alignment with the overall goals of the team. You have a growth mindset and know how to stay self-motivated and demonstrate a positive attitude. You feel empowered to take initiative and lead from your seat. You consistently demonstrate strong verbal and written communication skills. Roles and Responsibilities: \u2022 Represent *** culture in the reception area by stocking candy stations daily maintain the appearance of the front desk and lobby area and manage music if applicable. \u2022 Keep an upbeat demeanor and greet every employee and guest as they arrive -you are the first and last point of contact Ensures music content adheres to Lyfts Core Values and volume level is appropriate for a workplace environment Keep weekly inventory of Workplace items that need to be purchased. \u2022 Restock supply closet on a regular basis. Support local teams with inventory management Manage incoming and outgoing mail/shipment process within the all workplaces Unpack and stock Workplace deliveries in designated closets or support shipments to desired locations Assist with general conference room bookings \u2022 Work through and respond to Zendesk tickets throughout the field and office locations and perform the necessary task to satisfy general Workplace inquiries; escalate Workplace incidents and maintenance requests to Workplace Operations Specialist and Workplace Operations Lead when necessary Coordinate with security on incoming visitors. \u2022 Ensure name tags are printed and given to all visitors at the reception desk Maintain clear and consistent communication while providing cross functional support to HR Recruiting Development Real Estate Construction and Physical Security Receive troubleshoot resource and resolve all incoming employee/guests questions or concerns Support all Workplace leadership with all duties as necessary Skills Required: \u2022 Be aligned with *** Core values: Make it Happen Uplift Others and Be Yourself A passion for facilitating an overall positive employee experience through ongoing operational support \u2022 2 years of customer service experience \u2022 1 years in Workplace related experience Possess the ability to remain agile and multi-task effectively in a fast paced environment \u2022 A passion for fostering an overall positive employee experience through ongoing operational support \u2022 Strong interpersonal and communication skills with the ability to build relationships across departments work collaboratively and manage conflict constructively \u2022 Capable of prioritizing tasks/duties as assigned and delegating tasks as needed Required Experience: IC Employment Type : Full Time Experience: years Vacancy: 1"
+  },
+  {
+   "id": "jsearch:YkplQkNOUjVRS0pvcDB0N0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbk5pUVVFMmRuWTVOR1kyVkdkclpqRldWVE5oTFZreVRVRTJXWE5NZFhSTmQyVnBkMmRUY1ZGcFRVWk9XVkJtYVZGSE16VkhiMU01TWxOTk5YVlNNa1E0Y0ZCelNGRjJkbTFGT1dWWkxXc3lTVFZWTkRNNVduUk9iSGRDY3pKQk1qSlJObGRpUW1GME5IUlRWV04yT0RWSFNEaE5aMVZhVVhSdVdWWnBOek5TTVdSdlFTMFNGMDkzWHpOaGMzbHlSa3R1ZVd0UVNWQm9YMTlUTWxGTkdpSkJTRTR3UlRkSFRVeFRXRlUwZGtGSmJtcE9RazFEUWtkaVFucEdPWFZ3VWxSMzpmMzhiMDRhYw",
+   "source": "jsearch",
+   "publisher": "Glassdoor",
+   "title": "Recruiting Operations Associate (contract to hire)",
+   "company": "Jerry.ai",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.glassdoor.ca/job-listing/jv?jl=1010323952868",
+   "posted": "2026-11-11T00:00:00+00:00",
+   "salary": "",
+   "description": "You could be a recruiting coordinator anywhere. Why Jerry.ai? \u2022 Join a pre-IPO startup with capital, traction, and runway: We are tackling a $2T market, have $240M in funding, 60X revenue growth, and we\u2019re profitable. \u2022 Launch your career in recruiting. We\u2019re committed to mentoring and promoting high performers into Recruiter or Sourcer roles as you learn our hiring bar and how the business runs. \u2022 You\u2019ll build, not just execute. You\u2019ll run scheduling and logistics, but you\u2019ll also have the autonomy to improve systems, fix bottlenecks, and make the whole team faster and more effective. Why contract-to-perm? At Jerry.ai, we move quickly and our hiring bar is high. We treat coordination like white-glove operations rather than just admin support. The contract phase (3 months) is a chance for both sides to see if we\u2019re the right match. You\u2019ll get a front-row seat to our \"high ownership, high impact\" culture. If you thrive on urgency and precision, the path to a permanent role here is clear. About the opportunity: You will be the operational backbone of our recruiting engine, owning the logistics and making sure every candidate experiences a seamless, high-touch process end to end. We\u2019re looking for a high-velocity operator who doesn\u2019t just execute tasks, but anticipates what\u2019s next, removes friction before it appears, and helps the recruiting team move faster, smarter, and more effectively. You\u2019ll act as a true force multiplier for our recruiting engine, your work will directly shape our ability to attract and hire top talent at Jerry.ai. How you will make an impact: \u2022 Provide \"white-glove\" service to candidates by sending personalized pre-interview info and managing LinkedIn outreach \u2022 Manage the lifecycle of take-home assignments, maintain candidate profiles in Ashby ATS, and ensure all candidate documents are accessible to those who need them \u2022 Manage recruiter calendars with precision, rearranging interviews on the fly to prioritize high-impact candidates and maximize our daily capacity \u2022 Act as the point person for leadership\u2019s urgent recruiting needs, whether it's updating compensation bands, posting new job reqs, or coordinating the training/shadowing of new interviewers Who you are: \u2022 You can\u2019t stand inefficiency: You\u2019re always spotting ways to automate, streamline, and level-up how work gets done, and you enjoy turning messy processes into clean, scalable systems. \u2022 You have an intense sense of urgency: You don't wait for things to happen, you make them happen. You move quickly, close loops fast, and thrive in environments where priorities shift and speed matters. \u2022 Your attention to detail is impeccable: You catch the small things that others miss. Your written communication is clear, polished and professional, and you keep processes tight so nothing slips. \u2022 You are a proactive problem solver: You\u2019re calm under pressure, and comfortable navigating ambiguity. You can handle high-stakes, time-sensitive requests from leadership without losing focus or pace. Ideal profile: \u2022 Prior experience in a fast-growth startup or a high-volume agency environment is strongly preferred \u2022 Bachelor\u2019s degree While we appreciate your interest and application, due to the volume of applications we receive, only applicants under consideration will be contacted. Please note: Jerry.ai is only able to hire full-time salaried employees who currently reside in AZ, CA, CO, FL, GA, IL, MA, NC, NJ, NV, NY, OR, TN, TX, UT, VA, or Ontario, Canada, and full-time hourly employees who currently reside in AZ, FL, GA, NV, NY, NC, TN, TX, UT, or VA. Unfortunately, we cannot accept applications from candidates residing elsewhere at this time. Jerry.ai is proud to be an Equal Employment Opportunity employer. We prohibit discrimination based on race, religion, color, national origin, sex, pregnancy, reproductive health decisions or related medical conditions, sexual orientation, gender identity, gender expression, age, veteran status, disability, genetic informa"
+  },
+  {
+   "id": "builtin:12211436",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Communications Specialist",
+   "company": "Xtract One Technologies",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/communications-specialist/12211436",
+   "posted": null,
+   "salary": "",
+   "description": "Communications Specialist - Xtract One Technologies | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Xtract One Technologies Jobs Communications Specialist Xtract One Technologies Communications Specialist Posted 11 Hours Ago Be an Early Applicant Hybrid Toronto, ON, CAN Junior Hybrid Toronto, ON, CAN Junior Develop corporate written communications, digital marketing content, SEO/AEO-optimized materials, technical documentation, customer collateral, sales presentations, partner training resources, press releases, and public company announcements. The role supports Marketing, Customer Success, Investor Relations, and Sales while managing multiple content projects and improving documentation and training resources. The summary above was generated by AI Xtract One is a technology company dedicated to making the world safer through intelligent, frictionless security solutions. We design and deliver advanced threat detection screening systems that help organizations protect people, property, and public spaces\u2014without slowing them down. Our solutions combine cutting-edge hardware, AI-powered analytics, and real-time insights to detect weapons and potential threats in high-traffic environments such as stadiums, arenas, corporate offices, government buildings, and entertainment venues. Xtract One enables safer, more welcoming experiences while maintaining the highest standards of security. With teams across North America, Xtract One brings together engineers, technologists, and business professionals who are passionate about innovation, collaboration, and real-world impact. We are driven by a shared mission to redefine security\u2014making it smarter, more human-centric, and seamlessly integrated into everyday environments. For a Communications Specialist Xtract One offers an unparalleled growth opportunity. You will be instrumental in driving significant revenue growth by developing digital-first marketing materials, creating customer and technical documentation, drafting corporate press releases, and assisting the sales team with key materials. Xtract One is currently looking for a Communications Specialist to join our team! Location: Toronto, ON, Canada. Work Model: Hybrid. Compensation: $35-$42/hour, 4% vacation pay. Job Status: Fulltime, Temporary. Vacancy Status: Backfilling maternity leave. Start Date: Mid January 2027, 4-5 month contract. Summary: Reporting to the SVP of Marketing, the Communications Specialist will lead the development of all corporate written communications, encompassing digital-first marketing materials, SEO/AEO optimized content, customer collateral, and investor information. This interdepartmental position sits within the marketing function while contributing directly to Customer Success and Investor Relations. Responsibilities: Write and optimize all digital-first marketing copy for the website, collateral, case studies, and whitepapers using SEO and Answer Engine Optimization (AEO) writing frameworks. Create both customer and technical documentation for our products and services, including user manuals, online help, and technical specifications. Assist the sales team in writing presentations, and other sales-related documents. Compile our partner training materials for training and documentation available on our partner portal. Draft corporate press releases announcing customer deployments and product milestones"
+  },
+  {
+   "id": "builtin:12210611",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Communications Specialist, Claims",
+   "company": "Co-operators",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/communications-specialist-claims/12210611",
+   "posted": null,
+   "salary": "",
+   "description": "Communications Specialist, Claims - Co-operators | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Co-operators Jobs Communications Specialist, Claims Co-operators Communications Specialist, Claims Posted Yesterday Be an Early Applicant In-Office 4 Locations Junior In-Office 4 Locations Junior Coordinates and implements corporate communications for claims initiatives. Develops communication plans, writes and edits content across multiple channels, consults with stakeholders, coordinates meetings and logistics, creates senior-leader presentations, and provides administrative support. The role requires strong English communication, project planning, research, critical thinking, and collaboration skills in a hybrid environment. The summary above was generated by AI Company: CGIC Department: Claims Experience Employment Type: Temporary Full-Time (12 months) Work Model: Hybrid (2 days in office) Language: English is required, French is an asset. Additional Information: This role is currently vacant The Opportunity: We are a leading Canadian financial services co-operative committed to being a catalyst for a sustainable and resilient society and our team is essential to deliver on this strategy. That\u2019s why we prioritize our people, to ensure we provide a strong culture and development opportunities which enables our team to thrive and to live our purpose. The best part is that you will work with people that care passionately about you, our clients and our communities. As the Communications Specialist, Claims you will be responsible for the coordination and tactical implementation of communication activities. You will support the execution of essential communication advancements, including the design and use of various technology and channels. How you will create impact: Creating communication plans and providing support to stakeholders for initiatives related to our strategic projects and deliverables. Writing content for a wide range of communication initiatives and mediums, ensuring alignment with communication best practices and monitoring emerging trends. Consulting with project stakeholders to determine communication objectives and establish the scope of requirements. Collaborating with business partners to plan for meetings, coordinate logistics develop communications to support claims initiatives. Providing a full range of administrative support including creating presentations for senior leaders, gathering content and supporting ad hoc requests. To join our team: You have two years of communications experience in a corporate environment. You have a post-secondary degree in Communications, Business or a related field. Having the Accredited Business Communicator (ABC) designation or the Chartered Insurance Professional (CIP) designation is an asset. You have working knowledge of project plans, writing, editing, and researching content. This position primarily works with majority non-francophone groups, and teams located outside of Qu\u00e9bec, and requires proficiency in English. The essential non-French duties are not assignable to adjacent or other team members. How you will succeed: You influence change and are committed to continuous improvement, in order to exceed client expectations. You leverage critical thinking skills to identify problems and proactively propose solutions. Your strong communication skills allow you to clearly c"
+  },
+  {
+   "id": "builtin:12209036",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Specialist, Marketing Data & Web Operations",
+   "company": "Reliance Home Comfort",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/specialist-marketing-data-web-operations/12209036",
+   "posted": null,
+   "salary": "",
+   "description": "Specialist, Marketing Data & Web Operations - Reliance Home Comfort | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Reliance Home Comfort Jobs Specialist, Marketing Data & Web Operations Reliance Home Comfort Specialist, Marketing Data & Web Operations Posted Yesterday Be an Early Applicant Hybrid Toronto, ON, CAN Junior Hybrid Toronto, ON, CAN Junior Maintain marketing dashboards, reports, customer segments, data feeds, and campaign analysis. Manage billing and payment communications, including testing, QA, monitoring, and recovery optimization. Administer website content, redirects, forms, metadata, access permissions, site quality checks, and A/B testing. Collaborate with marketing, product, media, SEO, content, finance, and development partners while documenting processes and using AI-enabled tools to improve workflows. The summary above was generated by AI Find Your Limitless with Reliance By joining Reliance as an Specialist, Marketing Data & Web Operations, you\u2019ll become an important Team Member and will be provided with the tools you need to succeed. We have ambitious growth plans and are looking for Team Members who want to grow with us. At Reliance, we pride ourselves on the fact that we provide limitless opportunities for growth and we encourage it by rewarding our Team Members for their success in many ways. If you\u2019re ready to find your limitless \u2013 join us! What do we offer? The tools you need to succeed \u2013 including the tools for the job as well as training and development programs A successful and knowledgeable team to be part of and learn from Competitive base pay plus the ability to earn more tied to your success \u2013 the only limit is your potential A great benefits plan for you / your family Career paths so you can advance in the company Awarded Canada\u2019s Most Admired Corporate Cultures with a proudly diverse and inclusive team What will you do? Marketing Data & Reporting: Maintain marketing dashboards and weekly performance reports across email, web and paid channels. Pull and prepare customer segments and audience lists for marketing campaigns. Monitor data feeds between our billing system, CRM and messaging platform, and flag issues before they affect customers. Run regular data quality checks and keep KPI definitions and documentation up to date. Support the analysis of campaign and A/B test results. Billing & Payment Communications: Manage the day-to-day operation of customer billing messages, including accounts receivable reminders, credit card expiry notices and pre-authorized payment (PAP) rejection notices. Monitor every billing send daily and resolve or escalate failures quickly. Partner with Credit & Collections and Finance to keep messaging accurate, timely and aligned with policy. Test and QA changes to billing message templates, triggers and data before they go live. Track payment recovery results and suggest improvements to timing, channel and wording. Web Administration: Administer our content management system across the Reliance Home Comfort website and regional brand sites. Publish and update pages, manage redirects, forms and metadata, and keep site content current. Run routine site checks for broken links, form errors and accessibility issues. Manage user access and permissions for web tools. Act as first point of contact with our web development partners, logging issues clearly and following the"
+  },
+  {
+   "id": "builtin:12206897",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Senior Corporate Communications Specialist",
+   "company": "Dillon Consulting Limited",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/senior-corporate-communications-specialist/12206897",
+   "posted": null,
+   "salary": "",
+   "description": "Senior Corporate Communications Specialist - Dillon Consulting Limited | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Dillon Consulting Limited Jobs Senior Corporate Communications Specialist Dillon Consulting Limited Senior Corporate Communications Specialist Posted Yesterday Be an Early Applicant In-Office 6 Locations Senior level In-Office 6 Locations Senior level Develops corporate, leadership, change, and internal communications for a consulting firm. Responsibilities include writing announcements and executive messaging, managing the intranet and employee newsletter, supporting annual meeting materials, handling media inquiries, preparing press releases and briefing documents, monitoring media trends, and identifying thought leadership opportunities. The role also supports communication strategies, media guidelines, issues management, and crisis communications. The summary above was generated by AI Overview About Dillon Consulting Dillon Consulting Limited is a proudly Canadian, employee-owned professional consulting firm specializing in planning, engineering, environmental science and management. We partner with clients to provide committed, collaborative and inventive solutions to complex, multifaceted projects. With 28 offices and more than 1200 employees across Canada, Dillon offers a wide range of services related to building and improving facilities and infrastructure, protecting the environment and developing communities. The Opportunity We are looking for a Senior Corporate Communications Specialist to join our Marketing and Communications team in a full-time, hybrid role reporting directly to the Director of Marketing and Communications. You are an experienced, plain-language writer who will turn company news, executive updates, and organizational changes into clear, engaging messaging. You will also manage our internal channels, help develop communication plans and strategies, and handle media relations for an innovative, employee-owned Canadian firm. This is a new position that can be based in any of the following Dillon offices: Vancouver, Chatham, Guelph, Hamilton, Kingston, Kitchener, London, Oakville, Ottawa, Downtown Toronto, North York, Vaughan and Windsor. Responsibilities Corporate, Leadership and Change Communications Work directly with the Director of Marketing and Communications on the development of communication plans and strategies Write engaging, plain language first drafts for firm-wide corporate announcements, leadership updates, organizational changes, and policy rollouts Support the communications planning and content for Dillon\u2019s Annual General Meeting (executive presentations, messaging, and event materials) Internal Communication Channels Own the editorial calendar and content publishing on our corporate intranet Own the production of the monthly employee newsletter Media Relations Act as the initial point of contact for incoming media inquiries, logging requests and coordinating responses and interview prep with leaders Support the development of comprehensive media guidelines Draft press releases, briefing documents, holding statements, and media pitches for corporate milestones and issues management as required Monitor Canadian media and industry trends to identify thought leadership opportunities, speaking engagements and relevant editorial themes Qualifications Post-secondary degree in"
+  }
+ ]
+}
