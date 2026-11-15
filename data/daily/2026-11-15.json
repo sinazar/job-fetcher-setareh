@@ -1,0 +1,380 @@
+{
+ "run_at": "2026-11-15T12:55:41.599546+00:00",
+ "date": "2026-11-15",
+ "runs": [
+  "2026-11-15T125541Z"
+ ],
+ "source_counts_after_filters": {
+  "jsearch": 10,
+  "remoteok": 0,
+  "weworkremotely": 2,
+  "adzuna": 0,
+  "builtin": 0
+ },
+ "new_count": 3,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 7
+   },
+   "rejected_samples": [
+    "[title] Performance & Growth Marketing Manager | Iceberg Finance Group | Toronto, ON, Canada | 2026-11-14T00:00:00+00:00",
+    "[title] Marketing & Partnerships Manager | Turner Hospitality Group | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00",
+    "[title] Head of Creator Marketing: Red Bull Canada in Toronto | CanadaLync | Toronto, ON  (+1 other) | 2026-11-12T00:00:00+00:00",
+    "[title] Digital Marketing Genius \u2013 Lead Generation Specialist | Eco Home Group | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00",
+    "[title] Student Marketing & Events Promotions Coordinator | Seneca Student Federation Inc. | Toronto, ON, Canada | 2026-11-09T00:00:00+00:00",
+    "[title] Sales and marketing manager - Immediate Start | Imperial Living | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] Digital Advertising Specialist | OLG | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 9,
+   "kept": 6,
+   "error": null,
+   "rejected_by": {
+    "title": 3
+   },
+   "rejected_samples": [
+    "[title] Development Operations and Special Events Coordinator | Encore | Toronto, ON, Canada | 2026-11-09T00:00:00+00:00",
+    "[title] Operations and Cleaning Coordinator | Vanmates Consulting Corportation | Toronto, ON, Canada | 2026-11-08T00:00:00+00:00",
+    "[title] People Operations Lead | AMZ Prep\u00ae | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    9
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 8,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[title] Affiliate Marketing Manager | RECODemand Corp. | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] Growth & Performance Marketing Manager | C.R. Wannamaker Law |  | 2026-11-08T00:00:00+00:00",
+    "[aggregator] Lifecycle Marketing Coordinator, CRM | Jobgether | Canada | 2026-11-08T00:00:00+00:00",
+    "[title] Marketing Manager - Market Data | Alpaca | Canada   (+111 others) | 2026-11-12T00:00:00+00:00",
+    "[title] Coordinator, Event Logistics | Sherweb | Canada   (+30 others) | 2026-11-12T00:00:00+00:00",
+    "[title] Customer Marketing Manager | Info-Tech Research Group | Canada   (+30 others) | 2026-11-10T00:00:00+00:00",
+    "[title] Remote Field Marketing Manager, EMEA | Kinaxis Inc. | Ottawa, ON, Canada (Remote) | 2026-11-11T00:00:00+00:00",
+    "[title] Senior Growth Analyst, Worldwide Marketing | Autodesk | Montreal, Quebec, Canada | 2026-11-10T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 242,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 226,
+    "location": 9,
+    "too old": 4,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[title] Founding Enterprise Account Executive | True Talent Solutions Partners | USA Only (Remote) | 2026-11-14T17:00:37+00:00",
+    "[title] Growth Marketing Manager | Snout | USA Only (Remote) | 2026-11-14T17:00:36+00:00",
+    "[location] SEO Content Specialist | Donorbox | Asia Only (Remote) | 2026-11-14T17:00:34+00:00",
+    "[title] Restaurant Partnerships & Events Coordinator ( Remote - Philippines ) | Altametrics | Asia Only (Remote) | 2026-11-14T17:00:33+00:00",
+    "[title] Product Marketing Managers: GTM Brief Review for Bike Repair Tool | Terac | Anywhere in the World (Remote) | 2026-11-13T21:41:29+00:00",
+    "[title] Director of Business Development | silverorange | Anywhere in the World (Remote) | 2026-11-13T18:55:37+00:00",
+    "[title] Digital Marketing Manager (Meta Ads, Google Search) NZ experience | D2B | Asia Only (Remote) | 2026-11-13T15:58:10+00:00",
+    "[location] Part-Time Digital Marketing Specialist | D2B | Asia Only (Remote) | 2026-11-13T15:58:08+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 2
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 3
+  },
+  "builtin job pages": {
+   "returned": 5,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 5
+   },
+   "rejected_samples": [
+    "[title] Manager, CRM & Retention",
+    "[title] Marketing Manager",
+    "[title] Business Analyst",
+    "[title] Associate, Client Experience",
+    "[title] Product Support Specialist"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:d2t4REFHa2RFZWZ6NmxLZkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVFp3U2pZeWNVaFZkSGswWkdGaFVEUTRWV2x4UjB4MFpUZG9RMWQ0UTNWVVNrRlpTVVpQYUc1bWRFVlBOM1o1WDB0NmNXTlVTa1JTUjFsd1RIaHRlRXR6VjFOSExYQjBjbFI0TmxOVmVteENjVnBrYW5nMVNFUlZVbUkyVlZadWFITXlaMHBtY21ONU4zTnBWWGsxYTJzdE4zUlZUWEZyYkdZd1lWUmZjWGc1VFROUFNFTVNGM3BoZGpWaGNsZFRUaloyVlRWT2IxQXpOVmRsTkVGdkdpSkJTRTR3UlRkSVNYVjBWV3BsWDBrM1NXSm9Wa2c0ZGtKNWNtNWlUM2xyYlRCUjozZTI0MTY3ZQ",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Marketing Specialist, Indigokids",
+   "company": "Indigo",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/marketing-specialist-indigokids-at-indigo-4489582812?refId=vb3dk2UFnGB8GSoQXb3qIQ%3D%3D&trackingId=2%2FcuEPOEL0BJdnPZJwtryA%3D%3D",
+   "posted": "2026-11-13T00:00:00+00:00",
+   "salary": "",
+   "description": "Indigo is a physical and digital place inspired by and filled with books, ideas, beautifully designed lifestyle products, and the creative people who help make it all happen. We believe in real books, living life fully and generously, being kind to each other and to the environment, and that stories \u2013 big and little \u2013 connect us. Indigo is our customer\u2019s happy place \u2013 for joyful moments of discovery and to connect with people who share their passion for reading, their belief in ideas, and their commitment to making the world a better and more beautiful place. Our Mission is to inspire reading and enrich the lives of booklovers. As such, we believe in the power of people and their stories. We aim to attract top talent, nurture the potential of our employees, and create space for everyone to thrive. Our Guiding Principles are the few key ideas that are meant to influence everything we do, every day. \u2022 We Will Hire, Inspire, Promote and Retain the Best \u2022 We Will Be Customer Centric \u2022 We Will Be Entrepreneurial \u2022 We Will Be Committed to Caring About Each Other, Our Communities, and Our Environment \u2022 We Will Be Committed to True and Shared Value Creation \u2022 We Will Be Systems Thinking, Data Driven and AI enabled Job Description KEY RESPONSIBILITIES Functional \u2022 Support execution of IndigoKids Marketing programs and campaigns across trade and GM businesses \u2022 Execute evergreen IndigoKids marketing programs from briefing to cross-functional coordination through to launch and hindsighting \u2022 Identify and help bring to life new ideas and programs that inspire a love of reading and support the development of lifelong reading habits \u2022 Develop and execute mass marketing briefs, collaborating with cross-functional partners across Marketing, Creative, Merchandising, Retail and external agencies to deliver integrated campaigns across all customer touchpoints \u2022 Build and maintain a strong understanding of the children\u2019s book market and children\u2019s reading behaviours and reading development \u2022 Contribute to the development and execution of quarterly kids marketing communications plans \u2022 Review creative assets to ensure brand adherence and guidelines are met across all channels \u2022 Support key communications for retail teams \u2022 Support budget tracking & management \u2022 Proactively identify and anticipate evolving customer expectations and needs People \u2022 Influence and motivate cross-functional partners (Creative Studio, Channel Marketing Teams, Merchants, Retail Operations) to support marketing efforts, while developing seamless partnerships \u2022 Take a customer-centric approach, proactively identify and anticipate customer expectations and needs \u2022 Be a problem-solver, challenge the status quo by consistently identifying areas for improvement, diagnosing issues and proposing solutions to resolve them through cross-functional collaboration \u2022 Develop positive and productive peer relationships \u2022 Bring out the best in others, empower, and give authentic feedback \u2022 Have the ability to see the total organization with an integrated perspective \u2022 Encourage others to freely share their point of view and be open to feedback \u2022 Understand and follow Indigo\u2019s core HR processes Cultural \u2022 Model Indigo\u2019s beliefs and convey a positive image in everything you do \u2022 Celebrate diversity of thought and have an open mindset \u2022 Take an active role in fostering a culture of continual learning, taking risks without the fear of making mistakes \u2022 Embrace, champion, and influence change through your team and/or the organization SCOPE Reports to: Sr Manager, Brand Marketing, IndigoKids & Teen Manager once Removed (MOR): Sr Director, Brand Marketing KEY RELATIONSHIPS Internal: \u2022 Cross-functional Marketing (Digital Marketing, PR, Loyalty, Social) \u2022 Merchants & Planning \u2022 Indigo Creative Studio \u2022 Retail Operations & Events Qualifications QUALIFICATIONS Work Experience / Education / Certifications \u2022 Bachelor\u2019s Degree (Business Management, Marketing, or equivalent experience) \u2022 3-5 years of ex"
+  },
+  {
+   "id": "jsearch:S0Q3VG9wQXF1T18xMVJLRUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbGg1VFhCTVkwWXdUWGRXU1hSU2VXMVlkR0V4VjJ4SGFqSm5USGhZV2xrdFdIZHljbGx0ZWxoVVRFRTVVVUp5ZVVOeE0xaEtVMVJmVWxGd1pucDJVbUZSZDBGTlUzWlNMVEZ6T1RoRFpWWnlkbEJoVDJkTWNUVnFaazh6YVV0SVNFVjZlRkZPYWpCV1FYcGpiamhSYmt0NWFuQnphR2xPV0dWTWRuQlFhbTR0VWpKWFNtNFNGekZ4ZGpWaGNIVTJTVjlsY1hkaWExQjFjRE5yTWxGbkdpSkJTRTR3UlRkRlJraG9Rekp2VG5BelRWZG5hMDVFV0RkSFIxUTRaR1p0WVhsQjo2NDdiZGE3OQ",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Remote Digital Marketing Specialist \u2014 Bilingual FR/EN",
+   "company": "Pertinence Media",
+   "location": "Montreal, Quebec, Canada (Remote)",
+   "remote": true,
+   "url": "https://www.jobleads.com/ca/job/remote-digital-marketing-specialist-bilingual-fr-en--montreal--e75ca5fbf0031669b1bb2807e7585d713",
+   "posted": "2026-11-12T00:00:00+00:00",
+   "salary": "",
+   "description": "Pertinence Media is seeking a Digital Marketing Specialist to handle multi-channel campaigns, content creation, and email marketing for diverse clients. You will craft ad copy, optimize landing pages, and drive results across Google Ads, Meta Ads, and automation platforms. The role emphasizes strong writing, organization, and teamwork in a flexible, remote-friendly environment with a focus on client success."
+  },
+  {
+   "id": "jsearch:ODA5aXl4MHJCb2NHYlYwQkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZV05JYkZvNVRHTlRlV28zTmtnNFNVZGpPRlZsUzA5ZllXSlJXakJOVkhOd05HbGtUVmh2U0V0b01uRTBSMGxIUjNWbloyZG9kVWhqUTJ4V2RIRkhUWE5OZHpoSWJUbExkRkU0YVhSTU5YQjFiMHh0VmpWSVRXcGtkVVZDWVdkNlVrUktZMHhaUkhwMlptTkRZVlJMWW0xd1FVbHhkVVUwYTBoMmRtVllTWGc1YTNSUVIwVVNGM3BoZGpWaGNsZFRUaloyVlRWT2IxQXpOVmRsTkVGdkdpSkJTRTR3UlRkR1FuaGpTREpPYUY5NlNFaGxWMlJHUTNZeFR6WjVSVU54YjBwUjo4YjcxMGI0Mg",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Bilingual Digital Content Marketing Specialist",
+   "company": "95 Development Inc.",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jobrapido.com/jobpreview/2539318978686222336",
+   "posted": "2026-11-11T00:00:00+00:00",
+   "salary": "",
+   "description": "Create bilingual digital content for social media, customer acquisition, and community support. Strong Mandarin and English communication skills are required for this marketing role. This Digital Marketing Specialist creates and posts content across Instagram, Twitter, Facebook, and YouTube. The position develops initiatives that support loyalty while maintaining databases and promotional inventory. It requires adaptable organization, presentation skills, and collaboration with staff and marketing leadership. Key Responsibilities: \u2022 Create and engage with content across four social platforms \u2022 Develop initiatives increasing customer acquisition and loyalty \u2022 Maintain databases and promotional materials inventory \u2022 Prepare reports using sales and marketing information \u2022 Support assigned duties from marketing leadership Requirements: \u2022 Three or more years of digital marketing experience \u2022 Proficient Mandarin speaking, writing, reading, and understanding \u2022 Fluent English and strong verbal communication \u2022 Excellent written, presentation, and report writing skills \u2022 Flexibility under pressure and effective problem-solving ability Use bilingual communication, social media management, content creation, and organized reporting to support marketing performance and customer relationships. #J-18808-Ljbffr"
+  }
+ ]
+}
