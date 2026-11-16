@@ -1,0 +1,404 @@
+{
+ "run_id": "2026-11-16T135621Z",
+ "run_at": "2026-11-16T13:56:21.149677+00:00",
+ "date": "2026-11-16",
+ "source_counts_after_filters": {
+  "jsearch": 8,
+  "remoteok": 0,
+  "weworkremotely": 3,
+  "adzuna": 0,
+  "builtin": 1
+ },
+ "new_count": 5,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 7
+   },
+   "rejected_samples": [
+    "[title] Marketing & Partnerships Manager | Turner Hospitality Group | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00",
+    "[title] Marketing, Digital Growth & Sales Lead | Threadcount Textile & Design | Toronto, ON, Canada | 2026-11-14T00:00:00+00:00",
+    "[title] Digital Marketing & Events Specialist | Canadian Dental Service Plan Inc | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Digital Marketing Genius \u2013 Lead Generation Specialist | Eco Home Group | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00",
+    "[title] Head of Creator Marketing: Red Bull Canada in Toronto | CanadaLync | Toronto, ON  (+1 other) | 2026-11-12T00:00:00+00:00",
+    "[title] Sales and marketing manager - Immediate Start | Imperial Living | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] Remote Digital Marketing Pro: Paid Media & AI Growth | Periphery Digital Inc. | Toronto, ON, Canada (Remote) | 2026-11-09T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    0
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 5,
+   "error": null,
+   "rejected_by": {
+    "title": 5
+   },
+   "rejected_samples": [
+    "[title] People Operations Lead | AMZ Prep\u00ae | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Director, New Accounts and Documentation | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-09T00:00:00+00:00",
+    "[title] Workplace Coordinator | HireTalent | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] Remote Operations Analyst (Toronto-based) Remote | Agoda | Aurora, ON  (+1 other) (Remote) | 2026-11-10T00:00:00+00:00",
+    "[title] Manager, Launch and Growth Operations | Thumbtack | Toronto, ON  (+1 other) | 2026-11-12T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 9,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[title] Affiliate Marketing Manager | RECODemand Corp. | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] EverPro - Lifecycle Marketing Manager (Remote, Canada) | EverCommerce | Canada   (+30 others) (Remote) | 2026-11-14T00:00:00+00:00",
+    "[title] Customer Marketing Manager | Info-Tech Research Group | Canada   (+30 others) | 2026-11-10T00:00:00+00:00",
+    "[title] Growth & Field Marketing Leader - Video, Events & Brand | MediaCareers | Toronto, ON, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] Senior Growth Analyst, Worldwide Marketing | Autodesk | Montreal, Quebec, Canada | 2026-11-10T00:00:00+00:00",
+    "[title] Remote Performance Marketing Leader \u2014 B2B Growth & ROAS | Blacksmith Agency LLC | Winnipeg, MB, Canada (Remote) | 2026-11-11T00:00:00+00:00",
+    "[aggregator] Remote Marketing Analytics Analyst | Jobgether | Canada (Remote) | 2026-11-10T00:00:00+00:00",
+    "[title] Senior Lifecycle Marketing Manager, PLG | StackAdapt | Calgary, AB, Canada | 2026-11-13T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 244,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 226,
+    "location": 10,
+    "too old": 4,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[title] Business Development Manager | BBE Marketing Inc | Anywhere in the World (Remote) | 2026-11-16T10:51:07+00:00",
+    "[location] Hospice & Home Health Marketing Specialist | BAY HOSPICE CARE INC | USA Only (Remote) | 2026-11-15T17:00:32+00:00",
+    "[title] Senior Product Marketing Manager | True Talent Solutions Partners | Canada Only (Remote) | 2026-11-15T17:00:31+00:00",
+    "[title] Creative Strategist (AI-Native, Direct Response) | SweetSpot Heating and Cooling | USA Only (Remote) | 2026-11-15T17:00:30+00:00",
+    "[title] Founding Enterprise Account Executive | True Talent Solutions Partners | USA Only (Remote) | 2026-11-14T17:00:37+00:00",
+    "[title] Growth Marketing Manager | Snout | USA Only (Remote) | 2026-11-14T17:00:36+00:00",
+    "[location] SEO Content Specialist | Donorbox | Asia Only (Remote) | 2026-11-14T17:00:34+00:00",
+    "[title] Restaurant Partnerships & Events Coordinator ( Remote - Philippines ) | Altametrics | Asia Only (Remote) | 2026-11-14T17:00:33+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 3
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 1
+  },
+  "builtin job pages": {
+   "returned": 4,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 3
+   },
+   "rejected_samples": [
+    "[title] Senior Marketing Scientist",
+    "[title] Creative Director",
+    "[title] Bilingual Dayforce Application Support & Training Analyst"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "wwr:https://weworkremotely.com/remote-jobs/instacart-lifecycle-marketing-coordinator-crm",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Lifecycle Marketing Coordinator, CRM",
+   "company": "Instacart",
+   "location": "Alberta (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/instacart-lifecycle-marketing-coordinator-crm",
+   "posted": "2026-11-15T21:14:09+00:00",
+   "salary": "",
+   "description": "Headquarters: Canada - Remote (ON, AB, BC, or NS Only) URL: http://instacart.com We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers. Instacart has become a lifeline for millions of people, and we\u2019re building the team to help push our shopping cart forward. If you\u2019re ready to do the best work of your life, come join our table. Instacart is a Flex First team There\u2019s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work\u2014whether it\u2019s from home, an office, or your favorite coffee shop\u2014while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work. Why this role is on the menu Instacart's Consumer CRM team delivers billions of messages a year across email, push, SMS, and in-app, and Q4 is our busiest stretch of the year. We're hiring a Lifecycle Marketing Coordinator to be the execution backbone of our CRM programs, building, QA'ing, and launching campaigns accurately and on time so Lifecycle Managers can focus on strategy and experimentation. This role sits at the intersection of hands-on campaign production and cross-functional coordination, and the person who fills it will see how their work shapes the customer journey and drives growth. A year from now, the team will launch more priority campaigns and run more experiments because this person is in the seat. What you'll cook up in your first year Created more capacity for growth by taking meaningful execution work off Lifecycle Managers' plates, enabling the team to launch more priority campaigns and experiments. Made campaign delivery more dependable by consistently shipping accurate campaigns on time, with fewer avoidable errors and less rework. Improved operational efficiency by simplifying recurring workflows, reducing manual effort and turnaround time while maintaining quality. Strengthened the customer experience by surfacing and helping resolve outdated content, broken links, and targeting or personalization issues across live programs. Turned campaign learnings into business improvements by spotting opportunities in results and execution insights, helping the team fix underperforming campaigns, expand what works, and prioritize work with greater impact. The secret ingredients we're looking for You take pride in delivering accurate, effective campaigns and genuinely enjoy the hands-on work of building and launching them. You're technically curious, quick to learn new tools, and bring an analytical mindset: you ask thoughtful questions about what drives campaign performance and want to learn how to turn results into improvements. You communicate proactively, keep many moving pieces on track, and flag blockers early. Must-have pantry staples (Minimum Qualifications) Hands-on CRM execution experience (typically 1\u20133 years), including personally building, QA'ing, and launching campaigns in an email service provider (ESP) or marketing automation platform Strong attention to detail, with a thorough approach to checking campaign content, links, targeting, and setup Organization and follow-through, with the ability to manage multiple projects and deadlines at once and keep work moving Proactive communication: clear status updates, coordination with partners, and early flagging of blockers Technical curiosity and analytical thinking, including comfort learning new tools, troubleshooting issues, and asking questions about campaign performanc"
+  },
+  {
+   "id": "jsearch:QXNYM1U3OWF0UnBPOWZ5YUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZV0ZJUjJSblpHUnJjbGxzZFZGWk5VVnBOVE40YzBsM1F6TTVaSFIyZUZwNllqVlJkVWxUWlV0b1ZuWmlZWE4wWnkweWJYbEJOalF4VVdaSVNHZHhWVEZOWm05RFNUbGtiMWR2WDJaU1ZHTTJhUzE0YVRFNWVFUm9TVTlEUmtaVVlURnZWMmREV1Vjd09XUmlSM1JqTWxsNWVXZFVhMDlXVWxnMlgyVlhXRzFrWTBGd2MwY1NGMmhSZGpkaGNGTTBSM0JwVDNKMVJWQXhYMUF0TmtFd0dpSkJTRTR3UlRkRlJVVlpNR1ZmZUZGMmFucHFURkZPWDFad2JuaFVUSE42Um5kQjo3Y2VhN2ZmMg",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Integrated Marketing Specialist Campaigns",
+   "company": "Blood",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jobrapido.com/jobpreview/1888771208757903360",
+   "posted": "2026-11-13T00:00:00+00:00",
+   "salary": "",
+   "description": "Lead integrated marketing campaigns for Canadian Blood Services, translating audience insights into creative programs through a hybrid work model. Build engagement and growth. As a full-time Marketing Specialist, you will develop campaigns aligned with corporate objectives and the go-to-market framework. The work spans storytelling, content development, brand stewardship, and performance-focused execution. You will guide internal stakeholders, creative agencies, consultants, and national integrated leads toward locally relevant, nationally consistent delivery. Key Responsibilities: \u2022 Develop and implement integrated marketing strategies and campaigns \u2022 Translate complex strategies into actionable marketing plans \u2022 Design content across digital, social, and traditional platforms \u2022 Manage timelines, budgets, and performance metrics \u2022 Craft briefs for internal and external partners Requirements: \u2022 Post-secondary education in Marketing, Communications, or related field \u2022 Three to five years marketing or integrated communications experience \u2022 Strong storytelling and content development skills \u2022 Experience leading cross-functional marketing initiatives \u2022 Proactive, detail-oriented approach focused on results Bring campaign development, storytelling, and integrated marketing expertise to Canadian Blood Services\u2019 growth and engagement initiatives nationally. #J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:emdDTnh6YUV4MWdMYjhCekFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZVVUxT0ZObWRsZDBkMVowVTJjNU5HZGxSVlZ3UTB4Nk1taG5XWHB1VFd3NFprMUlOM3BtVEhGTlYyeG1kVEYwVVU1WmFXRlhXRUUzYUU1d2QzUkljVVZvY0RobFNXRjJkRlYwZG10M1dqZFBWWGRyVUZGbVREZEJYemRUWVZWV1UyNDRlbDlPWHpOTlNtbGxVRWc0VkV0NGQxWllNazkxZVhkUFpFSlhTR1JuY0VkRFdpMFNGMmhSZGpkaGNGTTBSM0JwVDNKMVJWQXhYMUF0TmtFd0dpSkJTRTR3UlRkSFZpMDRla2x6WVhWcVZVcGpSWE5MYUZkR2REZHlVRVpEUlc5Mzo5N2M5YTc2NA",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Marketing & Social Media Coordinator",
+   "company": "Ripley Entertainment Inc.",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/marketing-social-media-coordinator--toronto--e15e8f835f4f7665d0bd395271e57dc4a",
+   "posted": "2026-11-11T00:00:00+00:00",
+   "salary": "",
+   "description": "Ripley\u2019s Aquarium of Canada is seeking a Marketing & Communications Coordinator to lead end-to-end social media. You will plan content calendars, shoot and edit on-site media, and collaborate with education and animal care teams to support campaigns. You\u2019ll craft compelling copy, manage influencer partnerships, and analyze channel performance. A creative, organized marketer with strong writing and budgeting skills is ideal for a role that operates year\u2011round, including after-hours shoots and"
+  },
+  {
+   "id": "jsearch:cy0yQlU5Ui1jVFZSOUZiQ0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXV1psWTJWSGNXMW1TV3BEV2pJME0zSm1UM0ZtYkY5c2FtWmphbkZ3ZEVSTU5EbHNlbFp2YUdwb1dWbFZNVTFSZVZjMldpMDVaV2N5VEdKM1FYZDBlRXQyWlZkWVJUSkhXRUV6YzBWYVdtUlFTbmh4TFZOME9GbEhZWHBVWWtwbFFXZElkWGxsVlU5cldIWmlRVUo1YW1kNU1VbGlaSEZqYm1aWE5UTTROWFZ3VEcxeU0yMFNGMmgzZGpkaGIxOVBReTAzYzIxTVVWQjFMWEUyZFZGbkdpSkJTRTR3UlRkRk5Fc3pSRXBIZEU1UlVqUmlkR0ZYT1ZOZlRqbG5SMmRsTWxsUjo2YTAzMWYzYQ",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Recruitment Operations Coordinator",
+   "company": "AeroVect",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jobrapido.com/jobpreview/4712836313252888576",
+   "posted": "2026-11-11T00:00:00+00:00",
+   "salary": "",
+   "description": "Support AeroVect recruitment operations through interview logistics, process development, and applicant tracking in an autonomy-focused company. This Recruitment Coordinator partners with Recruiting, Human Resources, hiring managers, and interviewers on recruitment initiatives. You will coordinate scheduling, build talent processes, and assist with special projects. AeroVect serves major airlines and ground service providers while transforming ground handling through autonomy. Key Responsibilities: \u2022 Manage talent acquisition scheduling and interview logistics \u2022 Partner across Recruiting, Human Resources, and hiring teams \u2022 Develop best-in-class talent processes and procedures \u2022 Support interviewers during recruitment initiatives \u2022 Contribute to special projects as needed Requirements: \u2022 Bachelor\u2019s degree in Business, Human Resources, Communications, or similar \u2022 One to three years\u2019 recruitment coordination or executive assistance experience \u2022 Applicant tracking system experience \u2022 Project management experience achieving results with limited supervision \u2022 Passion for robotics, autonomy, and difficult problem solving Use scheduling, process development, and project management skills to strengthen AeroVect\u2019s recruitment operations and talent processes. #J-18808-Ljbffr"
+  },
+  {
+   "id": "builtin:12259345",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "PPC Marketing Specialist (Remote)",
+   "company": "Sweat Pants Agency",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/ppc-marketing-specialist-remote/12259345",
+   "posted": null,
+   "salary": "",
+   "description": "PPC Marketing Specialist (Remote) - Sweat Pants Agency | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Sweat Pants Agency Jobs PPC Marketing Specialist (Remote) Sweat Pants Agency PPC Marketing Specialist (Remote) Posted 12 Hours Ago Be an Early Applicant In-Office or Remote Hiring Remotely in Toronto, ON, CAN Entry level In-Office or Remote Hiring Remotely in Toronto, ON, CAN Entry level Own Google Ads accounts for DTC and eCommerce clients, including strategy, buying, client communication, audits, feed management, tracking, landing pages, attribution, and full-funnel optimization. Manage Search, Shopping, Performance Max, Demand Gen, and YouTube campaigns while separating brand and non-brand performance. Diagnose bottlenecks, evaluate incrementality, build solutions with AI, and communicate recommendations directly to clients during US Eastern business hours. The summary above was generated by AI Everyone can run a search campaign. Almost nobody can tell you whether it worked. That is the whole job. Google will happily show you a 6x ROAS built almost entirely out of people who already knew your client's name. It will auto apply assets you did not ask for. It will report a number that makes a client feel great and tells you nothing about whether you grew the business. So we do not hire people to manage Google Ads. We hire marketers who can tell the difference between demand they created and demand they harvested, and who can prove it to a client's face. At Sweat Pants Agency we work with around 50 DTC and eCommerce brands, 20 to 25 of them on paid media. We spend $6 to $9M a month on Meta and $1 to $2M a month on Google. We are the only agency behind two INC #1 fastest growing brands, both from zero. You would own a set of our Google accounts end to end. Here is what \"end to end\" actually means. You are the account manager. We do not have any. You talk to the client directly. You write the updates, you run the calls, and you defend the call you made. The reason we do it this way is ownership. When you are the person answering for the account, it is your result, not somebody else's summary of your result. You own the whole funnel, not the campaign. Feed and Merchant Center, search and Shopping and PMax, Demand Gen and YouTube, the landing page, and the conversion tracking underneath all of it. If the feed is why Shopping is starving, that is yours. If the page is why the clicks do not convert, that is yours too. Our team ships advertorials, comparison pages, and PDPs in Claude Code, deploys them to Vercel, points a subdomain at them, and tests them live before anything touches the client's Shopify theme. You are expected to have an opinion about attribution and to defend it. We optimize to NC-CPA and NC-ROAS, not blended and not last click. We have turned brand search off to see what actually shifts to organic. We run geo holdouts. If a campaign is not incremental, we would rather know than keep the number. You can live anywhere. We are remote and we hire worldwide. The one hard requirement is that you can take client calls during US Eastern business hours, because you are the client's point of contact. The rest of your day is yours. Nobody here is on a time clock. We judge you on output. If you want a lane, a ticket queue, and a scope document, this is a bad fit and we will both know it fast. If you want to own the whole picture"
+  }
+ ]
+}
