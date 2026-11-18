@@ -1,0 +1,451 @@
+{
+ "run_id": "2026-11-18T142859Z",
+ "run_at": "2026-11-18T14:28:59.084232+00:00",
+ "date": "2026-11-18",
+ "source_counts_after_filters": {
+  "jsearch": 10,
+  "remoteok": 0,
+  "weworkremotely": 4,
+  "adzuna": 0,
+  "builtin": 1
+ },
+ "new_count": 5,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 4,
+   "error": null,
+   "rejected_by": {
+    "title": 6
+   },
+   "rejected_samples": [
+    "[title] Marketing, Digital Growth & Sales Lead | Threadcount Textile & Design | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Marketing Paralegal(12 Month Contract) | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00",
+    "[title] Digital Marketing Genius \u2013 Lead Generation Specialist | Eco Home Group | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00",
+    "[title] Marketing Growth & Content Optimization Manager | OLG | Toronto, ON, Canada | 2026-11-18T06:00:00+00:00",
+    "[title] Marketing Planning Manager | Blend | Toronto, ON, Canada | 2026-11-17T17:00:00+00:00",
+    "[title] Senior Digital Marketing Strategist (SEO) | CanadaLync | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 2,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 2
+   },
+   "rejected_samples": [
+    "[title] Private Client Services (PCS) Account Manager | Hybrid | JobsMedia.io | Brampton, ON, Canada | 2026-11-15T00:00:00+00:00",
+    "[title] Bilingual Client Services Manager - Hybrid | Manulife | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    2
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 4,
+   "error": null,
+   "rejected_by": {
+    "too old": 1,
+    "title": 5
+   },
+   "rejected_samples": [
+    "[too old] Project Coordinator, Delivery & Partner Operations | Sowingo | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00",
+    "[title] Operations Assistant | Dr Asghar's Clinic | Toronto, ON, Canada | 2026-11-12T00:00:00+00:00",
+    "[title] Executive Assistant and Operations Manager | 247 Labs | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Commercial Operations Executive - Commercial Events | Rothmans, Benson & Hedges Inc. | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00",
+    "[title] Customer Coordinator | Molson Coors | Toronto, ON, Canada | 2026-11-15T00:00:00+00:00",
+    "[title] People Operations Lead | AMZ Prep\u00ae | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 7,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[title] EverPro - Senior Manager, Growth Marketing (Remote, Canada) | EverCommerce | Canada (Remote) | 2026-11-16T00:00:00+00:00",
+    "[aggregator] Paid Social Growth Marketing Manager | Jobgether |  | 2026-11-16T00:00:00+00:00",
+    "[title] Head of Performance Marketing & Channel Strategy (Remote) | Blacksmith Agency LLC | Hamilton, ON, Canada (Remote) | 2026-11-18T00:00:00+00:00",
+    "[title] Manager, Marketing Creative (Remote) | AfterShip | Toronto, ON  (+1 other) (Remote) | 2026-11-11T00:00:00+00:00",
+    "[title] Digital Marketing & Sales Executive I Remote I | Supalifeco | Winnipeg, MB  (+1 other) (Remote) | 2026-11-16T00:00:00+00:00",
+    "[title] Remote Demand Gen & Display Strategist | 829 Studios | Canada (Remote) | 2026-11-15T00:00:00+00:00",
+    "[title] Senior Lifecycle Marketing Manager, PLG | StackAdapt | Calgary, AB, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Marketing Manager \u2013 Social Media (Instagram &amp; TikTok) | xoangels |  | 2026-11-14T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 258,
+   "kept": 4,
+   "error": null,
+   "rejected_by": {
+    "title": 236,
+    "location": 12,
+    "too old": 5,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[title] Reseller Sales Specialist- Southwest | Huntress Labs | USA Only (Remote) | 2026-11-18T11:30:50+00:00",
+    "[title] Account Manager | Magic, Inc | Asia Only (Remote) | 2026-11-18T11:30:49+00:00",
+    "[title] Senior SEO/AEO Specialist | PERFECTUS LABS LLC | USA Only (Remote) | 2026-11-18T11:30:47+00:00",
+    "[title] Sales Development Representative (SDR) - Cloud & AWS Migration | division50 | USA Only (Remote) | 2026-11-18T11:30:45+00:00",
+    "[title] Experienced Arabic (Jordan) Editors (Marketing) | Language Bear | EMEA Only (Remote) | 2026-11-18T11:30:44+00:00",
+    "[title] Experienced Arabic (Jordan) Translators (Marketing) | Language Bear | EMEA Only (Remote) | 2026-11-18T11:30:40+00:00",
+    "[title] Humbly Confident Marketing Lead | ChiroCat | Anywhere in the World (Remote) | 2026-11-17T23:45:14+00:00",
+    "[title] Senior SEO Specialist | Wellness Clinic Marketing | Anywhere in the World (Remote) | 2026-11-17T21:58:58+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 10
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 12
+  },
+  "builtin job pages": {
+   "returned": 22,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 21
+   },
+   "rejected_samples": [
+    "[title] Demand Marketing Director",
+    "[title] Senior Manager, Brand Blue Rewards (14month Contract)",
+    "[title] Proposal Specialist",
+    "[title] Intern, Product Marketing CPDI (8-month) - Toronto, ON",
+    "[title] Senior Planner",
+    "[title] Coordinator, Client Relations & Events",
+    "[title] Product Marketing Manager",
+    "[title] Manager, Growth Marketing"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:NDJDUTBPcFVVOF9xU0pLU0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZV0pzTVZsYVQxVnVXWFowV1VrMVlubG5ha2MzWkdVM2NWOTFiM1I1VFVKS1JIZE1ialp1UldSYVJVWmtOVTlaZWxWWmFFUjNOa0pHTkhZMmEzaFJXVGw2ZFZOUWVIRjBkbmxHYTJsalFXTndNa1UxWDNKdVZXbEJTRlJIVlVKeFZXRk1aMnhXVlRKeWF6TjRiVEppUW1OMFlqVjRkRWszTldGclV6VTViWEJ6UVZJNFpIa1NGMHMzWWpsaGNqWXRSa3BmT0hCMFVWQnhXVWRzWjFGVkdpSkJTRTR3UlRkSVNIWnVNMWxDWjBsbVpVOWlRbEpaVWxCNVVFSm5ha1U0TTBsQjphNTYxYTZlYg",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Remote Email Marketing Specialist \u2014 Lead Gen",
+   "company": "trabajo ca",
+   "location": "Toronto, ON, Canada (Remote)",
+   "remote": true,
+   "url": "https://ca.jobrapido.com/jobpreview/3627431694539161600",
+   "posted": "2026-11-16T00:00:00+00:00",
+   "salary": "",
+   "description": "A leading recruitment firm is seeking an Email Marketing Specialist for a full-time remote position. In this role, you'll implement and manage email marketing campaigns, analyze marketing analytics, generate leads, and utilize marketing automation tools. The ideal candidate should possess proficiency in Marketing Analytics and Communication, along with a Bachelor's degree in Marketing or Business. This opportunity is perfect for those with a keen attention to detail and strong analytical skills."
+  },
+  {
+   "id": "jsearch:c0REMTc4M2lPSGxMZlQ4bkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZVzl3WDIxcFMxbEJhVGxOV2s1SlNXUXhPRXBDUkZVM2VVa3pSMnBaTkdZMVp6Vk1ZMWc1YlZCVFQyWTVZbGh4WkVsbmVrOU1UR2xHU1RCdk9XVkdNRVJLTkRGSVQyRkZkSE5KT0VsSmRsTTNVVFZZYzFFeWIwUmZhMGhGYkhCcFFsVjNXREE1UTFoRlFsUTVjMDlEVUdNeVVuZGthbTlTVW1weGRYRTNZVnBxY1VwUVdXb1NGMHhpWWpsaGNrTnRTR0pUTUhGMGMxQnJUVTkzYjBGUkdpSkJTRTR3UlRkSU5tTkVOMDB6Y1RCamNYWnVNbE5EVGpNMGJWWXRWMFUzZWpaQjpkYTgwZTFlZQ",
+   "source": "jsearch",
+   "publisher": "FashionJobs Canada",
+   "title": "Operations Associate - Yorkdale Shopping Centre",
+   "company": "HARRY ROSEN",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.fashionjobs.com/job/harry-rosen/Operations-associate-yorkdale-shopping-centre,11869577.html",
+   "posted": "2026-11-16T00:00:00+00:00",
+   "salary": "",
+   "description": "Summary The Operations Associate at Yorkdale Shopping Centre supports store operations and client service across the service desk, order fulfillment and merchandising. This part-time role handles POS transactions, cash functions, e-commerce and in-store transfers, BOPIS, and on-floor logistics. The associate helps maintain merchandise standards, supports inventory activities and provides occasional sales-floor assistance to ensure an excellent client experience. Responsibilities \u2022 Process client transactions accurately through the POS and maintain client records. \u2022 Perform daily cash handling (open/close registers, prepare sales envelopes and bank deposits) and troubleshoot discrepancies. \u2022 Pick and fulfill e-commerce and IST orders, support BOPIS operations and achieve targeted pick rates. \u2022 Support on-floor logistics including markdowns, re-ticketing, re-tagging, restocking and seasonal display changes. \u2022 Assist with inventory preparations and counts and maintain overall stock levels. \u2022 Provide service desk client support, basic resolution and escalate issues when appropriate. \u2022 Support sales floor and ad-hoc projects as required to deliver exceptional client service. Requirements \u2022 Minimum of 2 years retail experience, preferably in a luxury environment, in a customer-facing role. \u2022 Experience with shipping, receiving, merchandising, order fulfillment and inventory management. \u2022 Service desk or client-facing experience with a strong service orientation. \u2022 Demonstrated interest in retail technology and ability to use systems to support operations. \u2022 Strong multitasking, teamwork and communication skills to manage busy service periods."
+  },
+  {
+   "id": "jsearch:bDdSa3lJZjRIV2xnZ18xUkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbFIwVWtablMwUlJXVVEyWW5SQlduUjZXVzkyVWtaNlNuQjRaMFpZWm01WFl6bE9kVGh6VDNVMlNHb3dTVlJGVEdFMk0wVkRVMlZVVkdkTlFYZDNXRWRHUVUxMlZtbExYM05JTWs1TGIwOWpkemxWWHpCV1lqVkVOUzB6YlU1bWVFUjBiVFpLYkhKclVHOHRUMlZ5TlVaQ1YxTlNZekJQUkdkaWJUWTNUSE5oY0VsRFlVc1NGMHhpWWpsaGNrTnRTR0pUTUhGMGMxQnJUVTkzYjBGUkdpSkJTRTR3UlRkSFdtRkxibkJhUm1aSVZYbE9WbkpzY0hOU09WbGxVbTlXVldkMzpkOTdmYTUxMQ",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Legal Operations Associate, Compliance & Automation Toronto, Ontario",
+   "company": "Jerry",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=646298515177800957",
+   "posted": "2026-11-15T00:00:00+00:00",
+   "salary": "",
+   "description": "More than 80% of Americans own a car and see it as a fundamental necessity, yet the experience of owning one is stuck in the 90s. At Jerry.ai, we are building the first app to manage it all. Since launching in 2019, we\u2019ve reached 5M+ customers, raised $240M+, scaled revenue 70X, and achieved profitability in 2024. Jerry operates across the US and Canada, and our legal team keeps all of it running: entity filings, IP protection, compliance audits, consumer escalations, regulatory changes, and the systems behind them. The team is small, so this role comes with real scope early. You\u2019ll own Jerry\u2019s legal and compliance operations: make sure recurring work is done right, run the programs that need judgment, and keep rebuilding them with AI and low-code tools, so a small team can do the work of a much larger one. The person who succeeds in this role is a natural driver: someone who owns their work from start to finish, solves complex problems without a manual, and has the grit to thrive in a startup environment. If you are eager to sit at the intersection of law, technology, and AI-driven efficiency, we want to hear from you. Why You Will (Or Won\u2019t) Like Working Here \u2022 Real ownership early: You report directly to our Legal Counsel and work closely with them across the team\u2019s full scope. You\u2019ll own a set of compliance programs for the long term, and you\u2019ll be the first point of contact for teammates who run day-to-day compliance work. \u2022 Room to build: Many of our legal processes are still being optimized. You\u2019ll decide how they should work and build the systems behind them. \u2022 Building and operating: Alongside the building, a large share of the job is recurring work: filings, deadlines, audits, complaint responses, and quality checks that have to be done exactly right, every time. Your accuracy keeps Jerry in good standing in every jurisdiction, and people who enjoy both sides of the role do well here. \u2022 Growth that tracks results: You\u2019ll learn from leaders who come from Amazon, Better, LinkedIn, McKinsey, BCG, and Bain. Promotion is based on performance and ownership alone, so strong work moves you forward fast. What You\u2019ll Own \u2022 Compliance operations: Run, review, and quality-check the recurring compliance work, including entity maintenance, privacy requests, and licensing support. \u2022 Marketing compliance and audits: Run TCPA and Do Not Call audits, monitor opt-outs, and keep marketing guidelines current. Check the accuracy of AI-powered audits, and design new audit programs with sampling plans and scoring rubrics. \u2022 Consumer escalations: Investigate complex escalations to their root cause, work with Product, Operations, and Engineering on the fix, and turn recurring issues into compliance training for teams across the company. \u2022 Regulatory change and readiness: Track regulatory changes, along with issues surfaced by complaints and audits, and see each one through to action. Keep Jerry ready to answer regulator inquiries, carrier audits, and partner diligence quickly. \u2022 Legal team support: Support contract renewals, legal research, and product reviews with intake, fact gathering, trackers, and follow-up. \u2022 Automation and AI: Replace manual legal tasks with AI and low-code workflows, and own the reliability of every script, report, and AI tool the team depends on. Who You Are \u2022 A Closer: You track every open item until it\u2019s done, and you find the answer yourself before asking someone else for it. \u2022 A Builder: The second time you do a task by hand, you start working out how to automate the third. You reach for a spreadsheet or a low-code tool before a manual checklist. \u2022 A Zero-Error Operator: Regulatory filings and audits leave no room for mistakes, and you work accordingly. You keep your own system so no deadline or cross-functional project slips. \u2022 A Root-Cause Investigator: You don\u2019t stop at the symptom. You dig into the records, find what actually went wrong, and follow the fix through until it\u2019s done. \u2022 A Proactive Communicator: "
+  },
+  {
+   "id": "jsearch:TU53V3l6dTFJX3VESDVMWUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbVF5YVU5ck9Ga3haMTlsYW1kaFpEVjNNa2t3TkZOblNGTldkRzVzYUdwUVVuSTFhbXRLWDJNMlZsOXVkVUZMUW5sWlZWSmZYMUYxWW1SRFdWSnFiRTgwYXpCWWJWOVpTMUJXYjB4UmQwSTJhRXhLYkZSUmFGQlNabTFQVVZWbWVVcDVYMmh0ZEhFNUxYRklkWFJOVmpKRGVHVm9SRFF4VmpWZk9ERnZWMGhCUkVNMGRtRVNGMHMzWWpsaGNqWXRSa3BmT0hCMFVWQnhXVWRzWjFGVkdpSkJTRTR3UlRkSU4xRktWV2hCVTBKd1NHMVJaR0ZxVTNrd1JtbEVaR05VUW5aMzoyMGE5NDI0Mg",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Coordinator, Digital Marketing",
+   "company": "Royal Bank of Canada",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.indeed.com/viewjob?jk=da852334300a942d",
+   "posted": "2026-11-13T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Description What is the opportunity? As the Marketing Coordinator within the Wealth Marketing Canada (WMC) web team, you will be the go-to executor for advisor website requests across the country. This is a hands-on, task-oriented role designed for a true do-er \u2014 someone who takes pride in working through a queue, getting things done efficiently, and keeping advisors informed every step of the way. You will support the web team by actioning website change requests from investment advisors and their teams, managing the WMC marketing general inbox, supporting website audits and ensuring every page meets RBC compliance and formatting standards. You don't need to be a developer \u2014 our website platform is user-friendly content management too, but you do need to be comfortable navigating websites, making updates confidently, and communicating clearly with advisors about what\u2019s done and what's next. If you are organized, service-minded, energized by checking tasks off a list, and enjoy being the reliable person who keeps things moving, this role is for you. What will you do? \u2022 Review, prioritize, and action incoming website change requests from investment advisors, including content updates, page and account set-ups contact changes, ensuring timely and accurate completion within the WMC web platform. \u2022 Monitor and triage the shared WMC marketing inbox daily, acknowledging requests, routing items to the appropriate team member, and keeping a clear record of status and follow-ups. \u2022 Review all website content and changes against website best-practice, RBC compliance requirements, brand guidelines, and formatting standards before publishing, ensuring nothing goes live that hasn't been properly vetted. \u2022 Identify and report potential bugs, glitches, and usability problems within the website platform during day-to-day work and escalate them to the MarTech team in a timely manner with clear descriptions, steps to reproduce, and impact assessment, so technical issues are resolved quickly and don't disrupt advisor workflows. \u2022 Coordinate the end-to-end lifecycle of branch website projects, from initial request through build, compliance review, and launch, tracking progress and keeping all stakeholders informed of timelines and deliverables. \u2022 Serve as a responsive, knowledgeable point of contact for Counsel teams and Branch management, answering questions about website processes, status of requests, and marketing support available to them. What do you need to succeed? Must-have \u2022 Experience in marketing, communications, digital media, or a related field (degree or equivalent experience). \u2022 Comfort and familiarity working within content management systems (Yext, WordPress or similar platforms) you don't need to code, but you need to confidently navigate, edit, and publish within a CMS. \u2022 Strong organizational and time-management skills with the ability to manage a high volume of tasks and requests simultaneously. \u2022 A task-oriented, execution-focused mindset \u2014 you take ownership of your queue and find satisfaction in getting things done. \u2022 Excellent written and verbal communication skills, with a service-oriented approach to working with advisors and internal partners. \u2022 Attention to detail and a careful eye for formatting, consistency, and brand standards. \u2022 Ability to work independently, prioritize effectively, and follow established processes while knowing when to escalate. \u2022 Proficiency with Microsoft Office (Outlook, Word, Excel, PowerPoint) or equivalent tools. \u2022 A self-starter who thrives in a hybrid work environment and is comfortable collaborating virtually and in person. Nice-to-have \u2022 Experience in the financial services industry, particularly within wealth management. \u2022 Familiarity with SEO best practices and tools (e.g., Google Search Console, keyword research tools). \u2022 Experience managing a shared inbox or service desk environment. \u2022 Project management experience, including tracking tools such as Asana, Jira, or similar platfo"
+  },
+  {
+   "id": "builtin:12302676",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "GTM Strategy and Operations Associate Analyst",
+   "company": "Salesforce",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/gtm-strategy-and-operations-associate-analyst/12302676",
+   "posted": null,
+   "salary": "",
+   "description": "GTM Strategy and Operations Associate Analyst - Salesforce | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Salesforce Jobs GTM Strategy and Operations Associate Analyst Salesforce GTM Strategy and Operations Associate Analyst Posted 13 Hours Ago Be an Early Applicant In-Office Toronto, ON, CAN Junior In-Office Toronto, ON, CAN Junior Supports Salesforce Quote to Cash operations through project tracking, process documentation, training collateral, requirements gathering, and automation initiatives. Maintains project plans, issue and risk logs, business rules, process flows, and operational policies. Partners with Sales Operations, Entitlements, Revenue Accounting, technology teams, and Finance to improve manual processes using Python, AI tools, Regrello, VBA, and Slack bots. The summary above was generated by AI To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Finance Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn\u2019t a buzzword \u2014 it\u2019s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You\u2019re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. What You'll Be Doing & Why It Matters Salesforce is seeking an Analyst to support our internal Quote to Cash operations, including business processes, systems, and compliance for quoting, delivery of service, billing, and accurate, complete invoicing. This person will support project execution, help document as-is and to-be processes, and assist with tracking progress and providing status updates. Core Responsibilities & Scope Support the Quote to Cash Operations team on internal projects by creating and maintaining project plans and trackers, status updates, issue logs, and risk tracking Develop working knowledge of Salesforce internal Quote to Cash systems and processes, and help document and maintain a repository of business rules, process flows, and the framework for operational processes and policies Support the training specialist in creating and maintaining training collateral related to policy and process changes Gather and document requirements for automation opportunities across QTC processes (manual, repetitive, or error-prone work), and assist in building automations and macros/VBA using AI tools (e.g., Claude, Gemini, ChatGPT), Python, Regrello, and Slack bots, partnering across Sales Operations, Entitlements, Revenue Accounting, DET, and Finance Minimum Requirements 1+ years of experience related to CPQ (Configure, Price, Quote) and Order Management Systems 1+ years of project coordination or project support experience Familiarity with Salesforce products and basic understanding of Salesforce data models, including Apttus CPQ objects (Quotes, Line Items, Orders) and standard QTC objects (Opportunities, Pricebooks) Advanced Excel proficiency, strong written and verbal communication skills, and strong attention to d"
+  }
+ ]
+}
