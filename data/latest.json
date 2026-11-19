@@ -1,11 +1,11 @@
 {
- "run_id": "2026-11-18T142859Z",
- "run_at": "2026-11-18T14:28:59.084232+00:00",
- "date": "2026-11-18",
+ "run_id": "2026-11-19T143859Z",
+ "run_at": "2026-11-19T14:38:59.120785+00:00",
+ "date": "2026-11-19",
  "source_counts_after_filters": {
-  "jsearch": 10,
+  "jsearch": 8,
   "remoteok": 0,
-  "weworkremotely": 4,
+  "weworkremotely": 3,
   "adzuna": 0,
   "builtin": 1
  },
@@ -16,15 +16,16 @@
    "kept": 4,
    "error": null,
    "rejected_by": {
-    "title": 6
+    "title": 5,
+    "aggregator": 1
    },
    "rejected_samples": [
-    "[title] Marketing, Digital Growth & Sales Lead | Threadcount Textile & Design | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
-    "[title] Marketing Paralegal(12 Month Contract) | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00",
-    "[title] Digital Marketing Genius \u2013 Lead Generation Specialist | Eco Home Group | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00",
-    "[title] Marketing Growth & Content Optimization Manager | OLG | Toronto, ON, Canada | 2026-11-18T06:00:00+00:00",
-    "[title] Marketing Planning Manager | Blend | Toronto, ON, Canada | 2026-11-17T17:00:00+00:00",
-    "[title] Senior Digital Marketing Strategist (SEO) | CanadaLync | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00"
+    "[title] Marketing Inbox & Workflow Coordinator (12-Month Contract) | Ian Martin Group | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00",
+    "[title] Manager, External Communications (Marketing and Brand) Toronto Hydro Corporation Location: Ontario | Electric Energy Online | Toronto, ON, Canada | 2026-11-18T23:00:00+00:00",
+    "[title] Branch Marketing Manager | CrossCountry Mortgage | Toronto, ON, Canada | 2026-11-15T00:00:00+00:00",
+    "[title] Marketing & Creative Specialist | Wizy Marketing Agency | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00",
+    "[title] Vertical Marketing Manager (Toronto, Ontario) | KORE Wireless | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00",
+    "[aggregator] Remote Fintech Performance Marketing Manager | Jobgether | Toronto, ON, Canada (Remote) | 2026-11-16T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -90,15 +91,14 @@
    ]
   },
   "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
-   "returned": 2,
+   "returned": 1,
    "kept": 0,
    "error": null,
    "rejected_by": {
-    "title": 2
+    "title": 1
    },
    "rejected_samples": [
-    "[title] Private Client Services (PCS) Account Manager | Hybrid | JobsMedia.io | Brampton, ON, Canada | 2026-11-15T00:00:00+00:00",
-    "[title] Bilingual Client Services Manager - Hybrid | Manulife | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00"
+    "[title] Facility Service Coordinator | AppleOne | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -160,24 +160,24 @@
     ]
    },
    "pages": [
-    2
+    1
    ]
   },
   "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
    "returned": 10,
-   "kept": 4,
+   "kept": 3,
    "error": null,
    "rejected_by": {
-    "too old": 1,
-    "title": 5
+    "title": 7
    },
    "rejected_samples": [
-    "[too old] Project Coordinator, Delivery & Partner Operations | Sowingo | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00",
-    "[title] Operations Assistant | Dr Asghar's Clinic | Toronto, ON, Canada | 2026-11-12T00:00:00+00:00",
     "[title] Executive Assistant and Operations Manager | 247 Labs | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Operations Manager e-Commerce | Advisor Works | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00",
+    "[title] People Operations Lead | AMZ Prep\u00ae | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
     "[title] Commercial Operations Executive - Commercial Events | Rothmans, Benson & Hedges Inc. | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00",
-    "[title] Customer Coordinator | Molson Coors | Toronto, ON, Canada | 2026-11-15T00:00:00+00:00",
-    "[title] People Operations Lead | AMZ Prep\u00ae | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00"
+    "[title] Area Operations Manager | Soul Foods Group | Toronto, ON, Canada | 2026-11-17T00:00:00+00:00",
+    "[title] Revenue Operations Manager \u2014 Scale Acquisition & Growth | Float | Toronto, ON, Canada | 2026-11-14T00:00:00+00:00",
+    "[title] Senior Manager of Legal Operations | Tenstorrent | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -244,21 +244,22 @@
   },
   "jsearch: remote marketing coordinator Canada (ca)": {
    "returned": 10,
-   "kept": 2,
+   "kept": 1,
    "error": null,
    "rejected_by": {
     "title": 7,
-    "aggregator": 1
+    "aggregator": 1,
+    "too old": 1
    },
    "rejected_samples": [
-    "[title] EverPro - Senior Manager, Growth Marketing (Remote, Canada) | EverCommerce | Canada (Remote) | 2026-11-16T00:00:00+00:00",
+    "[title] Marketing Manager, Communications & Content | Entrepreneur Cooperative | Canada   (+52 others) | 2026-11-17T00:00:00+00:00",
     "[aggregator] Paid Social Growth Marketing Manager | Jobgether |  | 2026-11-16T00:00:00+00:00",
-    "[title] Head of Performance Marketing & Channel Strategy (Remote) | Blacksmith Agency LLC | Hamilton, ON, Canada (Remote) | 2026-11-18T00:00:00+00:00",
-    "[title] Manager, Marketing Creative (Remote) | AfterShip | Toronto, ON  (+1 other) (Remote) | 2026-11-11T00:00:00+00:00",
-    "[title] Digital Marketing & Sales Executive I Remote I | Supalifeco | Winnipeg, MB  (+1 other) (Remote) | 2026-11-16T00:00:00+00:00",
-    "[title] Remote Demand Gen & Display Strategist | 829 Studios | Canada (Remote) | 2026-11-15T00:00:00+00:00",
-    "[title] Senior Lifecycle Marketing Manager, PLG | StackAdapt | Calgary, AB, Canada | 2026-11-13T00:00:00+00:00",
-    "[title] Marketing Manager \u2013 Social Media (Instagram &amp; TikTok) | xoangels |  | 2026-11-14T00:00:00+00:00"
+    "[too old] Marketing Coordinator | MinuteBox | Canada   (+30 others) | 2026-11-12T00:00:00+00:00",
+    "[title] Head of Performance Marketing & Channel Strategy (Remote) | Blacksmith Agency LLC | Hamilton, ON, Canada (Remote) | 2026-11-17T00:00:00+00:00",
+    "[title] Search Marketing Manager (Remote, Toronto) | Blacksmith Agency LLC | Toronto, ON, Canada (Remote) | 2026-11-12T00:00:00+00:00",
+    "[title] Remote Growth Marketing Manager, SMB SaaS | Wagepoint | Canada (Remote) | 2026-11-14T00:00:00+00:00",
+    "[title] Coordinator, Event Logistics | Sherweb | Canada   (+30 others) | 2026-11-12T00:00:00+00:00",
+    "[title] Senior Lifecycle Marketing Manager, PLG | StackAdapt | Calgary, AB, Canada | 2026-11-13T00:00:00+00:00"
    ],
    "response_shape": {
     "top_keys": [
@@ -324,24 +325,23 @@
    ]
   },
   "weworkremotely": {
-   "returned": 258,
-   "kept": 4,
+   "returned": 191,
+   "kept": 3,
    "error": null,
    "rejected_by": {
-    "title": 236,
-    "location": 12,
-    "too old": 5,
-    "aggregator": 1
+    "title": 179,
+    "location": 5,
+    "too old": 4
    },
    "rejected_samples": [
-    "[title] Reseller Sales Specialist- Southwest | Huntress Labs | USA Only (Remote) | 2026-11-18T11:30:50+00:00",
-    "[title] Account Manager | Magic, Inc | Asia Only (Remote) | 2026-11-18T11:30:49+00:00",
-    "[title] Senior SEO/AEO Specialist | PERFECTUS LABS LLC | USA Only (Remote) | 2026-11-18T11:30:47+00:00",
-    "[title] Sales Development Representative (SDR) - Cloud & AWS Migration | division50 | USA Only (Remote) | 2026-11-18T11:30:45+00:00",
-    "[title] Experienced Arabic (Jordan) Editors (Marketing) | Language Bear | EMEA Only (Remote) | 2026-11-18T11:30:44+00:00",
-    "[title] Experienced Arabic (Jordan) Translators (Marketing) | Language Bear | EMEA Only (Remote) | 2026-11-18T11:30:40+00:00",
-    "[title] Humbly Confident Marketing Lead | ChiroCat | Anywhere in the World (Remote) | 2026-11-17T23:45:14+00:00",
-    "[title] Senior SEO Specialist | Wellness Clinic Marketing | Anywhere in the World (Remote) | 2026-11-17T21:58:58+00:00"
+    "[title] Strategy Lead (Remote, UK/EU -- \u00a360-65k) | Ellipsis\u00ae | Anywhere in the World (Remote) | 2026-11-19T08:59:22+00:00",
+    "[title] Account Executive - Nordics (Hunter) | Stripe | Anywhere in the World (Remote) | 2026-11-19T06:01:57+00:00",
+    "[title] Account Executive, Enterprise - Grower | Stripe | Anywhere in the World (Remote) | 2026-11-19T06:01:52+00:00",
+    "[title] Senior Paid Marketing Strategist | Typeform | Anywhere in the World (Remote) | 2026-11-19T06:01:52+00:00",
+    "[title] Business Development Representative, AI | Talkspace | Anywhere in the World (Remote) | 2026-11-19T06:01:49+00:00",
+    "[title] Commercial Account Manager | Collibra | Anywhere in the World (Remote) | 2026-11-19T06:01:49+00:00",
+    "[title] Enterprise+ Account Executive | Gong.io | Anywhere in the World (Remote) | 2026-11-19T06:01:25+00:00",
+    "[title] Revenue Enablement Manager | Legion | Anywhere in the World (Remote) | 2026-11-19T06:01:25+00:00"
    ]
   },
   "builtin search 1": {
@@ -360,92 +360,92 @@
    "rejected_by": {},
    "rejected_samples": [],
    "http_status": 200,
-   "links_found": 12
+   "links_found": 14
   },
   "builtin job pages": {
-   "returned": 22,
+   "returned": 24,
    "kept": 1,
    "error": null,
    "rejected_by": {
-    "title": 21
+    "title": 23
    },
    "rejected_samples": [
     "[title] Demand Marketing Director",
-    "[title] Senior Manager, Brand Blue Rewards (14month Contract)",
     "[title] Proposal Specialist",
-    "[title] Intern, Product Marketing CPDI (8-month) - Toronto, ON",
-    "[title] Senior Planner",
-    "[title] Coordinator, Client Relations & Events",
-    "[title] Product Marketing Manager",
-    "[title] Manager, Growth Marketing"
+    "[title] Marketing Lead",
+    "[title] Senior Consultant, Content & Editorial, Advice & Education",
+    "[title] Senior Motion Designer, Creative",
+    "[title] Head of User Acquisition",
+    "[title] Head of Brand",
+    "[title] Marketing Programs & Brand Lead"
    ]
   }
  },
  "jobs": [
   {
-   "id": "jsearch:NDJDUTBPcFVVOF9xU0pLU0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZV0pzTVZsYVQxVnVXWFowV1VrMVlubG5ha2MzWkdVM2NWOTFiM1I1VFVKS1JIZE1ialp1UldSYVJVWmtOVTlaZWxWWmFFUjNOa0pHTkhZMmEzaFJXVGw2ZFZOUWVIRjBkbmxHYTJsalFXTndNa1UxWDNKdVZXbEJTRlJIVlVKeFZXRk1aMnhXVlRKeWF6TjRiVEppUW1OMFlqVjRkRWszTldGclV6VTViWEJ6UVZJNFpIa1NGMHMzWWpsaGNqWXRSa3BmT0hCMFVWQnhXVWRzWjFGVkdpSkJTRTR3UlRkSVNIWnVNMWxDWjBsbVpVOWlRbEpaVWxCNVVFSm5ha1U0TTBsQjphNTYxYTZlYg",
-   "source": "jsearch",
-   "publisher": "Jobrapido.com",
-   "title": "Remote Email Marketing Specialist \u2014 Lead Gen",
-   "company": "trabajo ca",
-   "location": "Toronto, ON, Canada (Remote)",
-   "remote": true,
-   "url": "https://ca.jobrapido.com/jobpreview/3627431694539161600",
-   "posted": "2026-11-16T00:00:00+00:00",
-   "salary": "",
-   "description": "A leading recruitment firm is seeking an Email Marketing Specialist for a full-time remote position. In this role, you'll implement and manage email marketing campaigns, analyze marketing analytics, generate leads, and utilize marketing automation tools. The ideal candidate should possess proficiency in Marketing Analytics and Communication, along with a Bachelor's degree in Marketing or Business. This opportunity is perfect for those with a keen attention to detail and strong analytical skills."
-  },
-  {
-   "id": "jsearch:c0REMTc4M2lPSGxMZlQ4bkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZVzl3WDIxcFMxbEJhVGxOV2s1SlNXUXhPRXBDUkZVM2VVa3pSMnBaTkdZMVp6Vk1ZMWc1YlZCVFQyWTVZbGh4WkVsbmVrOU1UR2xHU1RCdk9XVkdNRVJLTkRGSVQyRkZkSE5KT0VsSmRsTTNVVFZZYzFFeWIwUmZhMGhGYkhCcFFsVjNXREE1UTFoRlFsUTVjMDlEVUdNeVVuZGthbTlTVW1weGRYRTNZVnBxY1VwUVdXb1NGMHhpWWpsaGNrTnRTR0pUTUhGMGMxQnJUVTkzYjBGUkdpSkJTRTR3UlRkSU5tTkVOMDB6Y1RCamNYWnVNbE5EVGpNMGJWWXRWMFUzZWpaQjpkYTgwZTFlZQ",
-   "source": "jsearch",
-   "publisher": "FashionJobs Canada",
-   "title": "Operations Associate - Yorkdale Shopping Centre",
-   "company": "HARRY ROSEN",
-   "location": "Toronto, ON, Canada",
-   "remote": false,
-   "url": "https://ca.fashionjobs.com/job/harry-rosen/Operations-associate-yorkdale-shopping-centre,11869577.html",
-   "posted": "2026-11-16T00:00:00+00:00",
-   "salary": "",
-   "description": "Summary The Operations Associate at Yorkdale Shopping Centre supports store operations and client service across the service desk, order fulfillment and merchandising. This part-time role handles POS transactions, cash functions, e-commerce and in-store transfers, BOPIS, and on-floor logistics. The associate helps maintain merchandise standards, supports inventory activities and provides occasional sales-floor assistance to ensure an excellent client experience. Responsibilities \u2022 Process client transactions accurately through the POS and maintain client records. \u2022 Perform daily cash handling (open/close registers, prepare sales envelopes and bank deposits) and troubleshoot discrepancies. \u2022 Pick and fulfill e-commerce and IST orders, support BOPIS operations and achieve targeted pick rates. \u2022 Support on-floor logistics including markdowns, re-ticketing, re-tagging, restocking and seasonal display changes. \u2022 Assist with inventory preparations and counts and maintain overall stock levels. \u2022 Provide service desk client support, basic resolution and escalate issues when appropriate. \u2022 Support sales floor and ad-hoc projects as required to deliver exceptional client service. Requirements \u2022 Minimum of 2 years retail experience, preferably in a luxury environment, in a customer-facing role. \u2022 Experience with shipping, receiving, merchandising, order fulfillment and inventory management. \u2022 Service desk or client-facing experience with a strong service orientation. \u2022 Demonstrated interest in retail technology and ability to use systems to support operations. \u2022 Strong multitasking, teamwork and communication skills to manage busy service periods."
-  },
-  {
-   "id": "jsearch:bDdSa3lJZjRIV2xnZ18xUkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbFIwVWtablMwUlJXVVEyWW5SQlduUjZXVzkyVWtaNlNuQjRaMFpZWm01WFl6bE9kVGh6VDNVMlNHb3dTVlJGVEdFMk0wVkRVMlZVVkdkTlFYZDNXRWRHUVUxMlZtbExYM05JTWs1TGIwOWpkemxWWHpCV1lqVkVOUzB6YlU1bWVFUjBiVFpLYkhKclVHOHRUMlZ5TlVaQ1YxTlNZekJQUkdkaWJUWTNUSE5oY0VsRFlVc1NGMHhpWWpsaGNrTnRTR0pUTUhGMGMxQnJUVTkzYjBGUkdpSkJTRTR3UlRkSFdtRkxibkJhUm1aSVZYbE9WbkpzY0hOU09WbGxVbTlXVldkMzpkOTdmYTUxMQ",
-   "source": "jsearch",
-   "publisher": "Talent.com",
-   "title": "Legal Operations Associate, Compliance & Automation Toronto, Ontario",
-   "company": "Jerry",
-   "location": "Toronto, ON  (+1 other)",
-   "remote": false,
-   "url": "https://ca.talent.com/view?id=646298515177800957",
-   "posted": "2026-11-15T00:00:00+00:00",
-   "salary": "",
-   "description": "More than 80% of Americans own a car and see it as a fundamental necessity, yet the experience of owning one is stuck in the 90s. At Jerry.ai, we are building the first app to manage it all. Since launching in 2019, we\u2019ve reached 5M+ customers, raised $240M+, scaled revenue 70X, and achieved profitability in 2024. Jerry operates across the US and Canada, and our legal team keeps all of it running: entity filings, IP protection, compliance audits, consumer escalations, regulatory changes, and the systems behind them. The team is small, so this role comes with real scope early. You\u2019ll own Jerry\u2019s legal and compliance operations: make sure recurring work is done right, run the programs that need judgment, and keep rebuilding them with AI and low-code tools, so a small team can do the work of a much larger one. The person who succeeds in this role is a natural driver: someone who owns their work from start to finish, solves complex problems without a manual, and has the grit to thrive in a startup environment. If you are eager to sit at the intersection of law, technology, and AI-driven efficiency, we want to hear from you. Why You Will (Or Won\u2019t) Like Working Here \u2022 Real ownership early: You report directly to our Legal Counsel and work closely with them across the team\u2019s full scope. You\u2019ll own a set of compliance programs for the long term, and you\u2019ll be the first point of contact for teammates who run day-to-day compliance work. \u2022 Room to build: Many of our legal processes are still being optimized. You\u2019ll decide how they should work and build the systems behind them. \u2022 Building and operating: Alongside the building, a large share of the job is recurring work: filings, deadlines, audits, complaint responses, and quality checks that have to be done exactly right, every time. Your accuracy keeps Jerry in good standing in every jurisdiction, and people who enjoy both sides of the role do well here. \u2022 Growth that tracks results: You\u2019ll learn from leaders who come from Amazon, Better, LinkedIn, McKinsey, BCG, and Bain. Promotion is based on performance and ownership alone, so strong work moves you forward fast. What You\u2019ll Own \u2022 Compliance operations: Run, review, and quality-check the recurring compliance work, including entity maintenance, privacy requests, and licensing support. \u2022 Marketing compliance and audits: Run TCPA and Do Not Call audits, monitor opt-outs, and keep marketing guidelines current. Check the accuracy of AI-powered audits, and design new audit programs with sampling plans and scoring rubrics. \u2022 Consumer escalations: Investigate complex escalations to their root cause, work with Product, Operations, and Engineering on the fix, and turn recurring issues into compliance training for teams across the company. \u2022 Regulatory change and readiness: Track regulatory changes, along with issues surfaced by complaints and audits, and see each one through to action. Keep Jerry ready to answer regulator inquiries, carrier audits, and partner diligence quickly. \u2022 Legal team support: Support contract renewals, legal research, and product reviews with intake, fact gathering, trackers, and follow-up. \u2022 Automation and AI: Replace manual legal tasks with AI and low-code workflows, and own the reliability of every script, report, and AI tool the team depends on. Who You Are \u2022 A Closer: You track every open item until it\u2019s done, and you find the answer yourself before asking someone else for it. \u2022 A Builder: The second time you do a task by hand, you start working out how to automate the third. You reach for a spreadsheet or a low-code tool before a manual checklist. \u2022 A Zero-Error Operator: Regulatory filings and audits leave no room for mistakes, and you work accordingly. You keep your own system so no deadline or cross-functional project slips. \u2022 A Root-Cause Investigator: You don\u2019t stop at the symptom. You dig into the records, find what actually went wrong, and follow the fix through until it\u2019s done. \u2022 A Proactive Communicator: "
-  },
-  {
-   "id": "jsearch:TU53V3l6dTFJX3VESDVMWUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbVF5YVU5ck9Ga3haMTlsYW1kaFpEVjNNa2t3TkZOblNGTldkRzVzYUdwUVVuSTFhbXRLWDJNMlZsOXVkVUZMUW5sWlZWSmZYMUYxWW1SRFdWSnFiRTgwYXpCWWJWOVpTMUJXYjB4UmQwSTJhRXhLYkZSUmFGQlNabTFQVVZWbWVVcDVYMmh0ZEhFNUxYRklkWFJOVmpKRGVHVm9SRFF4VmpWZk9ERnZWMGhCUkVNMGRtRVNGMHMzWWpsaGNqWXRSa3BmT0hCMFVWQnhXVWRzWjFGVkdpSkJTRTR3UlRkSU4xRktWV2hCVTBKd1NHMVJaR0ZxVTNrd1JtbEVaR05VUW5aMzoyMGE5NDI0Mg",
+   "id": "jsearch:aUNmRnhnenpVTktRZU1oOUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVTlGWWpKNVdsbHNTVlI1TVhNMmNrZFhkWGRoY0hvd1J6SlJOMWRMUm5acVZIRllSRk5xT0VwNGNXZzVaMDVKYm5JekxXaHFNRGcwYlRKYVFVOVhSRk5HY0RaTFZtbHdXak51TTBKWGF6Rm9WbXhOYm1Rd1MwSXdOelYxYlY5RVRXSnpRWEoxYURsRlZIWjZNRmhZZVZWek1qVkthV0V6YlU5eU1XTmZkRGhRTVhSS2FFa1NGMEpCY2w5aGMybGlTRTFwWVhKMVJWQXdYMlZOTFZGekdpSkJTRTR3UlRkSU5GQjBXbTE0YUVRNVJuTmhORWhyZFZFNVZGOW1ValZRY25sbjphMWRjNGJjYw",
    "source": "jsearch",
    "publisher": "Indeed",
-   "title": "Coordinator, Digital Marketing",
-   "company": "Royal Bank of Canada",
+   "title": "Senior Communication and Marketing Specialist (Digital Advertising Specialist - SEM) (Hybrid/Telework)",
+   "company": "CBC/Radio-Canada",
    "location": "Toronto, ON, Canada",
    "remote": false,
-   "url": "https://ca.indeed.com/viewjob?jk=da852334300a942d",
-   "posted": "2026-11-13T00:00:00+00:00",
+   "url": "https://ca.indeed.com/viewjob?jk=4b5716434f9c25a0",
+   "posted": "2026-11-18T22:00:00+00:00",
    "salary": "",
-   "description": "Job Description What is the opportunity? As the Marketing Coordinator within the Wealth Marketing Canada (WMC) web team, you will be the go-to executor for advisor website requests across the country. This is a hands-on, task-oriented role designed for a true do-er \u2014 someone who takes pride in working through a queue, getting things done efficiently, and keeping advisors informed every step of the way. You will support the web team by actioning website change requests from investment advisors and their teams, managing the WMC marketing general inbox, supporting website audits and ensuring every page meets RBC compliance and formatting standards. You don't need to be a developer \u2014 our website platform is user-friendly content management too, but you do need to be comfortable navigating websites, making updates confidently, and communicating clearly with advisors about what\u2019s done and what's next. If you are organized, service-minded, energized by checking tasks off a list, and enjoy being the reliable person who keeps things moving, this role is for you. What will you do? \u2022 Review, prioritize, and action incoming website change requests from investment advisors, including content updates, page and account set-ups contact changes, ensuring timely and accurate completion within the WMC web platform. \u2022 Monitor and triage the shared WMC marketing inbox daily, acknowledging requests, routing items to the appropriate team member, and keeping a clear record of status and follow-ups. \u2022 Review all website content and changes against website best-practice, RBC compliance requirements, brand guidelines, and formatting standards before publishing, ensuring nothing goes live that hasn't been properly vetted. \u2022 Identify and report potential bugs, glitches, and usability problems within the website platform during day-to-day work and escalate them to the MarTech team in a timely manner with clear descriptions, steps to reproduce, and impact assessment, so technical issues are resolved quickly and don't disrupt advisor workflows. \u2022 Coordinate the end-to-end lifecycle of branch website projects, from initial request through build, compliance review, and launch, tracking progress and keeping all stakeholders informed of timelines and deliverables. \u2022 Serve as a responsive, knowledgeable point of contact for Counsel teams and Branch management, answering questions about website processes, status of requests, and marketing support available to them. What do you need to succeed? Must-have \u2022 Experience in marketing, communications, digital media, or a related field (degree or equivalent experience). \u2022 Comfort and familiarity working within content management systems (Yext, WordPress or similar platforms) you don't need to code, but you need to confidently navigate, edit, and publish within a CMS. \u2022 Strong organizational and time-management skills with the ability to manage a high volume of tasks and requests simultaneously. \u2022 A task-oriented, execution-focused mindset \u2014 you take ownership of your queue and find satisfaction in getting things done. \u2022 Excellent written and verbal communication skills, with a service-oriented approach to working with advisors and internal partners. \u2022 Attention to detail and a careful eye for formatting, consistency, and brand standards. \u2022 Ability to work independently, prioritize effectively, and follow established processes while knowing when to escalate. \u2022 Proficiency with Microsoft Office (Outlook, Word, Excel, PowerPoint) or equivalent tools. \u2022 A self-starter who thrives in a hybrid work environment and is comfortable collaborating virtually and in person. Nice-to-have \u2022 Experience in the financial services industry, particularly within wealth management. \u2022 Familiarity with SEO best practices and tools (e.g., Google Search Console, keyword research tools). \u2022 Experience managing a shared inbox or service desk environment. \u2022 Project management experience, including tracking tools such as Asana, Jira, or similar platfo"
+   "description": "Position Title: Senior Communication and Marketing Specialist (Digital Advertising Specialist - SEM) (Hybrid/Telework) Status of Employment: Permanent Position Language Requirement: English Language Skills: English (Reading), English (Speaking), English (Writing) Work at CBC/Radio-Canada At CBC/Radio-Canada, we create content that informs, entertains and connects Canadians on multiple platforms. Our successes and accomplishments are driven by embodying and upholding values, which include creativity, integrity, inclusiveness and relevance. Do you think you have the ability and drive to keep up with this exciting, ever-changing industry? Whether it be in front of the camera, on air, online or behind the scenes, you would be joining a team that thrives on making connections and telling stories that are important to Canadians. Unposting Date: 2026-12-02 11:59 PM This role is a hybrid work arrangement. Work schedule to be discussed with the Hiring Manager according to the guidelines defined by the department. Your role: You execute efficient digital advertising and search engine marketing (SEM) campaigns across a variety of platforms. You have a strategic vision for search: you know how to capture intent, structure accounts effectively, and drive engagement. You excel in Google Ads and know how to build efficient campaign structures. You are ready to adapt quickly to emerging trends, new content, and other digital advertising channels as business priorities evolve. You understand how to set objectives, choose the right tactics, make data-driven decisions, and measure your success. You have sound judgment, attention to detail, and value giving and receiving feedback to improve our shared outcomes. You treat others with empathy, respect, and enthusiasm. As a Senior Communications Officer, you are a cross-functional leader that helps shape the future of CBC. In collaboration with our marketing, creative, content, and product teams, you use your passion for digital marketing and public good to help deliver on CBC\u2019s business objectives. Some of the duties for this role will include: \u2022 Plan and execute search-based campaigns in Google Ads promoting key programming and products across CBC and CBC News. \u2022 Contribute to integrated marketing plans including recommending search strategies, keyword targeting, bidding tactics, and measurement to support specific business objectives. \u2022 Create, optimize, and maintain efficient search campaign structures, seamlessly integrating new sites, shows, and content into the overarching search strategy. \u2022 Use attribution-based tracking methods like tags, pixels, UTMs and Mobile Measurement Partners (MMP) to measure full funnel performance and identify opportunities for optimization. \u2022 Work closely with in-house creative and content teams to create and test highly relevant ad copy and assets that are grounded in best practices and emerging search trends. \u2022 Collect, analyze, and socialize campaign insights through written reports and compelling presentations. \u2022 Track and assign budgets across multiple projects and verticals, making strategic decisions to maximize return on ad spend. \u2022 Work cross-functionally with teams across the organization from Marketing, Creative, Digital Products, Events, Finance, and others. \u2022 Other related tasks as required. Qualifications Education Required: \u2022 Diploma or certificate in Communications or Marketing or an equivalent combination of education, training and experience. Experience and Skills Required: \u2022 Five years of direct experience that demonstrates superior writing, editing, and proofreading skills, a working knowledge of a wide range of communications and marketing strategies, excellent interpersonal and organizational skills and the ability to work under the pressure of deadlines and multiple priorities. \u2022 A proven ability to craft and execute campaigns on digital platforms, with deep, hands-on expertise managing and structuring Google Ads (Search, Display, Performanc"
   },
   {
-   "id": "builtin:12302676",
+   "id": "jsearch:SWdVS2ZxTXlhbkw5ckZLdUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbUpJWTBOVk1tNWpYMGwxZVRkS2QyRXlibTg0Ylc1RFVWVktSRGh0TVdRdFlreDJVa3R0WTAwelJubExjRWhUUlU5bVNXODRSbGc0Y1hseVpuQldkRE5sZW5aTVJWTjJRbTFXUnpOYWRWa3lUM1ZPY1dGVGVsRnJWM1ZsVnpkcE1TMVJhMDlRWTFac1YzSjZlRmhhU1ZWdE5XRlNhM3BzTkhGRVNEbHhRemhNU1dRMFJrd1NGME5SY2w5aGNqSnZURWxwYjNCMFVWQnROUzFsZVVGSkdpSkJTRTR3UlRkR1Z6QlNiMVZVVjIxemVtMVFXbFkyTUdSdGRqUmFNWE5uZFc1QjpiYjNlMWRjMg",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Treasury Operations Associate",
+   "company": "Hyundai Capital Canada",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/treasury-operations-associate-at-hyundai-capital-canada-4491855128",
+   "posted": "2026-11-18T00:00:00+00:00",
+   "salary": "",
+   "description": "About Us: Hyundai Capital Canada (HCCA) is the Canadian captive finance business for Hyundai Motor Group. We go to market under the service brands Hyundai Motor Finance, Kia Finance and Genesis Finance. Through a network of over 450 Hyundai and Kia dealerships and 30 Genesis distributors nationwide, we provide indirect vehicle financing and leasing solutions to consumers and commercial customers. We\u2019re a company driven by growth, innovation, and people. At HCCA, you\u2019ll find opportunities to build new skills, expand your career, and make a real impact\u2014while working in a diverse, inclusive, and values driven environment. Our employees contribute every day to a culture that is fast-paced, dynamic, energized, agile, and collaborative. From our employee programs to the unique design of our offices, we strive to create a connected, fun, positive, and rewarding workplace where employees feel appreciated, proud of their company, and deeply invested in HCCA\u2019s success. Position Details: Reporting to the Manager, Treasury Operations, this role is an integral point of contact for daily Cash Management and Treasury Operations activities for Hyundai Capital Canada. Responsible for managing bank reconciliations, cash position/compliance reporting, and customer cash activity aggregation/data provision, and participating in short term liquidity forecasting and bank account maintenance activities for the HCCA Treasury team. The individual will play a significant role managing HCCA\u2019s short-term funding facilities and will participate in the monthly sales and reporting processes covering HCCA\u2019s securitization activities. Responsibilities: \u2022 Prepare reports of the daily cash position of HCCA and provide daily oversight of cash flow. Prepare daily bank reconciliations between the general ledger and bank balances. Work closely with the HCCA Servicing team to provide up to date customer account information in terms of customer payments, refunds and returns. Ensure all incoming and outgoing payments are processed accurately through detailed account-level reconciliations. \u2022 Assist in Cash Management process improvement initiatives involving customer refunds, credit card payments, dealer funding, dealer/OEM incentive payments and other similar projects. \u2022 Participate in compliance support activities including external audits, business continuity planning as well as assistance with development and maintenance of policies and procedures. \u2022 Coordinate and support bank account structure optimization. Maintain and verify monthly bank charges and identify cost reduction initiatives \u2022 Participate in management of short-term revolving funding facilities and securitization facility sale analyses and servicer reporting, and required financial reporting of existing transactions, in an accurate and timely manner. \u2022 Perform all other duties as assigned. Qualifications: \u2022 Bachelor\u2019s degree required \u2013 BA/BS in Accounting / Finance / Business / Mathematics / Computer Science \u2022 Minimum of 2 years of professional experience with demonstrated success in complex content of work \u2022 Strong technical and analytical competency requirements, including detailed reconciliation experience \u2022 Recent Treasury/Cash Management experience involving an earning asset portfolio is preferred \u2022 Experience in Canada laws and environment, payment system and instruments preferred but not required \u2022 Experience in Auto finance, retail banking, or consumer finance industry is preferred \u2022 Strong knowledge of cash forecasting, daily cash positioning and bank reconciliation \u2022 Working capital experience preferred \u2022 Excellent Microsoft Office Suite user; strong Excel proficiency required \u2022 SAS and SQL knowledge required \u2022 Candidate should be able to work in a dynamic, rapid-growth environment, with highly time-sensitive commitments \u2022 Candidate should be comfortable working with, navigating, and integrating/linking data from different systems and databases \u2022 Strong oral and written communication skills a"
+  },
+  {
+   "id": "jsearch:d3hRSTdKa1pHZmRXallsQUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbDkwUnkxU2RrOWZZMkZOYlZoNE1tZFNielI1ZVdkelp6QjFVMnhMWHpKdGEyTkJjVWRPWTFnM1FYaGxkbDl6V0VwSGFtdHBjRzlVZEdwbmVGUnZZMlY1ZWtKRlNrOUJZM1pTYVV4RVpFMWphMDlFY0c5NVJ6QkxaM05tWTA1VlozZzFTbGhJWkc0dFl5MXdabTlTZGtsUWFEVmZUVFV4VkU0NGNqWmtlSEF3YldScmNrOFNGMEpCY2w5aGMybGlTRTFwWVhKMVJWQXdYMlZOTFZGekdpSkJTRTR3UlRkRk9FTlpYMGx3TFZSVWFteFlSMGxLTlc0M1dGUjBNek5qTm5abjo0ZDU4NTdmZg",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Growth Marketing Specialist 6 months",
+   "company": "Mejuri",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=646129280162466322",
+   "posted": "2026-11-14T00:00:00+00:00",
+   "salary": "",
+   "description": "Since 2015 Mejuri has reimagined what fine jewelry can be in a modern worldshifting it from a traditional gift to to a personal choice rooted in self-expression. Founded by third-generation jeweller Noura Sakkijha the brand was built on a simple idea: fine jewelry shouldnt require a special occasion and it should never come with guilt. Its about celebrating yourselfyour style your life your everyday. Mejuri meets customers where they areonline in app and through a growing global retail footprint of 58 stores worldwide. Mejuri is also deeply committed to doing things the right way with responsible sourcing sustainable practices and philanthropic initiatives that reflect our values and long-term vision. Job Overview 6 Month Contract The Growth Marketing Specialist (6 months) owns the performance of Mejuris paid social channels (Meta TikTok and Pinterest) and is accountable for the net merchandise value incremental return on ad spend and digital traffic they deliver. The role also owns the paid social testing roadmap including early tests on emerging platforms like YouTube and Reddit. Youll build launch and optimize campaigns yourself and manage day-to-day spend within the allocations your manager sets. Youll report to the Manager Growth Marketing and present results to the VP of Growth. Your closest partner is the Creative team and youll also work with Brand Organic Social Influencer Marketing E-commerce and Merchandising and Data and Analytics as well as platform reps at Meta TikTok and Pinterest. The Growth Marketing Manager sets channel strategy and cross-channel budget. You run the channels day to day and bring the data-backed recommendations that decide where they go next. What youll do Running Paid Social \u2022 Campaign execution: Campaigns go live correctly and on time for every drop launch and commercial moment. You build and traffic them yourself including manual ad uploads. \u2022 Budget pacing: Spend lands on plan each month. You check pacing daily and adjust bids and budgets within each channels approved allocation. \u2022 Optimization: Spend moves toward whats working. You pause underperforming ads rotate creative and act on in-flight performance without waiting for sign-off. \u2022 Platform issues: Ad rejections tracking gaps and data discrepancies get resolved without holding up a launch. You work through them directly and escalate only when a cross-team decision is needed. Testing and Learning \u2022 Test roadmap: Each quarter starts with a prioritized list of creative audience format bidding and placement tests. You build and maintain the list and agree on priorities with your manager. \u2022 Test design: Test results hold up. You write the hypothesis set up a clean test and wait for statistical significance before calling the result. \u2022 Emerging platforms: Mejuri learns whether channels like YouTube and Reddit are worth scaling. You propose and run the tests that answer that question. \u2022 Recommendations: What you learn turns into decisions. You bring data-backed proposals such as scaling an audience or adopting a new format. Partnering With Creative and the Business \u2022 Creative feedback: Creative knows whats working and why. You give specific actionable reads by creative format and placement and contribute to briefs. \u2022 Brand and performance: Campaigns reflect Mejuris identity and still drive revenue. When the two pull in different directions you find the version that serves both. \u2022 Launch priorities: Traffic goes to the products and launches that matter most. You align with E-commerce and Merchandising on priorities landing pages and inventory. \u2022 Reporting: Your manager the Growth team and Finance have an accurate read on performance and pacing. You report weekly and recap each channel monthly. What youll bring to the team \u2022 Hands-on paid social experience: 24 years personally building launching and optimizing campaigns in Meta Ads Manager. TikTok or Pinterest experience is strongly preferred. Agency experience counts if you did the work your"
+  },
+  {
+   "id": "jsearch:RWppTUlsTVBKMGxTZURBWkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbTF2YkZseVUyRXRkV0Z3TTE5eGJuUjBTa2x5U3pFMk1rRnhZamRYY2pjNVNtWmFOMkV4Y2xSdFRuVnpZVTVGZFhsT05UQmlXRk5KWjFCSllraDFTRE5VUWtNd1kxWjBNbmxtVDBGWloyTXhSa05HUzAxNGJubFNjVmRQTmtKNWVGVnVZelZDVlVkdFNuTnhZMEp1ZWpaWFJYZzJOWGR1YUhoU1VYUTVaRkZZY2xoNFlXb1NGMEpCY2w5aGMybGlTRTFwWVhKMVJWQXdYMlZOTFZGekdpSkJTRTR3UlRkR1ltbEZTazlMZDA4MlZWa3lXbkJoWWtJNVMxQlBZbkJ5ZVVaMzpkYTIyZWM4ZA",
+   "source": "jsearch",
+   "publisher": "Eluta.ca",
+   "title": "Marketing Specialist",
+   "company": "ClubRunner",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.eluta.ca/spl/marketing-specialist-883ff55a59e0a7eff3a501dd4408b9f7",
+   "posted": "2026-11-13T00:00:00+00:00",
+   "salary": "",
+   "description": "We\u2019re a fast-growing B2B SaaS company looking for a hands-on Marketing Specialist to execute campaigns that fuel our revenue growth, and customer retention. This role combines demand generation, digital marketing, content creation, and customer campaigns - all with measurable impact on sales and adoption. This is a hands-on role. You will build, launch, and execute campaigns, not just plan them. This role is not strategic ownership of the entire marketing function. It\u2019s focused on quality execution and real impact. We are committed to your career growth - as the company scales, this role can grow into a Senior Specialist or Marketing Manager track depending on performance and leadership capability, as well as the possibility of moves into other teams. If you have SaaS marketing experience and thrive at running multi-channel programs that drive results, we\u2019d love to hear from you. What You\u2019ll Do \u2022 Run campaigns across email, paid media, social media, content, webinars, and events. \u2022 Build and schedule email campaigns \u2022 Manage the lead funnel end-to-end: campaign execution, reporting, conversion optimization, and assist with Sales. \u2022 Optimize our digital presence including website updates, landing pages, and SEO to increase inbound leads. \u2022 Create and repurpose content including customer stories (case studies, testimonials, reviews), blog posts, and sales collateral. \u2022 Assist in development sales enablement materials when needed (slide decks, brochures, RFP\u2019s, etc) \u2022 Partner with Product & Customer Success teams on launches, adoption campaigns, upsell campaigns \u2022 Manage and update CRM and marketing automation tools. \u2022 Plan events (webinars, tradeshows, customer events), including pre- and post-event campaigns. \u2022 Manage our digital assets and oversee creation of additional materials \u2022 Work with vendors to support campaign, creative, and event needs. What We\u2019re Looking For \u2022 3+ years of experience in B2B SaaS or technology marketing (required) \u2022 Proven track record in marketing campaign execution and content. \u2022 Experience with marketing automation platforms and CRM systems \u2022 Familiar with SEO, paid media and digital marketing channels \u2022 Excellent written and verbal communication skills \u2022 Ability to manage multiple campaigns in a fast-paced, scaling software environment. \u2022 Highly organized and detail-oriented \u2022 Experience in a subscription-based SaaS company is strongly preferred \u2022 Ability to travel 1-3 times per year strongly preferred What We Offer We provide a company-paid competitive health and dental benefits package, paid time off, flexible work arrangements including remote, training opportunities, and more. We pride ourselves on always looking into innovative technologies and practices, and empower every member of our team to push for better solutions. We believe in open and transparent communication, being agile, and always thinking of the customer. Being open to feedback is a core value, and continually looking for ways to improve how things are done. Our team also enjoys: Remote Work \u2022 Competitive salary and paid time off \u2022 Comprehensive medical, dental, and vision benefits plan \u2022 Life and disability and critical illness insurance \u2022 Employee Assistance Program (EAP) \u2022 Healthy work-life balance \u2022 Friendly and supportive culture built on performance and merit \u2022 Team and social events Accessibility and Inclusion As part of our commitment to inclusivity, diversity, equity and accessibility, our goal is a workforce that reflects the communities we serve. We welcome all qualified applicants to apply. We are proud to be in compliance with the Accessibility for Ontarians with Disabilities Act (AODA), 2005 and the Integrated Accessibility Standards Regulation. We are happy to honour accommodations at any part of the recruitment process and invite you to let us know how to help. Job ID: 2026-10"
+  },
+  {
+   "id": "builtin:12331023",
    "source": "builtin",
    "publisher": "Built In",
-   "title": "GTM Strategy and Operations Associate Analyst",
-   "company": "Salesforce",
+   "title": "Sr. Marketing Specialist",
+   "company": "OpenTable",
    "location": "Toronto, ON",
    "remote": false,
-   "url": "https://builtintoronto.com/job/gtm-strategy-and-operations-associate-analyst/12302676",
+   "url": "https://builtintoronto.com/job/sr-marketing-specialist/12331023",
    "posted": null,
    "salary": "",
-   "description": "GTM Strategy and Operations Associate Analyst - Salesforce | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Salesforce Jobs GTM Strategy and Operations Associate Analyst Salesforce GTM Strategy and Operations Associate Analyst Posted 13 Hours Ago Be an Early Applicant In-Office Toronto, ON, CAN Junior In-Office Toronto, ON, CAN Junior Supports Salesforce Quote to Cash operations through project tracking, process documentation, training collateral, requirements gathering, and automation initiatives. Maintains project plans, issue and risk logs, business rules, process flows, and operational policies. Partners with Sales Operations, Entitlements, Revenue Accounting, technology teams, and Finance to improve manual processes using Python, AI tools, Regrello, VBA, and Slack bots. The summary above was generated by AI To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Finance Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn\u2019t a buzzword \u2014 it\u2019s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You\u2019re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. What You'll Be Doing & Why It Matters Salesforce is seeking an Analyst to support our internal Quote to Cash operations, including business processes, systems, and compliance for quoting, delivery of service, billing, and accurate, complete invoicing. This person will support project execution, help document as-is and to-be processes, and assist with tracking progress and providing status updates. Core Responsibilities & Scope Support the Quote to Cash Operations team on internal projects by creating and maintaining project plans and trackers, status updates, issue logs, and risk tracking Develop working knowledge of Salesforce internal Quote to Cash systems and processes, and help document and maintain a repository of business rules, process flows, and the framework for operational processes and policies Support the training specialist in creating and maintaining training collateral related to policy and process changes Gather and document requirements for automation opportunities across QTC processes (manual, repetitive, or error-prone work), and assist in building automations and macros/VBA using AI tools (e.g., Claude, Gemini, ChatGPT), Python, Regrello, and Slack bots, partnering across Sales Operations, Entitlements, Revenue Accounting, DET, and Finance Minimum Requirements 1+ years of experience related to CPQ (Configure, Price, Quote) and Order Management Systems 1+ years of project coordination or project support experience Familiarity with Salesforce products and basic understanding of Salesforce data models, including Apttus CPQ objects (Quotes, Line Items, Orders) and standard QTC objects (Opportunities, Pricebooks) Advanced Excel proficiency, strong written and verbal communication skills, and strong attention to d"
+   "description": "Sr. Marketing Specialist - OpenTable | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job OpenTable Jobs Sr. Marketing Specialist OpenTable Sr. Marketing Specialist Posted 10 Hours Ago Be an Early Applicant Hybrid Toronto, ON, CAN Senior level Hybrid Toronto, ON, CAN Senior level Leads partnership campaigns, co-marketing initiatives, events, and localized marketing activations across Canada and Mexico. Manages external partners, agencies, vendors, creative development, campaign logistics, and cross-functional execution. Ensures Quebec-French messaging accuracy and cultural relevance, tracks campaign performance and ROI, and reports insights to regional and global leadership. The summary above was generated by AI With millions of diners, 70,000+ restaurant partners and 25+ years of experience, OpenTable, part of Booking Holdings, Inc. (NASDAQ: BKNG), is an industry leader with a passion for helping restaurants thrive. Our world-class technology empowers restaurants to focus on what matters most \u2013 their team, their guests, and their bottom line \u2013 while enabling diners to discover and book the perfect restaurant for every occasion. Every employee at OpenTable has a tangible impact on what we do and how we do it. You\u2019ll also be part of a global team and its portfolio of metasearch brands. Hospitality is all about taking care of others, and it defines our culture. About the Job As the Sr. Marketing Specialist, you will play a critical role on the Growth Team by driving strategic campaign partnerships across Canada and Mexico. In this role, you will lead co-marketing initiatives while acting as the regional safeguard and primary liaison for Quebec-French messaging, ensuring linguistic precision and brand integrity across all localized content. Working closely with cross-functional teams locally and across the globe, external partners and agencies, you will scale high-impact, localized marketing activations that elevate brand presence in key regions and that drives value for both OpenTable and our partners. This hybrid role requires working in the office two days per week. Responsibilities Lead and execute multi-faceted partnership campaigns across Canada and Mexico to expand reach and drive growth objectives Own conversations with external partners, from initial outreach and negotiation through ongoing relationship management, acting as the primary point of contact Plan, manage, and execute events and cross-marketing campaigns, overseeing logistics, timelines, and on-the-ground activation Manage multiple projects simultaneously, staying organized and ensuring every deliverable is executed on time and to a high standard Brief, scope, and manage end-to-end creative development for co-marketing campaigns, activations, and promotional partnerships Coordinate and proofread Quebec-French marketing assets, messaging, and localized collateral to ensure cultural nuance, accuracy, and alignment with brand standards Collaborate with cross-functional channel owners, including PR, Performance, Sales, Events, and Design, to ensure seamless execution across all touchpoints Manage relationships with external agencies, co-marketing partners, and vendors throughout the campaign lifecycle Track campaign performance, evaluate ROI, and report actionable insights to regional and global leadership Minimum Qualifications 5+ years of experience managing end-to-end"
   }
  ]
 }
