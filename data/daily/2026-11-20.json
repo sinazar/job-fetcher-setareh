@@ -1,0 +1,477 @@
+{
+ "run_at": "2026-11-20T14:17:56.938342+00:00",
+ "date": "2026-11-20",
+ "runs": [
+  "2026-11-20T141756Z"
+ ],
+ "source_counts_after_filters": {
+  "jsearch": 9,
+  "remoteok": 0,
+  "weworkremotely": 3,
+  "adzuna": 0,
+  "builtin": 1
+ },
+ "new_count": 7,
+ "diagnostics": {
+  "jsearch: marketing coordinator OR marketing specialist in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 6,
+   "error": null,
+   "rejected_by": {
+    "too old": 1,
+    "title": 3
+   },
+   "rejected_samples": [
+    "[too old] Marketing Specialist, Indigokids | Indigo Books & Music | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Marketing Inbox & Workflow Coordinator (12-Month Contract) | Ian Martin Group | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00",
+    "[title] Marketing Manager | Marketers on Demand | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00",
+    "[title] Marketing, Digital Growth & Sales Lead | Threadcount Textile & Design | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "marketing coordinator OR marketing specialist in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: account coordinator OR client services coordinator in Toronto, ON (ca)": {
+   "returned": 1,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 1
+   },
+   "rejected_samples": [
+    "[title] Facility Service Coordinator | AppleOne | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "account coordinator OR client services coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    1
+   ]
+  },
+  "jsearch: business operations associate OR operations coordinator in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 7
+   },
+   "rejected_samples": [
+    "[title] Executive Assistant and Operations Manager | 247 Labs | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Technicien ou technicienne, Travail de bureau et Op\u00e9rations | Relevance | Toronto, ON, Canada | 2026-11-19T00:00:00+00:00",
+    "[title] Remote Revenue Operations Director & Partner Ops Lead | Boreal Education | Toronto, ON, Canada (Remote) | 2026-11-16T00:00:00+00:00",
+    "[title] Operations Manager e-Commerce | Advisor Works | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00",
+    "[title] People Operations Lead | AMZ Prep\u00ae | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Commercial Operations Executive - Commercial Events | Rothmans, Benson & Hedges Inc. | Toronto, ON, Canada | 2026-11-16T00:00:00+00:00",
+    "[title] OPERATIONS MANAGER - INDUSTRIAL AUTOMATION | NPA WorldWide | Toronto, ON, Canada | 2026-11-18T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "business operations associate OR operations coordinator in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: remote marketing coordinator Canada (ca)": {
+   "returned": 10,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 7,
+    "aggregator": 2,
+    "location": 1
+   },
+   "rejected_samples": [
+    "[title] Marketing Manager, Communications & Content | Entrepreneur Cooperative | Canada   (+52 others) | 2026-11-17T00:00:00+00:00",
+    "[title] Remote Growth Marketing Manager, SMB SaaS | Wagepoint | Canada (Remote) | 2026-11-14T00:00:00+00:00",
+    "[aggregator] Paid Social Growth Marketing Manager | Jobgether |  | 2026-11-16T00:00:00+00:00",
+    "[title] Digital Marketing & Sales Executive I Remote I | Supalifeco | Winnipeg, MB  (+1 other) (Remote) | 2026-11-16T00:00:00+00:00",
+    "[title] Lifecycle Marketing Lead - Real Estate Fintech (Remote) | Talencore | Toronto, ON, Canada (Remote) | 2026-11-18T00:00:00+00:00",
+    "[title] Remote Demand Gen & Display Strategist | 829 Studios | Canada (Remote) | 2026-11-15T00:00:00+00:00",
+    "[title] Marketing Manager \u2013 Social Media (Instagram &amp; TikTok) | xoangels |  | 2026-11-14T00:00:00+00:00",
+    "[aggregator] Lifecycle Marketing Automation Lead - Remote Canada | Jobgether | Canada (Remote) | 2026-11-18T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote marketing coordinator Canada",
+     "num_pages": 1,
+     "date_posted": "week",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "weworkremotely": {
+   "returned": 238,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 224,
+    "location": 8,
+    "too old": 3
+   },
+   "rejected_samples": [
+    "[title] Enterprise Account Executive - TOLA | Tines | Anywhere in the World (Remote) | 2026-11-20T06:01:49+00:00",
+    "[title] Mid-Market Account Executive | LaunchDarkly | Anywhere in the World (Remote) | 2026-11-20T06:01:47+00:00",
+    "[title] Senior Sales Training and Enablement Manager | Tebra | Anywhere in the World (Remote) | 2026-11-20T06:01:46+00:00",
+    "[title] Enterprise Acquisition Account Executive | LaunchDarkly | Anywhere in the World (Remote) | 2026-11-20T06:01:44+00:00",
+    "[title] Account Executive III | Sumo Logic | Anywhere in the World (Remote) | 2026-11-20T06:01:35+00:00",
+    "[title] Front-End Engineer, UX/UI | BeyondTrust | Anywhere in the World (Remote) | 2026-11-20T06:01:35+00:00",
+    "[title] Account Executive, Mid Market (Southeast) | Samsara | Anywhere in the World (Remote) | 2026-11-20T06:01:35+00:00",
+    "[title] Account Executive, Mid-Market - DACH | Samsara | Anywhere in the World (Remote) | 2026-11-20T06:01:27+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 11
+  },
+  "builtin search 2": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 14
+  },
+  "builtin job pages": {
+   "returned": 25,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 24
+   },
+   "rejected_samples": [
+    "[title] Manager, Communications, Individual Insurance Canada",
+    "[title] Head of Brand",
+    "[title] Senior Copywriter",
+    "[title] Senior Copywriter",
+    "[title] Senior Regional Marketing Manager",
+    "[title] Events & Community Manager",
+    "[title] Senior Manager, Digital Marketing & Demand Generation",
+    "[title] Marketing Generalist"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:LV9xb0p2QTZOdEU3XzdiUUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVk51Umt4RFZFbDJWVVl0WjFsV1RERkxiRkU0U1VsNE56UXpOM2xuUzBaMU1uUkVja1EzTkRsVVdUUlNhaTFDYkVwT1l5MDJjR3BUTlhFd2FFOTFka3BYYURsT1dGbDBUbEpMV2xWYUxVVmxSREYzVG1jM1NITlhiV2d3V2xoblpXOWhlSFJpTjJKaldXNDRiWFZmVWt0WVpIWldNM05aWlhJMWJHMXFiM054YUdWTFVsY1NGMnhzV1VGaE5IRnFSRjlwYWpWT2IxQXdOVEl4YzFGSkdpSkJTRTR3UlRkSWRuUTFkemczWDBoNmIxbGtUV2RaWjFKMldVNVJWamhXUjNWbjpkMWQwNzQyYw",
+   "source": "jsearch",
+   "publisher": "Learn4Good",
+   "title": "Integrated Marketing Specialist",
+   "company": "Tim Hortons",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.learn4good.com/jobs/toronto/canada/marketing_and_pr/5651687977/e/",
+   "posted": "2026-11-20T00:00:00+00:00",
+   "salary": "",
+   "description": "Position: Tim Hortons Integrated Marketing Specialist Drive integrated marketing communications for Tim Hortons through campaign coordination, creative review, and cross-functional collaboration in a five-day, in-office schedule. Support brand priorities reaching Canadians across multiple channels. Restaurant Brands International seeks a Marketing Communications Specialist for the Tim Hortons Canada Integrated Marketing Communications team. You will support national, regional, test market, and ad hoc programs across Media, Digital, CRM, Social, Public Relations, and other channels. The work combines project management, marketing fundamentals, creative judgment, and detailed execution. Key Responsibilities: \u2022 Manage low-complexity marketing communications initiatives independently \u2022 Coordinate campaign work streams with agencies and internal partners \u2022 Develop creative briefs and provide actionable agency feedback \u2022 Review creative across television, digital, social, audio, and outdoor channels \u2022 Interpret performance insights and recommend future campaign improvements Requirements: \u2022 Bachelor\u2019s degree in marketing, communications, business, public relations, or related field \u2022 Two or more years of progressive related experience \u2022 Understanding of brand marketing and integrated campaign development \u2022 Excellent writing, verbal communication, copy-editing, and presentation skills \u2022 Microsoft Office proficiency and strong organizational skills Apply integrated marketing, creative review, and project management skills to strengthen Tim Hortons campaigns across Canada."
+  },
+  {
+   "id": "jsearch:Wk5QTlA1RzRBT0VMc1kxbkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXUzE2TFhwVWMzZGFVbUpyWjJGSE9IVnVNRFYxU0hoWGEwMVlka0ZhUjFBMlNEWnFPR0ZLT0ZSdmFtcDVRMHRPU0c5cU4xcHRiRWMwVkZBeWVqbEpaMmx2ZG1KVldVTkJZbmhsWVRKcFUyZ3phMDlCZDJ4bVRsZGthRlExTmxOcE5WSnNabUpEVlRsQ1MwMDFRMjUxWW10dlZGVm1Oa05DTTFaTGFWcDRaMTh3U21nNVZYVVNGMnhzV1VGaE5IRnFSRjlwYWpWT2IxQXdOVEl4YzFGSkdpSkJTRTR3UlRkRlF6VlRWVXBLUkV4MldubFhiMnMwYld4WlpsTlFOelpSZVZsQjpiZTU3YjRhYQ",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Social Media Coordinator (Entry level)",
+   "company": "Spark Growth",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/social-media-coordinator-entry-level-at-spark-growth-4492508280",
+   "posted": "2026-11-19T20:00:00+00:00",
+   "salary": "",
+   "description": "Estimated Start Date: Early January Reports to: Head of Client Success & Operations Compensation: $40K-$50K About Spark Growth At Spark Growth, we are a digital agency with a growing team passionate about digital marketing, health, and wellness. We believe that a thriving team is essential for our success, so we prioritize physical health, mental health, and employee well-being. Our vision is to promote products and solutions that drive positive health outcomes and enable more people to live their best lives. We live by five core values: \u2022 Own it: We lead from wherever we sit\u2014taking responsibility for our work, holding ourselves accountable for our results, and focusing on solutions. \u2022 Stay curious: We dig beneath the surface, ask better questions, and stay ahead of industry trends. \u2022 Find a way: We bring ingenuity and can-do energy to navigate challenges and find the best path forward. \u2022 Deliver Quality: We refuse to cut corners and deliver thoughtful, high-quality work with precision and pride. \u2022 Drive outcomes: We use data and evidence to optimize performance and focus on what moves the needle. About the Role We're looking for a social, creative, and ambitious Social Media Coordinator who understands what makes people stop scrolling, start conversations, and connect with brands. You'll bring our clients' social channels to life through community engagement, creative content, trend spotting, and influencer relationship management, helping brands build meaningful connections and engagement with their audiences. Working across a variety of health and wellness brands, you'll collaborate with our account, creative, and paid media teams to develop engaging, authentic, and relevant social experiences. The right person is personable, outgoing, resourceful, and full of ideas. You love creating content and naturally keep up with what's happening online. You also enjoy connecting with people, communicate exceptionally well, and take pride in doing things right. You should be eager to learn, comfortable taking initiative, and quick to figure things out. This is a great entry-level opportunity for someone early in their marketing career to gain hands-on experience across social media, content, influencer marketing, and client strategy, with opportunities to grow as their strengths develop. Key Responsibilities Social Content Development \u2022 Brainstorm plan, and film creative ideas and concepts for social posts, Stories, Reels, and other platform-specific content for client brands. \u2022 Shoot and capture engaging short-form video and photo content, collaborating with designers and video editors to bring concepts to life. \u2022 Write engaging captions, hooks, headlines, and short-form copy that reflect each brand's unique personality. \u2022 Stay on top of emerging social media trends, formats, and cultural moments, identifying opportunities for clients to participate. Community Engagement \u2022 Manage comments, DMs, and inquiries with personable, engaging, and brand-appropriate responses. \u2022 Create interactive Instagram Stories and engagement opportunities that encourage conversation and brand loyalty. \u2022 Proactively engage with relevant accounts, creators, and conversations to grow brand awareness and community. \u2022 Recognize sensitive feedback and product-related questions and escalate appropriately. Influencer Management \u2022 Research and identify relevant influencers and content creators for client campaigns. \u2022 Evaluate partners based on audience alignment, content quality, authentic engagement, and brand fit. \u2022 Build positive creator relationships through outreach and ongoing communication. \u2022 Coordinate collaborations, maintain tracking documents, and identify potential red flags or reputational concerns. Social Media Coordination \u2022 Build and maintain content calendars across multiple client accounts. \u2022 Schedule and publish approved content, ensuring accuracy, proper formatting, and timely execution. \u2022 Monitor social channels and content performance to iden"
+  },
+  {
+   "id": "wwr:https://weworkremotely.com/remote-jobs/elation-health-contract-operations-associate",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Contract Operations Associate",
+   "company": "Elation Health",
+   "location": "Anywhere in the World (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/elation-health-contract-operations-associate",
+   "posted": "2026-11-19T18:31:14+00:00",
+   "salary": "",
+   "description": "Headquarters: US - Remote Our team is committed to enhancing physician and patient quality of life through Elation, a SaaS cloud-based clinical platform. Since inception, we've been focused on building a world-class technology solution that creates an experience of delight and ease for physicians, and that our users love. Every signed customer agreement at Elation passes through a final review before billing and onboarding begin. That review confirms what the customer signed matches what we set up in Salesforce: the right products, quantities, prices, and dates. When it's done well, customers get billed correctly from day one and our finance and customer success teams avoid costly cleanup later.We are looking for a Contract Operations Associate to join our Business Systems Team on a contract basis and own a share of these reviews. You'll work from clear checklists and procedures, use AI-assisted review tools, and partner closely with the specialists who own this process. This is a great fit for someone early in their career who is detail oriented, enjoys getting things exactly right, and wants hands-on exposure to how a SaaS company runs its revenue operations. What You'll Do Contract Review & Verification Own a daily review queue of signed deals awaiting final approval, starting with new customer agreements, downgrades, and simple add-ons (adding a product or seats), then expanding to renewals and other deal types as you ramp. Confirm the signed order form is complete : both the customer and Elation have signed and dated it, and you identify the official execution date. Check that key dates line up across the order form, the Salesforce opportunity, and the quote (execution date, close date, and contract start date), and that add-ons end on the same date as the customer's existing contract. Reconcile the quote against the order form line by line: products, quantities, terms, unit prices, and totals, including confirming that unchanged products and removed products are recorded correctly. Verify approvals and required data : discounts have a documented approval, required fields are filled in, and the customer account is a real, active practice rather than a trial. Correct routine issues directly in Salesforce (e.g., date fields or account details) when the procedure allows it, then advance the deal to Closed Won. Confirm downstream handoffs fired after approval, such as the customer's billing record and onboarding project being created, and flag anything that didn't. Partnering with Sales & Customer Success on Corrections Return deals that need fixing to the account executive or customer success manager who owns them, with a clear, specific note: what doesn't match, where you found it (order form page, quote line, field), and what correct looks like. Follow corrections through to completion : track returned deals, check that the fix is right when they come back, and re-review promptly so customers aren't left waiting on billing or onboarding. Prioritize with deal owners during busy periods like month end, communicating which deals are blocked and what's needed to close them on time. Spot repeat issues by rep, team, or deal type and share them with the team, so we can improve training, Salesforce guardrails, and error messages and prevent the same mistake next time. Resolving Open Questions with Stakeholders Bring questions to the right person with full context : the deal link, what you checked, what's unclear, and your best guess at the answer. Start with the team's operations specialist, then partner with Deal Desk, Customer Success leadership, Finance (billing and revenue reporting), or Salesforce administrators as directed. Escalate anything outside the checklist rather than making judgment calls on your own, such as contract exceptions, non-standard discounts, unusual date requests, or large and custom agreements. Track every open question until it's resolved , keeping the deal owner updated so nothing stalls silently in th"
+  },
+  {
+   "id": "jsearch:d1lndDNkNjUwX1lNUU1ndUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbWM1WlV0b1JYRjBTbVI0ZDJaWU5tSm9VMmhIY1UxVGFrbHFZVjlUYjBwc1dUWkVkV3Q0ZEV0RU1FVnRUVU15Um5SV1VIWm5SWGRYYXpaSFpucEpOVE5oU2pCTVpXd3RZMlZGVFZFd2NsZG5abEpFUTFkSmRVbE9UMHhTVVV0UlJEZEVXbFJMWmtseU9WRXRlbk56TXpKUGMxOVRkazFyUzB0blRHRnhVazVIV2paU1ZqRVNGMnhzV1VGaE5IRnFSRjlwYWpWT2IxQXdOVEl4YzFGSkdpSkJTRTR3UlRkSVZFeFJaSEpHVHpsMlRqZHNjRWczWlRBMWVtTmhSWGRhUW1wUjowZDNjOTVmNQ",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Sales and Marketing Coordinator",
+   "company": "Henderson Scott",
+   "location": "Mississauga, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/sales-and-marketing-coordinator-at-henderson-scott-4492423721",
+   "posted": "2026-11-19T00:00:00+00:00",
+   "salary": "",
+   "description": "Sales and Marketing Coordinator \ud83d\udccd Location: Mississauga, Ontario | On-site \ud83d\udcb0 Salary: Competitive base salary + commission and incentives \ud83d\udd52 Employment: Full-time | Monday\u2013Friday Are you an outgoing, commercially minded individual who enjoys building customer relationships and has a creative flair for marketing? I'm currently partnering with an established and growing automotive products distributor looking to expand its commercial team in Mississauga. This is a fantastic opportunity for someone looking to develop a career combining sales, business development and creative marketing within a growing business. What you'll be doing: \u2022 Developing relationships with new and existing customers. \u2022 Identifying commercial opportunities and generating sales. \u2022 Engaging with customers over the phone and through face-to-face meetings. \u2022 Supporting the creation of digital content, promotional campaigns and marketing materials. \u2022 Representing the business through engaging video and social media content. \u2022 Supporting customer orders and general commercial administration. What we're looking for: \u2022 Fluency in both English and Punjabi. \u2022 Strong communication and relationship-building skills. \u2022 An enthusiastic, proactive and commercially focused personality. \u2022 Confidence presenting and appearing in video content. \u2022 Familiarity with Canva or similar creative design tools. \u2022 Good general computer and administrative skills. \u2022 Previous experience in sales, marketing or customer service is advantageous. Automotive industry experience is welcomed but not essential, as full product training will be provided. What's in it for you? \u2022 Competitive base salary with additional earning potential. \u2022 Commission and performance incentives. \u2022 Comprehensive product training. \u2022 Monday\u2013Friday working schedule. \u2022 Exposure to both sales and creative marketing. \u2022 The opportunity to make a meaningful contribution to a growing business. If you're passionate about working with people and looking for an exciting, varied commercial opportunity, I'd love to hear from you. Apply today to find out more!"
+  },
+  {
+   "id": "jsearch:VTFWcUFSc19DNmVXWmVUUUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZV3RSYkZaWVdsZFlVbXB3WVhnMVNETXhTekZhZFU1WmJUVm5ZMXBtWmtaWU9XUmFTbnBzT1dGdU5EUnNWWHAwY0d0eGExRlpPRWR1VjE5c2MyOTRWREZRYUhwSVVtSlNjVmczWVVsM1oxYzRablphTjA5c1pIWk9OVUl4U0MxaWJqZzFOVmQzYXpoaWQxODVlak5QV0ZSQmRHMHdNV0ZQYlVKRmRUVlljM1JOT1VKVGVFd1NGMjB4V1VGaFh6WlFTRGh0U1hGbWExQXhOMU5rY1VGbkdpSkJTRTR3UlRkSWFsUnpORVJwTWpGSmRuQmhUakUxTTJzeFlVdEJiekpVV1dKQjpiMzg3MDAwNg",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Sales Operations Coordinator - 12 Month Contract",
+   "company": "Give and Go Foods",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.indeed.com/viewjob?jk=0331a2e2182b6d05",
+   "posted": "2026-11-17T00:00:00+00:00",
+   "salary": "",
+   "description": "Give & Go Prepared Foods Corp. is a proud member of the Mondel\u0113z family. We are a leading and growing North American manufacturer of baked goods for over 30 years. If you're looking for a company that will provide you with opportunities for career growth and development, while working with an energetic team with deeply ingrained values of respect, direct and open communication, quality and accountability, we\u2019d love to have you join our team. Our Consumer Brands: two-bite\u00ae brand, include two bite-brownies\u00ae, Kimberley's Bakeshoppe\u2122, Mason St. Bakehouse\u2122 and The Worthy Crumb Pastry Co\u2122 Job Overview: The Sales Operations Coordinator position is responsible to support the US and CAD Sales Team by performing a variety of administrative tasks, that will free up the Sales department to focus on achieving sales growth and the Company Strategy. Key Responsibilities: 1. Coupa Invoicing \u2022 Process and submit customer/vendor invoices through the Coupa platform. \u2022 Monitor invoice submissions and track outstanding, pending, rejected and approved invoices. \u2022 Investigate invoice rejections and work with Accounts Payable and internal departments to resolve discrepancies or missing information. \u2022 Follow up on outstanding invoices to ensure timely processing and payment. \u2022 Maintain accurate invoice tracking records and provide status updates as required. \u2022 Liaise with internal stakeholders to obtain required approvals and supporting documentation. 2. Customer Sample Requests \u2022 Receive, coordinate and process customer sample requests from Sales Representatives. \u2022 Enter and track sample requests, ensuring all required product and customer information is captured accurately. \u2022 Monitor outstanding requests and follow up to ensure samples are completed and shipped within required timelines. 3. True Hue \u2013 Customer Portal Item Setup & Maintenance \u2022 Assist with completing new item and SKU setups within customer portals for True Hue products. \u2022 Gather, validate and enter required product information, including descriptions, dimensions, weights, packaging details, UPCs and other product attributes. \u2022 Upload product images, specifications and supporting documentation as required by individual customer portals. \u2022 Track requests and submissions and follow up on outstanding requirements, errors or portal rejections. \u2022 Coordinate with internal departments to obtain documents and item specifications. \u2022 Assist with GS1/1WS True Hue item set ups/creations 4. General Sales Operations Support \u2022 Provide administrative and operational support to the sales Operations team as required. \u2022 Maintain accurate trackers, documentation and reporting. \u2022 Support customer portal requests and updates across various customer platforms. \u2022 Communicate with Sales, Customer Service, Finance and other internal departments to facilitate timely completion of requests. \u2022 Ensure accuracy, organization and adherence to established processes and deadlines The Recipe for Success: \u2022 Completion of a college degree in a business field \u2022 Minimum of 1 years of related administrative experience \u2022 Previous experience working within the sales/ manufacturing industry (CPG Preferred) \u2022 Using Knowledge Co-pilot (AI) to drive efficiency is an asset \u2022 Must possess a valid driver\u2019s license \u2022 Must have strong skills in MS Office (Excel & PowerPoint) \u2022 Detailed orientated and highly organized \u2022 Confident individual \u2013 Not afraid to reach out to other teams (Accounts Payable/ Accounts Receivable/ Sample teams/QA/ Regulatory etc) to collect information to get tasks completed \u2022 Must be self-motivated and capable of working independently in a fast-paced environment \u2022 Willingness to learn and take on new and more challenging projects \u2022 Strong communication (verbal and written) and interpersonal skills \u2022 Must have strong attention to detail and be able to balance multiple tasks and priorities What we can offer: It\u2019s an exciting time to be part of the Give & Go team as we are growing rapidly and want you to become a p"
+  },
+  {
+   "id": "jsearch:MUFLdHhCZEpFWjE0ekxIdUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZakJuU25aQmRWTkVTVGRRY2xOZmFGQkhhVVpNTmtoQ2RHNHdNMkYwWTJwYVJIVkxibkY2Yld4NVJqTk5Wa00xWkc1WFdFNHliazlMYm1Rd1kxQTNhVjlpVlZkMU5HdG5kbGh2ZURscGIyZFlURzFIUzNvd01FbHZhSHBVTW1wa2QwRmZNamRLUld4cGJVMTRVbDlPU25selRrNVpTVlJaTFZkeFZVRTRRakpKYnpOUE9XZ1NGMnhzV1VGaE5IRnFSRjlwYWpWT2IxQXdOVEl4YzFGSkdpSkJTRTR3UlRkSWMzVmtRa1ZWVjNKMVJYRkpXalZ4TkhKTFNXaHBaVkJ5YWs5UjpkZDk5MmRkZQ",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Content Marketing Coordinator: Create & Launch Campaigns",
+   "company": "movableink",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/content-marketing-coordinator-create-launch-campaigns--toronto--ee1b661ae766fd9824d682a43a5e76a68",
+   "posted": "2026-11-14T00:00:00+00:00",
+   "salary": "",
+   "description": "Movable Ink, a leader in content personalization, is hiring an entry-level Content Marketing Coordinator in Toronto. You\u2019ll work with the Senior Content Marketing Manager and cross-functional teams to help create content, coordinate projects, support social channels, and learn how our content performs. Ideal candidates are strong writers, highly organized, curious about marketing, and excited to learn. The role offers exposure to blogs, guides, webinars, and campaign planning across channels."
+  },
+  {
+   "id": "builtin:12355149",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Communications Specialist",
+   "company": "Turner Fleischer",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/communications-specialist/12355149",
+   "posted": null,
+   "salary": "",
+   "description": "Communications Specialist - Turner Fleischer | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Turner Fleischer Jobs Communications Specialist Turner Fleischer Communications Specialist Posted 12 Hours Ago Be an Early Applicant Hybrid Toronto, ON, CAN Junior Hybrid Toronto, ON, CAN Junior Develops and coordinates communications supporting social media, marketing, business development, RFPs, awards, conferences, and website content. Responsibilities include writing and editing content, managing social calendars, engaging audiences, tracking performance, researching opportunities, coordinating submissions, maintaining marketing assets, and ensuring brand consistency. The role collaborates across teams and requires strong organization, writing, relationship-building, and deadline-management skills. The summary above was generated by AI Communications Specialist Toronto, Ontario, Canada (Hybrid) Who We Are Turner Fleischer is one of Canada\u2019s most progressive design studios with 250+ committed, creative and driven professionals. We excel at developing client-centric concepts that are based on their needs but grounded in 50 years of experience getting projects built. Our in-house design departments include Architecture, Interior Design and Experiential Graphic Design. In addition, we have a Digital Practice Department, who commits to the implementation of BIM, research + development, and the infusion of cutting-edge technology into our projects and practice. Who We Are Looking For As a Communications Specialist, you will help shape how our studio communicates its work, people, and expertise across marketing and business development initiatives. You will develop and coordinate social media content while supporting broader activities such as RFPs, awards, conferences, and more. Through this work, you will strengthen the studio\u2019s visibility, sharpen how we tell our story, and support the team in delivering well-coordinated marketing initiatives. This role requires strong writing, coordination, and organizational skills, along with an interest in exploring creative ways to tell our story. What You Will Do: Develop clear, engaging social media copy that translates projects, studio initiatives, and industry trends into compelling content. Manage the day-to-day social media calendar, including publishing, coordination, community engagement, performance tracking, and supporting studio leaders with their professional social presence. Research public and private RFP opportunities and support proposal coordination. Identify emerging platforms, trends, and content formats, and recommend opportunities to evolve how we connect with audiences. Assist in the development and maintenance of website content. Research awards, conferences, and other industry opportunities, and prepare submissions using established content. Maintain marketing content, project information, data, and other assets across our content management platforms. Maintain accuracy, consistency, and alignment with our brand voice across communications. What you will bring: 1\u20133 years of experience in communications, public relations, marketing communications, or a related role. A college diploma or university degree in communications, marketing, public relations, journalism, or a related field. Strong writing and editing skills, with the ability to turn complex information into clear, enga"
+  }
+ ]
+}
